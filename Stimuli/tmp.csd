@@ -25,7 +25,7 @@ instr 42
 endin
 
 instr 41
- event_i "i", 40, 20.0, 1.0e-2
+ event_i "i", 40, 30.0, 1.0e-2
 endin
 
 instr 40
@@ -81,7 +81,7 @@ kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir12 = 37
-    ir13 = 10.0
+    ir13 = 20.0
     ir14 = 604800.0
      event "i", ir12, ir13, ir14, ir3
 endif
@@ -178,13 +178,13 @@ endin
 instr 34
 krl0 init 10.0
 ir3 FreePort 
-ir5 = 3.7754972507267737
+ir5 = 7.5
 kr0 metro ir5
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir11 = 33
     ir12 = 0.0
-    ir13 = 0.2648657735898238
+    ir13 = 0.13333333333333333
      event "i", ir11, ir12, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -235,7 +235,7 @@ kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir12 = 20
-    ir13 = 0.2648657735898238
+    ir13 = 0.13333333333333333
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -265,7 +265,7 @@ kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir12 = 30
-    ir13 = 10.0
+    ir13 = 20.0
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -318,13 +318,13 @@ endin
 instr 29
 krl0 init 10.0
 ir3 FreePort 
-ir5 = 2.996614153753363
+ir5 = 6.0
 kr0 metro ir5
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir11 = 28
     ir12 = 0.0
-    ir13 = 0.3337099635425086
+    ir13 = 0.16666666666666666
      event "i", ir11, ir12, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -375,7 +375,7 @@ kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir12 = 20
-    ir13 = 0.3337099635425086
+    ir13 = 0.16666666666666666
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -399,13 +399,13 @@ endin
 instr 26
 krl0 init 10.0
 ir3 FreePort 
-ir5 = 2.519842099789746
+ir5 = 4.8
 kr0 metro ir5
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir11 = 25
     ir12 = 0.0
-    ir13 = 0.3968502629920499
+    ir13 = 0.20833333333333334
      event "i", ir11, ir12, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -456,7 +456,7 @@ kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir12 = 20
-    ir13 = 0.3968502629920499
+    ir13 = 0.20833333333333334
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -480,13 +480,13 @@ endin
 instr 23
 krl0 init 10.0
 ir3 FreePort 
-ir5 = 2.0
+ir5 = 4.0
 kr0 metro ir5
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir11 = 22
     ir12 = 0.0
-    ir13 = 0.5
+    ir13 = 0.25
      event "i", ir11, ir12, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -537,7 +537,7 @@ kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir12 = 20
-    ir13 = 0.5
+    ir13 = 0.25
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
