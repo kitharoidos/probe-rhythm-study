@@ -20,15 +20,19 @@ endop
 
 
 
-instr 42
+instr 46
 
 endin
 
-instr 41
- event_i "i", 40, 30.0, 1.0e-2
+instr 45
+ event_i "i", 44, 30.0, 1.0e-2
 endin
 
-instr 40
+instr 44
+ turnoff2 43, 0.0, 0.0
+ turnoff2 42, 0.0, 0.0
+ turnoff2 41, 0.0, 0.0
+ turnoff2 40, 0.0, 0.0
  turnoff2 39, 0.0, 0.0
  turnoff2 38, 0.0, 0.0
  turnoff2 37, 0.0, 0.0
@@ -54,25 +58,28 @@ instr 40
  exitnow 
 endin
 
-instr 39
+instr 43
 arl0 init 0.0
 arl1 init 0.0
-ar0, ar1 subinstr 31
-ar2, ar3 subinstr 38
+ar0, ar1 subinstr 25
+ar2, ar3 subinstr 30
 ar4 = (ar0 + ar2)
-ar0 clip ar4, 0.0, 0dbfs
-ar2 = (ar0 * 0.8)
-arl0 = ar2
-ar0 = (ar1 + ar3)
-ar1 clip ar0, 0.0, 0dbfs
-ar0 = (ar1 * 0.8)
-arl1 = ar0
-ar0 = arl0
-ar1 = arl1
- outs ar0, ar1
+ar0, ar2 subinstr 35
+ar5 = (ar4 + ar0)
+ar0 = (ar5 * 0.3333333333333333)
+ar4 clip ar0, 0.0, 0dbfs
+ar0 = (ar4 * 0.8)
+arl0 = ar0
+ar0, ar4 subinstr 42
+ar5 clip ar4, 0.0, 0dbfs
+ar4 = (ar5 * 0.8)
+arl1 = ar4
+ar4 = arl0
+ar5 = arl1
+ outs ar4, ar5
 endin
 
-instr 38
+instr 42
 krl0 init 10.0
 ir3 FreePort 
 ir5 = 0.0
@@ -80,8 +87,8 @@ ar0 mpulse k(ksmps), ir5, 0.0
 kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
-    ir12 = 37
-    ir13 = 20.0
+    ir12 = 41
+    ir13 = 10.0
     ir14 = 604800.0
      event "i", ir12, ir13, ir14, ir3
 endif
@@ -101,6 +108,108 @@ ar1 = arl2
 kr0 = krl0
 S45 sprintf "alive_%d", ir3
  chnset kr0, S45
+endin
+
+instr 41
+arl0 init 0.0
+ar0, ar1 subinstr 40
+arl0 = ar0
+ar0 = arl0
+S9 sprintf "p1_%d", p4
+ chnmix ar0, S9
+arl1 init 0.0
+arl1 = ar1
+ar0 = arl1
+S19 sprintf "p2_%d", p4
+ chnmix ar0, S19
+S22 sprintf "alive_%d", p4
+kr0 chnget S22
+if (kr0 < -10.0) then
+     turnoff 
+endif
+kr1 = (kr0 - 1.0)
+ chnset kr1, S22
+endin
+
+instr 40
+krl0 init 10.0
+ir3 FreePort 
+ir5 = 0.0
+ar0 mpulse k(ksmps), ir5, 0.0
+kr0 downsamp ar0, ksmps
+if (kr0 == 1.0) then
+    krl0 = 2.0
+    ir12 = 39
+    ir13 = 20.0
+     event "i", ir12, ir5, ir13, ir3
+endif
+S18 sprintf "p1_%d", ir3
+ar0 chnget S18
+S21 sprintf "p2_%d", ir3
+ar1 chnget S21
+ chnclear S18
+ chnclear S21
+arl1 init 0.0
+arl2 init 0.0
+arl1 = ar0
+arl2 = ar1
+ar0 = arl1
+ar1 = arl2
+ outs ar0, ar1
+kr0 = krl0
+S44 sprintf "alive_%d", ir3
+ chnset kr0, S44
+endin
+
+instr 39
+arl0 init 0.0
+ar0, ar1 subinstr 38
+arl0 = ar0
+ar0 = arl0
+S9 sprintf "p1_%d", p4
+ chnmix ar0, S9
+arl1 init 0.0
+arl1 = ar1
+ar0 = arl1
+S19 sprintf "p2_%d", p4
+ chnmix ar0, S19
+S22 sprintf "alive_%d", p4
+kr0 chnget S22
+if (kr0 < -10.0) then
+     turnoff 
+endif
+kr1 = (kr0 - 1.0)
+ chnset kr1, S22
+endin
+
+instr 38
+krl0 init 10.0
+ir3 FreePort 
+ir5 = 3.75
+kr0 metro ir5
+if (kr0 == 1.0) then
+    krl0 = 2.0
+    ir11 = 37
+    ir12 = 0.0
+    ir13 = 0.26666666666666666
+     event "i", ir11, ir12, ir13, ir3
+endif
+S18 sprintf "p1_%d", ir3
+ar0 chnget S18
+S21 sprintf "p2_%d", ir3
+ar1 chnget S21
+ chnclear S18
+ chnclear S21
+arl1 init 0.0
+arl2 init 0.0
+arl1 = ar0
+arl2 = ar1
+ar0 = arl1
+ar1 = arl2
+ outs ar0, ar1
+kr0 = krl0
+S44 sprintf "alive_%d", ir3
+ chnset kr0, S44
 endin
 
 instr 37
@@ -132,8 +241,8 @@ ar0 mpulse k(ksmps), ir5, 0.0
 kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
-    ir12 = 35
-    ir13 = 10.0
+    ir12 = 20
+    ir13 = 0.26666666666666666
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -155,78 +264,6 @@ S44 sprintf "alive_%d", ir3
 endin
 
 instr 35
-arl0 init 0.0
-ar0, ar1 subinstr 34
-arl0 = ar0
-ar0 = arl0
-S9 sprintf "p1_%d", p4
- chnmix ar0, S9
-arl1 init 0.0
-arl1 = ar1
-ar0 = arl1
-S19 sprintf "p2_%d", p4
- chnmix ar0, S19
-S22 sprintf "alive_%d", p4
-kr0 chnget S22
-if (kr0 < -10.0) then
-     turnoff 
-endif
-kr1 = (kr0 - 1.0)
- chnset kr1, S22
-endin
-
-instr 34
-krl0 init 10.0
-ir3 FreePort 
-ir5 = 7.5
-kr0 metro ir5
-if (kr0 == 1.0) then
-    krl0 = 2.0
-    ir11 = 33
-    ir12 = 0.0
-    ir13 = 0.13333333333333333
-     event "i", ir11, ir12, ir13, ir3
-endif
-S18 sprintf "p1_%d", ir3
-ar0 chnget S18
-S21 sprintf "p2_%d", ir3
-ar1 chnget S21
- chnclear S18
- chnclear S21
-arl1 init 0.0
-arl2 init 0.0
-arl1 = ar0
-arl2 = ar1
-ar0 = arl1
-ar1 = arl2
- outs ar0, ar1
-kr0 = krl0
-S44 sprintf "alive_%d", ir3
- chnset kr0, S44
-endin
-
-instr 33
-arl0 init 0.0
-ar0, ar1 subinstr 32
-arl0 = ar0
-ar0 = arl0
-S9 sprintf "p1_%d", p4
- chnmix ar0, S9
-arl1 init 0.0
-arl1 = ar1
-ar0 = arl1
-S19 sprintf "p2_%d", p4
- chnmix ar0, S19
-S22 sprintf "alive_%d", p4
-kr0 chnget S22
-if (kr0 < -10.0) then
-     turnoff 
-endif
-kr1 = (kr0 - 1.0)
- chnset kr1, S22
-endin
-
-instr 32
 krl0 init 10.0
 ir3 FreePort 
 ir5 = 0.0
@@ -234,8 +271,8 @@ ar0 mpulse k(ksmps), ir5, 0.0
 kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
-    ir12 = 20
-    ir13 = 0.13333333333333333
+    ir12 = 34
+    ir13 = 30.0
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -256,6 +293,78 @@ S44 sprintf "alive_%d", ir3
  chnset kr0, S44
 endin
 
+instr 34
+arl0 init 0.0
+ar0, ar1 subinstr 33
+arl0 = ar0
+ar0 = arl0
+S9 sprintf "p1_%d", p4
+ chnmix ar0, S9
+arl1 init 0.0
+arl1 = ar1
+ar0 = arl1
+S19 sprintf "p2_%d", p4
+ chnmix ar0, S19
+S22 sprintf "alive_%d", p4
+kr0 chnget S22
+if (kr0 < -10.0) then
+     turnoff 
+endif
+kr1 = (kr0 - 1.0)
+ chnset kr1, S22
+endin
+
+instr 33
+krl0 init 10.0
+ir3 FreePort 
+ir5 = 3.0
+kr0 metro ir5
+if (kr0 == 1.0) then
+    krl0 = 2.0
+    ir11 = 32
+    ir12 = 0.0
+    ir13 = 0.3333333333333333
+     event "i", ir11, ir12, ir13, ir3
+endif
+S18 sprintf "p1_%d", ir3
+ar0 chnget S18
+S21 sprintf "p2_%d", ir3
+ar1 chnget S21
+ chnclear S18
+ chnclear S21
+arl1 init 0.0
+arl2 init 0.0
+arl1 = ar0
+arl2 = ar1
+ar0 = arl1
+ar1 = arl2
+ outs ar0, ar1
+kr0 = krl0
+S44 sprintf "alive_%d", ir3
+ chnset kr0, S44
+endin
+
+instr 32
+arl0 init 0.0
+ar0, ar1 subinstr 31
+arl0 = ar0
+ar0 = arl0
+S9 sprintf "p1_%d", p4
+ chnmix ar0, S9
+arl1 init 0.0
+arl1 = ar1
+ar0 = arl1
+S19 sprintf "p2_%d", p4
+ chnmix ar0, S19
+S22 sprintf "alive_%d", p4
+kr0 chnget S22
+if (kr0 < -10.0) then
+     turnoff 
+endif
+kr1 = (kr0 - 1.0)
+ chnset kr1, S22
+endin
+
 instr 31
 krl0 init 10.0
 ir3 FreePort 
@@ -264,8 +373,8 @@ ar0 mpulse k(ksmps), ir5, 0.0
 kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
-    ir12 = 30
-    ir13 = 20.0
+    ir12 = 20
+    ir13 = 0.3333333333333333
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -287,86 +396,6 @@ S44 sprintf "alive_%d", ir3
 endin
 
 instr 30
-arl0 init 0.0
-ar0, ar1 subinstr 23
-ar2, ar3 subinstr 26
-ar4 = (ar0 + ar2)
-ar0, ar2 subinstr 29
-ar5 = (ar4 + ar0)
-ar0 = (ar5 * 0.3333333333333333)
-arl0 = ar0
-ar0 = arl0
-S16 sprintf "p1_%d", p4
- chnmix ar0, S16
-arl1 init 0.0
-ar0 = (ar1 + ar3)
-ar1 = (ar0 + ar2)
-ar0 = (ar1 * 0.3333333333333333)
-arl1 = ar0
-ar0 = arl1
-S31 sprintf "p2_%d", p4
- chnmix ar0, S31
-S34 sprintf "alive_%d", p4
-kr0 chnget S34
-if (kr0 < -10.0) then
-     turnoff 
-endif
-kr1 = (kr0 - 1.0)
- chnset kr1, S34
-endin
-
-instr 29
-krl0 init 10.0
-ir3 FreePort 
-ir5 = 6.0
-kr0 metro ir5
-if (kr0 == 1.0) then
-    krl0 = 2.0
-    ir11 = 28
-    ir12 = 0.0
-    ir13 = 0.16666666666666666
-     event "i", ir11, ir12, ir13, ir3
-endif
-S18 sprintf "p1_%d", ir3
-ar0 chnget S18
-S21 sprintf "p2_%d", ir3
-ar1 chnget S21
- chnclear S18
- chnclear S21
-arl1 init 0.0
-arl2 init 0.0
-arl1 = ar0
-arl2 = ar1
-ar0 = arl1
-ar1 = arl2
- outs ar0, ar1
-kr0 = krl0
-S44 sprintf "alive_%d", ir3
- chnset kr0, S44
-endin
-
-instr 28
-arl0 init 0.0
-ar0, ar1 subinstr 27
-arl0 = ar0
-ar0 = arl0
-S9 sprintf "p1_%d", p4
- chnmix ar0, S9
-arl1 init 0.0
-arl1 = ar1
-ar0 = arl1
-S19 sprintf "p2_%d", p4
- chnmix ar0, S19
-S22 sprintf "alive_%d", p4
-kr0 chnget S22
-if (kr0 < -10.0) then
-     turnoff 
-endif
-kr1 = (kr0 - 1.0)
- chnset kr1, S22
-endin
-
-instr 27
 krl0 init 10.0
 ir3 FreePort 
 ir5 = 0.0
@@ -374,8 +403,8 @@ ar0 mpulse k(ksmps), ir5, 0.0
 kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
-    ir12 = 20
-    ir13 = 0.16666666666666666
+    ir12 = 29
+    ir13 = 30.0
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -396,17 +425,89 @@ S44 sprintf "alive_%d", ir3
  chnset kr0, S44
 endin
 
-instr 26
+instr 29
+arl0 init 0.0
+ar0, ar1 subinstr 28
+arl0 = ar0
+ar0 = arl0
+S9 sprintf "p1_%d", p4
+ chnmix ar0, S9
+arl1 init 0.0
+arl1 = ar1
+ar0 = arl1
+S19 sprintf "p2_%d", p4
+ chnmix ar0, S19
+S22 sprintf "alive_%d", p4
+kr0 chnget S22
+if (kr0 < -10.0) then
+     turnoff 
+endif
+kr1 = (kr0 - 1.0)
+ chnset kr1, S22
+endin
+
+instr 28
 krl0 init 10.0
 ir3 FreePort 
-ir5 = 4.8
+ir5 = 2.4
 kr0 metro ir5
 if (kr0 == 1.0) then
     krl0 = 2.0
-    ir11 = 25
+    ir11 = 27
     ir12 = 0.0
-    ir13 = 0.20833333333333334
+    ir13 = 0.4166666666666667
      event "i", ir11, ir12, ir13, ir3
+endif
+S18 sprintf "p1_%d", ir3
+ar0 chnget S18
+S21 sprintf "p2_%d", ir3
+ar1 chnget S21
+ chnclear S18
+ chnclear S21
+arl1 init 0.0
+arl2 init 0.0
+arl1 = ar0
+arl2 = ar1
+ar0 = arl1
+ar1 = arl2
+ outs ar0, ar1
+kr0 = krl0
+S44 sprintf "alive_%d", ir3
+ chnset kr0, S44
+endin
+
+instr 27
+arl0 init 0.0
+ar0, ar1 subinstr 26
+arl0 = ar0
+ar0 = arl0
+S9 sprintf "p1_%d", p4
+ chnmix ar0, S9
+arl1 init 0.0
+arl1 = ar1
+ar0 = arl1
+S19 sprintf "p2_%d", p4
+ chnmix ar0, S19
+S22 sprintf "alive_%d", p4
+kr0 chnget S22
+if (kr0 < -10.0) then
+     turnoff 
+endif
+kr1 = (kr0 - 1.0)
+ chnset kr1, S22
+endin
+
+instr 26
+krl0 init 10.0
+ir3 FreePort 
+ir5 = 0.0
+ar0 mpulse k(ksmps), ir5, 0.0
+kr0 downsamp ar0, ksmps
+if (kr0 == 1.0) then
+    krl0 = 2.0
+    ir12 = 20
+    ir13 = 0.4166666666666667
+     event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
 ar0 chnget S18
@@ -427,27 +528,6 @@ S44 sprintf "alive_%d", ir3
 endin
 
 instr 25
-arl0 init 0.0
-ar0, ar1 subinstr 24
-arl0 = ar0
-ar0 = arl0
-S9 sprintf "p1_%d", p4
- chnmix ar0, S9
-arl1 init 0.0
-arl1 = ar1
-ar0 = arl1
-S19 sprintf "p2_%d", p4
- chnmix ar0, S19
-S22 sprintf "alive_%d", p4
-kr0 chnget S22
-if (kr0 < -10.0) then
-     turnoff 
-endif
-kr1 = (kr0 - 1.0)
- chnset kr1, S22
-endin
-
-instr 24
 krl0 init 10.0
 ir3 FreePort 
 ir5 = 0.0
@@ -455,8 +535,8 @@ ar0 mpulse k(ksmps), ir5, 0.0
 kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
-    ir12 = 20
-    ir13 = 0.20833333333333334
+    ir12 = 24
+    ir13 = 30.0
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -477,16 +557,37 @@ S44 sprintf "alive_%d", ir3
  chnset kr0, S44
 endin
 
+instr 24
+arl0 init 0.0
+ar0, ar1 subinstr 23
+arl0 = ar0
+ar0 = arl0
+S9 sprintf "p1_%d", p4
+ chnmix ar0, S9
+arl1 init 0.0
+arl1 = ar1
+ar0 = arl1
+S19 sprintf "p2_%d", p4
+ chnmix ar0, S19
+S22 sprintf "alive_%d", p4
+kr0 chnget S22
+if (kr0 < -10.0) then
+     turnoff 
+endif
+kr1 = (kr0 - 1.0)
+ chnset kr1, S22
+endin
+
 instr 23
 krl0 init 10.0
 ir3 FreePort 
-ir5 = 4.0
+ir5 = 2.0
 kr0 metro ir5
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir11 = 22
     ir12 = 0.0
-    ir13 = 0.25
+    ir13 = 0.5
      event "i", ir11, ir12, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -537,7 +638,7 @@ kr0 downsamp ar0, ksmps
 if (kr0 == 1.0) then
     krl0 = 2.0
     ir12 = 20
-    ir13 = 0.25
+    ir13 = 0.5
      event "i", ir12, ir5, ir13, ir3
 endif
 S18 sprintf "p1_%d", ir3
@@ -675,9 +776,9 @@ f1 0 1024 10  0.971 0.269 4.1e-2 5.4e-2 1.1e-2 1.3e-2 8.0e-2 6.5e-3 5.0e-3 4.0e-
 
 f0 604800.0
 
-i 42 0.0 -1.0 
-i 41 0.0 -1.0 
-i 39 0.0 -1.0 
+i 46 0.0 -1.0 
+i 45 0.0 -1.0 
+i 43 0.0 -1.0 
 
 </CsScore>
 
