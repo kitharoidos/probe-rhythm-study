@@ -1,3 +1,4 @@
 # A Probe-rhythm Study
 
-[Click2](http://soundbible.com/1705-Click2.html)
+* vyrobit kalibrovací stimulus
+* amplituda je špatně, probe i každý jednotlivý rytmus kontextu musí mít stejnou amplitudu!
