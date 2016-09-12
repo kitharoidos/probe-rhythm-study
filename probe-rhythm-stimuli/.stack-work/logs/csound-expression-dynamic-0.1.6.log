@@ -1,0 +1,182 @@
+Configuring csound-expression-dynamic-0.1.6...
+Building csound-expression-dynamic-0.1.6...
+Preprocessing library csound-expression-dynamic-0.1.6...
+[ 1 of 15] Compiling Csound.Dynamic.Tfm.DeduceTypes ( src/Csound/Dynamic/Tfm/DeduceTypes.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Tfm/DeduceTypes.o )
+[ 2 of 15] Compiling Csound.Dynamic.Tfm.UnfoldMultiOuts ( src/Csound/Dynamic/Tfm/UnfoldMultiOuts.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Tfm/UnfoldMultiOuts.o )
+[ 3 of 15] Compiling Csound.Dynamic.Types.Flags ( src/Csound/Dynamic/Types/Flags.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Types/Flags.o )
+[ 4 of 15] Compiling Csound.Dynamic.Types.Exp ( src/Csound/Dynamic/Types/Exp.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Types/Exp.o )
+
+src/Csound/Dynamic/Types/Exp.hs:20:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Csound/Dynamic/Types/Exp.hs:245:17: Warning:
+    This binding for ‘x’ shadows the existing binding
+      bound at src/Csound/Dynamic/Types/Exp.hs:239:20
+[ 5 of 15] Compiling Csound.Dynamic.Types.Dep ( src/Csound/Dynamic/Types/Dep.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Types/Dep.o )
+
+src/Csound/Dynamic/Types/Dep.hs:12:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Csound/Dynamic/Types/Dep.hs:69:1: Warning:
+    Defined but not used: ‘end’
+
+src/Csound/Dynamic/Types/Dep.hs:93:1: Warning:
+    Defined but not used: ‘emptyE’
+[ 6 of 15] Compiling Csound.Dynamic.Build ( src/Csound/Dynamic/Build.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Build.o )
+
+src/Csound/Dynamic/Build.hs:200:1: Warning:
+    Defined but not used: ‘gInit’
+
+src/Csound/Dynamic/Build.hs:203:1: Warning:
+    Defined but not used: ‘gInitDouble’
+[ 7 of 15] Compiling Csound.Dynamic.Build.Numeric ( src/Csound/Dynamic/Build/Numeric.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Build/Numeric.o )
+
+src/Csound/Dynamic/Build/Numeric.hs:8:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[ 8 of 15] Compiling Csound.Dynamic.Types.CsdFile ( src/Csound/Dynamic/Types/CsdFile.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Types/CsdFile.o )
+
+src/Csound/Dynamic/Types/CsdFile.hs:8:1: Warning:
+    The import of ‘Csound.Dynamic.Build.Numeric’ is redundant
+      except perhaps to import instances from ‘Csound.Dynamic.Build.Numeric’
+    To import instances alone, use: import Csound.Dynamic.Build.Numeric()
+[ 9 of 15] Compiling Csound.Dynamic.Tfm.Liveness ( src/Csound/Dynamic/Tfm/Liveness.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Tfm/Liveness.o )
+
+src/Csound/Dynamic/Tfm/Liveness.hs:25:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:26:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:52:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:56:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:57:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:58:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:69:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:69:21: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:70:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:71:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:71:22: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:72:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:81:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:85:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:86:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:90:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:91:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:95:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:96:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:100:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:101:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:102:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:106:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:107:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:108:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:109:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:110:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:122:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:123:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:124:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:125:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:126:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:127:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:131:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:132:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:133:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:134:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:135:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:141:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:142:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:143:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:144:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:145:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:146:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:148:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:149:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:150:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:151:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:152:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:156:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:157:1: Warning: Tab character
+
+src/Csound/Dynamic/Tfm/Liveness.hs:158:1: Warning: Tab character
+[10 of 15] Compiling Csound.Dynamic.Types ( src/Csound/Dynamic/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Types.o )
+[11 of 15] Compiling Csound.Dynamic.Build.Logic ( src/Csound/Dynamic/Build/Logic.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Build/Logic.o )
+
+src/Csound/Dynamic/Build/Logic.hs:133:1: Warning:
+    Defined but not used: ‘fromBoolOpt’
+
+src/Csound/Dynamic/Build/Logic.hs:136:1: Warning:
+    Defined but not used: ‘toNumOpt’
+[12 of 15] Compiling Csound.Dynamic.Render.Pretty ( src/Csound/Dynamic/Render/Pretty.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Render/Pretty.o )
+
+src/Csound/Dynamic/Render/Pretty.hs:87:9: Warning:
+    This binding for ‘genId’ shadows the existing binding
+      imported from ‘Csound.Dynamic.Types’ at src/Csound/Dynamic/Render/Pretty.hs:11:1-27
+      (and originally defined in ‘Csound.Dynamic.Types.Exp’
+         at src/Csound/Dynamic/Types/Exp.hs:264:7-11)
+[13 of 15] Compiling Csound.Dynamic.Render.Instr ( src/Csound/Dynamic/Render/Instr.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Render/Instr.o )
+
+src/Csound/Dynamic/Render/Instr.hs:160:24: Warning:
+    Pattern match(es) are non-exhaustive
+    In a case alternative:
+        Patterns not matched:
+            Starts
+            Seq _ _
+            Ends _
+[14 of 15] Compiling Csound.Dynamic.Render ( src/Csound/Dynamic/Render.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic/Render.o )
+[15 of 15] Compiling Csound.Dynamic   ( src/Csound/Dynamic.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Dynamic.o )
+In-place registering csound-expression-dynamic-0.1.6...
+Installing library in /Users/michalhadrava/Code/Probe-rhythm
+study/probe-rhythm-stimuli/.stack-work/install/x86_64-osx/lts-6.15/7.10.3/lib/x86_64-osx-ghc-7.10.3/csound-expression-dynamic-0.1.6-3DjXDAELwER3zAMHZGMbsp
+Registering csound-expression-dynamic-0.1.6...

@@ -1,0 +1,3262 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-12 14:02:30.950983 UTC
+
+interface probe_In0MMn7bgL9KqcTNL8AHKU:Lib 7103
+  interface hash: 10eb7efdb61e2c7bc98e866d64dd1e86
+  ABI hash: 6b1707391ad5a853a4f551978824dcb0
+  export-list hash: fda2e3d6f737eb04caf9cbe8ea90b0ac
+  orphan hash: 6a224d88cdb42a70284321dae72a3cb2
+  flag hash: 0d0e8bf775f5cba7cce7221067c4042c
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.chord
+  Lib.eqt
+  Lib.farey
+  Lib.polyRhythm
+  Lib.rhythms
+  Lib.tones
+module dependencies:
+package dependencies: JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT
+                      QuickCheck-2.8.2@Quick_6TxL5Cx3o2p0HsyT59KWiD
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      active-0.2.0.10@activ_EndpnTck6Qn4ZBG7VTfRFy
+                      adjunctions-4.3@adjun_HUA1si0oygHIohE6wWvtj8
+                      ansi-terminal-0.6.2.3@ansit_BDlVdfJGo3VHCIHxPTNjH1
+                      ansi-wl-pprint-0.6.7.3@ansiw_KTAhiPa3RNI09mbeoAwSSX
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      async-2.1.0@async_KuqnF1GrhHK5nNp6Zzm3jy base-4.8.2.0
+                      base64-bytestring-1.0.0.1@base6_AkCk8zInckjJsyQ4AIFHPN
+                      base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx
+                      bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      bytes-0.15.2@bytes_LGwqVSlCJrR4BGoUsj8EWt
+                      cereal-0.5.2.0@cerea_GKnWyxn5hRWK9xfCMeMEL8
+                      colour-2.3.3@colou_4tkGkumXZDK9tS5HCSa7Y0
+                      comonad-4.2.7.2@comon_5wEqfQVXg9MGfIPxSKfS4M
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      contravariant-1.4@contr_7gFjdZ6ciei9744gjZQMHp
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx
+                      diagrams-solve-0.1.0.1@diagr_4QN76f31u5VGJm9TMFt1id
+                      diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos
+                      diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      distributive-0.5.0.2@distr_55SIdsoyihS4jXBaaVvPQX
+                      dual-tree-0.2.0.9@dualt_5jNsABX0YwSIha1EAMeU6i
+                      exceptions-0.8.3@excep_BEih2K3eMGTE4cg5iulra8
+                      fail-4.9.0.0@fail_2xB1AvdW34sDm9N3JOe33G
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m
+                      fingertree-0.1.1.0@finge_1lOqL113GSbGT54Xr1ttX9
+                      free-4.12.4@free_D8pop1Lncn7BkE4zjJTjla
+                      fsnotify-0.2.1@fsnot_6GshfYbGW9a0XQQFUIcEx3 ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      hfsevents-0.1.6@hfsev_GV1CDMEJaKE6yriQq8fXZ2 integer-gmp-1.0.0.0
+                      intervals-0.7.2@inter_CVqja9i5ZjWEnJ4aryb7v4
+                      kan-extensions-4.2.3@kanex_8yLFa561sPQJZ5XPOmzMGi
+                      lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if
+                      linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv
+                      lucid-2.9.6@lucid_HB98YTuafJo82fcOQnijha
+                      lucid-svg-0.6.0.1@lucid_IfaODiCffQ9JIcJQYUi8er
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monoid-extras-0.4.2@monoi_H1bs9gF4pIcGpoc15tQgor
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      newtype-0.2@newty_Bn42BOEtLjZ0LahRn80jTb
+                      optparse-applicative-0.12.1.0@optpa_FpNJ7fLofFNEy3rK4ZnBoD
+                      prelude-extras-0.4.0.3@prelu_1gQpKVfMHul71LsAFgGRhv
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      process-1.2.3.0@proce_52AgREEfSrnJLlkGV9YZZJ
+                      profunctors-5.2@profu_LHFqrYSAR0z1HJQ4sjj1Mu
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL
+                      reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9
+                      repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou
+                      scientific-0.3.4.9@scien_1WVNjGUftkQ9QzH4DOM2n1
+                      semigroupoids-5.0.1@semig_GRN7TOS9fx09tFw63gc4EK
+                      semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1
+                      split-0.2.3.1@split_2IxbOPGrTSq7kFrJA7odmE
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      tf-random-0.5@tfran_1eLmkn3WUnC8NZpPuDLGKF
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unix-compat-0.4.1.4@unixc_Km8uiabmElX5mrb8D4Fywe
+                      unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu
+orphans: active-0.2.0.10@activ_EndpnTck6Qn4ZBG7VTfRFy:Data.Active
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx:Data.Orphans
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         colour-2.3.3@colou_4tkGkumXZDK9tS5HCSa7Y0:Data.Colour
+         diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG.CmdLine
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Animation.Active
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Types
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Trail
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Path
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Segment
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Types
+         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Points
+         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Types
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.Instances
+         monoid-extras-0.4.2@monoi_H1bs9gF4pIcGpoc15tQgor:Data.Monoid.MList
+         reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9:Data.Reflection
+         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Arbitrary
+         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Operators.Reduction
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT:Codec.Picture.Tga
+                         JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT:Codec.Picture.Tiff
+                         JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT:Codec.Picture.Types
+                         active-0.2.0.10@activ_EndpnTck6Qn4ZBG7VTfRFy:Data.Active
+                         adjunctions-4.3@adjun_HUA1si0oygHIohE6wWvtj8:Data.Functor.Rep
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Biff
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Clown
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Flip
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Join
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Joker
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Product
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Sum
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Tannen
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Wrapped
+                         bytes-0.15.2@bytes_LGwqVSlCJrR4BGoUsj8EWt:Data.Bytes.Get
+                         bytes-0.15.2@bytes_LGwqVSlCJrR4BGoUsj8EWt:Data.Bytes.Signed
+                         bytes-0.15.2@bytes_LGwqVSlCJrR4BGoUsj8EWt:Data.Bytes.VarInt
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG
+                         diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG.CmdLine
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Angle
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Animation.Active
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Backend.CmdLine
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.BoundingBox
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Coordinates
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Direction
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Located
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Path
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Segment
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Size
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Tangent
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Camera
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Light
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Shapes
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Types
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Trail
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Attributes
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Image
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Path
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Segment.Bernstein
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Text
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Types
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Envelope
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Measure
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Names
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Points
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Query
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Style
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Trace
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Transform
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Types
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.V
+                         intervals-0.7.2@inter_CVqja9i5ZjWEnJ4aryb7v4:Numeric.Interval.Kaucher
+                         kan-extensions-4.2.3@kanex_8yLFa561sPQJZ5XPOmzMGi:Data.Functor.Yoneda
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.At
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Internal.Indexed
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Internal.Zoom
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Reified
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Tuple
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Wrapped
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.Affine
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.Plucker
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.Quaternion
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V0
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V1
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V2
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V3
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V4
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         profunctors-5.2@profu_LHFqrYSAR0z1HJQ4sjj1Mu:Data.Profunctor.Rep
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Operators.Mapping
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.ByteString
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Cursored
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Delayed
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.ForeignPtr
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.HintInterleave
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.HintSmall
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Partitioned
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Unboxed
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Undefined
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Vector
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Slice
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.Semigroup
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  base-4.8.2.0:Control.Arrow ab7f126fed349de468f94ac777dc8f4e
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Data.Function 6b13a8d3a5e3bd757a91434dce3fc7f3
+import  -/  base-4.8.2.0:Data.Tuple 012ad951a59a9d85fe1de36a2f012986
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Float e532d434ec2447d809887c0fca1d78a5
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  colour-2.3.3@colou_4tkGkumXZDK9tS5HCSa7Y0:Data.Colour.Internal c20506210de7efa28736509943f23e6a
+import  -/  diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG c562a010d4595b18d96d53f74cf07048
+import  -/  diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG.CmdLine dbe49f9e9d2cb2d4320daa55800596bc
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Attributes e945f2a5f87fb235562bae36a3c6bb4a
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Combinators 7b77613aefaf8597e8ee70feb2ce44b6
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.CubicSpline 2f6846320e30ffa671b1d0d42e59c0a7
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Located f3c9207b3d0bc09ee24792b0842d6336
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Parametric 7634c31d349bf40bec0b69474240d46c
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Prelude 0f0b2fe832b1921709da84f6a857570f
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Segment 2b04359ef9a61229df01d2bb7ff95936
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Trail 4d5ca131a4b41262b2cda77b553bdef5
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TrailLike fb3426a9fbba5e2a34617c60350ba21c
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Attributes b3e78a4dd9a8d93e24a7556a777bd61a
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Combinators 03231dedce72c19a9bc778ea7b256eed
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Path bfcb360c51da34d703d00c4826347048
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Transform fb786e473269a475ce61f25b3d039d31
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Types 5b80bccbd13380ff61de84fba9aa6866
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Vector 1c596ab9358c7ea1c5e7f0a44ab251dc
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Util c1d249654ca2108c93e5f23664b382b3
+import  -/  diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Types b26bfe70fb5690d8bf4d222cdc975e30
+import  -/  lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Setter 7cb2279cdbd18e7424cc7b945ac52ae2
+import  -/  linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.Affine c4bd38b10598575abfa995e92f3479d0
+import  -/  linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V2 08d35c0cfda723bf552ac2d085f0e2eb
+import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa 0d2b929203adefea46e338c8d5c0d0e3
+import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Base 812b961d0b9a43cec848ee4c7e0ccd95
+import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Index 5b7546ca101c4e6a6ea5d84a7dca03a5
+import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Unboxed d7c1c117ff74dfb4245508d555a6a3ae
+import  -/  semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.Semigroup 7e43d8b45f777a53523f0158b401b8aa
+9178bf12413f6146271ba4ef243034cc
+  $s!3 ::
+    GHC.Classes.Eq
+      (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Lib.$s!_$s$fEq:. -}
+11d80f93a97187e4ffecc3f7780204ca
+  $s!_$s$fEq:. ::
+    GHC.Classes.Eq
+      (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+                  (Data.Array.Repa.Index.$fEq:._$c==
+                     @ Data.Array.Repa.Index.Z
+                     @ GHC.Types.Int
+                     Data.Array.Repa.Index.$fEqZ
+                     GHC.Classes.$fEqInt)
+                  (Data.Array.Repa.Index.$fEq:._$c/=
+                     @ Data.Array.Repa.Index.Z
+                     @ GHC.Types.Int
+                     Data.Array.Repa.Index.$fEqZ
+                     GHC.Classes.$fEqInt) -}
+d2a87cfbf255d82c3d6825184c871a4d
+  $s!_$s$fShape:. ::
+    Data.Array.Repa.Shape.Shape
+      (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+  {- Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+                  Lib.$s!3
+                  (Data.Array.Repa.Index.$fShape:._$crank
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$czeroDim
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$cunitDim
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$cintersectDim
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$caddDim
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$csize
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$csizeIsValid
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$ctoIndex
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$cfromIndex
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$cinShapeRange
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$clistOfShape
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  (Data.Array.Repa.Index.$fShape:._$cshapeOfList
+                     @ Data.Array.Repa.Index.Z
+                     Lib.$s!3
+                     Data.Array.Repa.Index.$fShapeZ)
+                  Lib.$s!_$s$fShape:._$cdeepSeq -}
+8d89bc2907b8c2c1633bed85bb46a9d0
+  $s!_$s$fShape:._$cdeepSeq ::
+    (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> a -> a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(SS),1*U(1*H,1*H)><S,1*U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ a24
+                   ds :: Data.Array.Repa.Index.Z
+                         Data.Array.Repa.Index.:. GHC.Types.Int
+                   x1 :: a24 ->
+                 case ds of wild { Data.Array.Repa.Index.:. sh1 n -> x1 }) -}
+9d82538a12b4ee1e0c239405f565914b
+  $s!_$slength ::
+    Data.Vector.Unboxed.Base.Vector GHC.Types.Double -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(A,U,A)>m,
+     Inline: [NEVER] -}
+420438110a26e7b61982852a84353509
+  $s$fFractionalV1 :: GHC.Num.Num (Linear.V2.V2 GHC.Types.Double)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$s$fFractionalV2_$s$fNumV2 -}
+8f6e12dbe8e78744460144e21ff3ef71
+  $s$fFractionalV2 ::
+    GHC.Real.Fractional (Linear.V2.V2 GHC.Types.Double)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Linear.V2.V2 GHC.Types.Double)
+                  Lib.$s$fFractionalV1
+                  (\ eta1 :: Linear.V2.V2 GHC.Types.Double
+                     eta2 :: Linear.V2.V2 GHC.Types.Double ->
+                   Linear.V2.$fAdditiveV2_$sliftA2
+                     @ GHC.Types.Double
+                     @ GHC.Types.Double
+                     @ GHC.Types.Double
+                     GHC.Float.$fFractionalDouble_$c/
+                     eta1
+                     eta2)
+                  (\ eta1 :: Linear.V2.V2 GHC.Types.Double ->
+                   case eta1 of wild { Linear.V2.V2 a24 b ->
+                   case GHC.Float.$fFractionalDouble_$crecip
+                          a24 of dt { GHC.Types.D# ipv ->
+                   case GHC.Float.$fFractionalDouble_$crecip
+                          b of dt1 { GHC.Types.D# ipv1 ->
+                   Linear.V2.V2 @ GHC.Types.Double dt dt1 } } })
+                  (\ eta1 :: GHC.Real.Rational ->
+                   let {
+                     a24 :: GHC.Types.Double
+                     = case eta1 of wild { GHC.Real.:% n d ->
+                       GHC.Float.rationalToDouble n d }
+                   } in
+                   Linear.V2.$WV2 @ GHC.Types.Double a24 a24) -}
+181057a35bb43232a5984ea697a59438
+  $s$fFractionalV2_$s$fNumV2 ::
+    GHC.Num.Num (Linear.V2.V2 GHC.Types.Double)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Linear.V2.V2 GHC.Types.Double)
+                  (\ eta1 :: Linear.V2.V2 GHC.Types.Double
+                     eta2 :: Linear.V2.V2 GHC.Types.Double ->
+                   Linear.V2.$fAdditiveV2_$sliftA2
+                     @ GHC.Types.Double
+                     @ GHC.Types.Double
+                     @ GHC.Types.Double
+                     GHC.Float.$fNumDouble_$c+
+                     eta1
+                     eta2)
+                  (\ eta1 :: Linear.V2.V2 GHC.Types.Double
+                     eta2 :: Linear.V2.V2 GHC.Types.Double ->
+                   Linear.V2.$fAdditiveV2_$sliftA2
+                     @ GHC.Types.Double
+                     @ GHC.Types.Double
+                     @ GHC.Types.Double
+                     GHC.Float.$fNumDouble_$c-
+                     eta1
+                     eta2)
+                  (\ eta1 :: Linear.V2.V2 GHC.Types.Double
+                     eta2 :: Linear.V2.V2 GHC.Types.Double ->
+                   Linear.V2.$fAdditiveV2_$sliftA2
+                     @ GHC.Types.Double
+                     @ GHC.Types.Double
+                     @ GHC.Types.Double
+                     GHC.Float.$fNumDouble_$c*
+                     eta1
+                     eta2)
+                  (\ eta1 :: Linear.V2.V2 GHC.Types.Double ->
+                   case eta1 of wild { Linear.V2.V2 a24 b ->
+                   case GHC.Float.$fNumDouble_$cnegate a24 of dt { GHC.Types.D# ipv ->
+                   case GHC.Float.$fNumDouble_$cnegate b of dt1 { GHC.Types.D# ipv1 ->
+                   Linear.V2.V2 @ GHC.Types.Double dt dt1 } } })
+                  (\ eta1 :: Linear.V2.V2 GHC.Types.Double ->
+                   case eta1 of wild { Linear.V2.V2 a24 b ->
+                   case GHC.Float.$fNumDouble_$cabs a24 of dt { GHC.Types.D# ipv ->
+                   case GHC.Float.$fNumDouble_$cabs b of dt1 { GHC.Types.D# ipv1 ->
+                   Linear.V2.V2 @ GHC.Types.Double dt dt1 } } })
+                  (\ eta1 :: Linear.V2.V2 GHC.Types.Double ->
+                   case eta1 of wild { Linear.V2.V2 a24 b ->
+                   case GHC.Float.$fNumDouble_$csignum a24 of dt { GHC.Types.D# ipv ->
+                   case GHC.Float.$fNumDouble_$csignum b of dt1 { GHC.Types.D# ipv1 ->
+                   Linear.V2.V2 @ GHC.Types.Double dt dt1 } } })
+                  (\ eta1 :: GHC.Integer.Type.Integer ->
+                   let {
+                     a24 :: GHC.Types.Double
+                     = case GHC.Integer.Type.doubleFromInteger eta1 of wild { DEFAULT ->
+                       GHC.Types.D# wild }
+                   } in
+                   Linear.V2.$WV2 @ GHC.Types.Double a24 a24) -}
+7a387c100f91d4318043e90690a5f3d4
+  $s$fMonoidQDiagram ::
+    GHC.Base.Monoid
+      (Diagrams.Core.Types.QDiagram
+         b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ b.
+                  @ (Diagrams.Core.Types.QDiagram
+                       b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any)
+                  (Diagrams.Core.Types.$fMonoidQDiagram_$cmempty
+                     @ b
+                     @ Linear.V2.V2
+                     @ GHC.Types.Double
+                     @ Data.Monoid.Any
+                     Linear.V2.$fMetricV2
+                     Lib.$s$fMonoidQDiagram1
+                     Data.Semigroup.$fSemigroupAny)
+                  (Diagrams.Core.Types.$fMonoidQDiagram_$cmappend
+                     @ b
+                     @ Linear.V2.V2
+                     @ GHC.Types.Double
+                     @ Data.Monoid.Any
+                     Linear.V2.$fMetricV2
+                     Lib.$s$fMonoidQDiagram1
+                     Data.Semigroup.$fSemigroupAny)
+                  (Diagrams.Core.Types.$fMonoidQDiagram_$cmconcat
+                     @ b
+                     @ Linear.V2.V2
+                     @ GHC.Types.Double
+                     @ Data.Monoid.Any
+                     Linear.V2.$fMetricV2
+                     Lib.$s$fMonoidQDiagram1
+                     Data.Semigroup.$fSemigroupAny) -}
+53d5b599dd166c1f867cd4cb8b8f8a1e
+  $s$fMonoidQDiagram1 ::
+    Diagrams.Core.Envelope.OrderedField GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.Envelope.$fOrderedFields
+                   @ GHC.Types.Double
+                   GHC.Float.$fFloatingDouble
+                   GHC.Classes.$fOrdDouble) -}
+fd095be76619a74524818d406add5328
+  $s$fRenderablePathSVG ::
+    Diagrams.Core.Types.Renderable
+      (Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double)
+      Diagrams.Backend.SVG.SVG
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double)
+                  @ Diagrams.Backend.SVG.SVG
+                  Lib.$s$fRenderablePathSVG5
+                  (Diagrams.Backend.SVG.$fRenderablePathSVG_$crender
+                     @ GHC.Types.Double
+                     Lib.$s$fRenderablePathSVG5
+                     Lib.$s$fRenderablePathSVG1) -}
+e240277855ee270d88b140a616564a6c
+  $s$fRenderablePathSVG1 ::
+    Graphics.Rendering.SVG.SVGFloat GHC.Types.Double
+  {- Strictness: m,
+     Unfolding: ((GHC.Float.$fShowDouble,
+                  Lib.$s$fRenderablePathSVG2)) -}
+a23ccea47c8826a18a9fbde3e81e5015
+  $s$fRenderablePathSVG2 ::
+    Diagrams.Core.Types.TypeableFloat GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.Types.$fTypeableFloatn
+                   @ GHC.Types.Double
+                   Lib.$s$fRenderablePathSVG3
+                     `cast`
+                   (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
+                             <*>_N <GHC.Types.Double>_N))
+                   GHC.Float.$fRealFloatDouble) -}
+ecf3e3ab04eb99dfd207724e6db6b3b7
+  $s$fRenderablePathSVG3 ::
+    GHC.Prim.Proxy# GHC.Types.Double -> Data.Typeable.Internal.TypeRep
+  {- Arity: 1, Strictness: <L,A>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ wild :: GHC.Prim.Proxy# GHC.Types.Double ->
+                 Lib.$s$fRenderablePathSVG4) -}
+b107edbf4c7bed6ac32e9dd0f5a01cd5
+  $s$fRenderablePathSVG4 :: Data.Typeable.Internal.TypeRep
+  {- Strictness: m,
+     Unfolding: (Data.Typeable.Internal.TypeRep
+                   __word 8705313363352784917
+                   __word 10768904120299974647
+                   Lib.$s$fRenderablePathSVG_wild
+                   (GHC.Types.[] @ Data.Typeable.Internal.KindRep)
+                   (GHC.Types.[] @ Data.Typeable.Internal.TypeRep)) -}
+cabbf1f176436bb05c55426bb5cb9ae5
+  $s$fRenderablePathSVG5 ::
+    Diagrams.Core.Transform.Transformable
+      (Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double)
+  {- Arity: 1, Strictness: <L,U(U(U,U),U,U)>,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$s$fRenderablePathSVG6
+                  `cast`
+                (Sym (Diagrams.Core.Transform.NTCo:Transformable[0]
+                          <Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double>_N)) -}
+50a433e50248f41d721f5c7449e91650
+  $s$fRenderablePathSVG6 ::
+    Diagrams.Core.Transform.Transformation
+      (Diagrams.Core.V.V
+         (Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double))
+      (Diagrams.Core.V.N
+         (Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double))
+    -> Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double
+  {- Arity: 1, Strictness: <L,U(U(U,U),U,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ w3 :: Diagrams.Core.Transform.Transformation
+                           (Diagrams.Core.V.V
+                              (Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double))
+                           (Diagrams.Core.V.N
+                              (Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double)) ->
+                 Diagrams.Path.$w$ctransform
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   Linear.V2.$fMetricV2
+                   Lib.$s$fMonoidQDiagram1
+                   w3) -}
+9bb7eeb1e32131174d702b4dd6a2b7ae
+  $s$fRenderablePathSVG_wild :: Data.Typeable.Internal.TyCon
+  {- Strictness: m,
+     Unfolding: (Data.Typeable.Internal.TyCon
+                   __word 8705313363352784917
+                   __word 10768904120299974647
+                   Lib.$s$fRenderablePathSVG_ww2
+                   Lib.$s$fRenderablePathSVG_ww3
+                   Lib.$s$fRenderablePathSVG_ww4) -}
+bbda1ee38d3f80f12c70efdd38ad4fa7
+  $s$fRenderablePathSVG_ww2 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "ghc-prim"#) -}
+fc4473e2ef94a922835250c2aa6d3c9a
+  $s$fRenderablePathSVG_ww3 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "GHC.Types"#) -}
+f9b0811b8281408d59f159344b218562
+  $s$fRenderablePathSVG_ww4 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "Double"#) -}
+89ed3ec8aa6fffc7b3804e10a0118d23
+  $s$fSemigroupQDiagram ::
+    Data.Semigroup.Semigroup
+      (Diagrams.Core.Types.QDiagram
+         b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ b.
+                  @ (Diagrams.Core.Types.QDiagram
+                       b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any)
+                  (Diagrams.Core.Types.$fMonoidQDiagram_$c<>
+                     @ b
+                     @ Linear.V2.V2
+                     @ GHC.Types.Double
+                     @ Data.Monoid.Any
+                     Linear.V2.$fMetricV2
+                     Lib.$s$fMonoidQDiagram1
+                     Data.Semigroup.$fSemigroupAny)
+                  (Diagrams.Core.Types.$fSemigroupQDiagram_$csconcat
+                     @ b
+                     @ Linear.V2.V2
+                     @ GHC.Types.Double
+                     @ Data.Monoid.Any
+                     Linear.V2.$fMetricV2
+                     Lib.$s$fMonoidQDiagram1
+                     Data.Semigroup.$fSemigroupAny)
+                  (Lib.$s$fSemigroupQDiagram_$s$fSemigroupQDiagram_$cstimes @ b) -}
+1ea573f4c08bfc603e4c59710521d9e4
+  $s$fSemigroupQDiagram_$s$fSemigroupQDiagram_$cstimes ::
+    GHC.Real.Integral b1 =>
+    b1
+    -> Diagrams.Core.Types.QDiagram
+         b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any
+  {- Arity: 3,
+     Strictness: <S(SLLLLLLLL),U(U,U,C(C1(U)),C(C1(U)),A,A,A,A,A)><L,U><L,U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ b
+                   @ b1
+                   $dIntegral :: GHC.Real.Integral b1
+                   eta1 :: b1
+                   eta2 :: Diagrams.Core.Types.QDiagram
+                             b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any ->
+                 let {
+                   $dReal :: GHC.Real.Real b1 = GHC.Real.$p1Integral @ b1 $dIntegral
+                 } in
+                 case GHC.Classes.<=
+                        @ b1
+                        (GHC.Real.$p2Real @ b1 $dReal)
+                        eta1
+                        (GHC.Num.fromInteger
+                           @ b1
+                           (GHC.Real.$p1Real @ b1 $dReal)
+                           __integer 0) of wild {
+                   GHC.Types.False
+                   -> let {
+                        $dReal1 :: GHC.Real.Real b1 = GHC.Real.$p1Integral @ b1 $dIntegral
+                      } in
+                      let {
+                        $dEnum :: GHC.Enum.Enum b1 = GHC.Real.$p2Integral @ b1 $dIntegral
+                      } in
+                      let {
+                        a31 :: GHC.Classes.Ord b1 = GHC.Real.$p2Real @ b1 $dReal1
+                      } in
+                      let {
+                        $dEq :: GHC.Classes.Eq b1 = GHC.Classes.$p1Ord @ b1 a31
+                      } in
+                      let {
+                        $dNum :: GHC.Num.Num b1 = GHC.Real.$p1Real @ b1 $dReal1
+                      } in
+                      letrec {
+                        f2 :: Diagrams.Core.Types.QDiagram
+                                b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any
+                              -> b1
+                              -> Diagrams.Core.Types.QDiagram
+                                   b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any
+                          {- Arity: 2 -}
+                        = \ x1 :: Diagrams.Core.Types.QDiagram
+                                    b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any
+                            y :: b1 ->
+                          case GHC.Real.even @ b1 $dIntegral y of wild1 {
+                            GHC.Types.False
+                            -> case GHC.Classes.==
+                                      @ b1
+                                      $dEq
+                                      y
+                                      (GHC.Num.fromInteger @ b1 $dNum __integer 1) of wild2 {
+                                 GHC.Types.False
+                                 -> let {
+                                      $dReal2 :: GHC.Real.Real b1
+                                      = GHC.Real.$p1Integral @ b1 $dIntegral
+                                    } in
+                                    let {
+                                      $dEnum1 :: GHC.Enum.Enum b1
+                                      = GHC.Real.$p2Integral @ b1 $dIntegral
+                                    } in
+                                    let {
+                                      a32 :: GHC.Classes.Ord b1 = GHC.Real.$p2Real @ b1 $dReal2
+                                    } in
+                                    let {
+                                      $dEq1 :: GHC.Classes.Eq b1 = GHC.Classes.$p1Ord @ b1 a32
+                                    } in
+                                    let {
+                                      $dNum1 :: GHC.Num.Num b1 = GHC.Real.$p1Real @ b1 $dReal2
+                                    } in
+                                    letrec {
+                                      g :: Diagrams.Core.Types.QDiagram
+                                             b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any
+                                           -> b1
+                                           -> Diagrams.Core.Types.QDiagram
+                                                b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any
+                                           -> Diagrams.Core.Types.QDiagram
+                                                b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any
+                                        {- Arity: 3 -}
+                                      = \ x2 :: Diagrams.Core.Types.QDiagram
+                                                  b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any
+                                          y1 :: b1
+                                          z1 :: Diagrams.Core.Types.QDiagram
+                                                  b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any ->
+                                        case GHC.Real.even @ b1 $dIntegral y1 of wild3 {
+                                          GHC.Types.False
+                                          -> case GHC.Classes.==
+                                                    @ b1
+                                                    $dEq1
+                                                    y1
+                                                    (GHC.Num.fromInteger
+                                                       @ b1
+                                                       $dNum1
+                                                       __integer 1) of wild4 {
+                                               GHC.Types.False
+                                               -> g (Diagrams.Core.Types.$fMonoidQDiagram_$c<>
+                                                       @ b
+                                                       @ Linear.V2.V2
+                                                       @ GHC.Types.Double
+                                                       @ Data.Monoid.Any
+                                                       Linear.V2.$fMetricV2
+                                                       Lib.$s$fMonoidQDiagram1
+                                                       Data.Semigroup.$fSemigroupAny
+                                                       x2
+                                                       x2)
+                                                    (GHC.Real.quot
+                                                       @ b1
+                                                       $dIntegral
+                                                       (GHC.Enum.pred @ b1 $dEnum1 y1)
+                                                       (GHC.Num.fromInteger
+                                                          @ b1
+                                                          $dNum1
+                                                          __integer 2))
+                                                    (Diagrams.Core.Types.$fMonoidQDiagram_$c<>
+                                                       @ b
+                                                       @ Linear.V2.V2
+                                                       @ GHC.Types.Double
+                                                       @ Data.Monoid.Any
+                                                       Linear.V2.$fMetricV2
+                                                       Lib.$s$fMonoidQDiagram1
+                                                       Data.Semigroup.$fSemigroupAny
+                                                       x2
+                                                       z1)
+                                               GHC.Types.True
+                                               -> Diagrams.Core.Types.$fMonoidQDiagram_$c<>
+                                                    @ b
+                                                    @ Linear.V2.V2
+                                                    @ GHC.Types.Double
+                                                    @ Data.Monoid.Any
+                                                    Linear.V2.$fMetricV2
+                                                    Lib.$s$fMonoidQDiagram1
+                                                    Data.Semigroup.$fSemigroupAny
+                                                    x2
+                                                    z1 }
+                                          GHC.Types.True
+                                          -> g (Diagrams.Core.Types.$fMonoidQDiagram_$c<>
+                                                  @ b
+                                                  @ Linear.V2.V2
+                                                  @ GHC.Types.Double
+                                                  @ Data.Monoid.Any
+                                                  Linear.V2.$fMetricV2
+                                                  Lib.$s$fMonoidQDiagram1
+                                                  Data.Semigroup.$fSemigroupAny
+                                                  x2
+                                                  x2)
+                                               (GHC.Real.quot
+                                                  @ b1
+                                                  $dIntegral
+                                                  y1
+                                                  (GHC.Num.fromInteger @ b1 $dNum1 __integer 2))
+                                               z1 }
+                                    } in
+                                    g (Diagrams.Core.Types.$fMonoidQDiagram_$c<>
+                                         @ b
+                                         @ Linear.V2.V2
+                                         @ GHC.Types.Double
+                                         @ Data.Monoid.Any
+                                         Linear.V2.$fMetricV2
+                                         Lib.$s$fMonoidQDiagram1
+                                         Data.Semigroup.$fSemigroupAny
+                                         x1
+                                         x1)
+                                      (GHC.Real.quot
+                                         @ b1
+                                         $dIntegral
+                                         (GHC.Enum.pred @ b1 $dEnum y)
+                                         (GHC.Num.fromInteger @ b1 $dNum __integer 2))
+                                      x1
+                                 GHC.Types.True -> x1 }
+                            GHC.Types.True
+                            -> f2
+                                 (Diagrams.Core.Types.$fMonoidQDiagram_$c<>
+                                    @ b
+                                    @ Linear.V2.V2
+                                    @ GHC.Types.Double
+                                    @ Data.Monoid.Any
+                                    Linear.V2.$fMetricV2
+                                    Lib.$s$fMonoidQDiagram1
+                                    Data.Semigroup.$fSemigroupAny
+                                    x1
+                                    x1)
+                                 (GHC.Real.quot
+                                    @ b1
+                                    $dIntegral
+                                    y
+                                    (GHC.Num.fromInteger @ b1 $dNum __integer 2)) }
+                      } in
+                      f2 eta2 eta1
+                   GHC.Types.True
+                   -> GHC.Err.error
+                        @ (Diagrams.Core.Types.QDiagram
+                             b Linear.V2.V2 GHC.Types.Double Data.Monoid.Any)
+                        (GHC.Base.build
+                           @ GHC.Types.Char
+                           (\ @ b2 ->
+                            GHC.CString.unpackFoldrCString#
+                              @ b2
+                              "stimes: positive multiplier expected"#)) }) -}
+411c5811db59f0a63bdc0e84055b3d2d
+  $s$fShape:._$caddDim ::
+    (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,U(U))><S(SS),1*U(1*H,U(U))>m,
+     Inline: INLINE[1] (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ ds :: Data.Array.Repa.Index.Z
+                         Data.Array.Repa.Index.:. GHC.Types.Int
+                   ds1 :: Data.Array.Repa.Index.Z
+                          Data.Array.Repa.Index.:. GHC.Types.Int ->
+                 case ds of wild { Data.Array.Repa.Index.:. sh1 n1 ->
+                 case ds1 of wild1 { Data.Array.Repa.Index.:. sh2 n2 ->
+                 case n1 of wild2 { GHC.Types.I# x1 ->
+                 case n2 of wild3 { GHC.Types.I# y ->
+                 Data.Array.Repa.Index.:.
+                   @ Data.Array.Repa.Index.Z
+                   @ GHC.Types.Int
+                   Data.Array.Repa.Index.Z
+                   (GHC.Types.I# (GHC.Prim.+# x1 y)) } } } }) -}
+db21fe79b3959c0b3b08f977f6792fd3
+  $s$fShape:._$cfromIndex ::
+    (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> GHC.Types.Int
+    -> Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,1*H)><S,1*U(U)>m,
+     Inline: INLINE[1] (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ ds :: Data.Array.Repa.Index.Z
+                         Data.Array.Repa.Index.:. GHC.Types.Int
+                   n :: GHC.Types.Int ->
+                 case ds of wild { Data.Array.Repa.Index.:. ds1 d ->
+                 case n of dt1 { GHC.Types.I# ipv ->
+                 Data.Array.Repa.Index.:.
+                   @ Data.Array.Repa.Index.Z
+                   @ GHC.Types.Int
+                   Data.Array.Repa.Index.Z
+                   dt1 } }) -}
+e72d632a92728d1a8f74e981f555b170
+  $s$fShape:._$cinShapeRange ::
+    (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> GHC.Types.Bool
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,U(U))><S(SS),1*U(1*H,U(U))><S(SS),1*U(1*H,U(U))>,
+     Inline: INLINE[1] (sat-args=3),
+     Unfolding: InlineRule (3, False, False)
+                (\ ds :: Data.Array.Repa.Index.Z
+                         Data.Array.Repa.Index.:. GHC.Types.Int
+                   ds1 :: Data.Array.Repa.Index.Z
+                          Data.Array.Repa.Index.:. GHC.Types.Int
+                   ds2 :: Data.Array.Repa.Index.Z
+                          Data.Array.Repa.Index.:. GHC.Types.Int ->
+                 case ds of wild { Data.Array.Repa.Index.:. zs z ->
+                 case ds1 of wild1 { Data.Array.Repa.Index.:. sh1 n1 ->
+                 case ds2 of wild2 { Data.Array.Repa.Index.:. sh2 n2 ->
+                 case n2 of wild3 { GHC.Types.I# x1 ->
+                 case z of wild4 { GHC.Types.I# y ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# x1 y) of wild5 {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> case n1 of wild6 { GHC.Types.I# y1 ->
+                      GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<# x1 y1) } } } } } } }) -}
+09117dd5ae0114ed700b413eb906d8e8
+  $s$fShape:._$cintersectDim ::
+    (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,U(U))><S(SS),1*U(1*H,U(U))>m,
+     Inline: INLINE[1] (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ ds :: Data.Array.Repa.Index.Z
+                         Data.Array.Repa.Index.:. GHC.Types.Int
+                   ds1 :: Data.Array.Repa.Index.Z
+                          Data.Array.Repa.Index.:. GHC.Types.Int ->
+                 case ds of wild { Data.Array.Repa.Index.:. sh1 n1 ->
+                 case ds1 of wild1 { Data.Array.Repa.Index.:. sh2 n2 ->
+                 case n1 of wild2 { GHC.Types.I# x1 ->
+                 case n2 of wild3 { GHC.Types.I# y1 ->
+                 case case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# x1 y1) of wild4 {
+                        GHC.Types.False -> wild3
+                        GHC.Types.True -> wild2 } of dt1 { GHC.Types.I# ipv ->
+                 Data.Array.Repa.Index.:.
+                   @ Data.Array.Repa.Index.Z
+                   @ GHC.Types.Int
+                   Data.Array.Repa.Index.Z
+                   dt1 } } } } }) -}
+2b0cf644180418a7d79ceae69e74f5a4
+  $s$fShape:._$crank ::
+    (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SS),1*U(1*H,1*H)>m,
+     Inline: INLINE[1] (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ ds :: Data.Array.Repa.Index.Z
+                         Data.Array.Repa.Index.:. GHC.Types.Int ->
+                 case ds of wild { Data.Array.Repa.Index.:. sh1 ds1 ->
+                 GHC.Types.I# 1 }) -}
+e761bf47df27edb94a5b917a9439b375
+  $s$fShape:._$csize ::
+    (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SS),1*U(1*H,U(U))>,
+     Inline: INLINE[1] (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ ds :: Data.Array.Repa.Index.Z
+                         Data.Array.Repa.Index.:. GHC.Types.Int ->
+                 case ds of wild { Data.Array.Repa.Index.:. sh1 n -> n }) -}
+28462391c8f9e5ac3f704d0cbf4730b8
+  $s$fShape:._$csizeIsValid ::
+    (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SS),1*U(1*H,U(U))>,
+     Inline: INLINE[1] (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ ds :: Data.Array.Repa.Index.Z
+                         Data.Array.Repa.Index.:. GHC.Types.Int ->
+                 case ds of wild { Data.Array.Repa.Index.:. sh1 n ->
+                 case n of wild3 { GHC.Types.I# x1 ->
+                 case GHC.Real.$fIntegralInt_$cdiv
+                        GHC.Base.maxInt
+                        (GHC.Types.I# 1) of wild4 { GHC.Types.I# y ->
+                 GHC.Prim.tagToEnum# @ GHC.Types.Bool (GHC.Prim.<=# x1 y) } } }) -}
+64342d49abd714d894da89f575d999ab
+  $s$fShape:._$ctoIndex ::
+    (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> (Data.Array.Repa.Index.Z Data.Array.Repa.Index.:. GHC.Types.Int)
+    -> GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,1*H)><S(SS),1*U(1*H,U(U))>,
+     Inline: INLINE[1] (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ ds :: Data.Array.Repa.Index.Z
+                         Data.Array.Repa.Index.:. GHC.Types.Int
+                   ds1 :: Data.Array.Repa.Index.Z
+                          Data.Array.Repa.Index.:. GHC.Types.Int ->
+                 case ds of wild { Data.Array.Repa.Index.:. sh1 sh2 ->
+                 case ds1 of wild1 { Data.Array.Repa.Index.:. sh1' sh2' ->
+                 sh2' } }) -}
+2df41d4a57a0e619d3d399a9cdc1c3b7
+  $s$fTargetUe ::
+    Data.Array.Repa.Eval.Target.Target
+      Data.Array.Repa.Repr.Unboxed.U GHC.Types.Double
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Array.Repa.Repr.Unboxed.U
+                  @ GHC.Types.Double
+                  (Data.Array.Repa.Repr.Unboxed.$fTargetUe_$cnewMVec
+                     @ GHC.Types.Double
+                     Data.Vector.Unboxed.Base.$fUnboxDouble)
+                  Lib.$s$fTargetUe_$s$fTargetUe_$cunsafeWriteMVec
+                  Lib.$s$fTargetUe_$s$fTargetUe_$cunsafeFreezeMVec
+                  Lib.$s$fTargetUe_$s$fTargetUe_$cdeepSeqMVec
+                  (Data.Array.Repa.Repr.Unboxed.$fTargetUe_$ctouchMVec
+                     @ GHC.Types.Double
+                     Data.Vector.Unboxed.Base.$fUnboxDouble) -}
+33213d5c60f14bf40ef45f66cc0a83c5
+  $s$fTargetUe_$s$fTargetUe_$cdeepSeqMVec ::
+    Data.Array.Repa.Eval.Target.MVec
+      Data.Array.Repa.Repr.Unboxed.U GHC.Types.Double
+    -> a -> a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(1*U)><S,1*U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ a24
+                   ds :: Data.Array.Repa.Eval.Target.MVec
+                           Data.Array.Repa.Repr.Unboxed.U GHC.Types.Double
+                   x1 :: a24 ->
+                 case ds
+                        `cast`
+                      (Sub (Data.Array.Repa.Repr.Unboxed.TFCo:R:MVecUe[0]) <GHC.Types.Double>_N) of wild { Data.Array.Repa.Repr.Unboxed.UMVec vec ->
+                 case vec of vec1 { DEFAULT -> x1 } }) -}
+5a6c8a99b4434929fb83d173254d748f
+  $s$fTargetUe_$s$fTargetUe_$cunsafeFreezeMVec ::
+    sh
+    -> Data.Array.Repa.Eval.Target.MVec
+         Data.Array.Repa.Repr.Unboxed.U GHC.Types.Double
+    -> GHC.Types.IO
+         (Data.Array.Repa.Base.Array
+            Data.Array.Repa.Repr.Unboxed.U sh GHC.Types.Double)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,1*U><S(S),1*U(1*U(U,U,U))><L,U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ sh
+                   sh1 :: sh
+                   ds :: Data.Array.Repa.Eval.Target.MVec
+                           Data.Array.Repa.Repr.Unboxed.U GHC.Types.Double
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds
+                        `cast`
+                      (Sub (Data.Array.Repa.Repr.Unboxed.TFCo:R:MVecUe[0]) <GHC.Types.Double>_N) of wild { Data.Array.Repa.Repr.Unboxed.UMVec mvec ->
+                 (GHC.Base.bindIO
+                    @ (Data.Vector.Unboxed.Base.Vector GHC.Types.Double)
+                    @ (Data.Array.Repa.Base.Array
+                         Data.Array.Repa.Repr.Unboxed.U sh GHC.Types.Double)
+                    (GHC.Base.$fFunctorIO_$cfmap
+                       @ (Data.Vector.Primitive.Vector GHC.Types.Double)
+                       @ (Data.Vector.Unboxed.Base.Vector GHC.Types.Double)
+                       (\ tpl :: Data.Vector.Primitive.Vector GHC.Types.Double -> tpl)
+                         `cast`
+                       (<Data.Vector.Primitive.Vector GHC.Types.Double>_R
+                        ->_R Trans
+                                 (Sym (Data.Vector.Unboxed.Base.NTCo:R:VectorDouble[0]))
+                                 (Sub (Sym (Data.Vector.Unboxed.Base.TFCo:R:VectorDouble[0]))))
+                       (case mvec
+                               `cast`
+                             (Trans
+                                  (Data.Vector.Unboxed.Base.MVector
+                                     (Sym (Control.Monad.Primitive.TFCo:R:PrimStateIO[0]))
+                                     <GHC.Types.Double>_N)_R
+                                  (Trans
+                                       (Sub (Data.Vector.Unboxed.Base.TFCo:R:MVectorsDouble[0]
+                                                 <Control.Monad.Primitive.PrimState
+                                                    GHC.Types.IO>_N))
+                                       (Data.Vector.Unboxed.Base.NTCo:R:MVectorsDouble[0]
+                                            <Control.Monad.Primitive.PrimState
+                                               GHC.Types.IO>_N))) of wild1 { Data.Vector.Primitive.Mutable.MVector dt dt1 dt2 ->
+                        GHC.Base.$fFunctorIO_$cfmap
+                          @ Data.Primitive.ByteArray.ByteArray
+                          @ (Data.Vector.Primitive.Vector GHC.Types.Double)
+                          (Data.Vector.Primitive.$WVector
+                             @ GHC.Types.Double
+                             (GHC.Types.I# dt)
+                             (GHC.Types.I# dt1))
+                          (\ s# :: GHC.Prim.State#
+                                     (Control.Monad.Primitive.PrimState GHC.Types.IO)[OneShot] ->
+                           case GHC.Prim.unsafeFreezeByteArray#
+                                  @ (Control.Monad.Primitive.PrimState GHC.Types.IO)
+                                  dt2
+                                  s# of ds1 { (#,#) ipv ipv1 ->
+                           (# ipv, Data.Primitive.ByteArray.ByteArray ipv1 #) })
+                            `cast`
+                          (Trans
+                               ((GHC.Prim.State#
+                                   (Control.Monad.Primitive.TFCo:R:PrimStateIO[0]))_R
+                                ->_R ((# (GHC.Prim.State#
+                                            (Control.Monad.Primitive.TFCo:R:PrimStateIO[0]))_R,
+                                         <Data.Primitive.ByteArray.ByteArray>_R #))_R)
+                               (Sym (GHC.Types.NTCo:IO[0]
+                                         <Data.Primitive.ByteArray.ByteArray>_R))) }))
+                    (\ vec :: Data.Vector.Unboxed.Base.Vector GHC.Types.Double ->
+                     GHC.Base.$
+                       @ (Data.Array.Repa.Base.Array
+                            Data.Array.Repa.Repr.Unboxed.U sh GHC.Types.Double)
+                       @ (GHC.Types.IO
+                            (Data.Array.Repa.Base.Array
+                               Data.Array.Repa.Repr.Unboxed.U sh GHC.Types.Double))
+                       (GHC.Base.returnIO
+                          @ (Data.Array.Repa.Base.Array
+                               Data.Array.Repa.Repr.Unboxed.U sh GHC.Types.Double))
+                       (Data.Array.Repa.Repr.Unboxed.$WAUnboxed
+                          @ GHC.Types.Double
+                          @ sh
+                          sh1
+                          vec)))
+                   `cast`
+                 (GHC.Types.NTCo:IO[0]
+                      <Data.Array.Repa.Base.Array
+                         Data.Array.Repa.Repr.Unboxed.U sh GHC.Types.Double>_R)
+                   eta1 })
+                  `cast`
+                (forall sh.
+                 <sh>_R
+                 ->_R <Data.Array.Repa.Eval.Target.MVec
+                         Data.Array.Repa.Repr.Unboxed.U GHC.Types.Double>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <Data.Array.Repa.Base.Array
+                                  Data.Array.Repa.Repr.Unboxed.U sh GHC.Types.Double>_R)) -}
+7b70257ec576c36b09b6151386349a83
+  $s$fTargetUe_$s$fTargetUe_$cunsafeWriteMVec ::
+    Data.Array.Repa.Eval.Target.MVec
+      Data.Array.Repa.Repr.Unboxed.U GHC.Types.Double
+    -> GHC.Types.Int -> GHC.Types.Double -> GHC.Types.IO ()
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S(S),1*U(1*U(U,A,U))><S,1*U(U)><S,1*U(U)><L,U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ ds :: Data.Array.Repa.Eval.Target.MVec
+                           Data.Array.Repa.Repr.Unboxed.U GHC.Types.Double
+                   ix :: GHC.Types.Int
+                   eta1 :: GHC.Types.Double ->
+                 case ds
+                        `cast`
+                      (Sub (Data.Array.Repa.Repr.Unboxed.TFCo:R:MVecUe[0]) <GHC.Types.Double>_N) of wild { Data.Array.Repa.Repr.Unboxed.UMVec v ->
+                 GHC.Base.$
+                   @ (GHC.Types.IO ())
+                   @ (GHC.Types.IO ())
+                   (Data.Vector.Internal.Check.checkIndex
+                      @ (GHC.Types.IO ())
+                      (GHC.Base.build
+                         @ GHC.Types.Char
+                         (\ @ b ->
+                          GHC.CString.unpackFoldrCString#
+                            @ b
+                            "./Data/Vector/Generic/Mutable.hs"#))
+                      (GHC.Types.I# 728)
+                      Data.Vector.Internal.Check.Unsafe
+                      (GHC.Base.build
+                         @ GHC.Types.Char
+                         (\ @ b -> GHC.CString.unpackFoldrCString# @ b "unsafeWrite"#))
+                      ix
+                      (Data.Vector.Unboxed.Base.$fMVectorMVectorDouble2
+                         @ (Control.Monad.Primitive.PrimState GHC.Types.IO)
+                         v `cast`
+                         (Trans
+                              (Data.Vector.Unboxed.Base.MVector
+                                 (Sym (Control.Monad.Primitive.TFCo:R:PrimStateIO[0]))
+                                 <GHC.Types.Double>_N)_R
+                              (Trans
+                                   (Sub (Data.Vector.Unboxed.Base.TFCo:R:MVectorsDouble[0]
+                                             <Control.Monad.Primitive.PrimState GHC.Types.IO>_N))
+                                   (Data.Vector.Unboxed.Base.NTCo:R:MVectorsDouble[0]
+                                        <Control.Monad.Primitive.PrimState GHC.Types.IO>_N)))))
+                   (case v `cast`
+                         (Trans
+                              (Data.Vector.Unboxed.Base.MVector
+                                 (Sym (Control.Monad.Primitive.TFCo:R:PrimStateIO[0]))
+                                 <GHC.Types.Double>_N)_R
+                              (Trans
+                                   (Sub (Data.Vector.Unboxed.Base.TFCo:R:MVectorsDouble[0]
+                                             <Control.Monad.Primitive.PrimState GHC.Types.IO>_N))
+                                   (Data.Vector.Unboxed.Base.NTCo:R:MVectorsDouble[0]
+                                        <Control.Monad.Primitive.PrimState
+                                           GHC.Types.IO>_N))) of wild1 { Data.Vector.Primitive.Mutable.MVector dt dt1 dt2 ->
+                    case GHC.Num.$fNumInt_$c+
+                           (GHC.Types.I# dt)
+                           ix of wild2 { GHC.Types.I# i# ->
+                    (\ s# :: GHC.Prim.State#
+                               (Control.Monad.Primitive.PrimState GHC.Types.IO)[OneShot] ->
+                     case eta1 of wild3 { GHC.Types.D# x# ->
+                     case GHC.Prim.writeDoubleArray#
+                            @ (Control.Monad.Primitive.PrimState GHC.Types.IO)
+                            dt2
+                            i#
+                            x#
+                            s# of s'# { DEFAULT ->
+                     (# s'#, GHC.Tuple.() #) } })
+                      `cast`
+                    (Trans
+                         ((GHC.Prim.State#
+                             (Control.Monad.Primitive.TFCo:R:PrimStateIO[0]))_R
+                          ->_R ((# (GHC.Prim.State#
+                                      (Control.Monad.Primitive.TFCo:R:PrimStateIO[0]))_R,
+                                   <()>_R #))_R)
+                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))) } }) }) -}
+9ce9d7e3f4fe19c20f80c793dd64d49a
+  $s$fTrailLikeLocated ::
+    Diagrams.TrailLike.TrailLike
+      (Diagrams.Located.Located
+         (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Diagrams.Located.Located
+                       (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                  Linear.V2.$fMetricV2
+                    `cast`
+                  (Linear.Metric.Metric
+                     (Trans
+                          (Sym (Diagrams.Trail.TFCo:R:VTrail[0]
+                                    <Linear.V2.V2>_N <GHC.Types.Double>_N))
+                          (Sym (Diagrams.Located.TFCo:R:VLocated[0]
+                                    <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_N))))_R
+                  Lib.$s$fMonoidQDiagram1
+                    `cast`
+                  (Diagrams.Core.Envelope.OrderedField
+                     (Trans
+                          (Sym (Diagrams.Trail.TFCo:R:NTrail[0]
+                                    <Linear.V2.V2>_N <GHC.Types.Double>_N))
+                          (Sym (Diagrams.Located.TFCo:R:NLocated[0]
+                                    <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_N))))_R
+                  Lib.$s$fTrailLikeLocated1 -}
+d55ea0f3e59098213d0254d1d0f7d68c
+  $s$fTrailLikeLocated1 ::
+    Diagrams.Located.Located
+      (Diagrams.Trail.Trail
+         (Diagrams.Core.V.V
+            (Diagrams.Located.Located
+               (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)))
+         (Diagrams.Core.V.N
+            (Diagrams.Located.Located
+               (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))))
+    -> Diagrams.Located.Located
+         (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U(1*U,1*U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ t1 :: Diagrams.Located.Located
+                           (Diagrams.Trail.Trail
+                              (Diagrams.Core.V.V
+                                 (Diagrams.Located.Located
+                                    (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)))
+                              (Diagrams.Core.V.N
+                                 (Diagrams.Located.Located
+                                    (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)))) ->
+                 Diagrams.Located.Loc
+                   @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                   (Diagrams.Located.loc
+                      @ (Diagrams.Trail.Trail
+                           (Diagrams.Core.V.V
+                              (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                           (Diagrams.Core.V.N
+                              (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)))
+                      t1
+                        `cast`
+                      (Diagrams.Located.Located
+                         (Diagrams.Trail.Trail
+                            (Diagrams.Located.TFCo:R:VLocated[0]
+                                 <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_N)
+                            (Diagrams.Located.TFCo:R:NLocated[0]
+                                 <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_N))_N)_R)
+                     `cast`
+                   (Linear.Affine.Point
+                      (Sub (Diagrams.Trail.TFCo:R:VTrail[0]
+                                <Diagrams.Core.V.V
+                                   (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)>_N
+                                <Diagrams.Core.V.N
+                                   (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)>_N))
+                      (Diagrams.Trail.TFCo:R:NTrail[0]
+                           <Diagrams.Core.V.V
+                              (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)>_N
+                           <Diagrams.Core.V.N
+                              (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)>_N))_R
+                   (Diagrams.Located.unLoc
+                      @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                      t1
+                        `cast`
+                      (Diagrams.Located.Located
+                         (Diagrams.Trail.Trail
+                            (Trans
+                                 (Diagrams.Located.TFCo:R:VLocated[0]
+                                      <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_N)
+                                 (Diagrams.Trail.TFCo:R:VTrail[0]
+                                      <Linear.V2.V2>_N <GHC.Types.Double>_N))
+                            (Trans
+                                 (Diagrams.Located.TFCo:R:NLocated[0]
+                                      <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_N)
+                                 (Diagrams.Trail.TFCo:R:NTrail[0]
+                                      <Linear.V2.V2>_N <GHC.Types.Double>_N)))_N)_R)) -}
+acccc996cb7caab04844b473b0daa3f9
+  $s$fTrailLikeTrail ::
+    Diagrams.TrailLike.TrailLike
+      (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                  Linear.V2.$fMetricV2
+                    `cast`
+                  (Linear.Metric.Metric
+                     (Sym (Diagrams.Trail.TFCo:R:VTrail[0]
+                               <Linear.V2.V2>_N <GHC.Types.Double>_N)))_R
+                  Lib.$s$fMonoidQDiagram1
+                    `cast`
+                  (Diagrams.Core.Envelope.OrderedField
+                     (Sym (Diagrams.Trail.TFCo:R:NTrail[0]
+                               <Linear.V2.V2>_N <GHC.Types.Double>_N)))_R
+                  (Diagrams.TrailLike.$fTrailLikeTrail_$ctrailLike
+                     @ Linear.V2.V2
+                     @ GHC.Types.Double
+                     Linear.V2.$fMetricV2
+                       `cast`
+                     (Linear.Metric.Metric
+                        (Sym (Diagrams.Trail.TFCo:R:VTrail[0]
+                                  <Linear.V2.V2>_N <GHC.Types.Double>_N)))_R
+                     Lib.$s$fMonoidQDiagram1
+                       `cast`
+                     (Diagrams.Core.Envelope.OrderedField
+                        (Sym (Diagrams.Trail.TFCo:R:NTrail[0]
+                                  <Linear.V2.V2>_N <GHC.Types.Double>_N)))_R
+                     Linear.V2.$fMetricV2
+                     Lib.$s$fMonoidQDiagram1) -}
+65333ad8b2c552c407ebf880981af9da
+  $satParam10 ::
+    Diagrams.Core.V.N
+      (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+    ~ GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.V.$p2InSpace
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                   Lib.$satParam5) -}
+6cd950e81de5015d859591d94eedac77
+  $satParam3 ::
+    Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Core.V.N
+         (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+    -> Diagrams.Parametric.Codomain
+         (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+         (Diagrams.Core.V.N
+            (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+  {- Unfolding: (Diagrams.Trail.$fParametricTrail_$catParam
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   Linear.V2.$fMetricV2
+                   Lib.$s$fMonoidQDiagram1
+                   GHC.Float.$fRealDouble) -}
+dd7340d7ef0fee4eef43f0fa4f1cf2e3
+  $satParam4 ::
+    Diagrams.Core.V.V
+      (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+    ~ Linear.V2.V2
+  {- Unfolding: (Diagrams.Core.V.$p1InSpace
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                   Lib.$satParam5) -}
+64d0f254646cbf10a2ba35a0c741cde7
+  $satParam5 ::
+    Diagrams.Core.V.InSpace
+      Linear.V2.V2
+      GHC.Types.Double
+      (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+  {- Unfolding: (Diagrams.Core.V.$fInSpacevna
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                   Lib.$satParam7
+                   Lib.$satParam6
+                   Linear.V2.$fAdditiveV2
+                   GHC.Float.$fNumDouble) -}
+94016dd8b2b931c989202536fcad242d
+  $satParam6 ::
+    Diagrams.Core.V.N
+      (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+    ~ GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ (Diagrams.Core.V.N
+                        (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                   @ GHC.Types.Double
+                   @~ (Diagrams.Trail.TFCo:R:NTrail[0]
+                           <Linear.V2.V2>_N <GHC.Types.Double>_N)) -}
+e9481b4495825b2847fc577ff19acf04
+  $satParam7 ::
+    Diagrams.Core.V.V
+      (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+    ~ Linear.V2.V2
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ (* -> *)
+                   @ (Diagrams.Core.V.V
+                        (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                   @ Linear.V2.V2
+                   @~ (Diagrams.Trail.TFCo:R:VTrail[0]
+                           <Linear.V2.V2>_N <GHC.Types.Double>_N)) -}
+2a07192887af647d991480c5bba76542
+  $satParam8 :: GHC.Num.Num GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.V.$p4InSpace
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                   Lib.$satParam5) -}
+fd30d5ae8b7ee1ada45224af0bf45963
+  $satParam9 :: Linear.Vector.Additive Linear.V2.V2
+  {- Unfolding: (Diagrams.Core.V.$p3InSpace
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                   Lib.$satParam5) -}
+eb7355a5608a23d7ba26ad7ca92e14e8
+  $slc2 ::
+    Diagrams.Core.Style.Style
+      (Diagrams.Core.V.V
+         (Diagrams.Core.Types.QDiagram
+            Diagrams.Backend.SVG.B
+            Linear.V2.V2
+            GHC.Types.Double
+            Data.Monoid.Any))
+      (Diagrams.Core.V.N
+         (Diagrams.Core.Types.QDiagram
+            Diagrams.Backend.SVG.B
+            Linear.V2.V2
+            GHC.Types.Double
+            Data.Monoid.Any))
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Types.$fHasStyleQDiagram_$capplyStyle
+                   @ Diagrams.Backend.SVG.B
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ Data.Monoid.Any
+                   Linear.V2.$fMetricV2
+                   Lib.$s$fMonoidQDiagram1
+                   Data.Semigroup.$fSemigroupAny) -}
+704bfb9daa44b6ebcc716e7c0e2130fd
+  $slc4 ::
+    Diagrams.Core.V.InSpace
+      Linear.V2.V2
+      GHC.Types.Double
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+  {- Unfolding: (Diagrams.Core.V.$fInSpacevna
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$slc6
+                   Lib.$slc5
+                   Linear.V2.$fAdditiveV2
+                   GHC.Float.$fNumDouble) -}
+2b7e37fc47f75e8073a9ef7744836acc
+  $slc5 ::
+    Diagrams.Core.V.N
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+    ~ GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ (Diagrams.Core.V.N
+                        (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.SVG
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any))
+                   @ GHC.Types.Double
+                   @~ (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
+                           <Diagrams.Backend.SVG.SVG>_N
+                           <Linear.V2.V2>_N
+                           <GHC.Types.Double>_N
+                           <Data.Monoid.Any>_N)) -}
+dc331cc81cc796fcf6e33d107d825df7
+  $slc6 ::
+    Diagrams.Core.V.V
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+    ~ Linear.V2.V2
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ (* -> *)
+                   @ (Diagrams.Core.V.V
+                        (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.SVG
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any))
+                   @ Linear.V2.V2
+                   @~ (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
+                           <Diagrams.Backend.SVG.SVG>_N
+                           <Linear.V2.V2>_N
+                           <GHC.Types.Double>_N
+                           <Data.Monoid.Any>_N)) -}
+9446a6a44b8df7d7afb4a8198743dbb9
+  $sunitX :: Linear.V2.V2 GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: InlineRule (0, True, False)
+                (let {
+                   a24 :: GHC.Types.Double = GHC.Types.D# 0.0
+                 } in
+                 (Data.Functor.<$>
+                    @ GHC.Types.Double
+                    @ (Linear.V2.V2 GHC.Types.Double)
+                    @ Data.Functor.Identity.Identity
+                    Data.Functor.Identity.$fFunctorIdentity
+                    (\ ds1 :: GHC.Types.Double ->
+                     case ds1 of dt { GHC.Types.D# ipv ->
+                     Linear.V2.V2 @ GHC.Types.Double dt a24 })
+                    (GHC.Types.D# 1.0)
+                      `cast`
+                    (Sym (Data.Functor.Identity.NTCo:Identity[0]
+                              <GHC.Types.Double>_R)))
+                   `cast`
+                 (Data.Functor.Identity.NTCo:Identity[0]
+                      <Linear.V2.V2 GHC.Types.Double>_R)) -}
+7961f5c8b561d86b65b42e15ffd43010
+  $wgo ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double,
+      Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]
+    -> (# [Data.Colour.Internal.Colour GHC.Types.Double],
+          [Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double] #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+49c41aacfbf73931ae6f307f2a87dcde
+  $wgo1 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double,
+      Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]
+    -> (# [Data.Colour.Internal.Colour GHC.Types.Double],
+          [Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double] #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+c86a365e790ac226c575e7da9628dee0
+  $wosc ::
+    Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+    -> GHC.Prim.Double#
+    -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Arity: 2, Strictness: <L,U><L,U>, Inline: [0],
+     Unfolding: (\ w :: Diagrams.Trail.Trail
+                          Linear.V2.V2 GHC.Types.Double
+                   ww :: GHC.Prim.Double# ->
+                 let {
+                   n :: GHC.Prim.Int# = GHC.Prim.double2Int# ww
+                 } in
+                 let {
+                   $j :: GHC.Prim.Int#
+                         -> GHC.Types.Int
+                         -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+                     {- Arity: 2, Strictness: <L,U><L,1*U(1*U)> -}
+                   = \ y :: GHC.Prim.Int#[OneShot] wild1 :: GHC.Types.Int[OneShot] ->
+                     let {
+                       a24 :: Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+                       = Diagrams.Trail.$w$csection1
+                           @ Linear.V2.V2
+                           @ GHC.Types.Double
+                           Linear.V2.$fMetricV2
+                           Lib.$s$fMonoidQDiagram1
+                           GHC.Float.$fRealDouble
+                           w
+                           Lib.chord_a23
+                             `cast`
+                           (Sub (Sym (Diagrams.Trail.TFCo:R:NTrail[0]
+                                          <Linear.V2.V2>_N <GHC.Types.Double>_N)))
+                           (GHC.Types.D# (GHC.Prim.-## ww (GHC.Prim.int2Double# y)))
+                             `cast`
+                           (Sub (Sym (Diagrams.Trail.TFCo:R:NTrail[0]
+                                          <Linear.V2.V2>_N <GHC.Types.Double>_N)))
+                     } in
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.<# 0 y) of wild {
+                       GHC.Types.False
+                       -> Lib.chord_go
+                            (GHC.Types.[]
+                               @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                            a24
+                       GHC.Types.True
+                       -> let {
+                            n1 :: [Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double]
+                            = GHC.Types.:
+                                @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                                a24
+                                (GHC.Types.[]
+                                   @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                          } in
+                          let {
+                            lvl37 :: [Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double]
+                            = GHC.Types.:
+                                @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                                w
+                                n1
+                          } in
+                          letrec {
+                            $wxs1 :: GHC.Prim.Int#
+                                     -> [Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double]
+                              {- Arity: 1, Strictness: <S,1*U>, Inline: [0] -}
+                            = \ ww1 :: GHC.Prim.Int# ->
+                              case ww1 of ds1 {
+                                DEFAULT
+                                -> GHC.Types.:
+                                     @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                                     w
+                                     ($wxs1 (GHC.Prim.-# ds1 1))
+                                1 -> lvl37 }
+                          } in
+                          case $wxs1 y of wild2 {
+                            []
+                            -> GHC.List.foldl2
+                                 @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                            : x1 xs -> Lib.chord_go xs x1 } }
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<## ww (GHC.Prim.int2Double# n)) of wild1 {
+                   GHC.Types.False -> $j n (GHC.Types.I# n)
+                   GHC.Types.True
+                   -> let {
+                        y :: GHC.Prim.Int# = GHC.Prim.-# n 1
+                      } in
+                      $j y (GHC.Types.I# y) }) -}
+cbb0438ac6799a74e1d603cab685be3f
+  chord ::
+    GHC.Types.Double
+    -> [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+    -> Data.Array.Repa.Base.Array
+         Data.Array.Repa.Repr.Unboxed.U
+         Data.Array.Repa.Index.DIM1
+         GHC.Types.Double
+    -> GHC.Types.Double
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Arity: 4,
+     Unfolding: (Lib.polyOsc
+                   Lib.tone
+                   Lib.chord1
+                     `cast`
+                   (<[(Data.Colour.Internal.Colour GHC.Types.Double,
+                       Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]>_R
+                    ->_R (Diagrams.Core.Types.QDiagram
+                            <Diagrams.Backend.SVG.B>_N
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                            <Data.Monoid.Any>_R)_R)) -}
+e9e5c89549a690b3d9a6407648c81909
+  chord1 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double,
+      Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: (\ oscs1 :: [(Data.Colour.Internal.Colour
+                                GHC.Types.Double,
+                              Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)] ->
+                 Lib.chord6
+                   (Lib.chord5
+                      GHC.Types.False
+                      (case Lib.$wgo oscs1 of ww { (#,#) ww1 ww2 ->
+                       case GHC.List.strictMaximum
+                              @ GHC.Types.Int
+                              GHC.Classes.$fOrdInt
+                              (GHC.Base.map
+                                 @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                                 @ GHC.Types.Int
+                                 Lib.chord4
+                                 ww2) of wild { GHC.Types.I# i ->
+                       case GHC.Prim./##
+                              1.0
+                              (GHC.Prim.*## 50.0 (GHC.Prim.int2Double# i)) of wild2 { DEFAULT ->
+                       GHC.Base.map
+                         @ GHC.Types.Double
+                         @ (Linear.Affine.Point Linear.V2.V2 GHC.Types.Double)
+                         (\ p :: GHC.Types.Double ->
+                          letrec {
+                            $wgo2 :: [Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double]
+                                     -> GHC.Types.Double
+                                     -> GHC.Types.Double
+                                     -> (# GHC.Types.Double, GHC.Types.Double #)
+                              {- Arity: 3, Strictness: <S,1*U><L,U(U)><L,U(U)>, Inline: [0] -}
+                            = \ w :: [Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double]
+                                ww3 :: GHC.Types.Double
+                                ww4 :: GHC.Types.Double ->
+                              case w of wild1 {
+                                [] -> (# ww3, ww4 #)
+                                : y ys
+                                -> case Lib.$satParam10 of cobox2 { GHC.Types.Eq# cobox3 ->
+                                   case Linear.Vector.^+^
+                                          @ Linear.V2.V2
+                                          Lib.$satParam9
+                                          @ GHC.Types.Double
+                                          Lib.$satParam8
+                                          Lib.chord2
+                                          (Lib.$satParam3
+                                             y
+                                             p `cast`
+                                             (Sub (Sym (Diagrams.Trail.TFCo:R:NTrail[0]
+                                                            <Linear.V2.V2>_N
+                                                            <GHC.Types.Double>_N))))
+                                            `cast`
+                                          (Trans
+                                               (Sub (Sym (Linear.Affine.TFCo:R:DiffPoint[0]
+                                                              (Sym (Diagrams.Trail.TFCo:R:CodomainTrail[0]
+                                                                        <Linear.V2.V2>_N
+                                                                        <GHC.Types.Double>_N)))))
+                                               (Sub (Linear.Affine.TFCo:R:DiffPoint[0]
+                                                         <Linear.V2.V2>_N)) cobox3) of ww5 { Linear.V2.V2 ww6 ww7 ->
+                                   case ww6 of wild3 { GHC.Types.D# y1 ->
+                                   case ww7 of wild4 { GHC.Types.D# y2 ->
+                                   case ww3 of wild5 { GHC.Types.D# x1 ->
+                                   case ww4 of wild6 { GHC.Types.D# x2 ->
+                                   $wgo2
+                                     ys
+                                     (GHC.Types.D# (GHC.Prim.+## x1 y1))
+                                     (GHC.Types.D# (GHC.Prim.+## x2 y2)) } } } } } } }
+                          } in
+                          case $wgo2
+                                 ww2
+                                 Lib.chord_a23
+                                 Lib.chord_a23 of ww3 { (#,#) ww4 ww5 ->
+                          (Linear.V2.V2 @ GHC.Types.Double ww4 ww5)
+                            `cast`
+                          (Sym (Linear.Affine.NTCo:Point[0]
+                                    <Linear.V2.V2>_R) <GHC.Types.Double>_N) })
+                         (GHC.Real.numericEnumFromThenTo
+                            @ GHC.Types.Double
+                            GHC.Classes.$fOrdDouble
+                            GHC.Float.$fFractionalDouble
+                            Lib.chord_a23
+                            (GHC.Types.D# wild2)
+                            Lib.chord_x) } } }))) -}
+88dd54c0adb23358fa493b6d8a496f9e
+  chord10 ::
+    [Diagrams.Segment.Segment
+       Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ (Diagrams.Segment.Segment
+                        Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double)
+                   Lib.chord11
+                   (GHC.Types.[]
+                      @ (Diagrams.Segment.Segment
+                           Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double))) -}
+ceda67d203cf74dbef9e32e35b903c0d
+  chord11 ::
+    Diagrams.Segment.Segment
+      Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Diagrams.Segment.Cubic
+                   @ Diagrams.Segment.Closed
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   Lib.chord17
+                   Lib.chord15
+                   Lib.chord12) -}
+7a4d74f918b18dcdfa43e091082d74b8
+  chord12 ::
+    Diagrams.Segment.Offset
+      Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Diagrams.Segment.OffsetClosed
+                   @ Diagrams.Segment.Closed
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @~ <Diagrams.Segment.Closed>_N
+                   Lib.chord13) -}
+291f0e39b211478293a5aaba70c3e9c4
+  chord13 :: Linear.V2.V2 GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Linear.V2.V2
+                   @ GHC.Types.Double
+                   Lib.chord_x
+                   Lib.chord14) -}
+f2f2ad9ea432cb1aed50e46dd94b45f1
+  chord14 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# -1.0) -}
+0cb1a1f768d1666c5945497ca8bdde05
+  chord15 :: Linear.V2.V2 GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Linear.V2.V2
+                   @ GHC.Types.Double
+                   Lib.chord16
+                   Lib.chord14) -}
+4b22ea591df7219fcab179371d49246f
+  chord16 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.5) -}
+63a0c76aa1efb9a23487e066defbc47b
+  chord17 :: Linear.V2.V2 GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Linear.V2.V2
+                   @ GHC.Types.Double
+                   Lib.chord16
+                   Lib.chord_a23) -}
+6c2c32dbd5afafd1696193ecc13b8d6b
+  chord18 ::
+    Diagrams.Core.Transform.Transformation
+      (Diagrams.Core.V.V
+         (Diagrams.Trail.SegTree Linear.V2.V2 GHC.Types.Double))
+      (Diagrams.Core.V.N
+         (Diagrams.Trail.SegTree Linear.V2.V2 GHC.Types.Double))
+    -> Diagrams.Trail.SegTree Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Trail.SegTree Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Diagrams.Trail.$fTransformableSegTree_$ctransform
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   Lib.chord20
+                   Lib.chord19
+                   Linear.V2.$fMetricV2) -}
+b26e7a9abc5b95b3db11df969abf2849
+  chord19 :: GHC.Classes.Ord GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.Envelope.$p2OrderedField
+                   @ GHC.Types.Double
+                   Lib.$s$fMonoidQDiagram1) -}
+3c145e3cf98640080c2d856da9fa62cd
+  chord2 :: Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (case Lib.$satParam4 of cobox4 { GHC.Types.Eq# cobox5 ->
+                 Lib.chord3 }) -}
+5935e7476cb88d1722988ec2dd069113
+  chord20 :: GHC.Float.Floating GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.Envelope.$p1OrderedField
+                   @ GHC.Types.Double
+                   Lib.$s$fMonoidQDiagram1) -}
+d8416c3e5a4e504bd517ad896016783a
+  chord3 :: Linear.V2.V2 GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Linear.V2.V2
+                   @ GHC.Types.Double
+                   Lib.chord_a23
+                   Lib.chord_a23) -}
+8fb7052e72ca5210fb8ec695e7b28437
+  chord4 ::
+    Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double -> GHC.Types.Int
+  {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double ->
+                 case GHC.List.$wlenAcc
+                        @ (Diagrams.Segment.Segment
+                             Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double)
+                        (Diagrams.Trail.trailSegments
+                           @ Linear.V2.V2
+                           @ GHC.Types.Double
+                           Linear.V2.$fMetricV2
+                           Lib.$s$fMonoidQDiagram1
+                           w)
+                        0 of ww { DEFAULT ->
+                 GHC.Types.I# ww }) -}
+2bbacc860b70e0b95c3b42b63a875c01
+  chord5 ::
+    GHC.Types.Bool
+    -> [Linear.Affine.Point Linear.V2.V2 GHC.Types.Double]
+    -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Diagrams.CubicSpline.cubicSpline
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                   Lib.$satParam7
+                   Lib.$satParam6
+                   Lib.$s$fTrailLikeTrail
+                   Lib.$s$fFractionalV2) -}
+dedd99a9153b45c7814aa7a2bf1f6818
+  chord6 ::
+    Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.TwoD.Path.stroke
+                   @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                   @ Diagrams.Backend.SVG.B
+                   @ GHC.Types.Double
+                   Lib.$satParam5
+                   (Diagrams.Path.pathFromTrail @ Linear.V2.V2 @ GHC.Types.Double)
+                     `cast`
+                   (Trans
+                        ((Linear.Metric.Metric
+                            (Sym (Diagrams.Trail.TFCo:R:VTrail[0]
+                                      <Linear.V2.V2>_N <GHC.Types.Double>_N)))_R
+                         ->_R (Diagrams.Core.Envelope.OrderedField
+                                 (Sym (Diagrams.Trail.TFCo:R:NTrail[0]
+                                           <Linear.V2.V2>_N <GHC.Types.Double>_N)))_R
+                         ->_R <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_R
+                         ->_R (Diagrams.Path.Path
+                                 (Sym (Diagrams.Trail.TFCo:R:VTrail[0]
+                                           <Linear.V2.V2>_N <GHC.Types.Double>_N))
+                                 (Sym (Diagrams.Trail.TFCo:R:NTrail[0]
+                                           <Linear.V2.V2>_N <GHC.Types.Double>_N)))_R)
+                        (Sym (Diagrams.Path.NTCo:ToPath[0]
+                                  <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_N)))
+                   Lib.$s$fRenderablePathSVG2
+                   Lib.$s$fRenderablePathSVG) -}
+51bab318db7e7b8222144fe9abb6e91d
+  chord7 :: Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Lib.oscCycle Lib.chord8) -}
+78f051af51c58bc10c3f75d07ac8bad2
+  chord8 :: Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Diagrams.Trail.Trail
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ Diagrams.Trail.Line
+                   Lib.chord9) -}
+03647402d40d90b36d3c5b584b5795e1
+  chord9 ::
+    Diagrams.Trail.Trail'
+      Diagrams.Trail.Line Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Lib.chord_g Lib.chord10) -}
+d804d86a83871d8ccb861ca5983e5509
+  chord_a23 :: GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.D# 0.0) -}
+46cc90a708ed6762b1234fecfb44c760
+  chord_g ::
+    [Diagrams.Segment.Segment
+       Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double]
+    -> Diagrams.Trail.Trail'
+         Diagrams.Trail.Line Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Diagrams.Trail.lineFromSegments
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   Linear.V2.$fMetricV2
+                   Lib.$s$fMonoidQDiagram1) -}
+03854808bff8b203f48fdb5ba1cde523
+  chord_go ::
+    [Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double]
+    -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+e0ea19e9cd1efd6e7b046b675dc17eea
+  chord_w2 ::
+    Diagrams.Core.Transform.Transformation
+      (Diagrams.Core.V.V
+         (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+      (Diagrams.Core.V.N
+         (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+  {- Unfolding: (case Lib.$satParam4 of cobox { GHC.Types.Eq# cobox1 ->
+                 case Lib.$satParam10 of cobox2 { GHC.Types.Eq# cobox3 ->
+                 case Diagrams.TwoD.Transform.$wreflectionY
+                        @ Linear.V2.V2
+                        @ GHC.Types.Double
+                        Lib.$satParam9
+                        Linear.V2.$fR2V2
+                        Lib.$satParam8 of ww { (#,,#) ww1 ww2 ww3 ->
+                 (Diagrams.Core.Transform.Transformation
+                    @ Linear.V2.V2
+                    @ GHC.Types.Double
+                    ww1
+                    ww2
+                    ww3)
+                   `cast`
+                 (Diagrams.Core.Transform.Transformation
+                    (Sub (Sym cobox1)) (Sym cobox3))_R } } }) -}
+2a68128d4a556bb9a2ec873562ff394c
+  chord_x :: GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.D# 1.0) -}
+62f36d4346084ede8499b96503c65b52
+  eqt ::
+    Data.Array.Repa.Base.Array
+      Data.Array.Repa.Repr.Unboxed.U
+      Data.Array.Repa.Index.DIM1
+      GHC.Types.Double
+  {- Unfolding: (Data.Array.Repa.Eval.Target.fromList
+                   @ Data.Array.Repa.Index.DIM1
+                   @ GHC.Types.Double
+                   @ Data.Array.Repa.Repr.Unboxed.U
+                   Lib.$s!_$s$fShape:.
+                   Lib.$s$fTargetUe
+                   Lib.eqt4
+                   Lib.eqt1) -}
+a841739a7557569437bcacc707e84684
+  eqt1 :: [GHC.Types.Double]
+  {- Unfolding: (Lib.eqt_go Lib.eqt2) -}
+6de3058cf75fceb8f0ecaa4cfc0f54d1
+  eqt2 :: [GHC.Types.Double]
+  {- Unfolding: (GHC.Real.numericEnumFromTo
+                   @ GHC.Types.Double
+                   GHC.Classes.$fOrdDouble
+                   GHC.Float.$fFractionalDouble
+                   Lib.chord_a23
+                   Lib.eqt3) -}
+75f402f0d542afa0d78286c3cded9c7b
+  eqt3 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 11.0) -}
+ca15b362228ae0b8bbcef3b8408e7a9d
+  eqt4 ::
+    Data.Array.Repa.Index.DIM0 Data.Array.Repa.Index.:. GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (Data.Array.Repa.Index.:.
+                   @ Data.Array.Repa.Index.DIM0
+                   @ GHC.Types.Int
+                   Data.Array.Repa.Index.Z
+                   Lib.eqt5) -}
+0632cf3a631f92ba08012ff789a6de6b
+  eqt5 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 12) -}
+945ffe05583e84db41ea3171cc13e317
+  eqt_go :: [GHC.Types.Double] -> [GHC.Types.Double]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+284f891a231ff68b9b5ae3c161740f92
+  farey ::
+    Data.Array.Repa.Base.Array
+      Data.Array.Repa.Repr.Unboxed.U
+      Data.Array.Repa.Index.DIM1
+      GHC.Types.Double
+  {- Unfolding: (Data.Array.Repa.Eval.Target.fromList
+                   @ Data.Array.Repa.Index.DIM1
+                   @ GHC.Types.Double
+                   @ Data.Array.Repa.Repr.Unboxed.U
+                   Lib.$s!_$s$fShape:.
+                   Lib.$s$fTargetUe
+                   Lib.eqt4
+                   Lib.farey1) -}
+d6824d3f9c78d96175ba35f36fc79f1f
+  farey1 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.chord_x
+                   Lib.farey2) -}
+b47a8c0bd98420fcc21016d0de4d095c
+  farey10 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey15
+                   Lib.farey11) -}
+d4479fa4157668871719b0071de35027
+  farey11 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey14
+                   Lib.farey12) -}
+f87c3c8b03613eb366308ee57a46c6a0
+  farey12 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey13
+                   (GHC.Types.[] @ GHC.Types.Double)) -}
+c7089c345670bbce256d000fb0d7ac3d
+  farey13 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.875) -}
+00c0bd38c3dd213f3b945543ae8bb2e3
+  farey14 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.7777777777777777) -}
+950ca552f2b7bd1912d747f0ae63698e
+  farey15 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.6666666666666667) -}
+322313203c86c994d97eefaada170973
+  farey16 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.6) -}
+1263d1d48158070a68cf6f756b07ef2e
+  farey17 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.5) -}
+3d5b627bf4e01a24c82b14079254d4ea
+  farey18 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.4166666666666667) -}
+08f52f9639a5bcfb4e3396e89b0bfa2d
+  farey19 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.3333333333333333) -}
+c739a80b1d31ebc7949f1477468ae0b5
+  farey2 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey23
+                   Lib.farey3) -}
+6012efba1e187eb82cb73220b99b5b67
+  farey20 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.25) -}
+221391825237061ff5ce84b50580752a
+  farey21 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.2) -}
+a9875e391ae74ff1b22a6785fb35fb0a
+  farey22 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.125) -}
+6e6548ef3815bf6d2cc94526b06a3c33
+  farey23 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0666666666666667) -}
+46ba98596f9a8963b76961b9b6a90839
+  farey3 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey22
+                   Lib.farey4) -}
+9afb2173c3cffb414c0bf521db358ea3
+  farey4 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey21
+                   Lib.farey5) -}
+44fd9db153e6512f79a021a1ce42b9f2
+  farey5 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey20
+                   Lib.farey6) -}
+f8974f5d4d6c483664dfc3e87d3233b8
+  farey6 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey19
+                   Lib.farey7) -}
+a1b4db74a6cd297bf009c325989629f7
+  farey7 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey18
+                   Lib.farey8) -}
+a06548caea897f69ce6ca52f1027928b
+  farey8 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey17
+                   Lib.farey9) -}
+4dd5313e99d03f798a5e86cb66be6b5b
+  farey9 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   Lib.farey16
+                   Lib.farey10) -}
+a2f2125ee8e52e14ec73139f9b0901b9
+  osc ::
+    Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+    -> GHC.Types.Double
+    -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Arity: 2, Strictness: <L,U><S,1*U(U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+                   w1 :: GHC.Types.Double ->
+                 case w1 of ww { GHC.Types.D# ww1 -> Lib.$wosc w ww1 }) -}
+514ce5db685f1ff08cc1663ed9925496
+  oscCycle ::
+    Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ halfCycle :: Diagrams.Trail.Trail
+                                  Linear.V2.V2 GHC.Types.Double ->
+                 case halfCycle of wild { Diagrams.Trail.Trail l0 t ->
+                 case t of wild1 {
+                   Diagrams.Trail.Line dt ds
+                   -> Diagrams.Trail.$fMonoidTrail_$c<>
+                        @ Linear.V2.V2
+                        @ GHC.Types.Double
+                        Lib.$s$fMonoidQDiagram1
+                        Linear.V2.$fMetricV2
+                        wild
+                        (Diagrams.Trail.Trail
+                           @ Linear.V2.V2
+                           @ GHC.Types.Double
+                           @ Diagrams.Trail.Line
+                           (Diagrams.Trail.Line
+                              @ Diagrams.Trail.Line
+                              @ Linear.V2.V2
+                              @ GHC.Types.Double
+                              @~ <Diagrams.Trail.Line>_N
+                              (Lib.chord18
+                                 Lib.chord_w2
+                                   `cast`
+                                 (Diagrams.Core.Transform.Transformation
+                                    (Trans
+                                         (Sub (Diagrams.Trail.TFCo:R:VTrail[0]
+                                                   <Linear.V2.V2>_N <GHC.Types.Double>_N))
+                                         (Sub (Sym (Diagrams.Trail.TFCo:R:VSegTree[0]
+                                                        <Linear.V2.V2>_N <GHC.Types.Double>_N))))
+                                    (Trans
+                                         (Diagrams.Trail.TFCo:R:NTrail[0]
+                                              <Linear.V2.V2>_N <GHC.Types.Double>_N)
+                                         (Sym (Diagrams.Trail.TFCo:R:NSegTree[0]
+                                                   <Linear.V2.V2>_N <GHC.Types.Double>_N))))_R
+                                 ds)))
+                   Diagrams.Trail.Loop dt ds ds1
+                   -> Diagrams.Trail.$fMonoidTrail_$c<>
+                        @ Linear.V2.V2
+                        @ GHC.Types.Double
+                        Lib.$s$fMonoidQDiagram1
+                        Linear.V2.$fMetricV2
+                        wild
+                        (Diagrams.Trail.Trail
+                           @ Linear.V2.V2
+                           @ GHC.Types.Double
+                           @ Diagrams.Trail.Loop
+                           (Diagrams.Trail.Loop
+                              @ Diagrams.Trail.Loop
+                              @ Linear.V2.V2
+                              @ GHC.Types.Double
+                              @~ <Diagrams.Trail.Loop>_N
+                              (Lib.chord18
+                                 Lib.chord_w2
+                                   `cast`
+                                 (Diagrams.Core.Transform.Transformation
+                                    (Trans
+                                         (Sub (Diagrams.Trail.TFCo:R:VTrail[0]
+                                                   <Linear.V2.V2>_N <GHC.Types.Double>_N))
+                                         (Sub (Sym (Diagrams.Trail.TFCo:R:VSegTree[0]
+                                                        <Linear.V2.V2>_N <GHC.Types.Double>_N))))
+                                    (Trans
+                                         (Diagrams.Trail.TFCo:R:NTrail[0]
+                                              <Linear.V2.V2>_N <GHC.Types.Double>_N)
+                                         (Sym (Diagrams.Trail.TFCo:R:NSegTree[0]
+                                                   <Linear.V2.V2>_N <GHC.Types.Double>_N))))_R
+                                 ds)
+                              (Diagrams.Segment.$fTransformableSegment1
+                                 @ Diagrams.Segment.Open
+                                 @ Linear.V2.V2
+                                 @ GHC.Types.Double
+                                 Lib.chord_w2
+                                   `cast`
+                                 (Diagrams.Core.Transform.Transformation
+                                    (Sub (Diagrams.Trail.TFCo:R:VTrail[0]
+                                              <Linear.V2.V2>_N <GHC.Types.Double>_N))
+                                    (Diagrams.Trail.TFCo:R:NTrail[0]
+                                         <Linear.V2.V2>_N <GHC.Types.Double>_N))_R
+                                 ds1))) } }) -}
+03116c4318636cc57a572e761c69df1e
+  oscs ::
+    (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+     -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+    -> [(Data.Colour.Internal.Colour GHC.Types.Double,
+         Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Arity: 2, Strictness: <L,C(U)><L,1*U>,
+     Unfolding: (\ strokeFn :: Diagrams.Trail.Trail
+                                 Linear.V2.V2 GHC.Types.Double
+                               -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+                   eta1 :: [(Data.Colour.Internal.Colour GHC.Types.Double,
+                             Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)] ->
+                 Lib.rhythms2
+                   (GHC.Base.map
+                      @ (Data.Colour.Internal.Colour GHC.Types.Double,
+                         Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                      @ (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.B
+                           (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+                           (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
+                           Data.Monoid.Any)
+                      (\ ds :: (Data.Colour.Internal.Colour GHC.Types.Double,
+                                Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double) ->
+                       case ds of wild { (,) col osc1 ->
+                       Lib.rhythms_f
+                         (Diagrams.TwoD.Attributes.SC
+                            @ GHC.Types.Double
+                            (Diagrams.Attributes.SomeColor
+                               @ (Data.Colour.Internal.Colour GHC.Types.Double)
+                               Diagrams.TwoD.Attributes.$fDefaultLineTexture_$s$fColorColour
+                               col))
+                         (strokeFn osc1) })
+                      eta1)) -}
+1f7b5e11b09981b09cad0ec4a2257293
+  polyOsc ::
+    (GHC.Types.Double
+     -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+    -> ([(Data.Colour.Internal.Colour GHC.Types.Double,
+          Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]
+        -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+    -> GHC.Types.Double
+    -> [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+    -> Data.Array.Repa.Base.Array
+         Data.Array.Repa.Repr.Unboxed.U
+         Data.Array.Repa.Index.DIM1
+         GHC.Types.Double
+    -> GHC.Types.Double
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Arity: 6,
+     Strictness: <L,C(U)><L,1*C1(U)><L,U(U)><L,1*U><L,U(H,U(U,U,U))><L,1*U(U)> -}
+534dd4132e5f323f5ae106fa35f0a180
+  polyRhythm ::
+    GHC.Types.Double
+    -> [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+    -> Data.Array.Repa.Base.Array
+         Data.Array.Repa.Repr.Unboxed.U
+         Data.Array.Repa.Index.DIM1
+         GHC.Types.Double
+    -> GHC.Types.Double
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Arity: 4,
+     Unfolding: (Lib.polyOsc
+                   Lib.rhythm
+                   Lib.polyRhythm1
+                     `cast`
+                   (<[(Data.Colour.Internal.Colour GHC.Types.Double,
+                       Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]>_R
+                    ->_R (Diagrams.Core.Types.QDiagram
+                            <Diagrams.Backend.SVG.B>_N
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                            <Data.Monoid.Any>_R)_R)) -}
+291147e55addd1cb6d0ef44acd588127
+  polyRhythm1 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double,
+      Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ oscs1 :: [(Data.Colour.Internal.Colour
+                                GHC.Types.Double,
+                              Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)] ->
+                 case Lib.$wgo1 oscs1 of ww { (#,#) ww1 ww2 ->
+                 Diagrams.Core.Types.$fMonoidQDiagram_$cmconcat
+                   @ Diagrams.Backend.SVG.SVG
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ Data.Monoid.Any
+                   Linear.V2.$fMetricV2
+                   Lib.$s$fMonoidQDiagram1
+                   Data.Semigroup.$fSemigroupAny
+                   (GHC.Base.map
+                      @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                      @ (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.B
+                           (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+                           (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
+                           Data.Monoid.Any)
+                      Lib.polyRhythm2
+                        `cast`
+                      (<Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_R
+                       ->_R (Diagrams.Core.Types.QDiagram
+                               <Diagrams.Backend.SVG.B>_N
+                               (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                               (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                               <Data.Monoid.Any>_R)_R)
+                      ww2)
+                     `cast`
+                   ([(Diagrams.Core.Types.QDiagram
+                        <Diagrams.Backend.SVG.B>_N
+                        (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                        (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                        <Data.Monoid.Any>_R)_R])_R }) -}
+a60ca4ce8cbc040cd9051f135d94af92
+  polyRhythm10 :: Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (case Linear.Vector.zero
+                        @ Linear.V2.V2
+                        Lib.polyRhythm11
+                        @ GHC.Types.Double
+                        GHC.Float.$fNumDouble of wild { Linear.V2.V2 a24 b ->
+                 Linear.V2.V2 @ GHC.Types.Double Lib.chord_x b }) -}
+894cd423208be872dabf636b82038875
+  polyRhythm11 :: Linear.Vector.Additive Linear.V2.V2
+  {- Unfolding: (Diagrams.Core.V.$p3InSpace
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$slc4) -}
+7cc0f98675465d3c5d3aff67aaa4ee93
+  polyRhythm12 ::
+    Linear.Affine.Point
+      (Diagrams.Core.V.V
+         (Diagrams.Core.Types.QDiagram
+            Diagrams.Backend.SVG.SVG
+            Linear.V2.V2
+            GHC.Types.Double
+            Data.Monoid.Any))
+      (Diagrams.Core.V.N
+         (Diagrams.Core.Types.QDiagram
+            Diagrams.Backend.SVG.SVG
+            Linear.V2.V2
+            GHC.Types.Double
+            Data.Monoid.Any))
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Types.$fHasOriginQDiagram_$cmoveOriginTo
+                   @ Diagrams.Backend.SVG.SVG
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ Data.Monoid.Any
+                   Linear.V2.$fMetricV2
+                   Lib.$s$fMonoidQDiagram1
+                   Data.Semigroup.$fSemigroupAny) -}
+266c1c53832056ff9e52832693547760
+  polyRhythm13 ::
+    Data.Monoid.WithSemigroup.Monoid'
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+  {- Unfolding: (Data.Monoid.WithSemigroup.$fMonoid'm
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   (Lib.$s$fSemigroupQDiagram @ Diagrams.Backend.SVG.SVG)
+                   (Lib.$s$fMonoidQDiagram @ Diagrams.Backend.SVG.SVG)) -}
+69da8dddda83f173023ed2197d30a166
+  polyRhythm14 ::
+    Diagrams.Core.V.Vn
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Arity: 3,
+     Unfolding: (Diagrams.Core.Juxtapose.juxtaposeDefault
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.polyRhythm18
+                   Lib.polyRhythm15
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))) -}
+60b02b6e11613c7f48490c0dd0f650ec
+  polyRhythm15 ::
+    Linear.Affine.Point
+      (Diagrams.Core.V.V
+         (Diagrams.Core.Types.QDiagram
+            Diagrams.Backend.SVG.SVG
+            Linear.V2.V2
+            GHC.Types.Double
+            Data.Monoid.Any))
+      (Diagrams.Core.V.N
+         (Diagrams.Core.Types.QDiagram
+            Diagrams.Backend.SVG.SVG
+            Linear.V2.V2
+            GHC.Types.Double
+            Data.Monoid.Any))
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Types.$fHasOriginQDiagram_$cmoveOriginTo
+                   @ Diagrams.Backend.SVG.SVG
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ Data.Monoid.Any
+                   Linear.V2.$fMetricV2
+                   Lib.$s$fMonoidQDiagram1
+                   Lib.polyRhythm16) -}
+70e131fdcb95fd70cb29cddcac29f0ee
+  polyRhythm16 :: Data.Semigroup.Semigroup Data.Monoid.Any
+  {- Unfolding: (Data.Monoid.WithSemigroup.$p1Monoid'
+                   @ Data.Monoid.Any
+                   Lib.polyRhythm17) -}
+21a0fc92be9ac0c4e2cefebed77e4d3a
+  polyRhythm17 :: Data.Monoid.WithSemigroup.Monoid' Data.Monoid.Any
+  {- Unfolding: (Data.Monoid.WithSemigroup.$fMonoid'm
+                   @ Data.Monoid.Any
+                   Data.Semigroup.$fSemigroupAny
+                   Data.Monoid.$fMonoidAny) -}
+3efd83ab6f58ec32c0b759bd0e7ab06f
+  polyRhythm18 ::
+    Diagrams.Core.Envelope.Enveloped
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+  {- Unfolding: (Diagrams.Core.Types.$fEnvelopedQDiagram
+                   @ Diagrams.Backend.SVG.SVG
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ Data.Monoid.Any
+                   Linear.V2.$fMetricV2
+                     `cast`
+                   (Linear.Metric.Metric
+                      (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
+                                <Diagrams.Backend.SVG.SVG>_N
+                                <Linear.V2.V2>_N
+                                <GHC.Types.Double>_N
+                                <Data.Monoid.Any>_N)))_R
+                   Lib.$s$fMonoidQDiagram1
+                     `cast`
+                   (Diagrams.Core.Envelope.OrderedField
+                      (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
+                                <Diagrams.Backend.SVG.SVG>_N
+                                <Linear.V2.V2>_N
+                                <GHC.Types.Double>_N
+                                <Data.Monoid.Any>_N)))_R
+                   Linear.V2.$fMetricV2
+                   Lib.$s$fMonoidQDiagram1
+                   Lib.polyRhythm17) -}
+2f70dfb32475d14001a4ee58697dc21f
+  polyRhythm19 :: Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Lib.oscCycle Lib.polyRhythm20) -}
+a1ce9e5adb8472244cf8efcf9092fcbf
+  polyRhythm2 ::
+    Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ cyc :: Diagrams.Trail.Trail
+                            Linear.V2.V2 GHC.Types.Double ->
+                 Lib.polyRhythm9
+                   (GHC.List.zipWith
+                      @ (Diagrams.Located.Located
+                           (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                         -> Diagrams.Core.Types.QDiagram
+                              Diagrams.Backend.SVG.B
+                              Linear.V2.V2
+                              GHC.Types.Double
+                              Data.Monoid.Any)
+                      @ (Diagrams.Located.Located
+                           (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                      @ (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.B
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any)
+                      (GHC.Base.$
+                         @ (Diagrams.Located.Located
+                              (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                         @ (Diagrams.Core.Types.QDiagram
+                              Diagrams.Backend.SVG.B
+                              Linear.V2.V2
+                              GHC.Types.Double
+                              Data.Monoid.Any))
+                      Lib.polyRhythm_xs'
+                      (Lib.polyRhythm3
+                         (Diagrams.Located.Loc
+                            @ (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                            Lib.chord3
+                              `cast`
+                            (Sym (Linear.Affine.NTCo:Point[0]
+                                      (Sub (Diagrams.Trail.TFCo:R:VTrail[0]
+                                                <Linear.V2.V2>_N
+                                                <GHC.Types.Double>_N))) (Sym (Diagrams.Trail.TFCo:R:NTrail[0]
+                                                                                  <Linear.V2.V2>_N
+                                                                                  <GHC.Types.Double>_N)))
+                            cyc)))) -}
+aa9e4ad87626d09877565082b041d1f5
+  polyRhythm20 :: Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Diagrams.Trail.Trail
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ Diagrams.Trail.Line
+                   Lib.polyRhythm21) -}
+701383cbfc3a49a7da3c365329241f34
+  polyRhythm21 ::
+    Diagrams.Trail.Trail'
+      Diagrams.Trail.Line Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Lib.chord_g Lib.polyRhythm22) -}
+78a4f5de55cd9981c8af9ed6cb57bc36
+  polyRhythm22 ::
+    [Diagrams.Segment.Segment
+       Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Segment.Segment
+                        Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double)
+                   Lib.polyRhythm25
+                   Lib.polyRhythm23) -}
+bdd8b3e6542376f2b69a339d1be616e8
+  polyRhythm23 ::
+    [Diagrams.Segment.Segment
+       Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Segment.Segment
+                        Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double)
+                   Lib.polyRhythm30
+                   Lib.polyRhythm24) -}
+651fe572c83a1d24037015d30afe4003
+  polyRhythm24 ::
+    [Diagrams.Segment.Segment
+       Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Segment.Segment
+                        Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double)
+                   Lib.polyRhythm25
+                   (GHC.Types.[]
+                      @ (Diagrams.Segment.Segment
+                           Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double))) -}
+10ebcbf04d0d20a256cc209da1d07b69
+  polyRhythm25 ::
+    Diagrams.Segment.Segment
+      Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Diagrams.Segment.Linear
+                   @ Diagrams.Segment.Closed
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   Lib.polyRhythm26) -}
+668f766b194bfa4068f70bbf711f7b8f
+  polyRhythm26 ::
+    Diagrams.Segment.Offset
+      Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Diagrams.Segment.OffsetClosed
+                   @ Diagrams.Segment.Closed
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @~ <Diagrams.Segment.Closed>_N
+                   Lib.polyRhythm27) -}
+af9c711901a0a68bee299002dc5fe32f
+  polyRhythm27 :: Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (Linear.V2.V2
+                   @ GHC.Types.Double
+                   Lib.polyRhythm29
+                   Lib.polyRhythm28) -}
+ced5bb22f2a88ccfcfafed5cca7293a4
+  polyRhythm28 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# -0.5) -}
+d995562ad53334f78308ca9401fc35f1
+  polyRhythm29 :: GHC.Types.Double
+  {- Unfolding: (GHC.Types.D# (GHC.Prim.negateDouble# 0.0)) -}
+beab4158eb336f665765e38f86705095
+  polyRhythm3 ::
+    Diagrams.Located.Located
+      (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+    -> [Diagrams.Located.Located
+          (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]
+  {- Unfolding: (Diagrams.TrailLike.explodeTrail
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Located.Located
+                        (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                   Lib.polyRhythm5
+                   Lib.polyRhythm4
+                   Lib.$s$fTrailLikeLocated) -}
+a5516da7236b26716b6d82bf058957b0
+  polyRhythm30 ::
+    Diagrams.Segment.Segment
+      Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Diagrams.Segment.Linear
+                   @ Diagrams.Segment.Closed
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   Lib.polyRhythm31) -}
+6be50cac730fe6f90e1f02d23e648c4b
+  polyRhythm31 ::
+    Diagrams.Segment.Offset
+      Diagrams.Segment.Closed Linear.V2.V2 GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Diagrams.Segment.OffsetClosed
+                   @ Diagrams.Segment.Closed
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @~ <Diagrams.Segment.Closed>_N
+                   Lib.$sunitX) -}
+8a8d94042506516aa1db0f4cde819d63
+  polyRhythm4 ::
+    Diagrams.Core.V.N
+      (Diagrams.Located.Located
+         (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+    ~ GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ (Diagrams.Core.V.N
+                        (Diagrams.Located.Located
+                           (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)))
+                   @ GHC.Types.Double
+                   @~ (Trans
+                           (Diagrams.Located.TFCo:R:NLocated[0]
+                                <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_N)
+                           (Diagrams.Trail.TFCo:R:NTrail[0]
+                                <Linear.V2.V2>_N <GHC.Types.Double>_N))) -}
+1b4443f00233e4f519b8a29f2de615ba
+  polyRhythm5 ::
+    Diagrams.Core.V.V
+      (Diagrams.Located.Located
+         (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+    ~ Linear.V2.V2
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ (* -> *)
+                   @ (Diagrams.Core.V.V
+                        (Diagrams.Located.Located
+                           (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)))
+                   @ Linear.V2.V2
+                   @~ (Trans
+                           (Diagrams.Located.TFCo:R:VLocated[0]
+                                <Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_N)
+                           (Diagrams.Trail.TFCo:R:VTrail[0]
+                                <Linear.V2.V2>_N <GHC.Types.Double>_N))) -}
+1e2af5295600a006407c8ebde975e7c5
+  polyRhythm6 ::
+    [Diagrams.Located.Located
+       (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+     -> Diagrams.Core.Types.QDiagram
+          Diagrams.Backend.SVG.B
+          Linear.V2.V2
+          GHC.Types.Double
+          Data.Monoid.Any]
+0e6083aad1fac8c0e02e67eff71356ad
+  polyRhythm7 ::
+    Diagrams.Located.Located
+      (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x1 :: Diagrams.Located.Located
+                           (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double) ->
+                 Lib.polyRhythm_f
+                   (GHC.Types.:
+                      @ (Diagrams.Located.Located
+                           (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))
+                      x1
+                      (GHC.Types.[]
+                         @ (Diagrams.Located.Located
+                              (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double))))
+                     `cast`
+                   (Sym (Diagrams.Path.NTCo:Path[0]
+                             <Linear.V2.V2>_N <GHC.Types.Double>_N))) -}
+94c39aed3e98cd93433f1275f6905d46
+  polyRhythm8 ::
+    Diagrams.TwoD.Path.StrokeOpts ()
+    -> Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.TwoD.Path.strokeP'
+                   @ ()
+                   @ GHC.Types.Double
+                   @ Diagrams.Backend.SVG.B
+                   Lib.$s$fRenderablePathSVG2
+                   Lib.$s$fRenderablePathSVG
+                   Diagrams.Core.Names.$fIsName()) -}
+4926584b5a16028faecc3f1ed6b3fdf7
+  polyRhythm9 ::
+    [Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.B
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any]
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.Combinators.$wcat'
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$slc4
+                   Linear.V2.$fMetricV2
+                   GHC.Float.$fFloatingDouble
+                   Lib.polyRhythm14
+                     `cast`
+                   (Sym (Diagrams.Core.Juxtapose.NTCo:Juxtaposable[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Lib.polyRhythm13
+                   Lib.polyRhythm12
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Lib.polyRhythm10
+                   Diagrams.Combinators.Cat
+                   Lib.chord_a23) -}
+743926b9400b65481ab801cf54218368
+  polyRhythm_f ::
+    Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Lib.polyRhythm8
+                   (Diagrams.TwoD.Path.$fDefaultStrokeOpts_$cdef @ ())) -}
+a3825a84a0ce064b7ec6f38af0e88533
+  polyRhythm_xs' ::
+    [Diagrams.Located.Located
+       (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+     -> Diagrams.Core.Types.QDiagram
+          Diagrams.Backend.SVG.B
+          Linear.V2.V2
+          GHC.Types.Double
+          Data.Monoid.Any]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Diagrams.Located.Located
+                        (Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                      -> Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.B
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any)
+                   Lib.polyRhythm7
+                   Lib.polyRhythm6) -}
+57a5bc8a07da6a27d34a9199aa40fe53
+  rhythm ::
+    GHC.Types.Double
+    -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Arity: 1, Unfolding: (Lib.osc Lib.polyRhythm19) -}
+f282487cba42b3de6fcc0ef844c83025
+  rhythms ::
+    GHC.Types.Double
+    -> [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+    -> Data.Array.Repa.Base.Array
+         Data.Array.Repa.Repr.Unboxed.U
+         Data.Array.Repa.Index.DIM1
+         GHC.Types.Double
+    -> GHC.Types.Double
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Arity: 4, Unfolding: (Lib.polyOsc Lib.rhythm Lib.rhythms1) -}
+b4efc73048179c05c8d39013ee9c0182
+  rhythms1 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double,
+      Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Arity: 1,
+     Unfolding: (\ eta1 :: [(Data.Colour.Internal.Colour
+                               GHC.Types.Double,
+                             Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)] ->
+                 Lib.rhythms2
+                   (GHC.Base.map
+                      @ (Data.Colour.Internal.Colour GHC.Types.Double,
+                         Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)
+                      @ (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.B
+                           (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+                           (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
+                           Data.Monoid.Any)
+                      (\ ds :: (Data.Colour.Internal.Colour GHC.Types.Double,
+                                Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double) ->
+                       case ds of wild { (,) col osc1 ->
+                       Lib.rhythms_f
+                         (Diagrams.TwoD.Attributes.SC
+                            @ GHC.Types.Double
+                            (Diagrams.Attributes.SomeColor
+                               @ (Data.Colour.Internal.Colour GHC.Types.Double)
+                               Diagrams.TwoD.Attributes.$fDefaultLineTexture_$s$fColorColour
+                               col))
+                         (Lib.polyRhythm2 osc1)
+                           `cast`
+                         (Diagrams.Core.Types.QDiagram
+                            <Diagrams.Backend.SVG.B>_N
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                            <Data.Monoid.Any>_R)_R })
+                      eta1)) -}
+b48f3fcd8df95e7e86153535db7d8f6c
+  rhythms2 ::
+    [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.rhythms5 Lib.rhythms3) -}
+80f731c407f54b1b7694a311d495e6f6
+  rhythms3 :: Diagrams.Combinators.CatOpts GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Diagrams.Combinators.CatOpts
+                   @ GHC.Types.Double
+                   Diagrams.Combinators.Distrib
+                   Lib.rhythms4
+                   (Data.Proxy.Proxy @ * @ GHC.Types.Double)) -}
+c0c8a654207603cdf171382d0e06d5e5
+  rhythms4 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 2.0) -}
+f0c487095c9e5b72393f62393953422d
+  rhythms5 ::
+    Diagrams.Combinators.CatOpts GHC.Types.Double
+    -> [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Diagrams.TwoD.Combinators.vcat'
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Lib.$slc4
+                     `cast`
+                   (Diagrams.Core.V.InSpace
+                      <Linear.V2.V2>_N
+                      <GHC.Types.Double>_N
+                      (Diagrams.Core.Types.QDiagram
+                         <Diagrams.Backend.SVG.B>_N
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                         <Data.Monoid.Any>_N)_N)_R
+                   GHC.Float.$fFloatingDouble
+                   Lib.polyRhythm14
+                     `cast`
+                   (Sym (Diagrams.Core.Juxtapose.NTCo:Juxtaposable[0]
+                             (Diagrams.Core.Types.QDiagram
+                                <Diagrams.Backend.SVG.B>_N
+                                (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                <Data.Monoid.Any>_N)_N))
+                   Lib.polyRhythm12
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             (Diagrams.Core.Types.QDiagram
+                                <Diagrams.Backend.SVG.B>_N
+                                (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                <Data.Monoid.Any>_N)_N))
+                   Lib.polyRhythm13
+                     `cast`
+                   (Data.Monoid.WithSemigroup.Monoid'
+                      (Diagrams.Core.Types.QDiagram
+                         <Diagrams.Backend.SVG.B>_N
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                         <Data.Monoid.Any>_N)_N)_R) -}
+7c7bbea90c67407f3b14c97b081e4bfa
+  rhythms_f ::
+    Diagrams.TwoD.Attributes.Texture GHC.Types.Double
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Diagrams.TwoD.Attributes.lineTexture
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Lib.$slc4
+                     `cast`
+                   (Diagrams.Core.V.InSpace
+                      <Linear.V2.V2>_N
+                      <GHC.Types.Double>_N
+                      (Diagrams.Core.Types.QDiagram
+                         <Diagrams.Backend.SVG.B>_N
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                         <Data.Monoid.Any>_N)_N)_R
+                   Lib.$s$fRenderablePathSVG3
+                     `cast`
+                   (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
+                             <*>_N <GHC.Types.Double>_N))
+                   GHC.Float.$fFloatingDouble
+                   Lib.$slc2
+                     `cast`
+                   (Sym (Diagrams.Core.Style.NTCo:HasStyle[0]
+                             (Diagrams.Core.Types.QDiagram
+                                <Diagrams.Backend.SVG.B>_N
+                                (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                <Data.Monoid.Any>_N)_N))) -}
+ac86a342c1c08a8c9120c9de069606d1
+  tone ::
+    GHC.Types.Double
+    -> Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double
+  {- Arity: 1, Unfolding: (Lib.osc Lib.chord7) -}
+59b17cbf0a7f49e49c4c428239bd2fd0
+  tones ::
+    GHC.Types.Double
+    -> [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+    -> Data.Array.Repa.Base.Array
+         Data.Array.Repa.Repr.Unboxed.U
+         Data.Array.Repa.Index.DIM1
+         GHC.Types.Double
+    -> GHC.Types.Double
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Arity: 4, Unfolding: (Lib.polyOsc Lib.tone Lib.tones1) -}
+a3ea6790190e6f2b28258e319b7448ba
+  tones1 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double,
+      Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]
+    -> Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Arity: 1,
+     Unfolding: (Lib.oscs
+                   Lib.chord6
+                     `cast`
+                   (<Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double>_R
+                    ->_R (Diagrams.Core.Types.QDiagram
+                            <Diagrams.Backend.SVG.B>_N
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                            <Data.Monoid.Any>_R)_R)) -}
+"SPEC/Lib $fEq:. @ Z @ Int" [ALWAYS] forall $dEq :: GHC.Classes.Eq
+                                                      Data.Array.Repa.Index.Z
+                                            $dEq1 :: GHC.Classes.Eq GHC.Types.Int
+  Data.Array.Repa.Index.$fEq:. @ Data.Array.Repa.Index.Z
+                               @ GHC.Types.Int
+                               $dEq
+                               $dEq1
+  = Lib.$s!_$s$fEq:.
+"SPEC/Lib $fFractionalV2 @ Double" [ALWAYS] forall $dNum :: GHC.Num.Num
+                                                              (Linear.V2.V2 GHC.Types.Double)
+                                                   $dFractional :: GHC.Real.Fractional
+                                                                     GHC.Types.Double
+  Linear.V2.$fFractionalV2 @ GHC.Types.Double $dNum $dFractional
+  = Lib.$s$fFractionalV2
+"SPEC/Lib $fMonoidQDiagram _ @ V2 @ Double @ Any" [ALWAYS] forall @ b
+                                                                  $dMetric :: Linear.Metric.Metric
+                                                                                Linear.V2.V2
+                                                                  $dOrderedField :: Diagrams.Core.Envelope.OrderedField
+                                                                                      GHC.Types.Double
+                                                                  $dSemigroup :: Data.Semigroup.Semigroup
+                                                                                   Data.Monoid.Any
+  Diagrams.Core.Types.$fMonoidQDiagram @ b
+                                       @ Linear.V2.V2
+                                       @ GHC.Types.Double
+                                       @ Data.Monoid.Any
+                                       $dMetric
+                                       $dOrderedField
+                                       $dSemigroup
+  = Lib.$s$fMonoidQDiagram @ b
+"SPEC/Lib $fNumV2 @ Double" [ALWAYS] forall $dNum :: GHC.Num.Num
+                                                       GHC.Types.Double
+  Linear.V2.$fNumV2 @ GHC.Types.Double $dNum
+  = Lib.$s$fFractionalV2_$s$fNumV2
+"SPEC/Lib $fRenderablePathSVG @ Double" [ALWAYS] forall $dTransformable :: Diagrams.Core.Transform.Transformable
+                                                                             (Diagrams.Path.Path
+                                                                                Linear.V2.V2
+                                                                                GHC.Types.Double)
+                                                        tup :: Graphics.Rendering.SVG.SVGFloat
+                                                                 GHC.Types.Double
+  Diagrams.Backend.SVG.$fRenderablePathSVG @ GHC.Types.Double
+                                           $dTransformable
+                                           tup
+  = Lib.$s$fRenderablePathSVG
+"SPEC/Lib $fSemigroupQDiagram _ @ V2 @ Double @ Any" [ALWAYS] forall @ b
+                                                                     $dMetric :: Linear.Metric.Metric
+                                                                                   Linear.V2.V2
+                                                                     $dOrderedField :: Diagrams.Core.Envelope.OrderedField
+                                                                                         GHC.Types.Double
+                                                                     $dSemigroup :: Data.Semigroup.Semigroup
+                                                                                      Data.Monoid.Any
+  Diagrams.Core.Types.$fSemigroupQDiagram @ b
+                                          @ Linear.V2.V2
+                                          @ GHC.Types.Double
+                                          @ Data.Monoid.Any
+                                          $dMetric
+                                          $dOrderedField
+                                          $dSemigroup
+  = Lib.$s$fSemigroupQDiagram @ b
+"SPEC/Lib $fSemigroupQDiagram_$cstimes _ @ V2 @ Double @ Any" [ALWAYS] forall @ b
+                                                                              $dMetric :: Linear.Metric.Metric
+                                                                                            Linear.V2.V2
+                                                                              $dOrderedField :: Diagrams.Core.Envelope.OrderedField
+                                                                                                  GHC.Types.Double
+                                                                              $dSemigroup :: Data.Semigroup.Semigroup
+                                                                                               Data.Monoid.Any
+  Diagrams.Core.Types.$fSemigroupQDiagram_$cstimes @ b
+                                                   @ Linear.V2.V2
+                                                   @ GHC.Types.Double
+                                                   @ Data.Monoid.Any
+                                                   $dMetric
+                                                   $dOrderedField
+                                                   $dSemigroup
+  = Lib.$s$fSemigroupQDiagram_$s$fSemigroupQDiagram_$cstimes @ b
+"SPEC/Lib $fShape:. @ Z" [ALWAYS] forall $dEq :: GHC.Classes.Eq
+                                                   (Data.Array.Repa.Index.Z
+                                                    Data.Array.Repa.Index.:. GHC.Types.Int)
+                                         $dShape :: Data.Array.Repa.Shape.Shape
+                                                      Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:. @ Data.Array.Repa.Index.Z
+                                  $dEq
+                                  $dShape
+  = Lib.$s!_$s$fShape:.
+"SPEC/Lib $fShape:._$caddDim @ Z" [1] forall $dEq :: GHC.Classes.Eq
+                                                       (Data.Array.Repa.Index.Z
+                                                        Data.Array.Repa.Index.:. GHC.Types.Int)
+                                             $dShape :: Data.Array.Repa.Shape.Shape
+                                                          Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:._$caddDim @ Data.Array.Repa.Index.Z
+                                           $dEq
+                                           $dShape
+  = Lib.$s$fShape:._$caddDim
+"SPEC/Lib $fShape:._$cdeepSeq @ Z" [ALWAYS] forall $dEq :: GHC.Classes.Eq
+                                                             (Data.Array.Repa.Index.Z
+                                                              Data.Array.Repa.Index.:. GHC.Types.Int)
+                                                   $dShape :: Data.Array.Repa.Shape.Shape
+                                                                Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:._$cdeepSeq @ Data.Array.Repa.Index.Z
+                                            $dEq
+                                            $dShape
+  = Lib.$s!_$s$fShape:._$cdeepSeq
+"SPEC/Lib $fShape:._$cfromIndex @ Z" [1] forall $dEq :: GHC.Classes.Eq
+                                                          (Data.Array.Repa.Index.Z
+                                                           Data.Array.Repa.Index.:. GHC.Types.Int)
+                                                $dShape :: Data.Array.Repa.Shape.Shape
+                                                             Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:._$cfromIndex @ Data.Array.Repa.Index.Z
+                                              $dEq
+                                              $dShape
+  = Lib.$s$fShape:._$cfromIndex
+"SPEC/Lib $fShape:._$cinShapeRange @ Z" [1] forall $dEq :: GHC.Classes.Eq
+                                                             (Data.Array.Repa.Index.Z
+                                                              Data.Array.Repa.Index.:. GHC.Types.Int)
+                                                   $dShape :: Data.Array.Repa.Shape.Shape
+                                                                Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:._$cinShapeRange @ Data.Array.Repa.Index.Z
+                                                 $dEq
+                                                 $dShape
+  = Lib.$s$fShape:._$cinShapeRange
+"SPEC/Lib $fShape:._$cintersectDim @ Z" [1] forall $dEq :: GHC.Classes.Eq
+                                                             (Data.Array.Repa.Index.Z
+                                                              Data.Array.Repa.Index.:. GHC.Types.Int)
+                                                   $dShape :: Data.Array.Repa.Shape.Shape
+                                                                Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:._$cintersectDim @ Data.Array.Repa.Index.Z
+                                                 $dEq
+                                                 $dShape
+  = Lib.$s$fShape:._$cintersectDim
+"SPEC/Lib $fShape:._$crank @ Z" [1] forall $dEq :: GHC.Classes.Eq
+                                                     (Data.Array.Repa.Index.Z
+                                                      Data.Array.Repa.Index.:. GHC.Types.Int)
+                                           $dShape :: Data.Array.Repa.Shape.Shape
+                                                        Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:._$crank @ Data.Array.Repa.Index.Z
+                                         $dEq
+                                         $dShape
+  = Lib.$s$fShape:._$crank
+"SPEC/Lib $fShape:._$csize @ Z" [1] forall $dEq :: GHC.Classes.Eq
+                                                     (Data.Array.Repa.Index.Z
+                                                      Data.Array.Repa.Index.:. GHC.Types.Int)
+                                           $dShape :: Data.Array.Repa.Shape.Shape
+                                                        Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:._$csize @ Data.Array.Repa.Index.Z
+                                         $dEq
+                                         $dShape
+  = Lib.$s$fShape:._$csize
+"SPEC/Lib $fShape:._$csizeIsValid @ Z" [1] forall $dEq :: GHC.Classes.Eq
+                                                            (Data.Array.Repa.Index.Z
+                                                             Data.Array.Repa.Index.:. GHC.Types.Int)
+                                                  $dShape :: Data.Array.Repa.Shape.Shape
+                                                               Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:._$csizeIsValid @ Data.Array.Repa.Index.Z
+                                                $dEq
+                                                $dShape
+  = Lib.$s$fShape:._$csizeIsValid
+"SPEC/Lib $fShape:._$ctoIndex @ Z" [1] forall $dEq :: GHC.Classes.Eq
+                                                        (Data.Array.Repa.Index.Z
+                                                         Data.Array.Repa.Index.:. GHC.Types.Int)
+                                              $dShape :: Data.Array.Repa.Shape.Shape
+                                                           Data.Array.Repa.Index.Z
+  Data.Array.Repa.Index.$fShape:._$ctoIndex @ Data.Array.Repa.Index.Z
+                                            $dEq
+                                            $dShape
+  = Lib.$s$fShape:._$ctoIndex
+"SPEC/Lib $fTargetUe @ Double" [ALWAYS] forall $dUnbox :: Data.Vector.Unboxed.Base.Unbox
+                                                            GHC.Types.Double
+  Data.Array.Repa.Repr.Unboxed.$fTargetUe @ GHC.Types.Double $dUnbox
+  = Lib.$s$fTargetUe
+"SPEC/Lib $fTargetUe_$cdeepSeqMVec @ Double" [ALWAYS] forall $dUnbox :: Data.Vector.Unboxed.Base.Unbox
+                                                                          GHC.Types.Double
+  Data.Array.Repa.Repr.Unboxed.$fTargetUe_$cdeepSeqMVec @ GHC.Types.Double
+                                                        $dUnbox
+  = Lib.$s$fTargetUe_$s$fTargetUe_$cdeepSeqMVec
+"SPEC/Lib $fTargetUe_$cunsafeFreezeMVec @ Double" [ALWAYS] forall $dUnbox :: Data.Vector.Unboxed.Base.Unbox
+                                                                               GHC.Types.Double
+  Data.Array.Repa.Repr.Unboxed.$fTargetUe_$cunsafeFreezeMVec @ GHC.Types.Double
+                                                             $dUnbox
+  = Lib.$s$fTargetUe_$s$fTargetUe_$cunsafeFreezeMVec
+"SPEC/Lib $fTargetUe_$cunsafeWriteMVec @ Double" [ALWAYS] forall $dUnbox :: Data.Vector.Unboxed.Base.Unbox
+                                                                              GHC.Types.Double
+  Data.Array.Repa.Repr.Unboxed.$fTargetUe_$cunsafeWriteMVec @ GHC.Types.Double
+                                                            $dUnbox
+  = Lib.$s$fTargetUe_$s$fTargetUe_$cunsafeWriteMVec
+"SPEC/Lib $fTrailLikeLocated @ (Trail V2 Double)" [ALWAYS] forall $dMetric :: Linear.Metric.Metric
+                                                                                (Diagrams.Core.V.V
+                                                                                   (Diagrams.Located.Located
+                                                                                      (Diagrams.Trail.Trail
+                                                                                         Linear.V2.V2
+                                                                                         GHC.Types.Double)))
+                                                                  $dOrderedField :: Diagrams.Core.Envelope.OrderedField
+                                                                                      (Diagrams.Core.V.N
+                                                                                         (Diagrams.Located.Located
+                                                                                            (Diagrams.Trail.Trail
+                                                                                               Linear.V2.V2
+                                                                                               GHC.Types.Double)))
+                                                                  $dTrailLike :: Diagrams.TrailLike.TrailLike
+                                                                                   (Diagrams.Trail.Trail
+                                                                                      Linear.V2.V2
+                                                                                      GHC.Types.Double)
+  Diagrams.TrailLike.$fTrailLikeLocated @ (Diagrams.Trail.Trail
+                                             Linear.V2.V2 GHC.Types.Double)
+                                        $dMetric
+                                        $dOrderedField
+                                        $dTrailLike
+  = Lib.$s$fTrailLikeLocated
+"SPEC/Lib $fTrailLikeTrail @ V2 @ Double" [ALWAYS] forall $dMetric :: Linear.Metric.Metric
+                                                                        (Diagrams.Core.V.V
+                                                                           (Diagrams.Trail.Trail
+                                                                              Linear.V2.V2
+                                                                              GHC.Types.Double))
+                                                          $dOrderedField :: Diagrams.Core.Envelope.OrderedField
+                                                                              (Diagrams.Core.V.N
+                                                                                 (Diagrams.Trail.Trail
+                                                                                    Linear.V2.V2
+                                                                                    GHC.Types.Double))
+                                                          $dMetric1 :: Linear.Metric.Metric
+                                                                         Linear.V2.V2
+                                                          $dOrderedField1 :: Diagrams.Core.Envelope.OrderedField
+                                                                               GHC.Types.Double
+  Diagrams.TrailLike.$fTrailLikeTrail @ Linear.V2.V2
+                                      @ GHC.Types.Double
+                                      $dMetric
+                                      $dOrderedField
+                                      $dMetric1
+                                      $dOrderedField1
+  = Lib.$s$fTrailLikeTrail
+"SPEC/Lib length @ Vector @ Double" [ALWAYS] forall $dVector :: Data.Vector.Generic.Base.Vector
+                                                                  Data.Vector.Unboxed.Base.Vector
+                                                                  GHC.Types.Double
+  Data.Vector.Generic.length @ Data.Vector.Unboxed.Base.Vector
+                             @ GHC.Types.Double
+                             $dVector
+  = Lib.$s!_$slength
+"SPEC/Lib unitX @ V2 @ Double" [ALWAYS] forall $dR1 :: Linear.V1.R1
+                                                         Linear.V2.V2
+                                               $dAdditive :: Linear.Vector.Additive Linear.V2.V2
+                                               $dNum :: GHC.Num.Num GHC.Types.Double
+  Diagrams.TwoD.Vector.unitX @ Linear.V2.V2
+                             @ GHC.Types.Double
+                             $dR1
+                             $dAdditive
+                             $dNum
+  = Lib.$sunitX
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

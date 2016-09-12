@@ -1,0 +1,4111 @@
+Configuring csound-expression-5.0.1...
+Building csound-expression-5.0.1...
+Preprocessing library csound-expression-5.0.1...
+[ 1 of 42] Compiling Csound.Control.Overload.SpecInstr ( src/Csound/Control/Overload/SpecInstr.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Overload/SpecInstr.o )
+[ 2 of 42] Compiling Csound.Control.Overload.Outs ( src/Csound/Control/Overload/Outs.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Overload/Outs.o )
+
+src/Csound/Control/Overload/Outs.hs:19:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:20:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:23:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:24:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:27:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:28:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:31:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:32:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:35:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:36:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:39:1: Warning: Tab character
+
+src/Csound/Control/Overload/Outs.hs:40:1: Warning: Tab character
+[ 3 of 42] Compiling Csound.Control.Gui.Props ( src/Csound/Control/Gui/Props.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Gui/Props.o )
+[ 4 of 42] Compiling Csound.Control.Gui.Layout ( src/Csound/Control/Gui/Layout.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Gui/Layout.o )
+[ 5 of 42] Compiling Csound.Control.Channel ( src/Csound/Control/Channel.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Channel.o )
+[ 6 of 42] Compiling Csound.Control.Osc ( src/Csound/Control/Osc.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Osc.o )
+[ 7 of 42] Compiling Csound.Control.SE ( src/Csound/Control/SE.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/SE.o )
+
+src/Csound/Control/SE.hs:7:1: Warning:
+    The import of ‘Csound.Typed.Types.Tuple’ is redundant
+      except perhaps to import instances from ‘Csound.Typed.Types.Tuple’
+    To import instances alone, use: import Csound.Typed.Types.Tuple()
+[ 8 of 42] Compiling Csound.Options   ( src/Csound/Options.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Options.o )
+[ 9 of 42] Compiling Csound.Tab       ( src/Csound/Tab.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Tab.o )
+
+src/Csound/Tab.hs:100:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Csound/Tab.hs:106:1: Warning:
+    The import of ‘Csound.Typed.Opcode’ is redundant
+      except perhaps to import instances from ‘Csound.Typed.Opcode’
+    To import instances alone, use: import Csound.Typed.Opcode()
+
+src/Csound/Tab.hs:199:8: Warning:
+    This binding for ‘genId’ shadows the existing binding
+      imported from ‘Csound.Dynamic’ at src/Csound/Tab.hs:102:1-48
+      (and originally defined in ‘Csound.Dynamic.Types.Exp’)
+
+src/Csound/Tab.hs:202:8: Warning:
+    This binding for ‘genId’ shadows the existing binding
+      imported from ‘Csound.Dynamic’ at src/Csound/Tab.hs:102:1-48
+      (and originally defined in ‘Csound.Dynamic.Types.Exp’)
+
+src/Csound/Tab.hs:400:35: Warning:
+    This binding for ‘pn’ shadows the existing binding
+      imported from ‘Csound.Dynamic’ at src/Csound/Tab.hs:102:1-48
+      (and originally defined in ‘Csound.Dynamic.Build’)
+
+src/Csound/Tab.hs:404:35: Warning:
+    This binding for ‘pn’ shadows the existing binding
+      imported from ‘Csound.Dynamic’ at src/Csound/Tab.hs:102:1-48
+      (and originally defined in ‘Csound.Dynamic.Build’)
+
+src/Csound/Tab.hs:563:16: Warning:
+    This binding for ‘genId’ shadows the existing binding
+      imported from ‘Csound.Dynamic’ at src/Csound/Tab.hs:102:1-48
+      (and originally defined in ‘Csound.Dynamic.Types.Exp’)
+
+src/Csound/Tab.hs:574:5: Warning:
+    This binding for ‘genId’ shadows the existing binding
+      imported from ‘Csound.Dynamic’ at src/Csound/Tab.hs:102:1-48
+      (and originally defined in ‘Csound.Dynamic.Types.Exp’)
+[10 of 42] Compiling Csound.Air.Spec  ( src/Csound/Air/Spec.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Spec.o )
+
+src/Csound/Air/Spec.hs:2:26: Warning: Tab character
+
+src/Csound/Air/Spec.hs:77:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:77:20: Warning: Tab character
+
+src/Csound/Air/Spec.hs:78:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:78:24: Warning: Tab character
+
+src/Csound/Air/Spec.hs:79:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:80:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:81:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:82:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:83:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:84:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:85:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:86:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:87:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:88:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:91:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:92:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:92:28: Warning: Tab character
+
+src/Csound/Air/Spec.hs:93:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:93:32: Warning: Tab character
+
+src/Csound/Air/Spec.hs:94:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:95:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:96:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:97:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:98:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:99:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:100:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:101:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:102:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:103:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:124:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:125:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:126:1: Warning: Tab character
+
+src/Csound/Air/Spec.hs:127:1: Warning: Tab character
+[11 of 42] Compiling Csound.Air.Hvs   ( src/Csound/Air/Hvs.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Hvs.o )
+
+src/Csound/Air/Hvs.hs:3:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:4:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:6:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:7:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:10:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Csound/Air/Hvs.hs:16:1: Warning:
+    The qualified import of ‘Csound.Typed.Opcode’ is redundant
+      except perhaps to import instances from ‘Csound.Typed.Opcode’
+    To import instances alone, use: import Csound.Typed.Opcode()
+
+src/Csound/Air/Hvs.hs:96:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:97:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:98:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:99:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:100:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:101:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:103:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:104:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:128:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:129:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:130:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:131:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:132:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:133:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:134:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:136:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:137:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:142:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:143:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:144:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:145:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:146:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:147:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:148:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:149:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:151:1: Warning: Tab character
+
+src/Csound/Air/Hvs.hs:152:1: Warning: Tab character
+[12 of 42] Compiling Csound.Types     ( src/Csound/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Types.o )
+[13 of 42] Compiling Csound.Tuning    ( src/Csound/Tuning.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Tuning.o )
+
+src/Csound/Tuning.hs:25:1: Warning:
+    The import of ‘Csound.Typed.Opcode’ is redundant
+      except perhaps to import instances from ‘Csound.Typed.Opcode’
+    To import instances alone, use: import Csound.Typed.Opcode()
+
+src/Csound/Tuning.hs:121:24: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Tuning.hs:25:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Tuning.hs:125:25: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Tuning.hs:25:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Tuning.hs:135:1: Warning:
+    Top-level binding with no type signature: equalCents1 :: [Double]
+
+src/Csound/Tuning.hs:136:1: Warning:
+    Top-level binding with no type signature: justCents1 :: [Double]
+
+src/Csound/Tuning.hs:137:1: Warning:
+    Top-level binding with no type signature: meantoneCents :: [Double]
+
+src/Csound/Tuning.hs:138:1: Warning:
+    Top-level binding with no type signature: pythagorCents :: [Double]
+
+src/Csound/Tuning.hs:139:1: Warning:
+    Top-level binding with no type signature:
+      werckmeisterCents :: [Double]
+
+src/Csound/Tuning.hs:141:1: Warning:
+    Top-level binding with no type signature: youngCents1 :: [Double]
+
+src/Csound/Tuning.hs:142:1: Warning:
+    Top-level binding with no type signature: youngCents2 :: [Double]
+
+src/Csound/Tuning.hs:143:1: Warning:
+    Top-level binding with no type signature: youngCents3 :: [Double]
+
+src/Csound/Tuning.hs:145:1: Warning:
+    Top-level binding with no type signature:
+      toTemp :: [Double] -> Temp
+[14 of 42] Compiling Csound.Control.Overload.MidiInstr ( src/Csound/Control/Overload/MidiInstr.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Overload/MidiInstr.o )
+[15 of 42] Compiling Csound.Control.Overload ( src/Csound/Control/Overload.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Overload.o )
+[16 of 42] Compiling Csound.SigSpace  ( src/Csound/SigSpace.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/SigSpace.o )
+
+src/Csound/SigSpace.hs:17:1: Warning:
+    The import of ‘Csound.Types’ is redundant
+      except perhaps to import instances from ‘Csound.Types’
+    To import instances alone, use: import Csound.Types()
+
+src/Csound/SigSpace.hs:39:20: Warning:
+    This binding for ‘a’ shadows the existing binding
+      bound at src/Csound/SigSpace.hs:38:4
+
+src/Csound/SigSpace.hs:378:1: Warning:
+    Top-level binding with no type signature:
+      fromMono :: forall t. t -> (t, t)
+[17 of 42] Compiling Csound.Air.Wave  ( src/Csound/Air/Wave.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Wave.o )
+
+src/Csound/Air/Wave.hs:4:1: Warning: Tab character
+
+src/Csound/Air/Wave.hs:47:1: Warning:
+    The import of ‘sines4’ from module ‘Csound.Tab’ is redundant
+
+src/Csound/Air/Wave.hs:130:10: Warning:
+    This binding for ‘mod’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Air/Wave.hs:3:8-22
+      (and originally defined in ‘GHC.Real’)
+
+src/Csound/Air/Wave.hs:170:1: Warning:
+    Top-level binding with no type signature: uosc' :: D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:171:1: Warning:
+    Top-level binding with no type signature:
+      uoscBy' :: Tab -> D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:172:1: Warning:
+    Top-level binding with no type signature: usaw' :: D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:173:1: Warning:
+    Top-level binding with no type signature: uisaw' :: D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:174:1: Warning:
+    Top-level binding with no type signature:
+      upulse' :: D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:175:1: Warning:
+    Top-level binding with no type signature: usqr' :: D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:176:1: Warning:
+    Top-level binding with no type signature:
+      upw' :: Sig -> D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:177:1: Warning:
+    Top-level binding with no type signature: utri' :: D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:178:1: Warning:
+    Top-level binding with no type signature:
+      uramp' :: Sig -> D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:179:1: Warning:
+    Top-level binding with no type signature:
+      ublosc' :: Tab -> D -> Sig -> Sig
+
+src/Csound/Air/Wave.hs:188:1: Warning:
+    Top-level binding with no type signature: rndOsc :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:189:1: Warning:
+    Top-level binding with no type signature:
+      rndOscBy :: Tab -> Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:190:1: Warning:
+    Top-level binding with no type signature: rndSaw :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:191:1: Warning:
+    Top-level binding with no type signature: rndIsaw :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:192:1: Warning:
+    Top-level binding with no type signature: rndPulse :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:193:1: Warning:
+    Top-level binding with no type signature: rndSqr :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:194:1: Warning:
+    Top-level binding with no type signature:
+      rndPw :: Sig -> Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:195:1: Warning:
+    Top-level binding with no type signature: rndTri :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:196:1: Warning:
+    Top-level binding with no type signature:
+      rndRamp :: Sig -> Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:197:1: Warning:
+    Top-level binding with no type signature:
+      rndBlosc :: Tab -> Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:199:1: Warning:
+    Top-level binding with no type signature: urndOsc :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:200:1: Warning:
+    Top-level binding with no type signature:
+      urndOscBy :: Tab -> Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:201:1: Warning:
+    Top-level binding with no type signature: urndSaw :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:202:1: Warning:
+    Top-level binding with no type signature: urndIsaw :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:203:1: Warning:
+    Top-level binding with no type signature:
+      urndPulse :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:204:1: Warning:
+    Top-level binding with no type signature: urndSqr :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:205:1: Warning:
+    Top-level binding with no type signature:
+      urndPw :: Sig -> Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:206:1: Warning:
+    Top-level binding with no type signature: urndTri :: Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:207:1: Warning:
+    Top-level binding with no type signature:
+      urndRamp :: Sig -> Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:208:1: Warning:
+    Top-level binding with no type signature:
+      urndBlosc :: Tab -> Sig -> SE Sig
+
+src/Csound/Air/Wave.hs:267:1: Warning:
+    Top-level binding with no type signature:
+      linRange :: forall a. Integral a => a -> Sig -> [Sig]
+[18 of 42] Compiling Csound.Air.Padsynth ( src/Csound/Air/Padsynth.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Padsynth.o )
+
+src/Csound/Air/Padsynth.hs:54:29: Warning:
+    This binding for ‘freq’ shadows the existing binding
+      bound at src/Csound/Air/Padsynth.hs:51:31
+
+src/Csound/Air/Padsynth.hs:59:5: Warning:
+    This binding for ‘left’ shadows the existing binding
+      imported from ‘Control.Arrow’ at src/Csound/Air/Padsynth.hs:34:1-20
+
+src/Csound/Air/Padsynth.hs:60:5: Warning:
+    This binding for ‘right’ shadows the existing binding
+      imported from ‘Control.Arrow’ at src/Csound/Air/Padsynth.hs:34:1-20
+
+src/Csound/Air/Padsynth.hs:87:1: Warning:
+    Defined but not used: ‘toThreshholdCond’
+
+src/Csound/Air/Padsynth.hs:128:24: Warning:
+    Defined but not used: ‘specs’
+
+src/Csound/Air/Padsynth.hs:128:31: Warning:
+    Defined but not used: ‘amp’
+
+src/Csound/Air/Padsynth.hs:128:36: Warning:
+    Defined but not used: ‘freq’
+
+src/Csound/Air/Padsynth.hs:145:7: Warning:
+    Defined but not used: ‘cond’
+
+src/Csound/Air/Padsynth.hs:146:19: Warning:
+    Defined but not used: ‘cond2’
+
+src/Csound/Air/Padsynth.hs:175:1: Warning:
+    Top-level binding with no type signature: limit :: Int
+
+src/Csound/Air/Padsynth.hs:177:1: Warning:
+    Top-level binding with no type signature: triCoeff :: [Double]
+
+src/Csound/Air/Padsynth.hs:178:1: Warning:
+    Top-level binding with no type signature: sqrCoeff :: [Double]
+
+src/Csound/Air/Padsynth.hs:179:1: Warning:
+    Top-level binding with no type signature: sawCoeff :: [Double]
+[19 of 42] Compiling Csound.Air.Filter ( src/Csound/Air/Filter.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Filter.o )
+
+src/Csound/Air/Filter.hs:43:1: Warning:
+    The import of ‘Control.Monad.Trans.Class’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Class’
+    To import instances alone, use: import Control.Monad.Trans.Class()
+
+src/Csound/Air/Filter.hs:214:1: Warning:
+    Top-level binding with no type signature: anO :: [(Sig, Sig)]
+
+src/Csound/Air/Filter.hs:215:1: Warning:
+    Top-level binding with no type signature: anA :: [(Sig, Sig)]
+
+src/Csound/Air/Filter.hs:216:1: Warning:
+    Top-level binding with no type signature: anE :: [(Sig, Sig)]
+
+src/Csound/Air/Filter.hs:217:1: Warning:
+    Top-level binding with no type signature: anIY :: [(Sig, Sig)]
+
+src/Csound/Air/Filter.hs:218:1: Warning:
+    Top-level binding with no type signature: anO2 :: [(Sig, Sig)]
+
+src/Csound/Air/Filter.hs:227:11: Warning:
+    This binding for ‘reson’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Filter.hs:41:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Filter.hs:233:11: Warning:
+    This binding for ‘reson’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Filter.hs:41:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Filter.hs:239:11: Warning:
+    This binding for ‘reson’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Filter.hs:41:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Filter.hs:245:11: Warning:
+    This binding for ‘reson’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Filter.hs:41:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+[20 of 42] Compiling Csound.Air.Envelope ( src/Csound/Air/Envelope.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Envelope.o )
+
+src/Csound/Air/Envelope.hs:48:1: Warning:
+    The import of ‘Csound.Air.Wave’ is redundant
+      except perhaps to import instances from ‘Csound.Air.Wave’
+    To import instances alone, use: import Csound.Air.Wave()
+
+src/Csound/Air/Envelope.hs:49:1: Warning:
+    The import of ‘Csound.Tab’ is redundant
+      except perhaps to import instances from ‘Csound.Tab’
+    To import instances alone, use: import Csound.Tab()
+
+src/Csound/Air/Envelope.hs:50:1: Warning:
+    The import of ‘Csound.Air.Wave’ is redundant
+      except perhaps to import instances from ‘Csound.Air.Wave’
+    To import instances alone, use: import Csound.Air.Wave()
+
+src/Csound/Air/Envelope.hs:51:1: Warning:
+    The import of ‘Csound.Air.Filter’ is redundant
+      except perhaps to import instances from ‘Csound.Air.Filter’
+    To import instances alone, use: import Csound.Air.Filter()
+
+src/Csound/Air/Envelope.hs:83:7: Warning:
+    This binding for ‘dur’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:182:13: Warning:
+    Defined but not used: ‘a’
+
+src/Csound/Air/Envelope.hs:182:22: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:199:17: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:205:22: Warning:
+    Defined but not used: ‘a’
+
+src/Csound/Air/Envelope.hs:206:21: Warning:
+    Defined but not used: ‘a’
+
+src/Csound/Air/Envelope.hs:206:25: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:275:1: Warning:
+    Top-level binding with no type signature:
+      sawList :: forall t. Num t => [t] -> [t]
+
+src/Csound/Air/Envelope.hs:278:7: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:280:1: Warning:
+    Top-level binding with no type signature:
+      isawList :: forall t. Num t => [t] -> [t]
+
+src/Csound/Air/Envelope.hs:283:7: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:285:1: Warning:
+    Top-level binding with no type signature:
+      triList :: forall t. Num t => [t] -> [t]
+
+src/Csound/Air/Envelope.hs:287:7: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:289:1: Warning:
+    Top-level binding with no type signature:
+      pwList :: forall t. Num t => t -> [t] -> [t]
+
+src/Csound/Air/Envelope.hs:293:1: Warning:
+    Top-level binding with no type signature:
+      ipwList :: forall t. Num t => t -> [t] -> [t]
+
+src/Csound/Air/Envelope.hs:297:1: Warning:
+    Top-level binding with no type signature:
+      rampList :: forall t. Fractional t => t -> t -> [t] -> [t]
+
+src/Csound/Air/Envelope.hs:305:1: Warning:
+    Top-level binding with no type signature:
+      irampList :: forall t. Fractional t => t -> t -> [t] -> [t]
+
+src/Csound/Air/Envelope.hs:408:18: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:418:19: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:424:19: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:481:18: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:522:11: Warning:
+    Defined but not used: ‘seq1Val’
+
+src/Csound/Air/Envelope.hs:575:1: Warning:
+    Top-level binding with no type signature:
+      simpleSeq0 :: ([Sig] -> Sig -> Sig) -> [Seq] -> Sig -> Sig
+
+src/Csound/Air/Envelope.hs:576:1: Warning:
+    Top-level binding with no type signature:
+      simpleSeq1 :: ([Sig] -> Sig -> Sig) -> [Seq] -> Sig -> Sig
+
+src/Csound/Air/Envelope.hs:578:1: Warning:
+    Top-level binding with no type signature:
+      seq0 :: (Sig -> Sig -> [Sig]) -> [Seq] -> Sig -> Sig
+
+src/Csound/Air/Envelope.hs:579:1: Warning:
+    Top-level binding with no type signature:
+      seq1 :: (Sig -> Sig -> [Sig]) -> [Seq] -> Sig -> Sig
+
+src/Csound/Air/Envelope.hs:580:1: Warning:
+    Top-level binding with no type signature:
+      seqx :: (Sig -> Sig -> [Sig]) -> [Seq] -> Sig -> Sig
+
+src/Csound/Air/Envelope.hs:616:1: Warning:
+    Top-level binding with no type signature:
+      saw1 :: forall t. Num t => t -> t -> [t]
+
+src/Csound/Air/Envelope.hs:617:1: Warning:
+    Top-level binding with no type signature:
+      isaw1 :: forall t. Num t => t -> t -> [t]
+
+src/Csound/Air/Envelope.hs:655:1: Warning:
+    Top-level binding with no type signature:
+      adsr1 :: forall t. Num t => t -> t -> t -> t -> t -> t -> [t]
+
+src/Csound/Air/Envelope.hs:656:1: Warning:
+    Top-level binding with no type signature:
+      adsr1_ :: forall t. Num t => t -> t -> t -> t -> t -> t -> t -> [t]
+
+src/Csound/Air/Envelope.hs:656:16: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:681:18: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:685:19: Warning:
+    This binding for ‘rest’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Envelope.hs:43:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Envelope.hs:726:1: Warning:
+    Top-level binding with no type signature:
+      rowDesc :: forall a t.
+                 (Enum t, Fractional t, Integral a) =>
+                 a -> [t]
+
+src/Csound/Air/Envelope.hs:802:55: Warning:
+    Defaulting the following constraint(s) to type ‘Integer’
+      (Enum a0)
+        arising from the arithmetic sequence ‘0 .. ’
+        at src/Csound/Air/Envelope.hs:802:55-60
+      (Eq a0)
+        arising from a use of ‘==’ at src/Csound/Air/Envelope.hs:804:31-32
+      (Integral a0)
+        arising from a use of ‘mod’ at src/Csound/Air/Envelope.hs:804:23-25
+      (Num a0)
+        arising from the literal ‘2’ at src/Csound/Air/Envelope.hs:804:29
+    In the first argument of ‘zip’, namely ‘[0 .. ]’
+    In the second argument of ‘($)’, namely ‘zip [0 .. ] xs’
+    In the second argument of ‘($)’, namely
+      ‘mapM human1 $ zip [0 .. ] xs’
+
+src/Csound/Air/Envelope.hs:809:25: Warning:
+    This binding for ‘release’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Envelope.hs:46:1-62
+      (and originally defined in ‘Csound.Typed.Opcode.RealtimeMIDI’)
+
+src/Csound/Air/Envelope.hs:809:78: Warning:
+    Defaulting the following constraint(s) to type ‘Integer’
+      (Enum a0)
+        arising from the arithmetic sequence ‘0 .. ’
+        at src/Csound/Air/Envelope.hs:809:78-83
+      (Eq a0)
+        arising from a use of ‘==’ at src/Csound/Air/Envelope.hs:811:31-32
+      (Integral a0)
+        arising from a use of ‘mod’ at src/Csound/Air/Envelope.hs:811:23-25
+      (Num a0)
+        arising from the literal ‘2’ at src/Csound/Air/Envelope.hs:811:29
+    In the first argument of ‘zip’, namely ‘[0 .. ]’
+    In the second argument of ‘($)’, namely ‘zip [0 .. ] xs’
+    In the second argument of ‘($)’, namely
+      ‘mapM human1 $ zip [0 .. ] xs’
+
+src/Csound/Air/Envelope.hs:841:56: Warning:
+    Defaulting the following constraint(s) to type ‘Integer’
+      (Enum a0)
+        arising from the arithmetic sequence ‘0 .. ’
+        at src/Csound/Air/Envelope.hs:841:56-61
+      (Eq a0)
+        arising from a use of ‘==’ at src/Csound/Air/Envelope.hs:843:31-32
+      (Integral a0)
+        arising from a use of ‘mod’ at src/Csound/Air/Envelope.hs:843:23-25
+      (Num a0)
+        arising from the literal ‘2’ at src/Csound/Air/Envelope.hs:843:29
+    In the first argument of ‘zip’, namely ‘[0 .. ]’
+    In the second argument of ‘($)’, namely ‘zip [0 .. ] xs’
+    In the second argument of ‘($)’, namely
+      ‘mapM human1 $ zip [0 .. ] xs’
+
+src/Csound/Air/Envelope.hs:848:26: Warning:
+    This binding for ‘release’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Envelope.hs:46:1-62
+      (and originally defined in ‘Csound.Typed.Opcode.RealtimeMIDI’)
+
+src/Csound/Air/Envelope.hs:848:65: Warning:
+    Defaulting the following constraint(s) to type ‘Integer’
+      (Enum a0)
+        arising from the arithmetic sequence ‘0 .. ’
+        at src/Csound/Air/Envelope.hs:848:65-70
+      (Eq a0)
+        arising from a use of ‘==’ at src/Csound/Air/Envelope.hs:850:31-32
+      (Integral a0)
+        arising from a use of ‘mod’ at src/Csound/Air/Envelope.hs:850:23-25
+      (Num a0)
+        arising from the literal ‘2’ at src/Csound/Air/Envelope.hs:850:29
+    In the first argument of ‘zip’, namely ‘[0 .. ]’
+    In the second argument of ‘($)’, namely ‘zip [0 .. ] xs’
+    In the second argument of ‘liftA2’, namely
+      ‘(mapM human1 $ zip [0 .. ] xs)’
+
+src/Csound/Air/Envelope.hs:880:69: Warning:
+    Defaulting the following constraint(s) to type ‘Integer’
+      (Enum a0)
+        arising from the arithmetic sequence ‘0 .. ’
+        at src/Csound/Air/Envelope.hs:880:69-74
+      (Eq a0)
+        arising from a use of ‘==’ at src/Csound/Air/Envelope.hs:882:31-32
+      (Integral a0)
+        arising from a use of ‘mod’ at src/Csound/Air/Envelope.hs:882:23-25
+      (Num a0)
+        arising from the literal ‘2’ at src/Csound/Air/Envelope.hs:882:29
+    In the first argument of ‘zip’, namely ‘[0 .. ]’
+    In the second argument of ‘($)’, namely ‘zip [0 .. ] xs’
+    In the second argument of ‘($)’, namely
+      ‘mapM human1 $ zip [0 .. ] xs’
+
+src/Csound/Air/Envelope.hs:887:39: Warning:
+    This binding for ‘release’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Envelope.hs:46:1-62
+      (and originally defined in ‘Csound.Typed.Opcode.RealtimeMIDI’)
+
+src/Csound/Air/Envelope.hs:887:78: Warning:
+    Defaulting the following constraint(s) to type ‘Integer’
+      (Enum a0)
+        arising from the arithmetic sequence ‘0 .. ’
+        at src/Csound/Air/Envelope.hs:887:78-83
+      (Eq a0)
+        arising from a use of ‘==’ at src/Csound/Air/Envelope.hs:889:31-32
+      (Integral a0)
+        arising from a use of ‘mod’ at src/Csound/Air/Envelope.hs:889:23-25
+      (Num a0)
+        arising from the literal ‘2’ at src/Csound/Air/Envelope.hs:889:29
+    In the first argument of ‘zip’, namely ‘[0 .. ]’
+    In the second argument of ‘($)’, namely ‘zip [0 .. ] xs’
+    In the second argument of ‘liftA2’, namely
+      ‘(mapM human1 $ zip [0 .. ] xs)’
+[21 of 42] Compiling Csound.Air.ModArg ( src/Csound/Air/ModArg.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/ModArg.o )
+
+src/Csound/Air/ModArg.hs:396:1: Warning:
+    Defined but not used: ‘pinkArg1’
+
+src/Csound/Air/ModArg.hs:399:1: Warning:
+    Defined but not used: ‘pinkArg2’
+
+src/Csound/Air/ModArg.hs:402:1: Warning:
+    Defined but not used: ‘pinkArg3’
+
+src/Csound/Air/ModArg.hs:405:1: Warning:
+    Defined but not used: ‘pinkArg4’
+
+src/Csound/Air/ModArg.hs:410:1: Warning:
+    Defined but not used: ‘delPinkArg1’
+
+src/Csound/Air/ModArg.hs:413:1: Warning:
+    Defined but not used: ‘delPinkArg2’
+
+src/Csound/Air/ModArg.hs:416:1: Warning:
+    Defined but not used: ‘delPinkArg3’
+
+src/Csound/Air/ModArg.hs:419:1: Warning:
+    Defined but not used: ‘delPinkArg4’
+[22 of 42] Compiling Csound.Air.Fx    ( src/Csound/Air/Fx.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Fx.o )
+
+src/Csound/Air/Fx.hs:42:1: Warning:
+    The import of ‘newTab, sec2rel’
+    from module ‘Csound.Tab’ is redundant
+
+src/Csound/Air/Fx.hs:180:5: Warning:
+    This binding for ‘ptr’ shadows the existing binding
+      bound at src/Csound/Air/Fx.hs:177:5
+
+src/Csound/Air/Fx.hs:231:13: Warning: Defined but not used: ‘abuf’
+
+src/Csound/Air/Fx.hs:238:13: Warning: Defined but not used: ‘abuf’
+
+src/Csound/Air/Fx.hs:302:17: Warning:
+    This binding for ‘min’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Air/Fx.hs:2:8-20
+      (and originally defined in ‘ghc-prim-0.4.0.0:GHC.Classes’)
+
+src/Csound/Air/Fx.hs:302:22: Warning:
+    This binding for ‘max’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Air/Fx.hs:2:8-20
+      (and originally defined in ‘ghc-prim-0.4.0.0:GHC.Classes’)
+
+src/Csound/Air/Fx.hs:305:17: Warning:
+    This binding for ‘min’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Air/Fx.hs:2:8-20
+      (and originally defined in ‘ghc-prim-0.4.0.0:GHC.Classes’)
+
+src/Csound/Air/Fx.hs:305:22: Warning:
+    This binding for ‘max’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Air/Fx.hs:2:8-20
+      (and originally defined in ‘ghc-prim-0.4.0.0:GHC.Classes’)
+
+src/Csound/Air/Fx.hs:316:7: Warning:
+    This binding for ‘mix’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Fx.hs:41:1-19
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Control.Mix’)
+
+src/Csound/Air/Fx.hs:339:37: Warning:
+    This binding for ‘ar’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Fx.hs:41:1-19
+      (and originally defined in ‘Csound.Typed.Types.Prim’)
+
+src/Csound/Air/Fx.hs:349:42: Warning:
+    This binding for ‘ar’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Fx.hs:41:1-19
+      (and originally defined in ‘Csound.Typed.Types.Prim’)
+
+src/Csound/Air/Fx.hs:357:14: Warning:
+    This binding for ‘mod’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Air/Fx.hs:2:8-20
+      (and originally defined in ‘GHC.Real’)
+
+src/Csound/Air/Fx.hs:377:43: Warning:
+    This binding for ‘ar’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Fx.hs:41:1-19
+      (and originally defined in ‘Csound.Typed.Types.Prim’)
+
+src/Csound/Air/Fx.hs:400:50: Warning:
+    This binding for ‘ar’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Fx.hs:41:1-19
+      (and originally defined in ‘Csound.Typed.Types.Prim’)
+
+src/Csound/Air/Fx.hs:410:5: Warning:
+    Defined but not used: ‘aBuffer’
+
+src/Csound/Air/Fx.hs:444:32: Warning:
+    This binding for ‘ar’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Fx.hs:41:1-19
+      (and originally defined in ‘Csound.Typed.Types.Prim’)
+
+src/Csound/Air/Fx.hs:453:14: Warning:
+    This binding for ‘gain’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Fx.hs:43:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Fx.hs:462:15: Warning:
+    This binding for ‘gain’ shadows the existing binding
+      bound at src/Csound/Air/Fx.hs:453:14
+
+src/Csound/Air/Fx.hs:468:15: Warning:
+    This binding for ‘gain’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Fx.hs:43:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Fx.hs:468:25: Warning:
+    This binding for ‘ar’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Fx.hs:41:1-19
+      (and originally defined in ‘Csound.Typed.Types.Prim’)
+
+src/Csound/Air/Fx.hs:493:5: Warning:
+    This binding for ‘noise’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Fx.hs:43:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Fx.hs:507:5: Warning:
+    This binding for ‘noise’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Fx.hs:43:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Fx.hs:580:17: Warning:
+    This binding for ‘kindx’ shadows the existing binding
+      bound at src/Csound/Air/Fx.hs:578:17
+
+src/Csound/Air/Fx.hs:584:17: Warning:
+    This binding for ‘kindx’ shadows the existing binding
+      bound at src/Csound/Air/Fx.hs:580:17
+
+src/Csound/Air/Fx.hs:591:17: Warning:
+    This binding for ‘kindx’ shadows the existing binding
+      bound at src/Csound/Air/Fx.hs:589:17
+[23 of 42] Compiling Csound.Air.Fm    ( src/Csound/Air/Fm.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Fm.o )
+
+src/Csound/Air/Fm.hs:11:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:12:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:13:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:14:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:15:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:17:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:18:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:19:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:20:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:21:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:40:27: Warning:
+    Defined but not used: ‘unFmNode’
+
+src/Csound/Air/Fm.hs:47:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:48:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:49:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:50:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:52:1: Warning:
+    Top-level binding with no type signature: defSt :: St
+
+src/Csound/Air/Fm.hs:53:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:54:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:54:21: Warning: Tab character
+
+src/Csound/Air/Fm.hs:55:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:58:13: Warning:
+    This binding for ‘units’ shadows the existing binding
+      defined at src/Csound/Air/Fm.hs:48:11
+
+src/Csound/Air/Fm.hs:59:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:60:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:61:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:62:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:63:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:65:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:66:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:67:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:67:35: Warning:
+    This binding for ‘mod’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Air/Fm.hs:10:8-20
+      (and originally defined in ‘GHC.Real’)
+
+src/Csound/Air/Fm.hs:68:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:69:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:70:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:72:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:73:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:75:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:76:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:76:87: Warning: Tab character
+
+src/Csound/Air/Fm.hs:77:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:77:31: Warning:
+    This binding for ‘mod’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Air/Fm.hs:10:8-20
+      (and originally defined in ‘GHC.Real’)
+
+src/Csound/Air/Fm.hs:78:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:79:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:84:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:85:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:86:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:87:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:113:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:114:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:115:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:121:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:128:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:141:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:142:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:143:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:144:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:147:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:147:19: Warning: Tab character
+
+src/Csound/Air/Fm.hs:148:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:152:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:153:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:154:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:155:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:156:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:157:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:158:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:162:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:162:48: Warning: Tab character
+
+src/Csound/Air/Fm.hs:163:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:164:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:165:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:178:1: Warning:
+    Top-level binding with no type signature: dx_1 :: FmGraph
+
+src/Csound/Air/Fm.hs:179:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:180:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:181:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:182:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:183:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:184:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:185:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:197:1: Warning:
+    Top-level binding with no type signature: dx_2 :: FmGraph
+
+src/Csound/Air/Fm.hs:198:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:199:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:200:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:201:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:202:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:203:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:214:1: Warning:
+    Top-level binding with no type signature: dx_3 :: FmGraph
+
+src/Csound/Air/Fm.hs:215:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:216:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:217:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:218:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:219:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:220:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:221:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:233:1: Warning:
+    Top-level binding with no type signature: dx_4 :: FmGraph
+
+src/Csound/Air/Fm.hs:234:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:235:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:236:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:237:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:238:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:239:1: Warning: Tab character
+
+src/Csound/Air/Fm.hs:240:1: Warning: Tab character
+[24 of 42] Compiling Csound.Control.Evt ( src/Csound/Control/Evt.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Evt.o )
+
+src/Csound/Control/Evt.hs:105:11: Warning:
+    This binding for ‘singleEvent’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Control/Evt.hs:31:1-21
+
+src/Csound/Control/Evt.hs:134:11: Warning:
+    This binding for ‘trigger’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Control/Evt.hs:34:1-54
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Control/Evt.hs:153:9: Warning:
+    This binding for ‘within’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Control/Evt.hs:31:1-21
+[25 of 42] Compiling Csound.Control.Instr ( src/Csound/Control/Instr.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Instr.o )
+
+src/Csound/Control/Instr.hs:113:1: Warning:
+    The import of ‘Temporal.Media’ is redundant
+      except perhaps to import instances from ‘Temporal.Media’
+    To import instances alone, use: import Temporal.Media()
+
+src/Csound/Control/Instr.hs:116:1: Warning:
+    Module ‘Temporal.Media’ does not export ‘delay’
+
+src/Csound/Control/Instr.hs:116:1: Warning:
+    Module ‘Temporal.Media’ does not export ‘line’
+
+src/Csound/Control/Instr.hs:116:1: Warning:
+    Module ‘Temporal.Media’ does not export ‘chord’
+
+src/Csound/Control/Instr.hs:116:1: Warning:
+    Module ‘Temporal.Media’ does not export ‘stretch’
+
+src/Csound/Control/Instr.hs:120:55: Warning:
+    In the use of ‘metroE’ (imported from Csound.Control.Evt):
+    Deprecated: "Use metro instead"
+
+src/Csound/Control/Instr.hs:127:57: Warning:
+    In the use of ‘metroE’ (imported from Csound.Control.Evt):
+    Deprecated: "Use metro instead"
+[26 of 42] Compiling Csound.Air.Wav   ( src/Csound/Air/Wav.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Wav.o )
+
+src/Csound/Air/Wav.hs:46:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Csound/Air/Wav.hs:50:1: Warning:
+    The import of ‘Control.Monad.Trans.Class’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Class’
+    To import instances alone, use: import Control.Monad.Trans.Class()
+
+src/Csound/Air/Wav.hs:56:1: Warning:
+    The import of ‘sched’
+    from module ‘Csound.Control.Instr’ is redundant
+
+src/Csound/Air/Wav.hs:77:15: Warning:
+    This binding for ‘dur’ shadows the existing binding
+      imported from ‘Temporal.Media’ at src/Csound/Air/Wav.hs:48:1-21
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Wav.hs:119:28: Warning:
+    In the use of ‘metroE’ (imported from Csound.Control.Evt):
+    Deprecated: "Use metro instead"
+
+src/Csound/Air/Wav.hs:308:26: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Wav.hs:308:35: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:326:8: Warning:
+    Defined but not used: ‘irefdur’
+
+src/Csound/Air/Wav.hs:413:18: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:416:53: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:455:17: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:455:23: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:459:17: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:459:23: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:464:30: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:464:36: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:469:30: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:469:36: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:475:30: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:475:36: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:481:30: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:481:36: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:485:18: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:485:24: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:489:18: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:489:24: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:493:31: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:493:37: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:497:31: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:497:37: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:501:31: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:501:37: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:505:31: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Wav.hs:505:37: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Wav.hs:54:1-26
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+[27 of 42] Compiling Csound.Air.Granular ( src/Csound/Air/Granular.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Granular.o )
+
+src/Csound/Air/Granular.hs:48:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:50:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:51:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:52:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:53:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:54:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:56:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:57:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:58:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:59:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:61:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:62:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:63:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:64:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:66:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:67:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:68:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:70:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:71:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:72:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:74:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:76:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:77:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:79:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:81:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:82:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:83:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:84:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:85:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:86:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:87:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:88:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:89:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:90:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:91:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:92:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:93:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:94:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:95:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:96:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:96:69: Warning: Tab character
+
+src/Csound/Air/Granular.hs:98:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:99:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:100:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:101:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:102:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:103:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:105:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:106:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:112:1: Warning:
+    The import of ‘Data.Boolean’ is redundant
+      except perhaps to import instances from ‘Data.Boolean’
+    To import instances alone, use: import Data.Boolean()
+
+src/Csound/Air/Granular.hs:113:1: Warning:
+    The import of ‘Data.List’ is redundant
+      except perhaps to import instances from ‘Data.List’
+    To import instances alone, use: import Data.List()
+
+src/Csound/Air/Granular.hs:114:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Csound/Air/Granular.hs:115:1: Warning:
+    The import of ‘Control.Monad.Trans.Class’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Class’
+    To import instances alone, use: import Control.Monad.Trans.Class()
+
+src/Csound/Air/Granular.hs:120:1: Warning:
+    The qualified import of ‘C.syncgrain, C.partikkel, C.grain’
+    from module ‘Csound.Typed.Opcode’ is redundant
+
+src/Csound/Air/Granular.hs:134:1: Warning:
+    Defined but not used: ‘w1’
+
+src/Csound/Air/Granular.hs:134:1: Warning:
+    Top-level binding with no type signature: w1 :: [Char]
+
+src/Csound/Air/Granular.hs:135:1: Warning:
+    Defined but not used: ‘w2’
+
+src/Csound/Air/Granular.hs:135:1: Warning:
+    Top-level binding with no type signature: w2 :: [Char]
+
+src/Csound/Air/Granular.hs:136:1: Warning:
+    Defined but not used: ‘w3’
+
+src/Csound/Air/Granular.hs:136:1: Warning:
+    Top-level binding with no type signature: w3 :: [Char]
+
+src/Csound/Air/Granular.hs:141:16: Warning: Tab character
+
+src/Csound/Air/Granular.hs:142:16: Warning: Tab character
+
+src/Csound/Air/Granular.hs:143:14: Warning: Tab character
+
+src/Csound/Air/Granular.hs:154:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:154:32: Warning: Tab character
+
+src/Csound/Air/Granular.hs:155:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:155:27: Warning: Tab character
+
+src/Csound/Air/Granular.hs:156:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:156:24: Warning: Tab character
+
+src/Csound/Air/Granular.hs:157:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:157:27: Warning: Tab character
+
+src/Csound/Air/Granular.hs:158:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:158:27: Warning: Tab character
+
+src/Csound/Air/Granular.hs:159:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:159:30: Warning: Tab character
+
+src/Csound/Air/Granular.hs:160:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:160:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:161:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:161:34: Warning: Tab character
+
+src/Csound/Air/Granular.hs:162:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:162:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:162:47: Warning: Tab character
+
+src/Csound/Air/Granular.hs:163:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:163:24: Warning: Tab character
+
+src/Csound/Air/Granular.hs:163:55: Warning: Tab character
+
+src/Csound/Air/Granular.hs:164:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:164:30: Warning: Tab character
+
+src/Csound/Air/Granular.hs:164:47: Warning: Tab character
+
+src/Csound/Air/Granular.hs:165:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:165:31: Warning: Tab character
+
+src/Csound/Air/Granular.hs:166:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:166:36: Warning: Tab character
+
+src/Csound/Air/Granular.hs:167:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:167:34: Warning: Tab character
+
+src/Csound/Air/Granular.hs:167:47: Warning: Tab character
+
+src/Csound/Air/Granular.hs:168:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:168:26: Warning: Tab character
+
+src/Csound/Air/Granular.hs:169:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:169:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:170:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:170:26: Warning: Tab character
+
+src/Csound/Air/Granular.hs:171:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:171:27: Warning: Tab character
+
+src/Csound/Air/Granular.hs:171:55: Warning: Tab character
+
+src/Csound/Air/Granular.hs:172:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:172:32: Warning: Tab character
+
+src/Csound/Air/Granular.hs:173:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:173:27: Warning: Tab character
+
+src/Csound/Air/Granular.hs:174:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:174:33: Warning: Tab character
+
+src/Csound/Air/Granular.hs:174:47: Warning: Tab character
+
+src/Csound/Air/Granular.hs:175:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:175:31: Warning: Tab character
+
+src/Csound/Air/Granular.hs:175:47: Warning: Tab character
+
+src/Csound/Air/Granular.hs:176:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:176:31: Warning: Tab character
+
+src/Csound/Air/Granular.hs:176:47: Warning: Tab character
+
+src/Csound/Air/Granular.hs:177:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:177:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:178:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:178:30: Warning: Tab character
+
+src/Csound/Air/Granular.hs:179:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:182:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:183:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:183:40: Warning: Tab character
+
+src/Csound/Air/Granular.hs:184:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:184:35: Warning: Tab character
+
+src/Csound/Air/Granular.hs:185:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:185:32: Warning: Tab character
+
+src/Csound/Air/Granular.hs:186:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:186:35: Warning: Tab character
+
+src/Csound/Air/Granular.hs:187:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:187:35: Warning: Tab character
+
+src/Csound/Air/Granular.hs:188:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:188:38: Warning: Tab character
+
+src/Csound/Air/Granular.hs:189:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:189:37: Warning: Tab character
+
+src/Csound/Air/Granular.hs:190:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:190:42: Warning: Tab character
+
+src/Csound/Air/Granular.hs:191:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:191:37: Warning: Tab character
+
+src/Csound/Air/Granular.hs:191:52: Warning: Tab character
+
+src/Csound/Air/Granular.hs:192:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:192:32: Warning: Tab character
+
+src/Csound/Air/Granular.hs:193:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:193:38: Warning: Tab character
+
+src/Csound/Air/Granular.hs:193:56: Warning: Tab character
+
+src/Csound/Air/Granular.hs:194:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:194:39: Warning: Tab character
+
+src/Csound/Air/Granular.hs:195:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:195:44: Warning: Tab character
+
+src/Csound/Air/Granular.hs:196:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:196:42: Warning: Tab character
+
+src/Csound/Air/Granular.hs:197:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:197:34: Warning: Tab character
+
+src/Csound/Air/Granular.hs:198:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:198:37: Warning: Tab character
+
+src/Csound/Air/Granular.hs:199:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:199:34: Warning: Tab character
+
+src/Csound/Air/Granular.hs:200:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:200:35: Warning: Tab character
+
+src/Csound/Air/Granular.hs:200:93: Warning: Tab character
+
+src/Csound/Air/Granular.hs:201:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:201:40: Warning: Tab character
+
+src/Csound/Air/Granular.hs:202:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:202:35: Warning: Tab character
+
+src/Csound/Air/Granular.hs:203:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:203:41: Warning: Tab character
+
+src/Csound/Air/Granular.hs:204:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:204:39: Warning: Tab character
+
+src/Csound/Air/Granular.hs:205:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:205:39: Warning: Tab character
+
+src/Csound/Air/Granular.hs:205:56: Warning: Tab character
+
+src/Csound/Air/Granular.hs:206:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:206:37: Warning: Tab character
+
+src/Csound/Air/Granular.hs:207:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:207:38: Warning: Tab character
+
+src/Csound/Air/Granular.hs:208:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:213:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:213:25: Warning: Tab character
+
+src/Csound/Air/Granular.hs:214:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:214:23: Warning: Tab character
+
+src/Csound/Air/Granular.hs:215:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:215:23: Warning: Tab character
+
+src/Csound/Air/Granular.hs:216:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:219:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:220:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:220:33: Warning: Tab character
+
+src/Csound/Air/Granular.hs:221:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:221:31: Warning: Tab character
+
+src/Csound/Air/Granular.hs:222:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:222:31: Warning: Tab character
+
+src/Csound/Air/Granular.hs:223:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:256:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:257:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:258:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:259:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:260:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:261:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:262:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:263:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:264:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:265:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:266:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:267:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:268:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:269:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:271:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:271:22: Warning: Tab character
+
+src/Csound/Air/Granular.hs:271:35: Warning: Tab character
+
+src/Csound/Air/Granular.hs:272:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:272:25: Warning: Tab character
+
+src/Csound/Air/Granular.hs:272:35: Warning: Tab character
+
+src/Csound/Air/Granular.hs:274:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:275:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:276:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:304:66: Warning: Tab character
+
+src/Csound/Air/Granular.hs:305:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:309:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:318:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:319:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:320:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:321:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:325:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:343:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:360:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:360:17: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Granular.hs:377:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:377:17: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Granular.hs:382:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:383:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:384:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:385:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:392:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:393:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:393:46: Warning: Tab character
+
+src/Csound/Air/Granular.hs:394:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:404:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:405:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:406:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:431:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:432:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:433:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:434:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:435:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:436:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:437:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:438:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:439:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:440:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:440:28: Warning: Tab character
+
+src/Csound/Air/Granular.hs:441:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:444:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:447:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:448:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:449:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:450:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:451:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:452:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:453:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:454:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:455:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:456:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:457:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:457:37: Warning: Tab character
+
+src/Csound/Air/Granular.hs:458:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:460:1: Warning:
+    Top-level binding with no type signature: toPercent :: D -> D
+
+src/Csound/Air/Granular.hs:487:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:493:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:494:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:495:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:501:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:505:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:506:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:506:22: Warning: Tab character
+
+src/Csound/Air/Granular.hs:507:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:507:22: Warning: Tab character
+
+src/Csound/Air/Granular.hs:508:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:509:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:510:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:511:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:512:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:513:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:514:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:515:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:516:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:517:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:518:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:519:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:520:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:521:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:522:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:523:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:524:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:525:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:527:1: Warning:
+    Defined but not used: ‘main’
+
+src/Csound/Air/Granular.hs:527:1: Warning:
+    Top-level binding with no type signature: main :: IO ()
+
+src/Csound/Air/Granular.hs:586:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:586:24: Warning: Tab character
+
+src/Csound/Air/Granular.hs:587:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:587:32: Warning: Tab character
+
+src/Csound/Air/Granular.hs:588:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:592:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:593:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:594:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:595:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:598:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:599:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:599:32: Warning: Tab character
+
+src/Csound/Air/Granular.hs:600:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:600:42: Warning: Tab character
+
+src/Csound/Air/Granular.hs:601:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:604:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:605:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:606:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:607:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:608:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:631:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:632:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:634:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:635:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:636:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:638:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:638:17: Warning:
+    Defined but not used: ‘awp’
+
+src/Csound/Air/Granular.hs:639:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:643:61: Warning: Tab character
+
+src/Csound/Air/Granular.hs:644:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:645:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:646:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:647:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:648:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:649:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:650:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:651:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:653:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:653:21: Warning:
+    Defined but not used: ‘awp’
+
+src/Csound/Air/Granular.hs:654:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:655:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:661:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:662:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:667:76: Warning: Tab character
+
+src/Csound/Air/Granular.hs:668:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:674:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:675:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:676:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:677:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:682:87: Warning: Tab character
+
+src/Csound/Air/Granular.hs:683:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:699:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:700:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:701:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:702:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:703:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:706:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:707:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:708:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:709:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:710:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:711:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:727:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:728:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:733:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:734:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:761:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:762:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:767:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:768:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:786:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:787:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:788:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:789:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:790:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:791:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:792:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:793:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:794:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:797:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:798:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:798:32: Warning: Tab character
+
+src/Csound/Air/Granular.hs:799:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:799:32: Warning: Tab character
+
+src/Csound/Air/Granular.hs:800:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:800:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:801:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:801:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:802:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:802:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:803:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:803:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:804:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:804:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:805:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:805:29: Warning: Tab character
+
+src/Csound/Air/Granular.hs:806:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:811:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:816:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:820:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:825:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:826:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:827:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:828:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:829:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:830:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:831:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:833:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:834:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:834:27: Warning:
+    This binding for ‘buf’ shadows the existing binding
+      bound at src/Csound/Air/Granular.hs:824:31
+
+src/Csound/Air/Granular.hs:834:31: Warning:
+    This binding for ‘kphs’ shadows the existing binding
+      bound at src/Csound/Air/Granular.hs:824:35
+
+src/Csound/Air/Granular.hs:834:40: Warning: Tab character
+
+src/Csound/Air/Granular.hs:835:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:836:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:836:55: Warning: Tab character
+
+src/Csound/Air/Granular.hs:837:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:838:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:838:57: Warning: Tab character
+
+src/Csound/Air/Granular.hs:839:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:839:71: Warning: Tab character
+
+src/Csound/Air/Granular.hs:840:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:841:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:855:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:856:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:857:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:858:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:859:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:860:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:861:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:862:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:863:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:864:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:865:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:866:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:868:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:870:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:871:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:871:20: Warning:
+    This binding for ‘kFmod’ shadows the existing binding
+      bound at src/Csound/Air/Granular.hs:860:17
+
+src/Csound/Air/Granular.hs:871:26: Warning:
+    This binding for ‘tabLen’ shadows the existing binding
+      bound at src/Csound/Air/Granular.hs:868:17
+
+src/Csound/Air/Granular.hs:871:46: Warning: Tab character
+
+src/Csound/Air/Granular.hs:872:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:873:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:873:71: Warning: Tab character
+
+src/Csound/Air/Granular.hs:874:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:875:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:875:57: Warning: Tab character
+
+src/Csound/Air/Granular.hs:876:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:876:83: Warning: Tab character
+
+src/Csound/Air/Granular.hs:878:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:879:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:883:63: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Granular.hs:884:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:884:18: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Granular.hs:888:72: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Granular.hs:889:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:893:49: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Granular.hs:894:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:894:18: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Granular.hs:898:61: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Granular.hs:898:67: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Granular.hs:899:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:899:18: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Granular.hs:903:72: Warning:
+    This binding for ‘tempo’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Granular.hs:903:78: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Granular.hs:904:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:904:18: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Granular.hs:908:71: Warning:
+    This binding for ‘pitch’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Granular.hs:909:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:909:18: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Granular.hs:119:1-97
+      (and originally defined in ‘Csound.Typed.Opcode.SignalGenerators’)
+
+src/Csound/Air/Granular.hs:914:1: Warning:
+    Top-level binding with no type signature: fxFeed :: Feedback
+
+src/Csound/Air/Granular.hs:915:1: Warning:
+    Top-level binding with no type signature: fxBalance :: Balance
+
+src/Csound/Air/Granular.hs:916:1: Warning:
+    Top-level binding with no type signature:
+      fxMaxLength :: MaxDelayTime
+
+src/Csound/Air/Granular.hs:917:1: Warning:
+    Top-level binding with no type signature: fxDelTime :: DelayTime
+
+src/Csound/Air/Granular.hs:983:31: Warning: Tab character
+
+src/Csound/Air/Granular.hs:983:88: Warning: Tab character
+
+src/Csound/Air/Granular.hs:983:124: Warning: Tab character
+
+src/Csound/Air/Granular.hs:983:136: Warning: Tab character
+
+src/Csound/Air/Granular.hs:983:156: Warning: Tab character
+
+src/Csound/Air/Granular.hs:986:5: Warning: Tab character
+
+src/Csound/Air/Granular.hs:1002:1: Warning: Tab character
+
+src/Csound/Air/Granular.hs:1051:1: Warning:
+    Top-level binding with no type signature:
+      csdFof2 :: Sig
+                 -> Sig
+                 -> Sig
+                 -> Sig
+                 -> Sig
+                 -> Sig
+                 -> Sig
+                 -> Sig
+                 -> D
+                 -> Tab
+                 -> Tab
+                 -> D
+                 -> Sig
+                 -> Sig
+                 -> Sig
+[28 of 42] Compiling Csound.Air.Pan   ( src/Csound/Air/Pan.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Pan.o )
+[29 of 42] Compiling Csound.Control.Midi ( src/Csound/Control/Midi.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Midi.o )
+
+src/Csound/Control/Midi.hs:37:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:43:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:44:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:45:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:49:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:50:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:51:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:106:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:107:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:131:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:132:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:137:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:138:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:139:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:140:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:141:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:142:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:143:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:144:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:145:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:146:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:146:33: Warning: Tab character
+
+src/Csound/Control/Midi.hs:150:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:151:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:151:28: Warning: Tab character
+
+src/Csound/Control/Midi.hs:152:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:153:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:154:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:155:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:156:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:157:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:157:80: Warning: Tab character
+
+src/Csound/Control/Midi.hs:172:1: Warning:
+    Defined but not used: ‘namedAmpCpsSig’
+
+src/Csound/Control/Midi.hs:173:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:173:51: Warning: Tab character
+
+src/Csound/Control/Midi.hs:174:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:175:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:176:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:177:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:178:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:179:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:180:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:181:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:182:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:183:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:184:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:185:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:185:48: Warning: Tab character
+
+src/Csound/Control/Midi.hs:186:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:187:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:188:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:202:29: Warning: Tab character
+
+src/Csound/Control/Midi.hs:203:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:204:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:205:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:207:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:208:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:209:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:211:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:212:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:213:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:214:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:215:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:216:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:220:30: Warning: Tab character
+
+src/Csound/Control/Midi.hs:221:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:222:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:223:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:225:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:226:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:227:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:229:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:230:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:231:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:232:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:233:1: Warning: Tab character
+
+src/Csound/Control/Midi.hs:234:1: Warning: Tab character
+[30 of 42] Compiling Csound.Control.Sf ( src/Csound/Control/Sf.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Sf.o )
+[31 of 42] Compiling Csound.Air.Patch ( src/Csound/Air/Patch.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Patch.o )
+
+src/Csound/Air/Patch.hs:4:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:5:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:5:35: Warning: Tab character
+
+src/Csound/Air/Patch.hs:6:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:7:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:9:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:10:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:12:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:13:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:14:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:16:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:17:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:19:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:20:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:22:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:23:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:25:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:26:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:28:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:29:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:31:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:32:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:33:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:34:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:35:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:37:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:38:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:40:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:41:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:43:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:44:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:45:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:46:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:47:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:59:1: Warning:
+    The import of ‘ampdb’
+    from module ‘Csound.Typed.Opcode’ is redundant
+
+src/Csound/Air/Patch.hs:92:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:93:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:93:24: Warning: Tab character
+
+src/Csound/Air/Patch.hs:94:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:98:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:99:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:99:18: Warning: Tab character
+
+src/Csound/Air/Patch.hs:100:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:108:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:109:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:110:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:111:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:116:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:117:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:118:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:119:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:120:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:133:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:148:57: Warning: Tab character
+
+src/Csound/Air/Patch.hs:212:56: Warning: Tab character
+
+src/Csound/Air/Patch.hs:233:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:234:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:235:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:246:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:246:128: Warning: Tab character
+
+src/Csound/Air/Patch.hs:247:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:317:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:318:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:319:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:363:1: Warning: Tab character
+
+src/Csound/Air/Patch.hs:364:1: Warning: Tab character
+[32 of 42] Compiling Csound.Control.Gui.Widget ( src/Csound/Control/Gui/Widget.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Gui/Widget.o )
+
+src/Csound/Control/Gui/Widget.hs:188:21: Warning:
+    Defined but not used: ‘ds’
+
+src/Csound/Control/Gui/Widget.hs:231:11: Warning:
+    This binding for ‘width’ shadows the existing binding
+      imported from ‘Csound.Typed.Gui’ at src/Csound/Control/Gui/Widget.hs:60:1-23
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.BoxModel’)
+
+src/Csound/Control/Gui/Widget.hs:231:17: Warning:
+    This binding for ‘height’ shadows the existing binding
+      imported from ‘Csound.Typed.Gui’ at src/Csound/Control/Gui/Widget.hs:60:1-23
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.BoxModel’)
+
+src/Csound/Control/Gui/Widget.hs:239:19: Warning:
+    This binding for ‘width’ shadows the existing binding
+      imported from ‘Csound.Typed.Gui’ at src/Csound/Control/Gui/Widget.hs:60:1-23
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.BoxModel’)
+
+src/Csound/Control/Gui/Widget.hs:239:25: Warning:
+    This binding for ‘height’ shadows the existing binding
+      imported from ‘Csound.Typed.Gui’ at src/Csound/Control/Gui/Widget.hs:60:1-23
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.BoxModel’)
+
+src/Csound/Control/Gui/Widget.hs:255:19: Warning:
+    This binding for ‘as’ shadows the existing binding
+      bound at src/Csound/Control/Gui/Widget.hs:239:38
+
+src/Csound/Control/Gui/Widget.hs:280:20: Warning:
+    This binding for ‘reads’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Control/Gui/Widget.hs:6:8-32
+      (and originally defined in ‘Text.Read’)
+
+src/Csound/Control/Gui/Widget.hs:338:11: Warning:
+    This binding for ‘widget’ shadows the existing binding
+      imported from ‘Csound.Typed.Gui’ at src/Csound/Control/Gui/Widget.hs:60:1-23
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.Widget’)
+
+src/Csound/Control/Gui/Widget.hs:341:11: Warning:
+    This binding for ‘widget’ shadows the existing binding
+      imported from ‘Csound.Typed.Gui’ at src/Csound/Control/Gui/Widget.hs:60:1-23
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.Widget’)
+
+src/Csound/Control/Gui/Widget.hs:423:17: Warning:
+    This binding for ‘span’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Control/Gui/Widget.hs:6:8-32
+      (and originally defined in ‘GHC.List’)
+
+src/Csound/Control/Gui/Widget.hs:428:19: Warning:
+    This binding for ‘span’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Control/Gui/Widget.hs:6:8-32
+      (and originally defined in ‘GHC.List’)
+
+src/Csound/Control/Gui/Widget.hs:455:20: Warning:
+    This binding for ‘reads’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Control/Gui/Widget.hs:6:8-32
+      (and originally defined in ‘Text.Read’)
+
+src/Csound/Control/Gui/Widget.hs:188:1: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘genNumbers’: Patterns not matched: _ []
+[33 of 42] Compiling Csound.Control.Gui ( src/Csound/Control/Gui.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control/Gui.o )
+
+src/Csound/Control/Gui.hs:89:1: Warning:
+    The import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+
+src/Csound/Control/Gui.hs:145:9: Warning:
+    This binding for ‘props’ shadows the existing binding
+      imported from ‘Csound.Control.Gui.Props’ at src/Csound/Control/Gui.hs:96:1-31
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.Gui’)
+
+src/Csound/Control/Gui.hs:150:9: Warning:
+    This binding for ‘props’ shadows the existing binding
+      imported from ‘Csound.Control.Gui.Props’ at src/Csound/Control/Gui.hs:96:1-31
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.Gui’)
+
+src/Csound/Control/Gui.hs:153:24: Warning:
+    This binding for ‘props’ shadows the existing binding
+      imported from ‘Csound.Control.Gui.Props’ at src/Csound/Control/Gui.hs:96:1-31
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.Gui’)
+
+src/Csound/Control/Gui.hs:172:1: Warning:
+    Top-level binding with no type signature:
+      lift2' :: forall a b c.
+                Double
+                -> Double
+                -> (Gui -> Gui -> Gui)
+                -> (a -> b -> c)
+                -> Source a
+                -> Source b
+                -> Source c
+
+src/Csound/Control/Gui.hs:173:22: Warning:
+    This binding for ‘gf’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:172:12
+
+src/Csound/Control/Gui.hs:173:28: Warning:
+    This binding for ‘a’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:172:8
+
+src/Csound/Control/Gui.hs:173:30: Warning:
+    This binding for ‘b’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:172:10
+
+src/Csound/Control/Gui.hs:200:1: Warning:
+    Top-level binding with no type signature:
+      lift3' :: forall a b c d.
+                Double
+                -> Double
+                -> Double
+                -> (Gui -> Gui -> Gui -> Gui)
+                -> (a -> b -> c -> d)
+                -> Source a
+                -> Source b
+                -> Source c
+                -> Source d
+
+src/Csound/Control/Gui.hs:201:16: Warning:
+    This binding for ‘sa’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:200:8
+
+src/Csound/Control/Gui.hs:201:19: Warning:
+    This binding for ‘sb’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:200:11
+
+src/Csound/Control/Gui.hs:201:22: Warning:
+    This binding for ‘sc’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:200:14
+
+src/Csound/Control/Gui.hs:201:25: Warning:
+    This binding for ‘gf’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:200:17
+
+src/Csound/Control/Gui.hs:213:32: Warning:
+    This binding for ‘a’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:213:9
+
+src/Csound/Control/Gui.hs:213:34: Warning:
+    This binding for ‘b’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:213:11
+
+src/Csound/Control/Gui.hs:213:36: Warning:
+    This binding for ‘c’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:213:13
+
+src/Csound/Control/Gui.hs:217:32: Warning:
+    This binding for ‘a’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:217:9
+
+src/Csound/Control/Gui.hs:217:34: Warning:
+    This binding for ‘b’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:217:11
+
+src/Csound/Control/Gui.hs:217:36: Warning:
+    This binding for ‘c’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:217:13
+
+src/Csound/Control/Gui.hs:227:1: Warning:
+    Top-level binding with no type signature:
+      lift4' :: forall a b c d e.
+                Double
+                -> Double
+                -> Double
+                -> Double
+                -> (Gui -> Gui -> Gui -> Gui -> Gui)
+                -> (a -> b -> c -> d -> e)
+                -> Source a
+                -> Source b
+                -> Source c
+                -> Source d
+                -> Source e
+
+src/Csound/Control/Gui.hs:228:16: Warning:
+    This binding for ‘sa’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:227:8
+
+src/Csound/Control/Gui.hs:228:19: Warning:
+    This binding for ‘sb’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:227:11
+
+src/Csound/Control/Gui.hs:228:22: Warning:
+    This binding for ‘sc’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:227:14
+
+src/Csound/Control/Gui.hs:228:25: Warning:
+    This binding for ‘sd’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:227:17
+
+src/Csound/Control/Gui.hs:228:28: Warning:
+    This binding for ‘gf’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:227:20
+
+src/Csound/Control/Gui.hs:240:36: Warning:
+    This binding for ‘a’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:240:9
+
+src/Csound/Control/Gui.hs:240:38: Warning:
+    This binding for ‘b’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:240:11
+
+src/Csound/Control/Gui.hs:240:40: Warning:
+    This binding for ‘c’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:240:13
+
+src/Csound/Control/Gui.hs:240:42: Warning:
+    This binding for ‘d’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:240:15
+
+src/Csound/Control/Gui.hs:244:36: Warning:
+    This binding for ‘a’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:244:9
+
+src/Csound/Control/Gui.hs:244:38: Warning:
+    This binding for ‘b’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:244:11
+
+src/Csound/Control/Gui.hs:244:40: Warning:
+    This binding for ‘c’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:244:13
+
+src/Csound/Control/Gui.hs:244:42: Warning:
+    This binding for ‘d’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:244:15
+
+src/Csound/Control/Gui.hs:256:1: Warning:
+    Top-level binding with no type signature:
+      lift5' :: forall a1 a2 a3 a4 a5 b.
+                Double
+                -> Double
+                -> Double
+                -> Double
+                -> Double
+                -> (Gui -> Gui -> Gui -> Gui -> Gui -> Gui)
+                -> (a1 -> a2 -> a3 -> a4 -> a5 -> b)
+                -> Source a1
+                -> Source a2
+                -> Source a3
+                -> Source a4
+                -> Source a5
+                -> Source b
+
+src/Csound/Control/Gui.hs:257:16: Warning:
+    This binding for ‘sa’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:256:8
+
+src/Csound/Control/Gui.hs:257:19: Warning:
+    This binding for ‘sb’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:256:11
+
+src/Csound/Control/Gui.hs:257:22: Warning:
+    This binding for ‘sc’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:256:14
+
+src/Csound/Control/Gui.hs:257:25: Warning:
+    This binding for ‘sd’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:256:17
+
+src/Csound/Control/Gui.hs:257:28: Warning:
+    This binding for ‘se’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:256:20
+
+src/Csound/Control/Gui.hs:257:31: Warning:
+    This binding for ‘gf’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:256:23
+
+src/Csound/Control/Gui.hs:269:40: Warning:
+    This binding for ‘a’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:269:9
+
+src/Csound/Control/Gui.hs:269:42: Warning:
+    This binding for ‘b’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:269:11
+
+src/Csound/Control/Gui.hs:269:44: Warning:
+    This binding for ‘c’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:269:13
+
+src/Csound/Control/Gui.hs:269:46: Warning:
+    This binding for ‘d’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:269:15
+
+src/Csound/Control/Gui.hs:269:48: Warning:
+    This binding for ‘e’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:269:17
+
+src/Csound/Control/Gui.hs:273:40: Warning:
+    This binding for ‘a’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:273:9
+
+src/Csound/Control/Gui.hs:273:42: Warning:
+    This binding for ‘b’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:273:11
+
+src/Csound/Control/Gui.hs:273:44: Warning:
+    This binding for ‘c’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:273:13
+
+src/Csound/Control/Gui.hs:273:46: Warning:
+    This binding for ‘d’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:273:15
+
+src/Csound/Control/Gui.hs:273:48: Warning:
+    This binding for ‘e’ shadows the existing binding
+      bound at src/Csound/Control/Gui.hs:273:17
+
+src/Csound/Control/Gui.hs:100:10: Warning:
+    Orphan instance: instance SigSpace a => SigSpace (Source a)
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.
+
+src/Csound/Control/Gui.hs:103:10: Warning:
+    Orphan instance:
+      instance At Sig (SE Sig) a => At Sig (SE Sig) (Source a)
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.
+
+src/Csound/Control/Gui.hs:107:10: Warning:
+    Orphan instance: instance At Sig2 Sig2 a => At Sig2 Sig2 (Source a)
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.
+
+src/Csound/Control/Gui.hs:111:10: Warning:
+    Orphan instance:
+      instance At Sig2 (SE Sig2) a => At Sig2 (SE Sig2) (Source a)
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.
+[34 of 42] Compiling Csound.Control   ( src/Csound/Control.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Control.o )
+[35 of 42] Compiling Csound.Air.Seg   ( src/Csound/Air/Seg.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Seg.o )
+
+src/Csound/Air/Seg.hs:3:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:3:28: Warning: Tab character
+
+src/Csound/Air/Seg.hs:4:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:8:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Csound/Air/Seg.hs:30:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:31:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:32:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:33:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:34:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:35:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:38:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:39:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:40:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:41:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:42:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:43:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:44:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:47:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:52:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:54:41: Warning: Tab character
+
+src/Csound/Air/Seg.hs:55:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:60:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:63:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:66:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:69:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:82:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:83:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:88:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:89:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:94:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:95:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:96:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:96:29: Warning:
+    This binding for ‘as’ shadows the existing binding
+      bound at src/Csound/Air/Seg.hs:93:7
+
+src/Csound/Air/Seg.hs:97:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:103:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:104:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:105:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:105:29: Warning:
+    This binding for ‘as’ shadows the existing binding
+      bound at src/Csound/Air/Seg.hs:102:6
+
+src/Csound/Air/Seg.hs:106:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:111:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:112:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:113:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:114:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:126:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:128:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:129:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:129:97: Warning: Tab character
+
+src/Csound/Air/Seg.hs:130:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:131:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:132:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:135:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:136:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:136:113: Warning: Tab character
+
+src/Csound/Air/Seg.hs:137:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:138:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:139:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:141:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:143:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:144:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:145:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:147:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:151:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:152:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:153:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:154:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:155:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:156:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:157:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:158:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:159:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:160:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:161:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:163:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:164:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:165:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:166:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:168:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:168:27: Warning:
+    This binding for ‘x’ shadows the existing binding
+      bound at src/Csound/Air/Seg.hs:150:8
+
+src/Csound/Air/Seg.hs:169:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:170:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:172:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:176:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:181:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:182:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:183:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:184:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:185:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:186:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:190:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:191:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:219:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:220:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:221:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:222:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:233:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:234:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:235:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:239:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:240:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:242:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:244:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:245:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:246:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:247:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:248:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:249:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:250:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:251:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:252:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:253:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:254:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:255:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:256:1: Warning: Tab character
+
+src/Csound/Air/Seg.hs:125:12: Warning:
+    Pattern match(es) are non-exhaustive
+    In a case alternative:
+        Patterns not matched:
+            Loop (Unlim _)
+            Loop (Par _)
+            Loop (Loop _)
+[36 of 42] Compiling Csound.Air.Sampler ( src/Csound/Air/Sampler.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Sampler.o )
+
+src/Csound/Air/Sampler.hs:3:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:5:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:6:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:7:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:9:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:11:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:12:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:14:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:34:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Csound/Air/Sampler.hs:52:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:53:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:54:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:55:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:56:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:57:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:59:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:59:31: Warning:
+    This binding for ‘x’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:51:18
+
+src/Csound/Air/Sampler.hs:59:33: Warning:
+    This binding for ‘st’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:51:20
+
+src/Csound/Air/Sampler.hs:59:36: Warning:
+    This binding for ‘a’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:51:23
+
+src/Csound/Air/Sampler.hs:62:86: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:66:1: Warning:
+    Defined but not used: ‘evtToggle’
+
+src/Csound/Air/Sampler.hs:67:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:70:1: Warning:
+    Defined but not used: ‘syncEvtToggle’
+
+src/Csound/Air/Sampler.hs:87:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:88:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:89:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:90:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:98:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:99:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:100:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:101:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:102:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:104:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:104:32: Warning:
+    This binding for ‘start’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:97:19
+
+src/Csound/Air/Sampler.hs:104:38: Warning:
+    This binding for ‘stop’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:97:25
+
+src/Csound/Air/Sampler.hs:104:43: Warning:
+    This binding for ‘sigs’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:97:30
+
+src/Csound/Air/Sampler.hs:117:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:118:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:119:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:120:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:121:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:122:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:124:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:124:32: Warning:
+    This binding for ‘starts’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:116:19
+
+src/Csound/Air/Sampler.hs:124:39: Warning:
+    This binding for ‘stops’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:116:26
+
+src/Csound/Air/Sampler.hs:124:45: Warning:
+    This binding for ‘asig’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:116:32
+
+src/Csound/Air/Sampler.hs:131:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:132:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:133:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:134:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:135:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:136:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:138:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:138:32: Warning:
+    This binding for ‘starts’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:130:27
+
+src/Csound/Air/Sampler.hs:138:39: Warning:
+    This binding for ‘stops’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:130:34
+
+src/Csound/Air/Sampler.hs:138:45: Warning:
+    This binding for ‘asig’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:130:40
+
+src/Csound/Air/Sampler.hs:153:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:154:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:155:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:156:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:157:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:158:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:172:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:173:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:174:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:175:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:175:30: Warning:
+    This binding for ‘asig’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:171:37
+
+src/Csound/Air/Sampler.hs:176:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:176:40: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:177:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:178:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:179:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:180:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:181:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:182:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:208:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:209:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:210:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:211:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:212:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:213:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:215:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:215:37: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:216:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:217:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:217:33: Warning:
+    This binding for ‘as’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:207:28
+
+src/Csound/Air/Sampler.hs:217:36: Warning:
+    This binding for ‘stop’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:207:31
+
+src/Csound/Air/Sampler.hs:218:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:219:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:220:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:221:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:222:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:222:49: Warning:
+    This binding for ‘ons’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:211:17
+
+src/Csound/Air/Sampler.hs:223:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:223:49: Warning:
+    This binding for ‘offs’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:212:17
+
+src/Csound/Air/Sampler.hs:266:21: Warning:
+    Defined but not used: ‘amp’
+
+src/Csound/Air/Sampler.hs:314:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:315:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:316:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:316:58: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:323:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:324:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:325:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:325:30: Warning:
+    This binding for ‘asig’ shadows the existing binding
+      bound at src/Csound/Air/Sampler.hs:322:36
+
+src/Csound/Air/Sampler.hs:326:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:327:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:328:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:329:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:336:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:337:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:338:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:339:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:340:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:341:1: Warning: Tab character
+
+src/Csound/Air/Sampler.hs:344:18: Warning:
+    Defined but not used: ‘midiInstr’
+[37 of 42] Compiling Csound.IO        ( src/Csound/IO.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/IO.o )
+[38 of 42] Compiling Csound.Air.Misc  ( src/Csound/Air/Misc.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Misc.o )
+
+src/Csound/Air/Misc.hs:40:1: Warning:
+    The import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+
+src/Csound/Air/Misc.hs:44:1: Warning:
+    The import of ‘Csound.Dynamic’ is redundant
+      except perhaps to import instances from ‘Csound.Dynamic’
+    To import instances alone, use: import Csound.Dynamic()
+
+src/Csound/Air/Misc.hs:96:13: Warning:
+    This binding for ‘rndAmp’ shadows the existing binding
+      defined at src/Csound/Air/Misc.hs:267:1
+
+src/Csound/Air/Misc.hs:96:20: Warning:
+    This binding for ‘rndCps’ shadows the existing binding
+      defined at src/Csound/Air/Misc.hs:277:1
+
+src/Csound/Air/Misc.hs:123:10: Warning:
+    This binding for ‘filt’ shadows the existing binding
+      imported from ‘Csound.Air.Filter’ at src/Csound/Air/Misc.hs:55:1-24
+      (and originally defined at src/Csound/Air/Filter.hs:133:1-4)
+
+src/Csound/Air/Misc.hs:276:1: Warning:
+    Top-level binding with no type signature: rndDur :: D -> D -> SE D
+
+src/Csound/Air/Misc.hs:277:1: Warning:
+    Top-level binding with no type signature: rndCps :: D -> D -> SE D
+
+src/Csound/Air/Misc.hs:278:1: Warning:
+    Top-level binding with no type signature: rndTune :: D -> D -> SE D
+
+src/Csound/Air/Misc.hs:282:5: Warning:
+    This binding for ‘dur’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Misc.hs:50:1-27
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Misc.hs:295:1: Warning:
+    Top-level binding with no type signature:
+      addDur' :: forall b. D -> b -> SE b
+
+src/Csound/Air/Misc.hs:296:1: Warning:
+    Top-level binding with no type signature:
+      addDur :: forall b. b -> SE b
+
+src/Csound/Air/Misc.hs:345:1: Warning:
+    Top-level binding with no type signature:
+      rimShot' :: TrSpec -> SE Sig
+
+src/Csound/Air/Misc.hs:351:9: Warning:
+    This binding for ‘dur’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Misc.hs:50:1-27
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Misc.hs:372:9: Warning:
+    This binding for ‘dur’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Misc.hs:50:1-27
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Misc.hs:388:9: Warning:
+    This binding for ‘dur’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Misc.hs:50:1-27
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Misc.hs:401:9: Warning:
+    This binding for ‘dur’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Misc.hs:50:1-27
+      (and originally defined in ‘Temporal.Class’)
+
+src/Csound/Air/Misc.hs:403:9: Warning: Defined but not used: ‘cps’
+
+src/Csound/Air/Misc.hs:405:9: Warning:
+    Defined but not used: ‘fullDur’
+
+src/Csound/Air/Misc.hs:415:1: Warning:
+    Top-level binding with no type signature: testDrone :: D -> SE Sig2
+
+src/Csound/Air/Misc.hs:416:1: Warning:
+    Top-level binding with no type signature:
+      testDrone2 :: D -> SE Sig2
+
+src/Csound/Air/Misc.hs:417:1: Warning:
+    Top-level binding with no type signature:
+      testDrone3 :: D -> SE Sig2
+
+src/Csound/Air/Misc.hs:418:1: Warning:
+    Top-level binding with no type signature:
+      testDrone4 :: D -> SE Sig2
+
+src/Csound/Air/Misc.hs:420:1: Warning:
+    Top-level binding with no type signature:
+      pwEnsemble :: Patch D Sig2
+
+src/Csound/Air/Misc.hs:424:1: Warning:
+    Top-level binding with no type signature: nightPad :: Patch D Sig2
+
+src/Csound/Air/Misc.hs:428:28: Warning:
+    Defined but not used: ‘razorPadSpeed’
+
+src/Csound/Air/Misc.hs:433:1: Warning:
+    Top-level binding with no type signature: razorPad :: Patch D Sig2
+
+src/Csound/Air/Misc.hs:435:1: Warning:
+    Top-level binding with no type signature:
+      razorPad' :: RazorPad -> Patch D Sig2
+
+src/Csound/Air/Misc.hs:439:1: Warning:
+    Top-level binding with no type signature:
+      overtonePad :: Patch D Sig2
+
+src/Csound/Air/Misc.hs:443:1: Warning:
+    Top-level binding with no type signature:
+      caveOvertonePad :: Patch D Sig2
+
+src/Csound/Air/Misc.hs:468:1: Warning:
+    Top-level binding with no type signature:
+      impRazorPad :: Sig -> Sig -> Sig -> SE Sig
+
+src/Csound/Air/Misc.hs:469:13: Warning:
+    This binding for ‘cps’ shadows the existing binding
+      bound at src/Csound/Air/Misc.hs:468:23
+
+src/Csound/Air/Misc.hs:471:1: Warning:
+    Top-level binding with no type signature:
+      genRazor :: forall a r.
+                  (Fractional a, SigSpace (SE r)) =>
+                  (Sig -> a -> Sig -> r) -> Sig -> Sig -> Sig -> SE r
+
+src/Csound/Air/Misc.hs:471:10: Warning:
+    This binding for ‘filter’ shadows the existing binding
+      imported from ‘Prelude’ at src/Csound/Air/Misc.hs:3:8-22
+      (and originally defined in ‘GHC.List’)
+[39 of 42] Compiling Csound.Air.Live  ( src/Csound/Air/Live.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Live.o )
+
+src/Csound/Air/Live.hs:30:1: Warning:
+    The import of ‘Data.Colour’ is redundant
+      except perhaps to import instances from ‘Data.Colour’
+    To import instances alone, use: import Data.Colour()
+
+src/Csound/Air/Live.hs:37:1: Warning:
+    The import of ‘Csound.Control.Evt’ is redundant
+      except perhaps to import instances from ‘Csound.Control.Evt’
+    To import instances alone, use: import Csound.Control.Evt()
+
+src/Csound/Air/Live.hs:74:45: Warning:
+    This binding for ‘mute’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Live.hs:40:1-41
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Live.hs:82:17: Warning:
+    This binding for ‘mute’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Live.hs:40:1-41
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Live.hs:145:39: Warning:
+    This binding for ‘name’ shadows the existing binding
+      bound at src/Csound/Air/Live.hs:139:7
+
+src/Csound/Air/Live.hs:170:12: Warning:
+    This binding for ‘off’ shadows the existing binding
+      bound at src/Csound/Air/Live.hs:169:9
+
+src/Csound/Air/Live.hs:170:16: Warning:
+    This binding for ‘fx’ shadows the existing binding
+      bound at src/Csound/Air/Live.hs:167:12
+
+src/Csound/Air/Live.hs:170:19: Warning:
+    This binding for ‘arg’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Live.hs:34:1-19
+      (and originally defined in ‘Csound.Typed.Types.Tuple’)
+
+src/Csound/Air/Live.hs:172:1: Warning:
+    Top-level binding with no type signature: uiOnOffSize :: Double
+
+src/Csound/Air/Live.hs:173:1: Warning:
+    Top-level binding with no type signature: uiBoxSize :: Double
+
+src/Csound/Air/Live.hs:218:28: Warning:
+    This binding for ‘tone’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Live.hs:40:1-41
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Live.hs:225:15: Warning:
+    This binding for ‘mix’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Live.hs:38:1-27
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Control.Mix’)
+
+src/Csound/Air/Live.hs:225:30: Warning:
+    This binding for ‘width’ shadows the existing binding
+      imported from ‘Csound.Control.Gui’ at src/Csound/Air/Live.hs:39:1-25
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.BoxModel’)
+
+src/Csound/Air/Live.hs:232:16: Warning:
+    This binding for ‘mix’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Live.hs:38:1-27
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Control.Mix’)
+
+src/Csound/Air/Live.hs:232:37: Warning:
+    This binding for ‘delay’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Live.hs:40:1-41
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Live.hs:239:15: Warning:
+    This binding for ‘mix’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Live.hs:38:1-27
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Control.Mix’)
+
+src/Csound/Air/Live.hs:246:14: Warning:
+    This binding for ‘mix’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Live.hs:38:1-27
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Control.Mix’)
+
+src/Csound/Air/Live.hs:246:29: Warning:
+    This binding for ‘tone’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Live.hs:40:1-41
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Live.hs:260:23: Warning:
+    This binding for ‘gain’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Live.hs:40:1-41
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Live.hs:267:15: Warning:
+    This binding for ‘mix’ shadows the existing binding
+      imported from ‘Csound.Control.Instr’ at src/Csound/Air/Live.hs:38:1-27
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Control.Mix’)
+
+src/Csound/Air/Live.hs:267:73: Warning:
+    This binding for ‘mix’ shadows the existing binding
+      bound at src/Csound/Air/Live.hs:267:15
+
+src/Csound/Air/Live.hs:267:77: Warning:
+    This binding for ‘depth’ shadows the existing binding
+      bound at src/Csound/Air/Live.hs:267:19
+
+src/Csound/Air/Live.hs:274:13: Warning:
+    This binding for ‘gain’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Live.hs:40:1-41
+      (and originally defined in ‘Csound.Typed.Opcode.SignalModifiers’)
+
+src/Csound/Air/Live.hs:309:29: Warning:
+    This binding for ‘arg’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Live.hs:34:1-19
+      (and originally defined in ‘Csound.Typed.Types.Tuple’)
+
+src/Csound/Air/Live.hs:314:29: Warning:
+    This binding for ‘arg’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Live.hs:34:1-19
+      (and originally defined in ‘Csound.Typed.Types.Tuple’)
+
+src/Csound/Air/Live.hs:318:18: Warning:
+    This binding for ‘widget’ shadows the existing binding
+      imported from ‘Csound.Control.Gui’ at src/Csound/Air/Live.hs:39:1-25
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.Widget’)
+
+src/Csound/Air/Live.hs:386:1: Warning:
+    Top-level binding with no type signature:
+      genMidiChooser :: forall a t t1.
+                        Sigs a =>
+                        (t -> t1 -> Source (Msg -> SE a)) -> t -> t1 -> Source a
+
+src/Csound/Air/Live.hs:405:17: Warning:
+    This binding for ‘widget’ shadows the existing binding
+      imported from ‘Csound.Control.Gui’ at src/Csound/Air/Live.hs:39:1-25
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.Widget’)
+
+src/Csound/Air/Live.hs:410:27: Warning:
+    This binding for ‘arg’ shadows the existing binding
+      imported from ‘Csound.Typed’ at src/Csound/Air/Live.hs:34:1-19
+      (and originally defined in ‘Csound.Typed.Types.Tuple’)
+
+src/Csound/Air/Live.hs:422:17: Warning:
+    This binding for ‘widget’ shadows the existing binding
+      imported from ‘Csound.Control.Gui’ at src/Csound/Air/Live.hs:39:1-25
+      (and originally defined in ‘csound-expression-typed-0.0.9.3:Csound.Typed.Gui.Widget’)
+
+src/Csound/Air/Live.hs:108:5: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘applyFxArgs’: Patterns not matched: _ [] _
+
+src/Csound/Air/Live.hs:53:10: Warning:
+    Orphan instance: instance SigSpace FxFun
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.
+[40 of 42] Compiling Csound.Air.Looper ( src/Csound/Air/Looper.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air/Looper.o )
+
+src/Csound/Air/Looper.hs:4:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:5:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:20:1: Warning:
+    The import of ‘Csound.Typed.Opcode’ is redundant
+      except perhaps to import instances from ‘Csound.Typed.Opcode’
+    To import instances alone, use: import Csound.Typed.Opcode()
+
+src/Csound/Air/Looper.hs:22:23: Warning: Tab character
+
+src/Csound/Air/Looper.hs:23:1: Warning:
+    The import of ‘Csound.Air.Wave’ is redundant
+      except perhaps to import instances from ‘Csound.Air.Wave’
+    To import instances alone, use: import Csound.Air.Wave()
+
+src/Csound/Air/Looper.hs:27:1: Warning:
+    The import of ‘Csound.Air.Misc’ is redundant
+      except perhaps to import instances from ‘Csound.Air.Misc’
+    To import instances alone, use: import Csound.Air.Misc()
+
+src/Csound/Air/Looper.hs:58:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:59:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:60:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:61:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:62:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:62:33: Warning: Tab character
+
+src/Csound/Air/Looper.hs:63:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:64:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:64:31: Warning: Tab character
+
+src/Csound/Air/Looper.hs:65:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:66:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:67:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:70:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:71:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:71:30: Warning: Tab character
+
+src/Csound/Air/Looper.hs:72:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:72:30: Warning: Tab character
+
+src/Csound/Air/Looper.hs:73:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:73:32: Warning: Tab character
+
+src/Csound/Air/Looper.hs:74:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:74:33: Warning: Tab character
+
+src/Csound/Air/Looper.hs:75:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:75:35: Warning: Tab character
+
+src/Csound/Air/Looper.hs:76:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:76:33: Warning: Tab character
+
+src/Csound/Air/Looper.hs:77:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:77:29: Warning: Tab character
+
+src/Csound/Air/Looper.hs:78:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:79:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:80:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:80:18: Warning: Tab character
+
+src/Csound/Air/Looper.hs:106:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:107:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:108:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:109:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:110:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:113:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:114:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:115:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:116:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:117:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:128:19: Warning:
+    This binding for ‘times’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Looper.hs:20:1-49
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Looper.hs:133:23: Warning:
+    This binding for ‘cond’ shadows the existing binding
+      imported from ‘Data.Boolean’ at src/Csound/Air/Looper.hs:12:1-19
+
+src/Csound/Air/Looper.hs:137:24: Warning:
+    This binding for ‘cond’ shadows the existing binding
+      imported from ‘Data.Boolean’ at src/Csound/Air/Looper.hs:12:1-19
+
+src/Csound/Air/Looper.hs:157:22: Warning:
+    This binding for ‘cond’ shadows the existing binding
+      imported from ‘Data.Boolean’ at src/Csound/Air/Looper.hs:12:1-19
+
+src/Csound/Air/Looper.hs:160:16: Warning: Tab character
+
+src/Csound/Air/Looper.hs:161:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:162:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:163:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:164:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:168:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:169:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:170:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:172:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:174:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:175:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:176:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:177:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:178:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:180:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:181:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:182:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:183:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:184:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:185:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:187:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:189:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:189:17: Warning:
+    This binding for ‘times’ shadows the existing binding
+      imported from ‘Csound.Typed.Opcode’ at src/Csound/Air/Looper.hs:20:1-49
+      (and originally defined in ‘Csound.Typed.Opcode.InstrumentControl’)
+
+src/Csound/Air/Looper.hs:191:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:192:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:193:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:195:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:196:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:197:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:198:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:200:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:201:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:202:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:204:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:206:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:207:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:208:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:208:17: Warning:
+    This binding for ‘delete’ shadows the existing binding
+      imported from ‘Data.List’ at src/Csound/Air/Looper.hs:9:1-16
+      (and originally defined in ‘base-4.8.2.0:Data.OldList’)
+
+src/Csound/Air/Looper.hs:210:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:211:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:211:58: Warning: Tab character
+
+src/Csound/Air/Looper.hs:212:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:212:45: Warning:
+    This binding for ‘f’ shadows the existing binding
+      bound at src/Csound/Air/Looper.hs:217:17
+
+src/Csound/Air/Looper.hs:214:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:216:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:217:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:217:68: Warning:
+    This binding for ‘preFx’ shadows the existing binding
+      bound at src/Csound/Air/Looper.hs:192:17
+
+src/Csound/Air/Looper.hs:217:85: Warning:
+    This binding for ‘postFx’ shadows the existing binding
+      bound at src/Csound/Air/Looper.hs:191:17
+
+src/Csound/Air/Looper.hs:218:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:218:49: Warning: Tab character
+
+src/Csound/Air/Looper.hs:219:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:220:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:221:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:222:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:223:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:225:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:226:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:227:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:229:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:231:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:232:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:233:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:234:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:235:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:237:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:238:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:241:52: Warning: Tab character
+
+src/Csound/Air/Looper.hs:242:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:242:43: Warning: Tab character
+
+src/Csound/Air/Looper.hs:244:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:245:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:246:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:248:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:249:1: Warning: Tab character
+
+src/Csound/Air/Looper.hs:251:1: Warning: Tab character
+[41 of 42] Compiling Csound.Air       ( src/Csound/Air.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Air.o )
+[42 of 42] Compiling Csound.Base      ( src/Csound/Base.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Base.o )
+In-place registering csound-expression-5.0.1...
+Installing library in /Users/michalhadrava/Code/Probe-rhythm
+study/probe-rhythm-stimuli/.stack-work/install/x86_64-osx/lts-6.15/7.10.3/lib/x86_64-osx-ghc-7.10.3/csound-expression-5.0.1-Ke3ADm4URu5L5OaT4TVC7J
+Registering csound-expression-5.0.1...

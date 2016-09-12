@@ -1,0 +1,684 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-12 14:02:36.687005 UTC
+
+interface main@main:Main 7103
+  interface hash: dbf23882bb2ea6389bbf21be584c92dd
+  ABI hash: 1947c3ccbb9bdde1884d58a380b3443a
+  export-list hash: b7b8c694dcc61c84eaefc694813839b3
+  orphan hash: ad87285cd7e4ceb569b28ee9500c5b45
+  flag hash: fcdc56d98810c1613f9dbb87b29025a8
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.chordToRhythm
+  Main.main
+  Main.polyRhythms
+module dependencies:
+package dependencies: JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT
+                      QuickCheck-2.8.2@Quick_6TxL5Cx3o2p0HsyT59KWiD
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      active-0.2.0.10@activ_EndpnTck6Qn4ZBG7VTfRFy
+                      adjunctions-4.3@adjun_HUA1si0oygHIohE6wWvtj8
+                      ansi-terminal-0.6.2.3@ansit_BDlVdfJGo3VHCIHxPTNjH1
+                      ansi-wl-pprint-0.6.7.3@ansiw_KTAhiPa3RNI09mbeoAwSSX
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      async-2.1.0@async_KuqnF1GrhHK5nNp6Zzm3jy base-4.8.2.0
+                      base64-bytestring-1.0.0.1@base6_AkCk8zInckjJsyQ4AIFHPN
+                      base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx
+                      bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      bytes-0.15.2@bytes_LGwqVSlCJrR4BGoUsj8EWt
+                      cereal-0.5.2.0@cerea_GKnWyxn5hRWK9xfCMeMEL8
+                      colour-2.3.3@colou_4tkGkumXZDK9tS5HCSa7Y0
+                      comonad-4.2.7.2@comon_5wEqfQVXg9MGfIPxSKfS4M
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      contravariant-1.4@contr_7gFjdZ6ciei9744gjZQMHp
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx
+                      diagrams-solve-0.1.0.1@diagr_4QN76f31u5VGJm9TMFt1id
+                      diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos
+                      diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      distributive-0.5.0.2@distr_55SIdsoyihS4jXBaaVvPQX
+                      dual-tree-0.2.0.9@dualt_5jNsABX0YwSIha1EAMeU6i
+                      exceptions-0.8.3@excep_BEih2K3eMGTE4cg5iulra8
+                      fail-4.9.0.0@fail_2xB1AvdW34sDm9N3JOe33G
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m
+                      fingertree-0.1.1.0@finge_1lOqL113GSbGT54Xr1ttX9
+                      free-4.12.4@free_D8pop1Lncn7BkE4zjJTjla
+                      fsnotify-0.2.1@fsnot_6GshfYbGW9a0XQQFUIcEx3 ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      hfsevents-0.1.6@hfsev_GV1CDMEJaKE6yriQq8fXZ2 integer-gmp-1.0.0.0
+                      intervals-0.7.2@inter_CVqja9i5ZjWEnJ4aryb7v4
+                      kan-extensions-4.2.3@kanex_8yLFa561sPQJZ5XPOmzMGi
+                      lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if
+                      linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv
+                      lucid-2.9.6@lucid_HB98YTuafJo82fcOQnijha
+                      lucid-svg-0.6.0.1@lucid_IfaODiCffQ9JIcJQYUi8er
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monoid-extras-0.4.2@monoi_H1bs9gF4pIcGpoc15tQgor
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      newtype-0.2@newty_Bn42BOEtLjZ0LahRn80jTb
+                      optparse-applicative-0.12.1.0@optpa_FpNJ7fLofFNEy3rK4ZnBoD
+                      prelude-extras-0.4.0.3@prelu_1gQpKVfMHul71LsAFgGRhv
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      probe-rhythm-figures-0.1.0.0@probe_In0MMn7bgL9KqcTNL8AHKU
+                      process-1.2.3.0@proce_52AgREEfSrnJLlkGV9YZZJ
+                      profunctors-5.2@profu_LHFqrYSAR0z1HJQ4sjj1Mu
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL
+                      reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9
+                      repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou
+                      scientific-0.3.4.9@scien_1WVNjGUftkQ9QzH4DOM2n1
+                      semigroupoids-5.0.1@semig_GRN7TOS9fx09tFw63gc4EK
+                      semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1
+                      split-0.2.3.1@split_2IxbOPGrTSq7kFrJA7odmE
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      tf-random-0.5@tfran_1eLmkn3WUnC8NZpPuDLGKF
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unix-compat-0.4.1.4@unixc_Km8uiabmElX5mrb8D4Fywe
+                      unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu
+orphans: active-0.2.0.10@activ_EndpnTck6Qn4ZBG7VTfRFy:Data.Active
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx:Data.Orphans
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         colour-2.3.3@colou_4tkGkumXZDK9tS5HCSa7Y0:Data.Colour
+         diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG.CmdLine
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Animation.Active
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Types
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Trail
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Path
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Segment
+         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Types
+         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Points
+         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Types
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.Instances
+         monoid-extras-0.4.2@monoi_H1bs9gF4pIcGpoc15tQgor:Data.Monoid.MList
+         reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9:Data.Reflection
+         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Arbitrary
+         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Operators.Reduction
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT:Codec.Picture.Tga
+                         JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT:Codec.Picture.Tiff
+                         JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT:Codec.Picture.Types
+                         active-0.2.0.10@activ_EndpnTck6Qn4ZBG7VTfRFy:Data.Active
+                         adjunctions-4.3@adjun_HUA1si0oygHIohE6wWvtj8:Data.Functor.Rep
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Biff
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Clown
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Flip
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Join
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Joker
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Product
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Sum
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Tannen
+                         bifunctors-5.2@bifun_FaZUwfD8a9f4Qa0UcHfTzx:Data.Bifunctor.Wrapped
+                         bytes-0.15.2@bytes_LGwqVSlCJrR4BGoUsj8EWt:Data.Bytes.Get
+                         bytes-0.15.2@bytes_LGwqVSlCJrR4BGoUsj8EWt:Data.Bytes.Signed
+                         bytes-0.15.2@bytes_LGwqVSlCJrR4BGoUsj8EWt:Data.Bytes.VarInt
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG
+                         diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG.CmdLine
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Angle
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Animation.Active
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Backend.CmdLine
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.BoundingBox
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Coordinates
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Direction
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Located
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Path
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Segment
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Size
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Tangent
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Camera
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Light
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Shapes
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.ThreeD.Types
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Trail
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Attributes
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Image
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Path
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Segment.Bernstein
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Text
+                         diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Types
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Envelope
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Measure
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Names
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Points
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Query
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Style
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Trace
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Transform
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Types
+                         diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.V
+                         intervals-0.7.2@inter_CVqja9i5ZjWEnJ4aryb7v4:Numeric.Interval.Kaucher
+                         kan-extensions-4.2.3@kanex_8yLFa561sPQJZ5XPOmzMGi:Data.Functor.Yoneda
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.At
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Internal.Indexed
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Internal.Zoom
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Reified
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Tuple
+                         lens-4.13@lens_GUhLZmPn08l1pkGqj7n9if:Control.Lens.Wrapped
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.Affine
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.Plucker
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.Quaternion
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V0
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V1
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V2
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V3
+                         linear-1.20.5@linea_FAr6Jc872as1DHBSxOu5Yv:Linear.V4
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         profunctors-5.2@profu_LHFqrYSAR0z1HJQ4sjj1Mu:Data.Profunctor.Rep
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Operators.Mapping
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.ByteString
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Cursored
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Delayed
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.ForeignPtr
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.HintInterleave
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.HintSmall
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Partitioned
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Unboxed
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Undefined
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Vector
+                         repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Slice
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.Semigroup
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  base-4.8.2.0:Control.Arrow ab7f126fed349de468f94ac777dc8f4e
+import  -/  base-4.8.2.0:Data.List 3f0782c8d4bf50eecefcd5ea1798aac8
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  colour-2.3.3@colou_4tkGkumXZDK9tS5HCSa7Y0:Data.Colour.Internal c20506210de7efa28736509943f23e6a
+import  -/  diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG c562a010d4595b18d96d53f74cf07048
+import  -/  diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG.CmdLine dbe49f9e9d2cb2d4320daa55800596bc
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Prelude 0f0b2fe832b1921709da84f6a857570f
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Shapes 3a4acfa0de3b0a4712b821a6631e632e
+import  -/  diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Types b26bfe70fb5690d8bf4d222cdc975e30
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  probe-rhythm-figures-0.1.0.0@probe_In0MMn7bgL9KqcTNL8AHKU:Lib 6b1707391ad5a853a4f551978824dcb0
+import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa 0d2b929203adefea46e338c8d5c0d0e3
+import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Eval cf223ddb0bba48ccf13f57fe10324a67
+import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Vector aa97ef99b2a616323348edcdab9fc269
+2a6c1d59d5484331bc785ceff2f6caab
+  $s$fTrailLikeQDiagram ::
+    Diagrams.TrailLike.TrailLike
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Diagrams.Core.Types.QDiagram
+                       Diagrams.Backend.SVG.SVG
+                       Linear.V2.V2
+                       GHC.Types.Double
+                       Data.Monoid.Any)
+                  Linear.V2.$fMetricV2
+                    `cast`
+                  (Linear.Metric.Metric
+                     (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
+                               <Diagrams.Backend.SVG.SVG>_N
+                               <Linear.V2.V2>_N
+                               <GHC.Types.Double>_N
+                               <Data.Monoid.Any>_N)))_R
+                  Main.$s$fTrailLikeQDiagram5
+                    `cast`
+                  (Diagrams.Core.Envelope.OrderedField
+                     (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
+                               <Diagrams.Backend.SVG.SVG>_N
+                               <Linear.V2.V2>_N
+                               <GHC.Types.Double>_N
+                               <Data.Monoid.Any>_N)))_R
+                  (Diagrams.TwoD.Path.$fTrailLikeQDiagram_$ctrailLike
+                     @ Diagrams.Backend.SVG.SVG
+                     @ GHC.Types.Double
+                     Linear.V2.$fMetricV2
+                       `cast`
+                     (Linear.Metric.Metric
+                        (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
+                                  <Diagrams.Backend.SVG.SVG>_N
+                                  <Linear.V2.V2>_N
+                                  <GHC.Types.Double>_N
+                                  <Data.Monoid.Any>_N)))_R
+                     Main.$s$fTrailLikeQDiagram5
+                       `cast`
+                     (Diagrams.Core.Envelope.OrderedField
+                        (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
+                                  <Diagrams.Backend.SVG.SVG>_N
+                                  <Linear.V2.V2>_N
+                                  <GHC.Types.Double>_N
+                                  <Data.Monoid.Any>_N)))_R
+                     Main.$s$fTrailLikeQDiagram2
+                     Main.$s$fTrailLikeQDiagram1) -}
+9d3963f7a4b9abd58529a5c18736909c
+  $s$fTrailLikeQDiagram1 ::
+    Diagrams.Core.Types.Renderable
+      (Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double)
+      Diagrams.Backend.SVG.SVG
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Lib.$s$fRenderablePathSVG -}
+39de94041323470fbbca69550abc056e
+  $s$fTrailLikeQDiagram2 ::
+    Diagrams.Core.Types.TypeableFloat GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.Types.$fTypeableFloatn
+                   @ GHC.Types.Double
+                   Main.$s$fTrailLikeQDiagram3
+                     `cast`
+                   (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
+                             <*>_N <GHC.Types.Double>_N))
+                   GHC.Float.$fRealFloatDouble) -}
+1e34d8cc0f8eee183c8736e9a8674fd3
+  $s$fTrailLikeQDiagram3 ::
+    GHC.Prim.Proxy# GHC.Types.Double -> Data.Typeable.Internal.TypeRep
+  {- Arity: 1, Strictness: <L,A>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ wild :: GHC.Prim.Proxy# GHC.Types.Double ->
+                 Main.$s$fTrailLikeQDiagram4) -}
+8f464f8efd797c8a90da8ff9a90c6b7a
+  $s$fTrailLikeQDiagram4 :: Data.Typeable.Internal.TypeRep
+  {- Strictness: m,
+     Unfolding: (Data.Typeable.Internal.TypeRep
+                   __word 8705313363352784917
+                   __word 10768904120299974647
+                   Main.$s$fTrailLikeQDiagram_wild
+                   (GHC.Types.[] @ Data.Typeable.Internal.KindRep)
+                   (GHC.Types.[] @ Data.Typeable.Internal.TypeRep)) -}
+f692ce2418db93aa413e2bd4a9d8caa2
+  $s$fTrailLikeQDiagram5 ::
+    Diagrams.Core.Envelope.OrderedField GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.Envelope.$fOrderedFields
+                   @ GHC.Types.Double
+                   GHC.Float.$fFloatingDouble
+                   GHC.Classes.$fOrdDouble) -}
+828b1a363e94bf2aa2d04039fa73c9ee
+  $s$fTrailLikeQDiagram_wild :: Data.Typeable.Internal.TyCon
+  {- Strictness: m,
+     Unfolding: (Data.Typeable.Internal.TyCon
+                   __word 8705313363352784917
+                   __word 10768904120299974647
+                   Main.$s$fTrailLikeQDiagram_ww2
+                   Main.$s$fTrailLikeQDiagram_ww3
+                   Main.$s$fTrailLikeQDiagram_ww4) -}
+fad6bf4bbc9dc45de321c1afc4b4f128
+  $s$fTrailLikeQDiagram_ww2 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "ghc-prim"#) -}
+93d50d391a50ad38a28d56bb07a4c0d4
+  $s$fTrailLikeQDiagram_ww3 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "GHC.Types"#) -}
+bc159981ffe19032a8987a6acaa81ab9
+  $s$fTrailLikeQDiagram_ww4 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "Double"#) -}
+d29c3ffdc666558552609b2eba6526ce
+  chordToRhythm :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Diagrams.TwoD.Shapes.unitSquare
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   @ GHC.Types.Double
+                   Main.chordToRhythm1
+                     `cast`
+                   (Diagrams.Core.V.InSpace
+                      <Linear.V2.V2>_N
+                      <GHC.Types.Double>_N
+                      (Diagrams.Core.Types.QDiagram
+                         <Diagrams.Backend.SVG.B>_N
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                         <Data.Monoid.Any>_N)_N)_R
+                   Main.$s$fTrailLikeQDiagram
+                     `cast`
+                   (Diagrams.TrailLike.TrailLike
+                      (Diagrams.Core.Types.QDiagram
+                         <Diagrams.Backend.SVG.B>_N
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                         <Data.Monoid.Any>_N)_N)_R) -}
+1f949d97e4e842f1a6695de15b93211d
+  chordToRhythm1 ::
+    Diagrams.Core.V.InSpace
+      Linear.V2.V2
+      GHC.Types.Double
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+  {- Unfolding: (Diagrams.Core.V.$fInSpacevna
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.chordToRhythm3
+                   Main.chordToRhythm2
+                   Linear.V2.$fAdditiveV2
+                   GHC.Float.$fNumDouble) -}
+860b1a84433188025e0d5a0609448ed7
+  chordToRhythm2 ::
+    Diagrams.Core.V.N
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+    ~ GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ (Diagrams.Core.V.N
+                        (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.SVG
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any))
+                   @ GHC.Types.Double
+                   @~ (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
+                           <Diagrams.Backend.SVG.SVG>_N
+                           <Linear.V2.V2>_N
+                           <GHC.Types.Double>_N
+                           <Data.Monoid.Any>_N)) -}
+72eeeaba74c571bb9af0cc505b33f960
+  chordToRhythm3 ::
+    Diagrams.Core.V.V
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+    ~ Linear.V2.V2
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ (* -> *)
+                   @ (Diagrams.Core.V.V
+                        (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.SVG
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any))
+                   @ Linear.V2.V2
+                   @~ (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
+                           <Diagrams.Backend.SVG.SVG>_N
+                           <Linear.V2.V2>_N
+                           <GHC.Types.Double>_N
+                           <Data.Monoid.Any>_N)) -}
+01609418e6b7b1a7fe5c7ca461e8949d
+  main :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+e60a459533a80067360e4197c4bb92ca
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (Diagrams.Backend.SVG.CmdLine.multiMain1
+                   @ GHC.Types.Double
+                   Main.main8
+                   Main.main2) -}
+e94e53ad7bb0d94bc3745d125c909d4f
+  main2 ::
+    [(GHC.Base.String,
+      Diagrams.Core.Types.QDiagram
+        Diagrams.Backend.SVG.SVG
+        Linear.V2.V2
+        GHC.Types.Double
+        Data.Monoid.Any)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String,
+                      Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.main6
+                   Main.main3) -}
+086326ee1e54f97c5b60ef3eb189f70a
+  main3 ::
+    [(GHC.Base.String,
+      Diagrams.Core.Types.QDiagram
+        Diagrams.Backend.SVG.SVG
+        Linear.V2.V2
+        GHC.Types.Double
+        Data.Monoid.Any)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String,
+                      Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.main4
+                   (GHC.Types.[]
+                      @ (GHC.Base.String,
+                         Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.SVG
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any))) -}
+0ec6ed18792cae3047ce6ffd4757c304
+  main4 ::
+    ([GHC.Types.Char],
+     Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.SVG
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any)
+  {- Strictness: m,
+     Unfolding: ((Main.main5,
+                  Main.chordToRhythm
+                    `cast`
+                  (Diagrams.Core.Types.QDiagram
+                     <Diagrams.Backend.SVG.SVG>_N
+                     (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                     (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                     <Data.Monoid.Any>_R)_R)) -}
+97e687bccd61b28e8e57e1ff5338d47b
+  main5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "chordToRhythm"#) -}
+a98caa9942b73643896e1e63484f558c
+  main6 ::
+    ([GHC.Types.Char],
+     Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.SVG
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any)
+  {- Strictness: m,
+     Unfolding: ((Main.main7,
+                  Main.polyRhythms
+                    `cast`
+                  (Diagrams.Core.Types.QDiagram
+                     <Diagrams.Backend.SVG.SVG>_N
+                     (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                     (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                     <Data.Monoid.Any>_R)_R)) -}
+f47c1cee16f15105d6e0360242e911fe
+  main7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "polyRhythms"#) -}
+682de86b174cec2242c8a3f5259da6c3
+  main8 :: Graphics.Rendering.SVG.SVGFloat GHC.Types.Double
+  {- Strictness: m,
+     Unfolding: ((GHC.Float.$fShowDouble,
+                  Main.$s$fTrailLikeQDiagram2)) -}
+ac2ccf15d53bc0025f0df67991856ff6
+  main9 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+8d9793b2343da5ba3186bdd5d09444ef
+  polyRhythms :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.polyOsc
+                   Lib.rhythm
+                   Lib.polyRhythm1
+                     `cast`
+                   (<[(Data.Colour.Internal.Colour GHC.Types.Double,
+                       Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]>_R
+                    ->_R (Diagrams.Core.Types.QDiagram
+                            <Diagrams.Backend.SVG.B>_N
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                            <Data.Monoid.Any>_R)_R)
+                   Main.polyRhythms12
+                   Main.polyRhythms2
+                   Lib.farey
+                   Main.polyRhythms1) -}
+dafede1421e1e5ca1be98cf24b18c5f8
+  polyRhythms1 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0) -}
+07c9cbc26afc256391508f9095a1af2f
+  polyRhythms10 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- HasNoCafRefs,
+     Unfolding: ((Main.polyRhythms7, Main.polyRhythms11)) -}
+5417fef64f540ea5be3e2312b0e8eb55
+  polyRhythms11 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 7) -}
+915f9a5f498a730acb68870716a9e80e
+  polyRhythms12 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 15.0) -}
+a4cbfe978dac9d11d5f12e636bc793e6
+  polyRhythms2 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.polyRhythms10
+                   Main.polyRhythms3) -}
+93a40ae93de5ff79c66989dcd2eb716e
+  polyRhythms3 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.polyRhythms8
+                   Main.polyRhythms4) -}
+fb63ad1908d2a2403a3c31c86de97642
+  polyRhythms4 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.polyRhythms5
+                   (GHC.Types.[]
+                      @ (Data.Colour.Internal.Colour GHC.Types.Double,
+                         GHC.Types.Int))) -}
+8ec95b518536bbf58af9dbaacdb231cb
+  polyRhythms5 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- HasNoCafRefs,
+     Unfolding: ((Main.polyRhythms7, Main.polyRhythms6)) -}
+cf42e0598c9e144a288e65ce0f9bfa9f
+  polyRhythms6 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 0) -}
+a11404c43e0f8c26917a849ef401d505
+  polyRhythms7 :: Data.Colour.Internal.Colour GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Data.Colour.Internal.RGB
+                   @ GHC.Types.Double
+                   Main.polyRhythms_nt
+                     `cast`
+                   (Sym (Data.Colour.Chan.NTCo:Chan[0]
+                             <Data.Colour.Internal.Red>_P <GHC.Types.Double>_R))
+                   Main.polyRhythms_nt
+                     `cast`
+                   (Sym (Data.Colour.Chan.NTCo:Chan[0]
+                             <Data.Colour.Internal.Green>_P <GHC.Types.Double>_R))
+                   Main.polyRhythms_nt
+                     `cast`
+                   (Sym (Data.Colour.Chan.NTCo:Chan[0]
+                             <Data.Colour.Internal.Blue>_P <GHC.Types.Double>_R))) -}
+16aa97c76041722e2989bc0cc7c3fa57
+  polyRhythms8 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- HasNoCafRefs,
+     Unfolding: ((Main.polyRhythms7, Main.polyRhythms9)) -}
+d353f3159f631a9a263862735828f618
+  polyRhythms9 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+874530fd97b2979e5a5fd75e950ddcae
+  polyRhythms_nt :: GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.D# 0.0) -}
+"SPEC/Main $fTrailLikeQDiagram @ SVG @ Double" [ALWAYS] forall $dMetric :: Linear.Metric.Metric
+                                                                             (Diagrams.Core.V.V
+                                                                                (Diagrams.Core.Types.QDiagram
+                                                                                   Diagrams.Backend.SVG.SVG
+                                                                                   Linear.V2.V2
+                                                                                   GHC.Types.Double
+                                                                                   Data.Monoid.Any))
+                                                               $dOrderedField :: Diagrams.Core.Envelope.OrderedField
+                                                                                   (Diagrams.Core.V.N
+                                                                                      (Diagrams.Core.Types.QDiagram
+                                                                                         Diagrams.Backend.SVG.SVG
+                                                                                         Linear.V2.V2
+                                                                                         GHC.Types.Double
+                                                                                         Data.Monoid.Any))
+                                                               $dTypeableFloat :: Diagrams.Core.Types.TypeableFloat
+                                                                                    GHC.Types.Double
+                                                               $dRenderable :: Diagrams.Core.Types.Renderable
+                                                                                 (Diagrams.Path.Path
+                                                                                    Linear.V2.V2
+                                                                                    GHC.Types.Double)
+                                                                                 Diagrams.Backend.SVG.SVG
+  Diagrams.TwoD.Path.$fTrailLikeQDiagram @ Diagrams.Backend.SVG.SVG
+                                         @ GHC.Types.Double
+                                         $dMetric
+                                         $dOrderedField
+                                         $dTypeableFloat
+                                         $dRenderable
+  = Main.$s$fTrailLikeQDiagram
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,313 @@
+Configuring csound-expression-typed-0.0.9.3...
+Building csound-expression-typed-0.0.9.3...
+Preprocessing library csound-expression-typed-0.0.9.3...
+[ 1 of 38] Compiling Csound.Typed.Lib.StableMaps.Dynamic ( src/Csound/Typed/Lib/StableMaps/Dynamic.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Lib/StableMaps/Dynamic.o )
+[ 2 of 38] Compiling Csound.Typed.Lib.StableMaps.Dynamic.Map ( src/Csound/Typed/Lib/StableMaps/Dynamic/Map.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Lib/StableMaps/Dynamic/Map.o )
+[ 3 of 38] Compiling Csound.Typed.Gui.BoxModel ( src/Csound/Typed/Gui/BoxModel.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Gui/BoxModel.o )
+
+src/Csound/Typed/Gui/BoxModel.hs:12:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[ 4 of 38] Compiling Paths_csound_expression_typed ( .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_csound_expression_typed.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Paths_csound_expression_typed.o )
+[ 5 of 38] Compiling Csound.Typed.GlobalState.Cache ( src/Csound/Typed/GlobalState/Cache.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/GlobalState/Cache.o )
+[ 6 of 38] Compiling Csound.Typed.Types.TupleHelpers ( src/Csound/Typed/Types/TupleHelpers.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Types/TupleHelpers.o )
+[ 7 of 38] Compiling Csound.Typed.GlobalState.Opcodes ( src/Csound/Typed/GlobalState/Opcodes.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/GlobalState/Opcodes.o )
+
+src/Csound/Typed/GlobalState/Opcodes.hs:297:8: Warning:
+    This binding for ‘genId’ shadows the existing binding
+      imported from ‘Csound.Dynamic’ at src/Csound/Typed/GlobalState/Opcodes.hs:43:1-21
+      (and originally defined in ‘Csound.Dynamic.Types.Exp’)
+
+src/Csound/Typed/GlobalState/Opcodes.hs:308:9: Warning:
+    This binding for ‘port’ shadows the existing binding
+      defined at src/Csound/Typed/GlobalState/Opcodes.hs:385:1
+
+src/Csound/Typed/GlobalState/Opcodes.hs:379:1: Warning:
+    Defined but not used: ‘active’
+
+src/Csound/Typed/GlobalState/Opcodes.hs:392:1: Warning:
+    Top-level binding with no type signature:
+      getPair :: forall a t. Num a => (a -> [t]) -> (t, t)
+[ 8 of 38] Compiling Csound.Typed.GlobalState.Elements ( src/Csound/Typed/GlobalState/Elements.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/GlobalState/Elements.o )
+
+src/Csound/Typed/GlobalState/Elements.hs:434:1: Warning:
+    Top-level binding with no type signature:
+      tabQueuePlugin :: UdoPlugin
+
+src/Csound/Typed/GlobalState/Elements.hs:435:1: Warning:
+    Top-level binding with no type signature:
+      tabQueue2Plugin :: UdoPlugin
+[ 9 of 38] Compiling Csound.Typed.GlobalState.Options ( src/Csound/Typed/GlobalState/Options.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/GlobalState/Options.o )
+[10 of 38] Compiling Csound.Typed.Constants ( src/Csound/Typed/Constants.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Constants.o )
+
+src/Csound/Typed/Constants.hs:2:1: Warning: Tab character
+[11 of 38] Compiling Csound.Typed.Gui.Gui ( src/Csound/Typed/Gui/Gui.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Gui/Gui.o )
+[12 of 38] Compiling Csound.Typed.GlobalState.GE ( src/Csound/Typed/GlobalState/GE.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/GlobalState/GE.o )
+
+src/Csound/Typed/GlobalState/GE.hs:175:1: Warning:
+    Top-level binding with no type signature:
+      onGenMap :: forall b. State GenMap b -> GE b
+
+src/Csound/Typed/GlobalState/GE.hs:183:1: Warning:
+    Top-level binding with no type signature:
+      onWriteGenMap :: forall b. State WriteGenMap b -> GE b
+[13 of 38] Compiling Csound.Typed.GlobalState.SE ( src/Csound/Typed/GlobalState/SE.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/GlobalState/SE.o )
+
+src/Csound/Typed/GlobalState/SE.hs:8:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[14 of 38] Compiling Csound.Typed.Types.Prim ( src/Csound/Typed/Types/Prim.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Types/Prim.o )
+
+src/Csound/Typed/Types/Prim.hs:38:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Csound/Typed/Types/Prim.hs:46:1: Warning:
+    The qualified import of ‘D.int’
+    from module ‘Csound.Dynamic’ is redundant
+
+src/Csound/Typed/Types/Prim.hs:234:1: Warning:
+    Top-level binding with no type signature:
+      skipNormGenId :: GenId -> GenId
+
+src/Csound/Typed/Types/Prim.hs:243:1: Warning:
+    Top-level binding with no type signature:
+      normGenId :: GenId -> GenId
+
+src/Csound/Typed/Types/Prim.hs:246:15: Warning:
+    This binding for ‘genId’ shadows the existing binding
+      imported from ‘Csound.Dynamic’ at src/Csound/Typed/Types/Prim.hs:45:1-119
+      (and originally defined in ‘Csound.Dynamic.Types.Exp’)
+
+src/Csound/Typed/Types/Prim.hs:268:20: Warning:
+    This binding for ‘xs’ shadows the existing binding
+      bound at src/Csound/Typed/Types/Prim.hs:266:9
+
+src/Csound/Typed/Types/Prim.hs:562:21: Warning:
+    This binding for ‘cond’ shadows the existing binding
+      imported from ‘Data.Boolean’ at src/Csound/Typed/Types/Prim.hs:43:1-19
+
+src/Csound/Typed/Types/Prim.hs:567:19: Warning:
+    This binding for ‘cond’ shadows the existing binding
+      imported from ‘Data.Boolean’ at src/Csound/Typed/Types/Prim.hs:43:1-19
+
+src/Csound/Typed/Types/Prim.hs:572:19: Warning:
+    This binding for ‘cond’ shadows the existing binding
+      imported from ‘Data.Boolean’ at src/Csound/Typed/Types/Prim.hs:43:1-19
+
+src/Csound/Typed/Types/Prim.hs:577:19: Warning:
+    This binding for ‘cond’ shadows the existing binding
+      imported from ‘Data.Boolean’ at src/Csound/Typed/Types/Prim.hs:43:1-19
+
+src/Csound/Typed/Types/Prim.hs:582:19: Warning:
+    This binding for ‘cond’ shadows the existing binding
+      imported from ‘Data.Boolean’ at src/Csound/Typed/Types/Prim.hs:43:1-19
+[15 of 38] Compiling Csound.Typed.Types.Tuple ( src/Csound/Typed/Types/Tuple.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Types/Tuple.o )
+[16 of 38] Compiling Csound.Typed.Control.Ref ( src/Csound/Typed/Control/Ref.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Ref.o )
+
+src/Csound/Typed/Control/Ref.hs:7:1: Warning:
+    The import of ‘Control.DeepSeq’ is redundant
+      except perhaps to import instances from ‘Control.DeepSeq’
+    To import instances alone, use: import Control.DeepSeq()
+
+src/Csound/Typed/Control/Ref.hs:49:1: Warning:
+    Top-level binding with no type signature:
+      toCtrlRate :: Rate -> Rate
+
+src/Csound/Typed/Control/Ref.hs:138:1: Warning:
+    Defined but not used: ‘ftgenonce’
+[17 of 38] Compiling Csound.Typed.Types.MixSco ( src/Csound/Typed/Types/MixSco.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Types/MixSco.o )
+
+src/Csound/Typed/Types/MixSco.hs:75:17: Warning:
+    This binding for ‘notes’ shadows the existing binding
+      imported from ‘Csound.Typed.GlobalState.GE’ at src/Csound/Typed/Types/MixSco.hs:12:1-34
+      (and originally defined
+         at src/Csound/Typed/GlobalState/GE.hs:111:7-11)
+[18 of 38] Compiling Csound.Typed.GlobalState.Instr ( src/Csound/Typed/GlobalState/Instr.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/GlobalState/Instr.o )
+
+src/Csound/Typed/GlobalState/Instr.hs:14:1: Warning:
+    The import of ‘Csound.Typed.GlobalState.Cache’ is redundant
+      except perhaps to import instances from ‘Csound.Typed.GlobalState.Cache’
+    To import instances alone, use: import Csound.Typed.GlobalState.Cache()
+[19 of 38] Compiling Csound.Typed.GlobalState ( src/Csound/Typed/GlobalState.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/GlobalState.o )
+[20 of 38] Compiling Csound.Typed.Types.Lift ( src/Csound/Typed/Types/Lift.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Types/Lift.o )
+
+src/Csound/Typed/Types/Lift.hs:22:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[21 of 38] Compiling Csound.Typed.Types.Evt ( src/Csound/Typed/Types/Evt.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Types/Evt.o )
+
+src/Csound/Typed/Types/Evt.hs:9:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[22 of 38] Compiling Csound.Typed.Types ( src/Csound/Typed/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Types.o )
+[23 of 38] Compiling Csound.Typed.Misc ( src/Csound/Typed/Misc.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Misc.o )
+[24 of 38] Compiling Csound.Typed.Control.Osc ( src/Csound/Typed/Control/Osc.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Osc.o )
+[25 of 38] Compiling Csound.Typed.Control.Channel ( src/Csound/Typed/Control/Channel.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Channel.o )
+[26 of 38] Compiling Csound.Typed.Control.Sf2 ( src/Csound/Typed/Control/Sf2.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Sf2.o )
+[27 of 38] Compiling Csound.Typed.Control.Vco ( src/Csound/Typed/Control/Vco.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Vco.o )
+[28 of 38] Compiling Csound.Typed.Control.Instr ( src/Csound/Typed/Control/Instr.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Instr.o )
+[29 of 38] Compiling Csound.Typed.Control.Mix ( src/Csound/Typed/Control/Mix.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Mix.o )
+
+src/Csound/Typed/Control/Mix.hs:6:10: Warning:
+    The export item ‘CsdEventList(..)’ suggests that
+    ‘CsdEventList’ has (in-scope) constructors or class methods,
+    but it has none
+
+src/Csound/Typed/Control/Mix.hs:9:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Csound/Typed/Control/Mix.hs:11:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+
+src/Csound/Typed/Control/Mix.hs:17:1: Warning:
+    The qualified import of ‘Csound.Typed.GlobalState.Elements’ is redundant
+      except perhaps to import instances from ‘Csound.Typed.GlobalState.Elements’
+    To import instances alone, use: import Csound.Typed.GlobalState.Elements()
+[30 of 38] Compiling Csound.Typed.Control.Midi ( src/Csound/Typed/Control/Midi.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Midi.o )
+
+src/Csound/Typed/Control/Midi.hs:9:1: Warning:
+    The import of ‘System.Mem.StableName’ is redundant
+      except perhaps to import instances from ‘System.Mem.StableName’
+    To import instances alone, use: import System.Mem.StableName()
+
+src/Csound/Typed/Control/Midi.hs:11:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Csound/Typed/Control/Midi.hs:13:1: Warning:
+    The import of ‘Control.Monad.IO.Class’ is redundant
+      except perhaps to import instances from ‘Control.Monad.IO.Class’
+    To import instances alone, use: import Control.Monad.IO.Class()
+
+src/Csound/Typed/Control/Midi.hs:19:1: Warning:
+    The import of ‘Csound.Typed.Control.Instr’ is redundant
+      except perhaps to import instances from ‘Csound.Typed.Control.Instr’
+    To import instances alone, use: import Csound.Typed.Control.Instr()
+[31 of 38] Compiling Csound.Typed.Control.Evt ( src/Csound/Typed/Control/Evt.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Evt.o )
+
+src/Csound/Typed/Control/Evt.hs:37:11: Warning:
+    Defined but not used: ‘unEvt’
+
+src/Csound/Typed/Control/Evt.hs:121:33: Warning:
+    This binding for ‘instrs’ shadows the existing binding
+      imported from ‘Csound.Typed.GlobalState’ at src/Csound/Typed/Control/Evt.hs:21:1-31
+      (and originally defined in ‘Csound.Typed.GlobalState.GE’
+         at src/Csound/Typed/GlobalState/GE.hs:104:7-12)
+
+src/Csound/Typed/Control/Evt.hs:142:21: Warning:
+    This binding for ‘evts’ shadows the existing binding
+      bound at src/Csound/Typed/Control/Evt.hs:121:40
+
+src/Csound/Typed/Control/Evt.hs:183:27: Warning:
+    Defined but not used: ‘aliveCountRef’
+
+src/Csound/Typed/Control/Evt.hs:184:30: Warning:
+    Defined but not used: ‘es’
+
+src/Csound/Typed/Control/Evt.hs:207:9: Warning:
+    Defined but not used: ‘startEvtInstr’
+
+src/Csound/Typed/Control/Evt.hs:258:1: Warning:
+    Defined but not used: ‘evtKey’
+
+src/Csound/Typed/Control/Evt.hs:266:1: Warning:
+    Defined but not used: ‘samNext’
+
+src/Csound/Typed/Control/Evt.hs:269:1: Warning:
+    Defined but not used: ‘samLoop’
+[32 of 38] Compiling Csound.Typed.Gui.Widget ( src/Csound/Typed/Gui/Widget.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Gui/Widget.o )
+
+src/Csound/Typed/Gui/Widget.hs:23:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Csound/Typed/Gui/Widget.hs:28:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Csound/Typed/Gui/Widget.hs:33:1: Warning:
+    The qualified import of ‘Csound.Typed.GlobalState.Opcodes’ is redundant
+      except perhaps to import instances from ‘Csound.Typed.GlobalState.Opcodes’
+    To import instances alone, use: import Csound.Typed.GlobalState.Opcodes()
+[33 of 38] Compiling Csound.Typed.Gui ( src/Csound/Typed/Gui.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Gui.o )
+[34 of 38] Compiling Csound.Typed.Plugins.TabQueue ( src/Csound/Typed/Plugins/TabQueue.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Plugins/TabQueue.o )
+
+src/Csound/Typed/Plugins/TabQueue.hs:23:13: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      bound at src/Csound/Typed/Plugins/TabQueue.hs:20:18
+
+src/Csound/Typed/Plugins/TabQueue.hs:23:17: Warning:
+    This binding for ‘pch’ shadows the existing binding
+      bound at src/Csound/Typed/Plugins/TabQueue.hs:20:23
+
+src/Csound/Typed/Plugins/TabQueue.hs:23:21: Warning:
+    This binding for ‘vol’ shadows the existing binding
+      bound at src/Csound/Typed/Plugins/TabQueue.hs:20:28
+
+src/Csound/Typed/Plugins/TabQueue.hs:32:13: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      bound at src/Csound/Typed/Plugins/TabQueue.hs:29:18
+
+src/Csound/Typed/Plugins/TabQueue.hs:32:17: Warning:
+    This binding for ‘pch’ shadows the existing binding
+      bound at src/Csound/Typed/Plugins/TabQueue.hs:29:22
+
+src/Csound/Typed/Plugins/TabQueue.hs:42:13: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      bound at src/Csound/Typed/Plugins/TabQueue.hs:39:24
+
+src/Csound/Typed/Plugins/TabQueue.hs:48:13: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      bound at src/Csound/Typed/Plugins/TabQueue.hs:45:27
+[35 of 38] Compiling Csound.Typed.Control.Api ( src/Csound/Typed/Control/Api.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control/Api.o )
+
+src/Csound/Typed/Control/Api.hs:13:1: Warning:
+    The import of ‘Data.Boolean’ is redundant
+      except perhaps to import instances from ‘Data.Boolean’
+    To import instances alone, use: import Data.Boolean()
+
+src/Csound/Typed/Control/Api.hs:18:1: Warning:
+    The import of ‘turnoff’
+    from module ‘Csound.Typed.GlobalState.Opcodes’ is redundant
+
+src/Csound/Typed/Control/Api.hs:103:5: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      defined at src/Csound/Typed/Control/Api.hs:177:1
+
+src/Csound/Typed/Control/Api.hs:118:17: Warning:
+    This binding for ‘tab’ shadows the existing binding
+      defined at src/Csound/Typed/Control/Api.hs:177:1
+
+src/Csound/Typed/Control/Api.hs:118:27: Warning:
+    Defined but not used: ‘vol’
+
+src/Csound/Typed/Control/Api.hs:157:1: Warning:
+    Defined but not used: ‘tabw’
+
+src/Csound/Typed/Control/Api.hs:177:1: Warning:
+    Defined but not used: ‘tab’
+[36 of 38] Compiling Csound.Typed.Control ( src/Csound/Typed/Control.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Control.o )
+[37 of 38] Compiling Csound.Typed.Render ( src/Csound/Typed/Render.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed/Render.o )
+
+src/Csound/Typed/Render.hs:14:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[38 of 38] Compiling Csound.Typed     ( src/Csound/Typed.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Csound/Typed.o )
+In-place registering csound-expression-typed-0.0.9.3...
+Installing library in /Users/michalhadrava/Code/Probe-rhythm
+study/probe-rhythm-stimuli/.stack-work/install/x86_64-osx/lts-6.15/7.10.3/lib/x86_64-osx-ghc-7.10.3/csound-expression-typed-0.0.9.3-30GzPkbwq4z8DveTcfaCNZ
+Registering csound-expression-typed-0.0.9.3...
