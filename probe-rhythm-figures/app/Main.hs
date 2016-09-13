@@ -45,7 +45,7 @@ main = multiMain
 --   where n = 10
 
 polyRhythms :: Diagram B
-polyRhythms = polyRhythm 15 [(black, 7), (black, 4), (black, 0)] farey 1
+polyRhythms = tones 15 [(black, 7), (black, 4), (red, 2), (black, 0)] farey 1
 
 chordToRhythm :: Diagram B
 chordToRhythm = unitSquare

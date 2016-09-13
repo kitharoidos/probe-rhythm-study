@@ -1,12 +1,12 @@
 
 ==================== FINAL INTERFACE ====================
-2016-09-12 14:02:36.687005 UTC
+2016-09-13 19:54:42.91479 UTC
 
 interface main@main:Main 7103
-  interface hash: dbf23882bb2ea6389bbf21be584c92dd
-  ABI hash: 1947c3ccbb9bdde1884d58a380b3443a
-  export-list hash: b7b8c694dcc61c84eaefc694813839b3
-  orphan hash: ad87285cd7e4ceb569b28ee9500c5b45
+  interface hash: cce2d12a030291c6ca106aa368bb0102
+  ABI hash: 68e51495fa27cf1f60ca6d27234434cc
+  export-list hash: 24254fa735bb974acc480ff9bf162a3b
+  orphan hash: 3d7d5b8c2aa0da936509348f2d54d8c4
   flag hash: fcdc56d98810c1613f9dbb87b29025a8
   sig of: Nothing
   used TH splices: False
@@ -68,7 +68,7 @@ package dependencies: JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT
                       prelude-extras-0.4.0.3@prelu_1gQpKVfMHul71LsAFgGRhv
                       pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
                       primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
-                      probe-rhythm-figures-0.1.0.0@probe_In0MMn7bgL9KqcTNL8AHKU
+                      probe-rhythm-figures-0.1.0.0@probe_6fbutt2CqsP9qLl4Poiwfy
                       process-1.2.3.0@proce_52AgREEfSrnJLlkGV9YZZJ
                       profunctors-5.2@profu_LHFqrYSAR0z1HJQ4sjj1Mu
                       random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL
@@ -231,17 +231,18 @@ import  -/  base-4.8.2.0:Control.Arrow ab7f126fed349de468f94ac777dc8f4e
 import  -/  base-4.8.2.0:Data.List 3f0782c8d4bf50eecefcd5ea1798aac8
 import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
 import  -/  colour-2.3.3@colou_4tkGkumXZDK9tS5HCSa7Y0:Data.Colour.Internal c20506210de7efa28736509943f23e6a
+import  -/  colour-2.3.3@colou_4tkGkumXZDK9tS5HCSa7Y0:Data.Colour.Names d976b711c8457334899380d6d46d83f8
 import  -/  diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG c562a010d4595b18d96d53f74cf07048
 import  -/  diagrams-svg-1.3.1.10@diagr_2EhV3p2HTUo7gHaGfNwFxx:Diagrams.Backend.SVG.CmdLine dbe49f9e9d2cb2d4320daa55800596bc
 import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Prelude 0f0b2fe832b1921709da84f6a857570f
 import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Shapes 3a4acfa0de3b0a4712b821a6631e632e
 import  -/  diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Types b26bfe70fb5690d8bf4d222cdc975e30
 import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
-import  -/  probe-rhythm-figures-0.1.0.0@probe_In0MMn7bgL9KqcTNL8AHKU:Lib 6b1707391ad5a853a4f551978824dcb0
+import  -/  probe-rhythm-figures-0.1.0.0@probe_6fbutt2CqsP9qLl4Poiwfy:Lib 54b1f86f7e796623345dc42690264d33
 import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa 0d2b929203adefea46e338c8d5c0d0e3
 import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Eval cf223ddb0bba48ccf13f57fe10324a67
 import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Vector aa97ef99b2a616323348edcdab9fc269
-2a6c1d59d5484331bc785ceff2f6caab
+f60c640d83a1e1f77022caa008603f2d
   $s$fTrailLikeQDiagram ::
     Diagrams.TrailLike.TrailLike
       (Diagrams.Core.Types.QDiagram
@@ -293,7 +294,7 @@ import  -/  repa-3.4.1.1@repa_LF5dvoRGljlCRIQRtuaAou:Data.Array.Repa.Repr.Vector
                                   <Data.Monoid.Any>_N)))_R
                      Main.$s$fTrailLikeQDiagram2
                      Main.$s$fTrailLikeQDiagram1) -}
-9d3963f7a4b9abd58529a5c18736909c
+e9cab2e77fe1210bbf3e71a6364b9dd7
   $s$fTrailLikeQDiagram1 ::
     Diagrams.Core.Types.Renderable
       (Diagrams.Path.Path Linear.V2.V2 GHC.Types.Double)
@@ -351,7 +352,7 @@ fad6bf4bbc9dc45de321c1afc4b4f128
 bc159981ffe19032a8987a6acaa81ab9
   $s$fTrailLikeQDiagram_ww4 :: GHC.Base.String
   {- Unfolding: (GHC.CString.unpackCString# "Double"#) -}
-d29c3ffdc666558552609b2eba6526ce
+b783299085cfbd3d580882aec8958e47
   chordToRhythm :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Diagrams.TwoD.Shapes.unitSquare
                    @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
@@ -444,12 +445,12 @@ d29c3ffdc666558552609b2eba6526ce
                            <Linear.V2.V2>_N
                            <GHC.Types.Double>_N
                            <Data.Monoid.Any>_N)) -}
-01609418e6b7b1a7fe5c7ca461e8949d
+b95eff1c5a9aa52aadb7a53150125e7e
   main :: GHC.Types.IO ()
   {- Arity: 1,
      Unfolding: InlineRule (0, True, True)
                 Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-e60a459533a80067360e4197c4bb92ca
+10020224d332f8a2d16217246a9e1342
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -458,7 +459,7 @@ e60a459533a80067360e4197c4bb92ca
                    @ GHC.Types.Double
                    Main.main8
                    Main.main2) -}
-e94e53ad7bb0d94bc3745d125c909d4f
+74e062aeddc1daa3ac2def482fa69aec
   main2 ::
     [(GHC.Base.String,
       Diagrams.Core.Types.QDiagram
@@ -476,7 +477,7 @@ e94e53ad7bb0d94bc3745d125c909d4f
                         Data.Monoid.Any)
                    Main.main6
                    Main.main3) -}
-086326ee1e54f97c5b60ef3eb189f70a
+b244e6c4d83201bedb74eb07217eebfc
   main3 ::
     [(GHC.Base.String,
       Diagrams.Core.Types.QDiagram
@@ -500,7 +501,7 @@ e94e53ad7bb0d94bc3745d125c909d4f
                            Linear.V2.V2
                            GHC.Types.Double
                            Data.Monoid.Any))) -}
-0ec6ed18792cae3047ce6ffd4757c304
+d90040c8471f804dc6732a3a0fe54fc7
   main4 ::
     ([GHC.Types.Char],
      Diagrams.Core.Types.QDiagram
@@ -520,7 +521,7 @@ e94e53ad7bb0d94bc3745d125c909d4f
 97e687bccd61b28e8e57e1ff5338d47b
   main5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "chordToRhythm"#) -}
-a98caa9942b73643896e1e63484f558c
+23401a47a222b88de8463bcb8f4854f5
   main6 ::
     ([GHC.Types.Char],
      Diagrams.Core.Types.QDiagram
@@ -545,7 +546,7 @@ f47c1cee16f15105d6e0360242e911fe
   {- Strictness: m,
      Unfolding: ((GHC.Float.$fShowDouble,
                   Main.$s$fTrailLikeQDiagram2)) -}
-ac2ccf15d53bc0025f0df67991856ff6
+18004db4fd2f0e125a1b2d8bf415c39c
   main9 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -553,73 +554,94 @@ ac2ccf15d53bc0025f0df67991856ff6
      Unfolding: (GHC.TopHandler.runMainIO1
                    @ ()
                    Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
-8d9793b2343da5ba3186bdd5d09444ef
+90fbcd19c0bea38b5921ac3a388337fb
   polyRhythms :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.polyOsc
-                   Lib.rhythm
-                   Lib.polyRhythm1
-                     `cast`
-                   (<[(Data.Colour.Internal.Colour GHC.Types.Double,
-                       Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]>_R
-                    ->_R (Diagrams.Core.Types.QDiagram
-                            <Diagrams.Backend.SVG.B>_N
-                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
-                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
-                            <Data.Monoid.Any>_R)_R)
-                   Main.polyRhythms12
+                   Lib.tone
+                   Lib.tones1
+                   Main.polyRhythms16
                    Main.polyRhythms2
                    Lib.farey
                    Main.polyRhythms1) -}
 dafede1421e1e5ca1be98cf24b18c5f8
   polyRhythms1 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0) -}
-07c9cbc26afc256391508f9095a1af2f
-  polyRhythms10 ::
+14c0d979a00533a983c6b85c2ae6b9c2
+  polyRhythms10 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 2) -}
+995c27ae2a2d3c92cf20f3128b7cb947
+  polyRhythms11 :: Data.Colour.Internal.Colour GHC.Types.Double
+  {- Unfolding: (case Data.Colour.SRGB.$wsRGBBounded
+                        @ GHC.Word.Word8
+                        @ GHC.Types.Double
+                        GHC.Classes.$fOrdDouble
+                        GHC.Float.$fFloatingDouble
+                        GHC.Word.$fIntegralWord8
+                        GHC.Word.$fBoundedWord8
+                        Data.Colour.Names.aliceblue1
+                        Data.Colour.Names.aqua1
+                        Data.Colour.Names.aqua1 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Data.Colour.Internal.RGB @ GHC.Types.Double ww1 ww2 ww3 }) -}
+bb762b391d5adb6e8b336764b1743c4f
+  polyRhythms12 ::
     (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
   {- HasNoCafRefs,
-     Unfolding: ((Main.polyRhythms7, Main.polyRhythms11)) -}
-5417fef64f540ea5be3e2312b0e8eb55
-  polyRhythms11 :: GHC.Types.Int
+     Unfolding: ((Main.polyRhythms8, Main.polyRhythms13)) -}
+d0e4a3bfb8ef3eeafc29a4dcc84e4da1
+  polyRhythms13 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+47d509fc46090f3c56e2c3c3b3f0ad45
+  polyRhythms14 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- HasNoCafRefs,
+     Unfolding: ((Main.polyRhythms8, Main.polyRhythms15)) -}
+c5296727c371897cde9c7065efeb3c45
+  polyRhythms15 :: GHC.Types.Int
   {- HasNoCafRefs, Unfolding: (GHC.Types.I# 7) -}
-915f9a5f498a730acb68870716a9e80e
-  polyRhythms12 :: GHC.Types.Double
+4fd90740587c2a30b2439aadb3c5ceed
+  polyRhythms16 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# 15.0) -}
-a4cbfe978dac9d11d5f12e636bc793e6
+16fb682c0c86f19f769b88292ab67904
   polyRhythms2 ::
     [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
-  {- HasNoCafRefs,
-     Unfolding: (GHC.Types.:
+  {- Unfolding: (GHC.Types.:
                    @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-                   Main.polyRhythms10
+                   Main.polyRhythms14
                    Main.polyRhythms3) -}
-93a40ae93de5ff79c66989dcd2eb716e
+f879c68b3aa8d7cb79c1bca2fb737f31
   polyRhythms3 ::
     [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
-  {- HasNoCafRefs,
-     Unfolding: (GHC.Types.:
+  {- Unfolding: (GHC.Types.:
                    @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-                   Main.polyRhythms8
+                   Main.polyRhythms12
                    Main.polyRhythms4) -}
-fb63ad1908d2a2403a3c31c86de97642
+495c344a3bbbd4faf57f42dbf12be451
   polyRhythms4 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.polyRhythms9
+                   Main.polyRhythms5) -}
+8cb60e8a5ab08bab64b46b4e0a84e1ef
+  polyRhythms5 ::
     [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-                   Main.polyRhythms5
+                   Main.polyRhythms6
                    (GHC.Types.[]
                       @ (Data.Colour.Internal.Colour GHC.Types.Double,
                          GHC.Types.Int))) -}
-8ec95b518536bbf58af9dbaacdb231cb
-  polyRhythms5 ::
+5ec6928526ecd72c9af702280a54e2b3
+  polyRhythms6 ::
     (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
   {- HasNoCafRefs,
-     Unfolding: ((Main.polyRhythms7, Main.polyRhythms6)) -}
-cf42e0598c9e144a288e65ce0f9bfa9f
-  polyRhythms6 :: GHC.Types.Int
+     Unfolding: ((Main.polyRhythms8, Main.polyRhythms7)) -}
+e719e29d9ae8e6bdb7b7d250050f5c3f
+  polyRhythms7 :: GHC.Types.Int
   {- HasNoCafRefs, Unfolding: (GHC.Types.I# 0) -}
-a11404c43e0f8c26917a849ef401d505
-  polyRhythms7 :: Data.Colour.Internal.Colour GHC.Types.Double
+de4a9fc62c8465226076e40c882278f1
+  polyRhythms8 :: Data.Colour.Internal.Colour GHC.Types.Double
   {- HasNoCafRefs,
      Unfolding: (Data.Colour.Internal.RGB
                    @ GHC.Types.Double
@@ -635,14 +657,10 @@ a11404c43e0f8c26917a849ef401d505
                      `cast`
                    (Sym (Data.Colour.Chan.NTCo:Chan[0]
                              <Data.Colour.Internal.Blue>_P <GHC.Types.Double>_R))) -}
-16aa97c76041722e2989bc0cc7c3fa57
-  polyRhythms8 ::
+36c37ca4126f8e41712ea5a1f7296572
+  polyRhythms9 ::
     (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-  {- HasNoCafRefs,
-     Unfolding: ((Main.polyRhythms7, Main.polyRhythms9)) -}
-d353f3159f631a9a263862735828f618
-  polyRhythms9 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+  {- Unfolding: ((Main.polyRhythms11, Main.polyRhythms10)) -}
 874530fd97b2979e5a5fd75e950ddcae
   polyRhythms_nt :: GHC.Types.Double
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.D# 0.0) -}

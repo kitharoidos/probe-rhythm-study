@@ -28,6 +28,13 @@
   (major1) == 3 && (major2) <  4 || \
   (major1) == 3 && (major2) == 4 && (minor) <= 1)
 
+/* package split-0.2.3.1 */
+#define VERSION_split "0.2.3.1"
+#define MIN_VERSION_split(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 3)
+
 /* tool cpphs-1.20.1 */
 #define TOOL_VERSION_cpphs "1.20.1"
 #define MIN_TOOL_VERSION_cpphs(major1,major2,minor) (\
@@ -98,5 +105,5 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 1)
 
-#define CURRENT_PACKAGE_KEY "probe_In0MMn7bgL9KqcTNL8AHKU"
+#define CURRENT_PACKAGE_KEY "probe_6fbutt2CqsP9qLl4Poiwfy"
 
