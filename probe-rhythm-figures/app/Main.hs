@@ -2,50 +2,36 @@ module Main where
 
 import Diagrams.Prelude
 import Diagrams.Backend.SVG.CmdLine
-import Data.List as L
-import Data.Array.Repa as Arr
-import Data.Array.Repa.Eval
-import Data.Array.Repa.Repr.Vector as V
 
 import Lib
-
-import Control.Arrow (second)
 
 main :: IO ()
 main = multiMain
   [ ("polyRhythms", polyRhythms)
-  , ("chordToRhythm", chordToRhythm)
+  , ("tonesToRhythms", tonesToRhythms)
   ]
 
--- cxtPcs :: [Int]
--- cxtPcs = [0, 4, 7]
---
--- prbPcs :: [[Int]]
--- prbPcs  = [[], [1], [2], [3], [5], [6], [8], [9], [10], [11]]
---
--- pcs :: Array V.V DIM1 [(Colour Double, Int)]
--- pcs = fromList (Z :. 10) $ L.map (sortOn (negate . snd) . (L.++) cxtPcs') prbPcs'
---   where cxtPcs' = L.map ((,) black) cxtPcs
---         prbPcs' = L.map (L.map ((,) red)) prbPcs
---
--- tunings :: Array V.V DIM1 (Array U DIM1 Double)
--- tunings = fromList (Z :. 2) [eqt, farey]
---
--- f0s :: Array U DIM1 Double
--- f0s = fromListUnboxed (Z :. 4) $ [eqt ! (Z :. pc) | pc <- [0, 4, 8]] L.++ [2]
---
--- allPolyRhythms :: Array V.V DIM3 (Diagram B)
--- allPolyRhythms = computeS $ traverse3 pcs tunings f0s transExtent newElem
---   where transExtent (Z :. nP) (Z :. nT) (Z :. nF) = Z :. nP :. nT :. nF
---         newElem getP getT getF (Z :. iP :. iT :. iF) =
---           polyRhythm 16 (getP $ Z :. iP) (getT $ Z :. iT) (getF $ Z :. iF)
---
--- allChords :: Array V.V DIM3 (Diagram B)
--- allChords = computeS $ Arr.map (scaleX (1 / fromIntegral n) . hcat . replicate n) allPolyRhythms
---   where n = 10
-
 polyRhythms :: Diagram B
-polyRhythms = tones 15 [(black, 7), (black, 4), (red, 2), (black, 0)] farey 1
+polyRhythms = hsep 2
+  [vsep 2 $ text lbl : [centerXY $ rhythmsWithSync w0 pc tn f0 | pc <- pcs] | (lbl, tn) <- tns]
+  where pbs = [[], [(red, 2)], [(red, 1)]]
+        cxt = [(black, 0), (black, 4), (black, 7)]
+        pcs = map (cxt ++) pbs
+        w0  = 15
+        f0  = 1
+        tns = [("12TET", eqt), ("Farey", farey)]
 
-chordToRhythm :: Diagram B
-chordToRhythm = unitSquare
+tonesToRhythms :: Diagram B
+tonesToRhythms = hsep 4
+  [ vsp [text "original chord", tones w1 pcs tn f1, chord w1 pcs tn f1]
+  , vsp [text "frequencies scaled down", tones w2 pcs tn f2, chord w2 pcs tn f2]
+  , vsp [text "waves transformed to ticks", rhythms w2 pcs tn f2, polyRhythm w2 pcs tn f2]
+  ]
+  where w0  = 7
+        pcs = [(black, 0), (black, 4), (black, 7), (red, 11)]
+        tn  = eqt
+        f1  = 5
+        f2  = 1
+        w1  = w0 * f1
+        w2  = w0 * f2
+        vsp = vsep 2 . map centerXY

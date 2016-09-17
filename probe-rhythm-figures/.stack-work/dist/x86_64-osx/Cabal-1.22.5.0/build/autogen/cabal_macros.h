@@ -21,12 +21,12 @@
   (major1) == 1 && (major2) <  3 || \
   (major1) == 1 && (major2) == 3 && (minor) <= 1)
 
-/* package repa-3.4.1.1 */
-#define VERSION_repa "3.4.1.1"
-#define MIN_VERSION_repa(major1,major2,minor) (\
-  (major1) <  3 || \
-  (major1) == 3 && (major2) <  4 || \
-  (major1) == 3 && (major2) == 4 && (minor) <= 1)
+/* package hmatrix-0.17.0.2 */
+#define VERSION_hmatrix "0.17.0.2"
+#define MIN_VERSION_hmatrix(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  17 || \
+  (major1) == 0 && (major2) == 17 && (minor) <= 0)
 
 /* package split-0.2.3.1 */
 #define VERSION_split "0.2.3.1"
@@ -105,5 +105,5 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 1)
 
-#define CURRENT_PACKAGE_KEY "probe_6fbutt2CqsP9qLl4Poiwfy"
+#define CURRENT_PACKAGE_KEY "probe_G2rIiywLUzz2z377ALaJVY"
 

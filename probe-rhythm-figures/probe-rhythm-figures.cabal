@@ -19,7 +19,7 @@ library
   build-depends:       base >= 4.7 && < 5
                      , diagrams-lib
                      , diagrams-svg
-                     , repa
+                     , hmatrix
                      , split
   default-language:    Haskell2010
 
@@ -31,7 +31,6 @@ executable probe-rhythm-figures-exe
                      , probe-rhythm-figures
                      , diagrams-lib
                      , diagrams-svg
-                     , repa
   default-language:    Haskell2010
 
 test-suite probe-rhythm-figures-test
