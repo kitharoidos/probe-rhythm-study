@@ -31,7 +31,7 @@ polyRhythms = frame 1 . centerXY $ vsep 4 allOscs
         allOscs  = zipWith (\e f -> hsep 4 [e, f]) eqtOscs' farOscs'
 
 tonesToRhythms :: Diagram B
-tonesToRhythms = frame 1 . centerXY $ hsep 2 oscs'
+tonesToRhythms = frame 1 . centerXY $ hsep 4 oscs'
   where w0   = 7
         pcs  = [(black, 0), (black, 4), (black, 7), (red, 11)]
         tn   = eqt
@@ -42,11 +42,11 @@ tonesToRhythms = frame 1 . centerXY $ hsep 2 oscs'
         sp   = 2
         titles    = map (centerX . text)
                         ["original chord", "frequencies scaled down", "waves transformed to ticks"]
-        oscs      = [ beside' unitX (centerY (labelOscs sp pcs) ||| strutX 1) (centerXY $ tones sp w1 pcs tn f1)
+        oscs      = [ beside' unitX (centerY (labelOscs sp pcs) ||| strutX 2) (centerXY $ tones sp w1 pcs tn f1)
                     , centerXY $ tones sp w2 pcs tn f2, centerXY $ rhythms sp w2 pcs tn f2
                     ]
-        polyOscs  = [ beside' unitX (centerY (labelPolyOsc sp pcs) ||| strutX 1) (centerXY $ chord sp w1 pcs tn f1)
+        polyOscs  = [ beside' unitX (centerY (labelPolyOsc sp pcs) ||| strutX 2) (centerXY $ chord sp w1 pcs tn f1)
                     , centerXY $ chord sp w2 pcs tn f2, centerXY $ polyRhythm sp w2 pcs tn f2
                     ]
         oscScales = map centerX [oscScale f1 "0.01 s", oscScale f2 "1 s", oscScale f2 "1 s"]
-        oscs'     = zipWith4 (\t o p s -> vsep 1 [t, o, p, s]) titles oscs polyOscs oscScales
+        oscs'     = zipWith4 (\t o p s -> vsep 2 [t, o, p, s]) titles oscs polyOscs oscScales
