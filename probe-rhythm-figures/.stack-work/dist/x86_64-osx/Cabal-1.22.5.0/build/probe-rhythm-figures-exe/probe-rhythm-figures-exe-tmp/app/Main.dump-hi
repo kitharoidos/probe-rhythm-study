@@ -1,13 +1,13 @@
 
 ==================== FINAL INTERFACE ====================
-2016-09-18 11:42:23.20899 UTC
+2016-09-18 22:50:09.239979 UTC
 
 interface main@main:Main 7103
-  interface hash: 9250d919abeddfea3dce100b22ee4487
-  ABI hash: 106814a933822b4cf13b3bc88985712d
+  interface hash: f9a79d6dfaec003d6971936b9b486ca9
+  ABI hash: a879d9d55aca461b868fd8aa563f6f5d
   export-list hash: d656924f15d9409221fbb7989f2a52e0
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
-  flag hash: fcdc56d98810c1613f9dbb87b29025a8
+  flag hash: d19b3cdac2ae9e6433133ae33393cccb
   sig of: Nothing
   used TH splices: False
   where
@@ -220,7 +220,10 @@ family instance modules: JuicyPixels-3.2.7.2@Juicy_FsUyw0EJkIqKIuj8ORojoT:Codec.
                          vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
                          vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
                          zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  base-4.8.2.0:Data.List 3f0782c8d4bf50eecefcd5ea1798aac8
+import  -/  base-4.8.2.0:Data.OldList d8fd80b0e14aa085ce6219cd89dad356
 import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
 import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
 import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
 import  -/  colour-2.3.3@colou_4tkGkumXZDK9tS5HCSa7Y0:Data.Colour.Internal c20506210de7efa28736509943f23e6a
@@ -232,9 +235,10 @@ import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.Prelude 0
 import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Align 0295e9e280ccccb4b611acd089fd3075
 import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Combinators 03231dedce72c19a9bc778ea7b256eed
 import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Text 189af8ca2b3159b4323696fdc02a9ff0
+import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Vector 1c596ab9358c7ea1c5e7f0a44ab251dc
 import  -/  diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Types b26bfe70fb5690d8bf4d222cdc975e30
 import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
-import  -/  probe-rhythm-figures-0.1.0.0@probe_G2rIiywLUzz2z377ALaJVY:Lib 3a75edd8dd0e5ad5306d6c9151d1ca84
+import  -/  probe-rhythm-figures-0.1.0.0@probe_G2rIiywLUzz2z377ALaJVY:Lib 5ba0c14f3dc71b289a19dab93a63419b
 d33809b893eac248946888e0a5439d3d
   $s$fAlignableQDiagram1 ::
     Data.Monoid.WithSemigroup.Monoid' Data.Monoid.Any
@@ -249,8 +253,24 @@ d33809b893eac248946888e0a5439d3d
                    @ GHC.Types.Double
                    GHC.Float.$fFloatingDouble
                    GHC.Classes.$fOrdDouble) -}
-ae54a30cdf3b57bc637ad6905eb42702
-  $shsep2 ::
+b04151fa4617e8691779c237f390e43e
+  $shsep1 ::
+    Data.Monoid.WithSemigroup.Monoid'
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+  {- Unfolding: (Data.Monoid.WithSemigroup.$fMonoid'm
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   (Lib.$s$fSemigroupQDiagram @ Diagrams.Backend.SVG.SVG)
+                   (Lib.$s$fMonoidQDiagram @ Diagrams.Backend.SVG.SVG)) -}
+1053029d0d7cca68c1f399051c6f6ad9
+  $shsep3 ::
     Linear.Affine.Point
       (Diagrams.Core.V.V
          (Diagrams.Core.Types.QDiagram
@@ -282,8 +302,8 @@ ae54a30cdf3b57bc637ad6905eb42702
                    Linear.V2.$fMetricV2
                    Main.$s$fAlignableQDiagram2
                    Data.Semigroup.$fSemigroupAny) -}
-3984c292e9e74bbde1f14b475b6df41d
-  $shsep4 ::
+d1485432a0482f027ba4fb2f32f1c726
+  $shsep5 ::
     Diagrams.Core.V.Vn
       (Diagrams.Core.Types.QDiagram
          Diagrams.Backend.SVG.SVG
@@ -312,8 +332,8 @@ ae54a30cdf3b57bc637ad6905eb42702
                         Linear.V2.V2
                         GHC.Types.Double
                         Data.Monoid.Any)
-                   Main.$shsep7
-                   Main.$shsep5
+                   Lib.$s$fEnvelopedQDiagram
+                   Main.$shsep6
                      `cast`
                    (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
                              <Diagrams.Core.Types.QDiagram
@@ -321,8 +341,8 @@ ae54a30cdf3b57bc637ad6905eb42702
                                 Linear.V2.V2
                                 GHC.Types.Double
                                 Data.Monoid.Any>_N))) -}
-902c9cccf6d72c2736dfaf52b4367ba2
-  $shsep5 ::
+a2ad9ed367b11a083c5a51e851524952
+  $shsep6 ::
     Linear.Affine.Point
       (Diagrams.Core.V.V
          (Diagrams.Core.Types.QDiagram
@@ -353,43 +373,11 @@ ae54a30cdf3b57bc637ad6905eb42702
                    @ Data.Monoid.Any
                    Linear.V2.$fMetricV2
                    Main.$s$fAlignableQDiagram2
-                   Main.$shsep6) -}
-03a9f399e8fa4b9eca7a6bda2104f5b5
-  $shsep6 :: Data.Semigroup.Semigroup Data.Monoid.Any
+                   Main.$shsep7) -}
+77ba3c463a8452ba406866e624895371
+  $shsep7 :: Data.Semigroup.Semigroup Data.Monoid.Any
   {- Unfolding: (Data.Monoid.WithSemigroup.$p1Monoid'
                    @ Data.Monoid.Any
-                   Main.$s$fAlignableQDiagram1) -}
-44b04a39a2b2a24e245d58ee58a0d6a9
-  $shsep7 ::
-    Diagrams.Core.Envelope.Enveloped
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.SVG
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-  {- Unfolding: (Diagrams.Core.Types.$fEnvelopedQDiagram
-                   @ Diagrams.Backend.SVG.SVG
-                   @ Linear.V2.V2
-                   @ GHC.Types.Double
-                   @ Data.Monoid.Any
-                   Linear.V2.$fMetricV2
-                     `cast`
-                   (Linear.Metric.Metric
-                      (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N)))_R
-                   Main.$s$fAlignableQDiagram2
-                     `cast`
-                   (Diagrams.Core.Envelope.OrderedField
-                      (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N)))_R
-                   Linear.V2.$fMetricV2
-                   Main.$s$fAlignableQDiagram2
                    Main.$s$fAlignableQDiagram1) -}
 251325c9171d4fd135897d38482ee6c2
   $shsep8 ::
@@ -461,299 +449,54 @@ df9bceb57a7ce19c6772d8ac5b89c141
                    Main.$shsep8
                    Linear.V2.$fAdditiveV2
                    GHC.Float.$fNumDouble) -}
-a4dc33f9a035b4b0e3c6d8fc7bdcf5a4
-  $shsep_$dMonoid'1 ::
-    Data.Monoid.WithSemigroup.Monoid'
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-  {- Unfolding: (Data.Monoid.WithSemigroup.$fMonoid'm
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   (Lib.$s$fSemigroupQDiagram @ Diagrams.Backend.SVG.SVG)
-                   (Lib.$s$fMonoidQDiagram @ Diagrams.Backend.SVG.SVG)) -}
-0bb89920ca79144d394e815ca0b9650e
-  $svsep2 ::
-    Diagrams.Core.V.N
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-    ~ Diagrams.Core.V.N
-        (Diagrams.Core.Types.QDiagram
-           Diagrams.Backend.SVG.B
-           Linear.V2.V2
-           GHC.Types.Double
-           Data.Monoid.Any)
-  {- HasNoCafRefs, Strictness: m,
-     Unfolding: (GHC.Types.Eq#
-                   @ *
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @~ <Diagrams.Core.V.N
-                         (Diagrams.Core.Types.QDiagram
-                            Diagrams.Backend.SVG.B
-                            Linear.V2.V2
-                            GHC.Types.Double
-                            Data.Monoid.Any)>_N) -}
-afbb8ba9502f84da6dbad23f6405c8bc
-  $svsep_$dInSpace ::
-    Diagrams.Core.V.InSpace
-      Linear.V2.V2
-      (Diagrams.Core.V.N
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any))
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-  {- Unfolding: (Diagrams.Core.V.$fInSpacevna
-                   @ Linear.V2.V2
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.$shsep9
-                   Main.$svsep2
-                   Linear.V2.$fAdditiveV2
-                   GHC.Float.$fNumDouble
-                     `cast`
-                   (GHC.Num.Num
-                      (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N)))_R) -}
-9bd740a61f224636862bb1fba21c4799
+dd2123fec86e03f25db08494819b96de
   main :: GHC.Types.IO ()
   {- Arity: 1,
      Unfolding: InlineRule (0, True, True)
                 Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-866d51e42d1a4e1e7227c6c759d41e4d
+944acc307485afadabffe8eda77b0d29
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1,
      Unfolding: (Diagrams.Backend.SVG.CmdLine.multiMain1
                    @ GHC.Types.Double
-                   Main.main102
+                   Main.main160
                    Main.main2) -}
-9f275b2903a6e7013d7149c36d4871b2
+11c6b3a09342b84b8e8c804ec6b4f7e0
   main10 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
+       (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+       (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
        Data.Monoid.Any]
   {- Unfolding: (GHC.Types.:
                    @ (Diagrams.Core.Types.QDiagram
                         Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main56
-                   Main.main11) -}
-37469265be41ecfd7e042d8660e1a979
-  main100 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "12TET"#) -}
-27637be7b40e9aa6706071ff4b4ec63d
-  main101 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "polyRhythms"#) -}
-b8ee23895e4cb26a057c5146303a1fa8
-  main102 :: Graphics.Rendering.SVG.SVGFloat GHC.Types.Double
-  {- Strictness: m,
-     Unfolding: ((GHC.Float.$fShowDouble, Main.main21)) -}
-174bfdee510539a467dcac09c4859482
-  main103 ::
-    GHC.Prim.State# GHC.Prim.RealWorld
-    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
-  {- Arity: 1,
-     Unfolding: (GHC.TopHandler.runMainIO1
-                   @ ()
-                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
-fac32a65f3c4030a1d4710e6756083ea
-  main11 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main12
-                   (GHC.Types.[]
-                      @ (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))) -}
-efe98b15824fb62ca7f0cc45e3201af9
-  main12 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main52 Main.main13) -}
-897714ceac570876ce00b22098306d37
-  main13 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Base.map
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main41
-                   Main.main14) -}
-31cd2338780f600113552b4b92f7c70c
-  main14 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main39
-                   Main.main15) -}
-6c156096f16f4ca0a7cf9a624fe63921
-  main15 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main38
-                     `cast`
-                   (Diagrams.Core.Types.QDiagram
-                      <Diagrams.Backend.SVG.SVG>_N
-                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
-                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
-                      <Data.Monoid.Any>_R)_R
-                   Main.main16) -}
-4d5c22e69fee4be41c858868a6d9ce66
-  main16 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
+                        (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+                        (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
                         Data.Monoid.Any)
                    Main.main24
                      `cast`
                    (Diagrams.Core.Types.QDiagram
-                      <Diagrams.Backend.SVG.SVG>_N
-                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
-                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Diagrams.Backend.SVG.B>_N
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                       <Data.Monoid.Any>_R)_R
-                   Main.main17) -}
-cd3871d49edfbe16fb58aaea130fb9b6
-  main17 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main18
-                   (GHC.Types.[]
-                      @ (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))) -}
-87eef3dadad6d65f8eb13285960f8a7b
-  main18 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main20 Main.main19) -}
-f73c5e685be1a5586e1e6c94e78b38ba
-  main19 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "~10 s"#) -}
-aa6b318b7b915f47eaa6667ed51f78d7
-  main2 ::
-    [(GHC.Base.String,
-      Diagrams.Core.Types.QDiagram
-        Diagrams.Backend.SVG.SVG
-        Linear.V2.V2
-        GHC.Types.Double
-        Data.Monoid.Any)]
-  {- Strictness: m2,
-     Unfolding: (GHC.Types.:
-                   @ (GHC.Base.String,
-                      Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.SVG
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main89
-                   Main.main3) -}
-fa6be2e3e8069e3e8ea45a1ef98d8d2a
-  main20 ::
+                   Main.main11) -}
+76eddee8dd3514f61ffbaa30e3cc04bf
+  main100 ::
+    GHC.Base.String
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Arity: 1,
+     Unfolding: (\ x :: GHC.Base.String ->
+                 Main.main_f (Main.main101 x)) -}
+f5a65e843b3c23f5cd5f4e6e6b9db8ca
+  main101 ::
     GHC.Base.String
     -> Diagrams.Core.Types.QDiagram
          Diagrams.Backend.SVG.B
@@ -763,25 +506,25 @@ fa6be2e3e8069e3e8ea45a1ef98d8d2a
   {- Unfolding: (Diagrams.TwoD.Text.text
                    @ Diagrams.Backend.SVG.B
                    @ GHC.Types.Double
-                   Main.main21
+                   Main.main102
                    Lib.$s$fRenderableTextSVG) -}
-24fa8a13388818e3e60f8f01773a0cf0
-  main21 :: Diagrams.Core.Types.TypeableFloat GHC.Types.Double
+d1197bb5767cd6d86383cc7752d5cd8e
+  main102 :: Diagrams.Core.Types.TypeableFloat GHC.Types.Double
   {- Unfolding: (Diagrams.Core.Types.$fTypeableFloatn
                    @ GHC.Types.Double
-                   Main.main22
+                   Main.main103
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <GHC.Types.Double>_N))
                    GHC.Float.$fRealFloatDouble) -}
-0dd63fd08403e1aeb63eeb9c100972a0
-  main22 ::
+8c2dc63650516f080f4255c6bcefabe6
+  main103 ::
     GHC.Prim.Proxy# GHC.Types.Double -> Data.Typeable.Internal.TypeRep
   {- Arity: 1, Strictness: <L,A>m,
      Unfolding: InlineRule (1, True, True)
-                (\ wild :: GHC.Prim.Proxy# GHC.Types.Double -> Main.main23) -}
-4c2edbdda6793fdc80907ed71f0b618d
-  main23 :: Data.Typeable.Internal.TypeRep
+                (\ wild :: GHC.Prim.Proxy# GHC.Types.Double -> Main.main104) -}
+195ab95430ad62da1db6944b0b02d5d1
+  main104 :: Data.Typeable.Internal.TypeRep
   {- Strictness: m,
      Unfolding: (Data.Typeable.Internal.TypeRep
                    __word 8705313363352784917
@@ -789,160 +532,27 @@ fa6be2e3e8069e3e8ea45a1ef98d8d2a
                    Main.main_wild
                    (GHC.Types.[] @ Data.Typeable.Internal.KindRep)
                    (GHC.Types.[] @ Data.Typeable.Internal.TypeRep)) -}
-a50d8d03db8c42bb1150f8b7f36521d5
-  main24 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
-  {- Unfolding: (Lib.polyOsc
-                   Lib.rhythm
-                   Lib.polyRhythm1
-                   Lib.lblPolyOsc
-                   Main.main32
-                   Main.main_pcs
-                   Lib.eqt
-                   Main.main_f0) -}
-cd48c68fb4faa53528064f0719696072
-  main25 ::
-    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
-  {- Strictness: m2,
-     Unfolding: (GHC.Types.:
-                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-                   Main.main34
-                   Main.main26) -}
-d958f43167b47d832e94b33b2b694e04
-  main26 ::
-    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
-  {- Strictness: m2,
-     Unfolding: (GHC.Types.:
-                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-                   Main.main31
-                   Main.main27) -}
-407f7e5ec79e64c0717634264528ef47
-  main27 ::
-    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
-  {- Strictness: m2,
-     Unfolding: (GHC.Types.:
-                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-                   Main.main28
-                   (GHC.Types.[]
-                      @ (Data.Colour.Internal.Colour GHC.Types.Double,
-                         GHC.Types.Int))) -}
-1f312000990a75f9bab6887c20ab2a7d
-  main28 ::
-    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-  {- Strictness: m, Unfolding: ((Main.main30, Main.main29)) -}
-ffeb9052f9b4c353b156575069af5219
-  main29 :: GHC.Types.Int
-  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 11) -}
-5778cf9901a9dcbc13c9640552fc97f8
-  main3 ::
-    [(GHC.Base.String,
-      Diagrams.Core.Types.QDiagram
-        Diagrams.Backend.SVG.SVG
-        Linear.V2.V2
-        GHC.Types.Double
-        Data.Monoid.Any)]
-  {- Strictness: m2,
-     Unfolding: (GHC.Types.:
-                   @ (GHC.Base.String,
-                      Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.SVG
+0290633fc49e5baf6da8b196eeb26b60
+  main105 :: Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (case Linear.Vector.zero
+                        @ Linear.V2.V2
+                        Main.main106
+                        @ GHC.Types.Double
+                        GHC.Float.$fNumDouble of wild { Linear.V2.V2 a23 b ->
+                 Linear.V2.V2 @ GHC.Types.Double Main.main18 b }) -}
+a9bde3e0a6b0fc1abb8f9b18007ed4ff
+  main106 :: Linear.Vector.Additive Linear.V2.V2
+  {- Unfolding: (Diagrams.Core.V.$p3InSpace
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
                         Linear.V2.V2
                         GHC.Types.Double
                         Data.Monoid.Any)
-                   Main.main4
-                   (GHC.Types.[]
-                      @ (GHC.Base.String,
-                         Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.SVG
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))) -}
-2bb06e1802ee5b3e3052286ab0398b55
-  main30 :: Data.Colour.Internal.Colour GHC.Types.Double
-  {- Unfolding: (case Data.Colour.SRGB.$wsRGBBounded
-                        @ GHC.Word.Word8
-                        @ GHC.Types.Double
-                        GHC.Classes.$fOrdDouble
-                        GHC.Float.$fFloatingDouble
-                        GHC.Word.$fIntegralWord8
-                        GHC.Word.$fBoundedWord8
-                        Data.Colour.Names.aliceblue1
-                        Data.Colour.Names.aqua1
-                        Data.Colour.Names.aqua1 of ww { (#,,#) ww1 ww2 ww3 ->
-                 Data.Colour.Internal.RGB @ GHC.Types.Double ww1 ww2 ww3 }) -}
-5907021d3d5bb25e94b321a6e13ecdcc
-  main31 ::
-    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-  {- HasNoCafRefs, Strictness: m,
-     Unfolding: ((Main.main33, Main.main32)) -}
-bd1c37d8c88a6a5b85c8b9a0ac03dd65
-  main32 :: GHC.Types.Int
-  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 7) -}
-3a19c9960fb4b904ba87db13fe9a6ff2
-  main33 :: Data.Colour.Internal.Colour GHC.Types.Double
-  {- HasNoCafRefs, Strictness: m,
-     Unfolding: (Data.Colour.Internal.RGB
-                   @ GHC.Types.Double
-                   Main.main_nt
-                     `cast`
-                   (Sym (Data.Colour.Chan.NTCo:Chan[0]
-                             <Data.Colour.Internal.Red>_P <GHC.Types.Double>_R))
-                   Main.main_nt
-                     `cast`
-                   (Sym (Data.Colour.Chan.NTCo:Chan[0]
-                             <Data.Colour.Internal.Green>_P <GHC.Types.Double>_R))
-                   Main.main_nt
-                     `cast`
-                   (Sym (Data.Colour.Chan.NTCo:Chan[0]
-                             <Data.Colour.Internal.Blue>_P <GHC.Types.Double>_R))) -}
-8ab667303f33f07974006aad2842aa49
-  main34 ::
-    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-  {- HasNoCafRefs, Strictness: m,
-     Unfolding: ((Main.main33, Main.main35)) -}
-21b751acf15cb1be3c2b1952b16d80ec
-  main35 :: GHC.Types.Int
-  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 4) -}
-17970a0a5e64b8d887f786b081d9c552
-  main36 ::
-    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-  {- HasNoCafRefs, Strictness: m,
-     Unfolding: ((Main.main33, Main.main37)) -}
-90a9d205ee86bc7df7bef2c6d6f71956
-  main37 :: GHC.Types.Int
-  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
-e21c303fe87565431b52df6bcc1e53b6
-  main38 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
-  {- Unfolding: (Lib.polyOsc
-                   Lib.rhythm
-                   Lib.rhythms1
-                   Lib.vdist
-                   Main.main32
-                   Main.main_pcs
-                   Lib.eqt
-                   Main.main_f0) -}
-81ea65a55afdbec5d1c5b21adf6fac38
-  main39 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main20 Main.main40) -}
-d3f4290f82a2334536359646de686a10
-  main4 ::
-    ([GHC.Types.Char],
-     Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.SVG
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any)
-  {- Strictness: m, Unfolding: ((Main.main88, Main.main5)) -}
-58daf07b4ce7efeb44b34da6419f005d
-  main40 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString#
-                   "waves transformed to ticks"#) -}
-74d267b358bde4a9985f9b339dd4494f
-  main41 ::
+                   Main.$shsep_$dInSpace) -}
+4f0e4c7ca191cdf461b4fba1fd4b879b
+  main107 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.B
       Linear.V2.V2
@@ -953,563 +563,89 @@ d3f4290f82a2334536359646de686a10
          Linear.V2.V2
          GHC.Types.Double
          Data.Monoid.Any
-  {- Arity: 1, Strictness: <L,U>,
-     Unfolding: InlineRule (1, True, False)
-                (\ x :: Diagrams.Core.Types.QDiagram
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Arity: 4,
+     Unfolding: (\ t :: Diagrams.Core.Types.QDiagram
                           Diagrams.Backend.SVG.B
                           Linear.V2.V2
                           GHC.Types.Double
-                          Data.Monoid.Any ->
-                 Main.main_f (Main.main_g x)) -}
-7e1c7319dc5edef61a8f4b971af7f2e6
-  main42 ::
-    Diagrams.Core.V.V
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-      (Diagrams.Core.V.N
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any))
-  {- Unfolding: (case (Linear.Vector.zero
-                         @ (Diagrams.Core.V.V
-                              (Diagrams.Core.Types.QDiagram
-                                 Diagrams.Backend.SVG.B
-                                 Linear.V2.V2
-                                 GHC.Types.Double
-                                 Data.Monoid.Any))
-                         Main.main44
-                         @ (Diagrams.Core.V.N
-                              (Diagrams.Core.Types.QDiagram
-                                 Diagrams.Backend.SVG.B
-                                 Linear.V2.V2
-                                 GHC.Types.Double
-                                 Data.Monoid.Any))
-                         GHC.Float.$fNumDouble
-                           `cast`
-                         (GHC.Num.Num
-                            (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                      <Diagrams.Backend.SVG.SVG>_N
-                                      <Linear.V2.V2>_N
-                                      <GHC.Types.Double>_N
-                                      <Data.Monoid.Any>_N)))_R)
-                        `cast`
-                      (Sub (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N) <Diagrams.Core.V.N
-                                                        (Diagrams.Core.Types.QDiagram
-                                                           Diagrams.Backend.SVG.B
-                                                           Linear.V2.V2
-                                                           GHC.Types.Double
-                                                           Data.Monoid.Any)>_N) of wild { Linear.V2.V2 a23 b ->
-                 (Linear.V2.V2
-                    @ (Diagrams.Core.V.N
-                         (Diagrams.Core.Types.QDiagram
-                            Diagrams.Backend.SVG.B
-                            Linear.V2.V2
-                            GHC.Types.Double
-                            Data.Monoid.Any))
-                    a23
-                    Main.main43
-                      `cast`
-                    (Sub (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                   <Diagrams.Backend.SVG.SVG>_N
-                                   <Linear.V2.V2>_N
-                                   <GHC.Types.Double>_N
-                                   <Data.Monoid.Any>_N))))
-                   `cast`
-                 (Sub (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N)) <Diagrams.Core.V.N
-                                                         (Diagrams.Core.Types.QDiagram
-                                                            Diagrams.Backend.SVG.B
-                                                            Linear.V2.V2
-                                                            GHC.Types.Double
-                                                            Data.Monoid.Any)>_N) }) -}
-a7aed147ff512bb7ca9b670af079bc31
-  main43 :: GHC.Types.Double
-  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0) -}
-b1cace819fe084beab5721e357b24586
-  main44 ::
-    Linear.Vector.Additive
-      (Diagrams.Core.V.V
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any))
-  {- Unfolding: (Diagrams.Core.V.$p3InSpace
-                   @ (Diagrams.Core.V.V
-                        (Diagrams.Core.Types.QDiagram
+                          Data.Monoid.Any
+                   o :: Diagrams.Core.Types.QDiagram
+                          Diagrams.Backend.SVG.B
+                          Linear.V2.V2
+                          GHC.Types.Double
+                          Data.Monoid.Any[OneShot]
+                   p :: Diagrams.Core.Types.QDiagram
+                          Diagrams.Backend.SVG.B
+                          Linear.V2.V2
+                          GHC.Types.Double
+                          Data.Monoid.Any[OneShot]
+                   s :: Diagrams.Core.Types.QDiagram
+                          Diagrams.Backend.SVG.B
+                          Linear.V2.V2
+                          GHC.Types.Double
+                          Data.Monoid.Any[OneShot] ->
+                 Main.main109
+                   Main.main108
+                   (GHC.Types.:
+                      @ (Diagrams.Core.Types.QDiagram
                            Diagrams.Backend.SVG.B
                            Linear.V2.V2
                            GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main45) -}
-1bd301926f557a773bd6691cb5f3f8a9
-  main45 ::
-    Diagrams.Core.V.InSpace
-      (Diagrams.Core.V.V
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any))
-      (Diagrams.Core.V.N
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any))
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-  {- Unfolding: (Diagrams.Core.V.$fInSpacevna
-                   @ (Diagrams.Core.V.V
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main46
-                   Main.$svsep2
-                   Linear.V2.$fAdditiveV2
-                     `cast`
-                   (Linear.Vector.Additive
-                      (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N)))_R
-                   GHC.Float.$fNumDouble
-                     `cast`
-                   (GHC.Num.Num
-                      (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N)))_R) -}
-380e4d5c9338986be34d36e0ef196f0f
-  main46 ::
-    Diagrams.Core.V.V
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-    ~ Diagrams.Core.V.V
-        (Diagrams.Core.Types.QDiagram
-           Diagrams.Backend.SVG.B
-           Linear.V2.V2
-           GHC.Types.Double
-           Data.Monoid.Any)
-  {- HasNoCafRefs, Strictness: m,
-     Unfolding: (GHC.Types.Eq#
-                   @ (* -> *)
-                   @ (Diagrams.Core.V.V
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.V.V
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @~ <Diagrams.Core.V.V
-                         (Diagrams.Core.Types.QDiagram
-                            Diagrams.Backend.SVG.B
-                            Linear.V2.V2
-                            GHC.Types.Double
-                            Data.Monoid.Any)>_N) -}
-8c8092d0c08379c3087a67c4e15cda29
-  main47 ::
-    Diagrams.Core.V.V
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-      (Diagrams.Core.V.N
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any))
-    -> Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.SVG
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any
-    -> Linear.Affine.Point
-         (Diagrams.Core.V.V
-            (Diagrams.Core.Types.QDiagram
-               Diagrams.Backend.SVG.B
-               Linear.V2.V2
-               GHC.Types.Double
-               Data.Monoid.Any))
-         (Diagrams.Core.V.N
-            (Diagrams.Core.Types.QDiagram
-               Diagrams.Backend.SVG.B
-               Linear.V2.V2
-               GHC.Types.Double
-               Data.Monoid.Any))
-  {- Unfolding: (Diagrams.Align.$fAlignableQDiagram_$cdefaultBoundary
-                   @ Diagrams.Backend.SVG.SVG
-                   @ Linear.V2.V2
-                   @ GHC.Types.Double
-                   @ Data.Monoid.Any
-                   Linear.V2.$fMetricV2
-                   Main.$s$fAlignableQDiagram2
-                   Main.$s$fAlignableQDiagram1
-                   @ (Diagrams.Core.V.V
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   Main.main49
-                   Main.main48) -}
-af064df9cac96c726d55cac3cf324b6d
-  main48 ::
-    Diagrams.Core.V.N
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.SVG
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-    ~ Diagrams.Core.V.N
-        (Diagrams.Core.Types.QDiagram
-           Diagrams.Backend.SVG.B
-           Linear.V2.V2
-           GHC.Types.Double
-           Data.Monoid.Any)
-  {- Unfolding: (Diagrams.Core.V.$p2InSpace
-                   @ (Diagrams.Core.V.V
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.SVG
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main45) -}
-a60076ec02ec59a7ce87e378e49e34a8
-  main49 ::
-    Diagrams.Core.V.V
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.SVG
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-    ~ Diagrams.Core.V.V
-        (Diagrams.Core.Types.QDiagram
-           Diagrams.Backend.SVG.B
-           Linear.V2.V2
-           GHC.Types.Double
-           Data.Monoid.Any)
-  {- Unfolding: (Diagrams.Core.V.$p1InSpace
-                   @ (Diagrams.Core.V.V
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.SVG
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main45) -}
-26964c6ac7745ce2eba68c9a514cff80
-  main5 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main87 Main.main86 Main.main6) -}
-5e01d4f9dac0c9cc64643592863e8560
-  main50 ::
-    (Diagrams.Core.V.V
-       (Diagrams.Core.Types.QDiagram
-          Diagrams.Backend.SVG.B
-          Linear.V2.V2
-          GHC.Types.Double
-          Data.Monoid.Any)
-       (Diagrams.Core.V.N
-          (Diagrams.Core.Types.QDiagram
-             Diagrams.Backend.SVG.B
-             Linear.V2.V2
-             GHC.Types.Double
-             Data.Monoid.Any))
-     -> Diagrams.Core.Types.QDiagram
-          Diagrams.Backend.SVG.SVG
-          Linear.V2.V2
-          GHC.Types.Double
-          Data.Monoid.Any
-     -> Linear.Affine.Point
-          (Diagrams.Core.V.V
-             (Diagrams.Core.Types.QDiagram
-                Diagrams.Backend.SVG.B
-                Linear.V2.V2
-                GHC.Types.Double
-                Data.Monoid.Any))
-          (Diagrams.Core.V.N
-             (Diagrams.Core.Types.QDiagram
-                Diagrams.Backend.SVG.B
-                Linear.V2.V2
-                GHC.Types.Double
-                Data.Monoid.Any)))
-    -> Diagrams.Core.V.V
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any)
-         (Diagrams.Core.V.N
-            (Diagrams.Core.Types.QDiagram
-               Diagrams.Backend.SVG.B
-               Linear.V2.V2
-               GHC.Types.Double
-               Data.Monoid.Any))
-    -> Diagrams.Core.V.N
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any)
-    -> Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.SVG
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any
-    -> Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.SVG
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any
-  {- Unfolding: (Diagrams.Align.alignBy'Default
-                   @ (Diagrams.Core.V.V
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.SVG
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main45
-                   GHC.Float.$fFractionalDouble
-                     `cast`
-                   (GHC.Real.Fractional
-                      (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N)))_R
-                   Main.$shsep2
-                     `cast`
-                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
-                             <Diagrams.Core.Types.QDiagram
-                                Diagrams.Backend.SVG.SVG
-                                Linear.V2.V2
-                                GHC.Types.Double
-                                Data.Monoid.Any>_N))) -}
-2f1f39578c8cc681159e23aa11de1e21
-  main51 ::
-    Diagrams.Core.V.V
-      (Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any)
-      (Diagrams.Core.V.N
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any))
-  {- Unfolding: (case (Linear.Vector.zero
-                         @ (Diagrams.Core.V.V
-                              (Diagrams.Core.Types.QDiagram
-                                 Diagrams.Backend.SVG.B
-                                 Linear.V2.V2
-                                 GHC.Types.Double
-                                 Data.Monoid.Any))
-                         Main.main44
-                         @ (Diagrams.Core.V.N
-                              (Diagrams.Core.Types.QDiagram
-                                 Diagrams.Backend.SVG.B
-                                 Linear.V2.V2
-                                 GHC.Types.Double
-                                 Data.Monoid.Any))
-                         GHC.Float.$fNumDouble
-                           `cast`
-                         (GHC.Num.Num
-                            (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                      <Diagrams.Backend.SVG.SVG>_N
-                                      <Linear.V2.V2>_N
-                                      <GHC.Types.Double>_N
-                                      <Data.Monoid.Any>_N)))_R)
-                        `cast`
-                      (Sub (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N) <Diagrams.Core.V.N
-                                                        (Diagrams.Core.Types.QDiagram
-                                                           Diagrams.Backend.SVG.B
-                                                           Linear.V2.V2
-                                                           GHC.Types.Double
-                                                           Data.Monoid.Any)>_N) of wild { Linear.V2.V2 a23 b ->
-                 (Linear.V2.V2
-                    @ (Diagrams.Core.V.N
-                         (Diagrams.Core.Types.QDiagram
-                            Diagrams.Backend.SVG.B
-                            Linear.V2.V2
-                            GHC.Types.Double
-                            Data.Monoid.Any))
-                    Main.main43
-                      `cast`
-                    (Sub (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                   <Diagrams.Backend.SVG.SVG>_N
-                                   <Linear.V2.V2>_N
-                                   <GHC.Types.Double>_N
-                                   <Data.Monoid.Any>_N)))
-                    b)
-                   `cast`
-                 (Sub (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N)) <Diagrams.Core.V.N
-                                                         (Diagrams.Core.Types.QDiagram
-                                                            Diagrams.Backend.SVG.B
-                                                            Linear.V2.V2
-                                                            GHC.Types.Double
-                                                            Data.Monoid.Any)>_N) }) -}
-ccb751e52f8ef8c0db492dc48138bf28
-  main52 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-    -> Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any
-  {- Unfolding: (Main.main55 Main.main53) -}
-790a791c0ba4bc55faa12d123086ba1b
-  main53 ::
-    Diagrams.Combinators.CatOpts
-      (Diagrams.Core.V.N
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any))
-  {- HasNoCafRefs,
-     Unfolding: (Diagrams.Combinators.CatOpts
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
-                   Diagrams.Combinators.Cat
-                   Main.main54
-                     `cast`
-                   (Sub (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                  <Diagrams.Backend.SVG.SVG>_N
-                                  <Linear.V2.V2>_N
-                                  <GHC.Types.Double>_N
-                                  <Data.Monoid.Any>_N)))
-                   (Data.Proxy.Proxy
-                      @ *
-                      @ (Diagrams.Core.V.N
-                           (Diagrams.Core.Types.QDiagram
+                           Data.Monoid.Any)
+                      t
+                      (GHC.Types.:
+                         @ (Diagrams.Core.Types.QDiagram
                               Diagrams.Backend.SVG.B
                               Linear.V2.V2
                               GHC.Types.Double
-                              Data.Monoid.Any)))) -}
-1fb6399ca918da384de993c13396a34d
-  main54 :: GHC.Types.Double
-  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 2.0) -}
-c63ca9eda01d892fa63a0e34095ab136
-  main55 ::
-    Diagrams.Combinators.CatOpts
-      (Diagrams.Core.V.N
-         (Diagrams.Core.Types.QDiagram
-            Diagrams.Backend.SVG.B
-            Linear.V2.V2
-            GHC.Types.Double
-            Data.Monoid.Any))
+                              Data.Monoid.Any)
+                         o
+                         (GHC.Types.:
+                            @ (Diagrams.Core.Types.QDiagram
+                                 Diagrams.Backend.SVG.B
+                                 Linear.V2.V2
+                                 GHC.Types.Double
+                                 Data.Monoid.Any)
+                            p
+                            (GHC.Types.:
+                               @ (Diagrams.Core.Types.QDiagram
+                                    Diagrams.Backend.SVG.B
+                                    Linear.V2.V2
+                                    GHC.Types.Double
+                                    Data.Monoid.Any)
+                               s
+                               (GHC.Types.[]
+                                  @ (Diagrams.Core.Types.QDiagram
+                                       Diagrams.Backend.SVG.B
+                                       Linear.V2.V2
+                                       GHC.Types.Double
+                                       Data.Monoid.Any))))))) -}
+855a35493f0b98cd825e62b5726ac016
+  main108 :: Diagrams.Combinators.CatOpts GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Diagrams.Combinators.CatOpts
+                   @ GHC.Types.Double
+                   Diagrams.Combinators.Cat
+                   Main.main18
+                   (Data.Proxy.Proxy @ * @ GHC.Types.Double)) -}
+4c6419b83d4f1dff19af310bfaa7765d
+  main109 ::
+    Diagrams.Combinators.CatOpts GHC.Types.Double
     -> [Diagrams.Core.Types.QDiagram
           Diagrams.Backend.SVG.B
           Linear.V2.V2
@@ -1521,351 +657,54 @@ c63ca9eda01d892fa63a0e34095ab136
          GHC.Types.Double
          Data.Monoid.Any
   {- Unfolding: (Diagrams.TwoD.Combinators.vcat'
-                   @ (Diagrams.Core.V.N
-                        (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))
+                   @ GHC.Types.Double
                    @ (Diagrams.Core.Types.QDiagram
                         Diagrams.Backend.SVG.B
                         Linear.V2.V2
                         GHC.Types.Double
                         Data.Monoid.Any)
-                   Main.$svsep_$dInSpace
+                   Main.$shsep_$dInSpace
                    GHC.Float.$fFloatingDouble
-                     `cast`
-                   (GHC.Float.Floating
-                      (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                <Diagrams.Backend.SVG.SVG>_N
-                                <Linear.V2.V2>_N
-                                <GHC.Types.Double>_N
-                                <Data.Monoid.Any>_N)))_R
-                   Main.$shsep4
+                   Main.$shsep5
                      `cast`
                    (Sym (Diagrams.Core.Juxtapose.NTCo:Juxtaposable[0]
                              <Diagrams.Core.Types.QDiagram
-                                Diagrams.Backend.SVG.SVG
+                                Diagrams.Backend.SVG.B
                                 Linear.V2.V2
                                 GHC.Types.Double
                                 Data.Monoid.Any>_N))
-                   Main.$shsep2
+                   Main.$shsep3
                      `cast`
                    (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
                              <Diagrams.Core.Types.QDiagram
-                                Diagrams.Backend.SVG.SVG
+                                Diagrams.Backend.SVG.B
                                 Linear.V2.V2
                                 GHC.Types.Double
                                 Data.Monoid.Any>_N))
-                   Main.$shsep_$dMonoid'1) -}
-a72922594ae8c79c10050a8845982527
-  main56 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main52 Main.main57) -}
-5761e7e0d2902b1ec19c2b9d689c608c
-  main57 ::
+                   Main.$shsep1) -}
+10929af2b5dd9b555c56b423eb68f8f8
+  main11 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Base.map
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main41
-                   Main.main58) -}
-6cb28f1a2b8cd1cd3fe6300ab61b5f30
-  main58 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
+       (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+       (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
        Data.Monoid.Any]
   {- Unfolding: (GHC.Types.:
                    @ (Diagrams.Core.Types.QDiagram
                         Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
+                        (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+                        (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
                         Data.Monoid.Any)
-                   Main.main63
-                   Main.main59) -}
-d4dbe0eec32c25bb6c96f33e51afe2ed
-  main59 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main62
-                     `cast`
-                   (Diagrams.Core.Types.QDiagram
-                      <Diagrams.Backend.SVG.SVG>_N
-                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
-                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
-                      <Data.Monoid.Any>_R)_R
-                   Main.main60) -}
-c3bcecebb1d6154e4bdb37c3e41ba8bd
-  main6 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.SVG
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main85
-                   Main.main82
-                   Main.main79
-                   Main.main_nt
-                   Main.main7) -}
-5dd096a8d4e77df92070409ca1e23f7c
-  main60 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main61
-                     `cast`
-                   (Diagrams.Core.Types.QDiagram
-                      <Diagrams.Backend.SVG.SVG>_N
-                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
-                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
-                      <Data.Monoid.Any>_R)_R
-                   Main.main17) -}
-40dfea5ccc3ad2e456a450d905276e13
-  main61 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
-  {- Unfolding: (Lib.polyOsc
-                   Lib.tone
-                   Lib.chord11
-                     `cast`
-                   (<GHC.Types.Double>_R
-                    ->_R <[(Data.Colour.Internal.Colour GHC.Types.Double,
-                            Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]>_R
-                    ->_R (Diagrams.Core.Types.QDiagram
-                            <Diagrams.Backend.SVG.B>_N
-                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
-                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
-                            <Data.Monoid.Any>_R)_R)
-                   Lib.lblPolyOsc
-                   Main.main32
-                   Main.main_pcs
-                   Lib.eqt
-                   Main.main_f0) -}
-5c0404b5851ef90e445557bee0d0942e
-  main62 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
-  {- Unfolding: (Lib.polyOsc
-                   Lib.tone
-                   Lib.tones1
-                   Lib.vdist
-                   Main.main32
-                   Main.main_pcs
-                   Lib.eqt
-                   Main.main_f0) -}
-d3b8dcc408905711f1d3b1dd561062c5
-  main63 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main20 Main.main64) -}
-c685ddf29c2f2a8cb7128ce8045d5873
-  main64 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString#
-                   "frequencies scaled down"#) -}
-cdc79d428b798af825e2fc5add1b1392
-  main65 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main52 Main.main66) -}
-aee268866a25d7052d38eed83e2fd9d8
-  main66 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Base.map
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main41
-                   Main.main67) -}
-81e48d97a094a9f38a57684d41ca1eb4
-  main67 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main75
-                   Main.main68) -}
-fda2905751f6d3404415ba53c28ea39e
-  main68 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main74
+                   Main.main13
                      `cast`
                    (Diagrams.Core.Types.QDiagram
                       <Diagrams.Backend.SVG.B>_N
-                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
-                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                       <Data.Monoid.Any>_R)_R
-                   Main.main69) -}
-39f8360531d67ab8a8f7dfc9593f9100
-  main69 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main73
-                     `cast`
-                   (Diagrams.Core.Types.QDiagram
-                      <Diagrams.Backend.SVG.SVG>_N
-                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
-                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
-                      <Data.Monoid.Any>_R)_R
-                   Main.main70) -}
-41455e9fffaa0898a77735ed6fd1f614
-  main7 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.SVG
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main85
-                   Main.main82
-                   Main.main81
-                   Main.main_nt
-                   Main.main8) -}
-ab0c502f3c9852b8fbe5cd29cbefc123
-  main70 ::
-    [Diagrams.Core.Types.QDiagram
-       Diagrams.Backend.SVG.B
-       Linear.V2.V2
-       GHC.Types.Double
-       Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
-                   @ (Diagrams.Core.Types.QDiagram
-                        Diagrams.Backend.SVG.B
-                        Linear.V2.V2
-                        GHC.Types.Double
-                        Data.Monoid.Any)
-                   Main.main71
-                   (GHC.Types.[]
-                      @ (Diagrams.Core.Types.QDiagram
-                           Diagrams.Backend.SVG.B
-                           Linear.V2.V2
-                           GHC.Types.Double
-                           Data.Monoid.Any))) -}
-1f4da7a0f44bce7036a02724dd3bf12e
-  main71 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main20 Main.main72) -}
-a42da2f942d987554c9e4bc5a9741838
-  main72 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "~0.1 s"#) -}
-0f75c58768eeff31816f7ec0442b8ab7
-  main73 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
-  {- Unfolding: (Lib.polyOsc
-                   Lib.tone
-                   Lib.chord11
-                     `cast`
-                   (<GHC.Types.Double>_R
-                    ->_R <[(Data.Colour.Internal.Colour GHC.Types.Double,
-                            Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]>_R
-                    ->_R (Diagrams.Core.Types.QDiagram
-                            <Diagrams.Backend.SVG.B>_N
-                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
-                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
-                            <Data.Monoid.Any>_R)_R)
-                   Lib.lblPolyOsc
-                   Main.main_w1
-                   Main.main_pcs
-                   Lib.eqt
-                   Main.main_f1) -}
-02527e30f3995b0ee8cac0897983295a
-  main74 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
-  {- Unfolding: (Lib.polyOsc
-                   Lib.tone
-                   Lib.tones1
-                   Lib.vdist
-                   Main.main_w1
-                   Main.main_pcs
-                   Lib.eqt
-                   Main.main_f1) -}
-6539792c73f547fd0c941d6a8fad6e7c
-  main75 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main20 Main.main76) -}
-5c34747e037fbac6a704a2545cd21a35
-  main76 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "original chord"#) -}
-aa8cab63d3c8f3217d62babb03ba23da
-  main77 ::
+                   Main.main12) -}
+771b251001cb02ede755b1ef0ce92581
+  main110 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
        Linear.V2.V2
@@ -1887,7 +726,7 @@ aa8cab63d3c8f3217d62babb03ba23da
                    Main.$shsep_$dInSpace
                    Linear.V2.$fMetricV2
                    GHC.Float.$fFloatingDouble
-                   Main.$shsep4
+                   Main.$shsep5
                      `cast`
                    (Sym (Diagrams.Core.Juxtapose.NTCo:Juxtaposable[0]
                              <Diagrams.Core.Types.QDiagram
@@ -1895,8 +734,8 @@ aa8cab63d3c8f3217d62babb03ba23da
                                 Linear.V2.V2
                                 GHC.Types.Double
                                 Data.Monoid.Any>_N))
-                   Main.$shsep_$dMonoid'1
-                   Main.$shsep2
+                   Main.$shsep1
+                   Main.$shsep3
                      `cast`
                    (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
                              <Diagrams.Core.Types.QDiagram
@@ -1904,31 +743,645 @@ aa8cab63d3c8f3217d62babb03ba23da
                                 Linear.V2.V2
                                 GHC.Types.Double
                                 Data.Monoid.Any>_N))
-                   Main.main79
+                   Main.main105
                    Diagrams.Combinators.Cat
-                   Main.main78) -}
-cf3d280f11a0240c5af1cbd4eb3a5e0d
-  main78 :: GHC.Types.Double
-  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 4.0) -}
-9cbcb83bc7ffdccf382bd39c1076a936
-  main79 :: Linear.V2.V2 GHC.Types.Double
+                   Main.main_sp) -}
+1ce891572f8ad307bcb4483c6be818e9
+  main111 :: Linear.V2.V2 GHC.Types.Double
   {- Unfolding: (case Linear.Vector.zero
                         @ Linear.V2.V2
-                        Main.main80
+                        Main.main106
                         @ GHC.Types.Double
                         GHC.Float.$fNumDouble of wild { Linear.V2.V2 a23 b ->
-                 Linear.V2.V2 @ GHC.Types.Double Main.main43 b }) -}
-958ed9d7e0450282fe1030880ae2e094
-  main8 ::
+                 Linear.V2.V2 @ GHC.Types.Double a23 Main.main18 }) -}
+5348f141144428139d08366dca366304
+  main112 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.B
       Linear.V2.V2
       GHC.Types.Double
       Data.Monoid.Any
-  {- Unfolding: (Main.main77 Main.main9) -}
-465cfc14a641e314d4b4d57af797a913
-  main80 :: Linear.Vector.Additive Linear.V2.V2
-  {- Unfolding: (Diagrams.Core.V.$p3InSpace
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.Combinators.frame
+                   @ GHC.Types.Double
+                   @ Diagrams.Backend.SVG.B
+                   @ Linear.V2.V2
+                   @ Data.Monoid.Any
+                   Linear.V2.$fMetricV2
+                   Main.$s$fAlignableQDiagram2
+                   Main.$s$fAlignableQDiagram1
+                   Main.main18) -}
+4d137fbe999bc1b6b68f79f5455100b0
+  main113 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "tonesToRhythms"#) -}
+3b7cea9e816252c2f2b0d9cf7c33a2cd
+  main114 ::
+    ([GHC.Types.Char],
+     Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.SVG
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any)
+  {- Strictness: m, Unfolding: ((Main.main159, Main.main115)) -}
+e242b68762112876f20b9a55b8583870
+  main115 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main112 Main.main116) -}
+755fde02c58b19f0688bfba029002a48
+  main116 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main105
+                   Main.main_nt
+                   Main.main117) -}
+6d44374d55d6de6a1f88233dd0c716b4
+  main117 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main111
+                   Main.main_nt
+                   Main.main118) -}
+b5b7d85247594a9b93bc332a89e10628
+  main118 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main109 Main.main158 Main.main119) -}
+c363429169355b6a6273029ca15b4459
+  main119 ::
+    [Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.B
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any]
+  {- Unfolding: (GHC.List.zipWith
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.main155
+                   Main.main146
+                   Main.main120) -}
+ad20730b35d998944f3820d7a1fc40fb
+  main12 ::
+    [Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.B
+       (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+       (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
+       Data.Monoid.Any]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+                        (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
+                        Data.Monoid.Any)
+                   Main.main13
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                      <Data.Monoid.Any>_R)_R
+                   (GHC.Types.[]
+                      @ (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.B
+                           (Diagrams.Core.V.V Diagrams.Backend.SVG.B)
+                           (Diagrams.Core.V.N Diagrams.Backend.SVG.B)
+                           Data.Monoid.Any))) -}
+d7fc1418717f17d12c88be94947ffe38
+  main120 ::
+    [Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.B
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.main136
+                   Main.main121) -}
+f5d36428ded63bf7f9c20c501f913ff9
+  main121 ::
+    [Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.B
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any]
+  {- Unfolding: (case Main.main122
+                        `cast`
+                      ([(Diagrams.Core.Types.QDiagram
+                           <Diagrams.Backend.SVG.SVG>_N
+                           (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                           (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                           <Data.Monoid.Any>_R)_R])_R of wild {
+                   []
+                   -> GHC.List.scanl2
+                        @ (Diagrams.Core.Types.QDiagram
+                             Diagrams.Backend.SVG.B
+                             Linear.V2.V2
+                             GHC.Types.Double
+                             Data.Monoid.Any)
+                   : ds1 xs -> xs }) -}
+7f1c6bd00eb3f56f64807826b0ccd176
+  main122 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+  {- Unfolding: (Main.main_go Main.main_pcs1) -}
+838aaaae468b62b9f8aaba7278428834
+  main123 ::
+    [[(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+                   Main.main131
+                   Main.main124) -}
+c6ddeab788b3fe1f141cfe437695a41b
+  main124 ::
+    [[(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+                   Main.main125
+                   (GHC.Types.[]
+                      @ [(Data.Colour.Internal.Colour GHC.Types.Double,
+                          GHC.Types.Int)])) -}
+c191733269f9772a2fdf593c66c87414
+  main125 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- Unfolding: (GHC.Base.++
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main128
+                   Main.main126) -}
+07a9e3e097071b9efd7d5bc9d338aeaa
+  main126 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main127
+                   (GHC.Types.[]
+                      @ (Data.Colour.Internal.Colour GHC.Types.Double,
+                         GHC.Types.Int))) -}
+53a6774d1f41c9eaf84e4e4934fdeded
+  main127 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- Unfolding: ((Main.main39, Main.main_f0)) -}
+dc5aad51fd621e494f3e304cd65cab24
+  main128 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main44
+                   Main.main129) -}
+13f127b2d356f7c4e24e2c451fcd17ff
+  main129 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main43
+                   Main.main130) -}
+44b4d1bb096a593410db56be2b5d2172
+  main13 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main16
+                   Main.main14
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+1b2d1aec6f0c4342a7f480b54cbe228c
+  main130 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main40
+                   (GHC.Types.[]
+                      @ (Data.Colour.Internal.Colour GHC.Types.Double,
+                         GHC.Types.Int))) -}
+a15941cdf1a5ef32f2ff2420e7ca2cb3
+  main131 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- Unfolding: (GHC.Base.++
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main128
+                   Main.main132) -}
+0e87bb66061f5a7a8883cb82cf19c726
+  main132 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main133
+                   (GHC.Types.[]
+                      @ (Data.Colour.Internal.Colour GHC.Types.Double,
+                         GHC.Types.Int))) -}
+027b47b1a397cd32642bd74209e67eeb
+  main133 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- Unfolding: ((Main.main39, Main.main134)) -}
+b8745d7636cfe8dc778782828d5ac627
+  main134 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 2) -}
+bb0e901d996ac7a4f893451d54fe95b6
+  main135 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- Unfolding: (GHC.Base.++
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main128
+                   (GHC.Types.[]
+                      @ (Data.Colour.Internal.Colour GHC.Types.Double,
+                         GHC.Types.Int))) -}
+335f61e2588efbc23799776820a4d88e
+  main136 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main68 Main.main_y Main.main137) -}
+0aede60eb439b966da0c271443a03712
+  main137 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Juxtapose.juxtaposeDefault
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$s$fEnvelopedQDiagram
+                   Main.$shsep6
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.main145
+                     `cast`
+                   (Sub (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
+                                  <Diagrams.Backend.SVG.SVG>_N
+                                  <Linear.V2.V2>_N
+                                  <GHC.Types.Double>_N
+                                  <Data.Monoid.Any>_N)) <Diagrams.Core.V.N
+                                                           (Diagrams.Core.Types.QDiagram
+                                                              Diagrams.Backend.SVG.B
+                                                              Linear.V2.V2
+                                                              GHC.Types.Double
+                                                              Data.Monoid.Any)>_N)
+                   Main.main_y
+                   Main.main138) -}
+97b31615ff38448570710e7306be504a
+  main138 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main68 Main.main_d1 Main.main139) -}
+86f426e1001473e25c296c8eb6c47ad5
+  main139 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Juxtapose.juxtaposeDefault
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$s$fEnvelopedQDiagram
+                   Main.$shsep6
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.main144
+                   Main.main_d1
+                   Main.main140) -}
+93384c2735ac02e802e29f188ca37522
+  main14 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.oscScale Main.main_f0 Main.main15) -}
+257b548939af0160a0438b19447b29ab
+  main140 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main60 Main.main141) -}
+767a6a5514b4ea4c90269472361038cb
+  main141 :: Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (case GHC.Num.fromInteger
+                        @ GHC.Types.Double
+                        Main.main57
+                        Main.main56 of dt { GHC.Types.D# ipv ->
+                 Linear.V2.V2 @ GHC.Types.Double dt Main.main_sp }) -}
+4099755f78c181be35bba5ff88303674
+  main142 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main101 Main.main143) -}
+708f44c3e6f960878dfa1dbfd599cd8b
+  main143 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Farey"#) -}
+8f2af0085cbd5a3f2a0884659639f195
+  main144 ::
+    Diagrams.Core.V.Vn
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+  {- Unfolding: (case Main.main22 of cobox { GHC.Types.Eq# cobox1 ->
+                 case Main.main21 of cobox2 { GHC.Types.Eq# cobox3 ->
+                 case Linear.Vector.zero
+                        @ Linear.V2.V2
+                        Main.main106
+                        @ GHC.Types.Double
+                        Main.main_$dNum1 of wild { Linear.V2.V2 a23 b ->
+                 case GHC.Num.fromInteger
+                        @ GHC.Types.Double
+                        Main.main_$dNum1
+                        Diagrams.TwoD.Vector.unitX1 of dt { GHC.Types.D# ipv ->
+                 (Linear.V2.V2 @ GHC.Types.Double dt b)
+                   `cast`
+                 (Sub (Sym cobox1) (Sym cobox3)) } } } }) -}
+b6d20eef8ef90f4145bdc3cab563393e
+  main145 ::
+    Linear.V2.V2
+      (Diagrams.Core.V.N
+         (Diagrams.Core.Types.QDiagram
+            Diagrams.Backend.SVG.B
+            Linear.V2.V2
+            GHC.Types.Double
+            Data.Monoid.Any))
+  {- HasNoCafRefs,
+     Unfolding: (Linear.V2.V2
+                   @ (Diagrams.Core.V.N
+                        (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.B
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any))
+                   Main.main_nt
+                     `cast`
+                   (Sub (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
+                                  <Diagrams.Backend.SVG.SVG>_N
+                                  <Linear.V2.V2>_N
+                                  <GHC.Types.Double>_N
+                                  <Data.Monoid.Any>_N)))
+                   Main.main18
+                     `cast`
+                   (Sub (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
+                                  <Diagrams.Backend.SVG.SVG>_N
+                                  <Linear.V2.V2>_N
+                                  <GHC.Types.Double>_N
+                                  <Data.Monoid.Any>_N)))) -}
+77be10da1041edcad7cd02b0fb64cdd7
+  main146 ::
+    [Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.B
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.main149
+                   Main.main147) -}
+05154fd94fc852c9a977b68f3dd26d27
+  main147 ::
+    [Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.B
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any]
+  {- Unfolding: (case Main.main148
+                        `cast`
+                      ([(Diagrams.Core.Types.QDiagram
+                           <Diagrams.Backend.SVG.SVG>_N
+                           (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                           (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                           <Data.Monoid.Any>_R)_R])_R of wild {
+                   []
+                   -> GHC.List.scanl2
+                        @ (Diagrams.Core.Types.QDiagram
+                             Diagrams.Backend.SVG.B
+                             Linear.V2.V2
+                             GHC.Types.Double
+                             Data.Monoid.Any)
+                   : ds1 xs -> xs }) -}
+b997a44db83230ecaea6d6a06fd98e26
+  main148 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+  {- Unfolding: (Main.main_go1 Main.main_pcs1) -}
+e7e8e3fa3d91763fe2fd67a78afc9127
+  main149 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main68 Main.main_y1 Main.main150) -}
+3ce041e4c84f61f5e3c27028f5093f59
+  main15 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "1 s"#) -}
+b54606e5230dae68df0eb13790623cd4
+  main150 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Juxtapose.juxtaposeDefault
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$s$fEnvelopedQDiagram
+                   Main.$shsep6
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.main145
+                     `cast`
+                   (Sub (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
+                                  <Diagrams.Backend.SVG.SVG>_N
+                                  <Linear.V2.V2>_N
+                                  <GHC.Types.Double>_N
+                                  <Data.Monoid.Any>_N)) <Diagrams.Core.V.N
+                                                           (Diagrams.Core.Types.QDiagram
+                                                              Diagrams.Backend.SVG.B
+                                                              Linear.V2.V2
+                                                              GHC.Types.Double
+                                                              Data.Monoid.Any)>_N)
+                   Main.main_y1
+                   Main.main151) -}
+46173a875ef3653aa55ca8231766762e
+  main151 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main68 Main.main_d2 Main.main152) -}
+2686936fc8b1fcf1c4347c4c9fc1f83a
+  main152 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Juxtapose.juxtaposeDefault
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$s$fEnvelopedQDiagram
+                   Main.$shsep6
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.main144
+                   Main.main_d2
+                   Main.main140) -}
+741ce369d8ed3f0c4ba6255592abee32
+  main153 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main101 Main.main154) -}
+daf5dc4c0600629feee3c4f4ade87071
+  main154 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "12TET"#) -}
+ac3cd7486648d7ecfb3b27fcbf27a129
+  main155 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Arity: 2,
+     Unfolding: (\ e :: Diagrams.Core.Types.QDiagram
+                          Diagrams.Backend.SVG.B
+                          Linear.V2.V2
+                          GHC.Types.Double
+                          Data.Monoid.Any
+                   f :: Diagrams.Core.Types.QDiagram
+                          Diagrams.Backend.SVG.B
+                          Linear.V2.V2
+                          GHC.Types.Double
+                          Data.Monoid.Any[OneShot] ->
+                 Main.main156
+                   (GHC.Types.:
+                      @ (Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.B
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any)
+                      e
+                      (GHC.Types.:
+                         @ (Diagrams.Core.Types.QDiagram
+                              Diagrams.Backend.SVG.B
+                              Linear.V2.V2
+                              GHC.Types.Double
+                              Data.Monoid.Any)
+                         f
+                         (GHC.Types.[]
+                            @ (Diagrams.Core.Types.QDiagram
+                                 Diagrams.Backend.SVG.B
+                                 Linear.V2.V2
+                                 GHC.Types.Double
+                                 Data.Monoid.Any))))) -}
+dcd76ea0e63e60b679569a686738909f
+  main156 ::
+    [Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.B
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any]
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.Combinators.$wcat'
                    @ Linear.V2.V2
                    @ GHC.Types.Double
                    @ (Diagrams.Core.Types.QDiagram
@@ -1936,17 +1389,115 @@ cf3d280f11a0240c5af1cbd4eb3a5e0d
                         Linear.V2.V2
                         GHC.Types.Double
                         Data.Monoid.Any)
-                   Main.$shsep_$dInSpace) -}
-fffd117c1b9872c6c255a8faa8699808
-  main81 :: Linear.V2.V2 GHC.Types.Double
+                   Main.$shsep_$dInSpace
+                   Linear.V2.$fMetricV2
+                   GHC.Float.$fFloatingDouble
+                   Main.$shsep5
+                     `cast`
+                   (Sym (Diagrams.Core.Juxtapose.NTCo:Juxtaposable[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.$shsep1
+                   Main.$shsep3
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.main105
+                   Diagrams.Combinators.Cat
+                   Main.main157) -}
+b14e81c6bfc34b673aaa59e6b4b19ca3
+  main157 :: GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.D# 4.0) -}
+6302356e4ad70ccf4406847c3b9dced3
+  main158 :: Diagrams.Combinators.CatOpts GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Diagrams.Combinators.CatOpts
+                   @ GHC.Types.Double
+                   Diagrams.Combinators.Cat
+                   Main.main157
+                   (Data.Proxy.Proxy @ * @ GHC.Types.Double)) -}
+fbdef7cc1356ad4ae65cba6b90e3e830
+  main159 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "polyRhythms"#) -}
+c810eb0deb061847c26d5e04f92262f2
+  main16 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Main.main23 Main.main20 Main.main17 Main.main_nt) -}
+83e2cfeff234a1f7ad98b1b662ad363c
+  main160 :: Graphics.Rendering.SVG.SVGFloat GHC.Types.Double
+  {- Strictness: m,
+     Unfolding: ((GHC.Float.$fShowDouble, Main.main102)) -}
+2229529dd63f75a13e56218c6cf9f617
+  main161 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+3228ee7e80c7b623e5135c9f91b7f231
+  main17 :: Linear.V2.V2 GHC.Types.Double
   {- Unfolding: (case Linear.Vector.zero
                         @ Linear.V2.V2
-                        Main.main80
+                        Main.main19
                         @ GHC.Types.Double
                         GHC.Float.$fNumDouble of wild { Linear.V2.V2 a23 b ->
-                 Linear.V2.V2 @ GHC.Types.Double a23 Main.main43 }) -}
-8a8400024f666ad5c8ebc861010e2512
-  main82 ::
+                 Linear.V2.V2 @ GHC.Types.Double Main.main18 b }) -}
+3ea0806fccf47673c05e42865eae53c3
+  main18 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0) -}
+413dfc4aef3c1451bf16a21ba82cbadd
+  main19 :: Linear.Vector.Additive Linear.V2.V2
+  {- Unfolding: (Diagrams.Core.V.$p3InSpace
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Main.$shsep_$dInSpace
+                     `cast`
+                   (Diagrams.Core.V.InSpace
+                      <Linear.V2.V2>_N
+                      <GHC.Types.Double>_N
+                      (Diagrams.Core.Types.QDiagram
+                         <Diagrams.Backend.SVG.B>_N
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                         <Data.Monoid.Any>_N)_N)_R) -}
+da519b29eb597d9dd2313a11ecc69cab
+  main2 ::
+    [(GHC.Base.String,
+      Diagrams.Core.Types.QDiagram
+        Diagrams.Backend.SVG.SVG
+        Linear.V2.V2
+        GHC.Types.Double
+        Data.Monoid.Any)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String,
+                      Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.main114
+                   Main.main3) -}
+567cbb72a76397f6b1554fefc37aac6e
+  main20 ::
     Linear.V2.V2 GHC.Types.Double
     -> Diagrams.Core.Types.QDiagram
          Diagrams.Backend.SVG.SVG
@@ -1964,10 +1515,10 @@ fffd117c1b9872c6c255a8faa8699808
                    Main.$s$fAlignableQDiagram1
                    @ Linear.V2.V2
                    @ GHC.Types.Double
-                   Main.main84
-                   Main.main83) -}
-9935b21ad2fbe714be5caa3514549e6e
-  main83 ::
+                   Main.main22
+                   Main.main21) -}
+765a47bf348282dbac9bd8c1f40e74d4
+  main21 ::
     Diagrams.Core.V.N
       (Diagrams.Core.Types.QDiagram
          Diagrams.Backend.SVG.SVG
@@ -1984,8 +1535,8 @@ fffd117c1b9872c6c255a8faa8699808
                         GHC.Types.Double
                         Data.Monoid.Any)
                    Main.$shsep_$dInSpace) -}
-4bf6ebfe01c726aad8d84ded7658afb7
-  main84 ::
+869c53a22014bb9b34e54900c23c76e4
+  main22 ::
     Diagrams.Core.V.V
       (Diagrams.Core.Types.QDiagram
          Diagrams.Backend.SVG.SVG
@@ -2002,8 +1553,8 @@ fffd117c1b9872c6c255a8faa8699808
                         GHC.Types.Double
                         Data.Monoid.Any)
                    Main.$shsep_$dInSpace) -}
-00d66598a7d7f1bfb221bfce307feb59
-  main85 ::
+87e751bbab992b0d113935a0d0cf49ad
+  main23 ::
     (Linear.V2.V2 GHC.Types.Double
      -> Diagrams.Core.Types.QDiagram
           Diagrams.Backend.SVG.SVG
@@ -2033,7 +1584,7 @@ fffd117c1b9872c6c255a8faa8699808
                         Data.Monoid.Any)
                    Main.$shsep_$dInSpace
                    GHC.Float.$fFractionalDouble
-                   Main.$shsep2
+                   Main.$shsep3
                      `cast`
                    (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
                              <Diagrams.Core.Types.QDiagram
@@ -2041,133 +1592,1114 @@ fffd117c1b9872c6c255a8faa8699808
                                 Linear.V2.V2
                                 GHC.Types.Double
                                 Data.Monoid.Any>_N))) -}
-2b24b5d49da1babf9ce351594ddd43a6
-  main86 :: GHC.Types.Double
-  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.1) -}
-059dc09330dea0498c6092ff71be2940
-  main87 ::
-    GHC.Types.Double
-    -> Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any
-    -> Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any
-  {- Unfolding: (Diagrams.Combinators.pad
-                   @ GHC.Types.Double
-                   @ Diagrams.Backend.SVG.B
-                   @ Linear.V2.V2
-                   @ Data.Monoid.Any
-                   Linear.V2.$fMetricV2
-                   Main.$s$fAlignableQDiagram2
-                   Main.$s$fAlignableQDiagram1) -}
-fd9c268dab45c20bf7ca361ee9f25f17
-  main88 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "tonesToRhythms"#) -}
-d5b9eedd1105cd91a7a61f6a0b33fd46
-  main89 ::
+6f14f4866405612eb5f0dbfb38a1e91a
+  main24 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main16
+                   Main.main25
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+b0cb5125c6cb59a8513aa7c0aa4888e7
+  main25 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.oscScale Main.main27 Main.main26) -}
+e3e8abbb80fbcda9790cd56084bdb724
+  main26 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "0.01 s"#) -}
+ce2691e7592163379a8fcebcc52980f9
+  main27 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 4) -}
+6cd062d578bc6d72de0a47110dad16ad
+  main28 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Main.main50
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                      <Data.Monoid.Any>_R)_R
+                   Main.main29) -}
+0abe0d02a0cd9512cc56f1b0cf9f8eca
+  main29 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Main.main47
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                      <Data.Monoid.Any>_R)_R
+                   Main.main30) -}
+4e67922dc1bfe58ef8bb1b3a40b4e3b8
+  main3 ::
+    [(GHC.Base.String,
+      Diagrams.Core.Types.QDiagram
+        Diagrams.Backend.SVG.SVG
+        Linear.V2.V2
+        GHC.Types.Double
+        Data.Monoid.Any)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String,
+                      Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.main4
+                   (GHC.Types.[]
+                      @ (GHC.Base.String,
+                         Diagrams.Core.Types.QDiagram
+                           Diagrams.Backend.SVG.SVG
+                           Linear.V2.V2
+                           GHC.Types.Double
+                           Data.Monoid.Any))) -}
+9bcbaa1b4213ed9d879b703cff9d0c3a
+  main30 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Main.main31
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                      <Data.Monoid.Any>_R)_R
+                   (GHC.Types.[]
+                      @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B))) -}
+a9e140f57b966313fab39550426910c5
+  main31 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main17
+                   Main.main_nt
+                   Main.main32) -}
+553e98c16d07482d379c8830f4a9ae0b
+  main32 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main46
+                   Main.main_nt
+                   Main.main33
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+749ba0f589121bc236051aa86fbee95c
+  main33 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.polyOsc
+                   Lib.rhythm
+                   Lib.polyRhythm1
+                     `cast`
+                   (<GHC.Types.Double>_R
+                    ->_R <[(Data.Colour.Internal.Colour GHC.Types.Double,
+                            Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]>_R
+                    ->_R (Diagrams.Core.Types.QDiagram
+                            <Diagrams.Backend.SVG.B>_N
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                            <Data.Monoid.Any>_R)_R)
+                   Main.main_sp
+                   Main.main41
+                   Main.main_pcs
+                   Lib.eqt
+                   Main.main_f0) -}
+ecf88e268d9bdf685556d8cb32867e1a
+  main34 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main43
+                   Main.main35) -}
+00e7affedb69bcdf4b1b9d3495c1206c
+  main35 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main40
+                   Main.main36) -}
+d24c70efc1afaf4957798315e6992358
+  main36 ::
+    [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   Main.main37
+                   (GHC.Types.[]
+                      @ (Data.Colour.Internal.Colour GHC.Types.Double,
+                         GHC.Types.Int))) -}
+c7ae9b3405eb3230df0e8efea5a18c0b
+  main37 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- Strictness: m, Unfolding: ((Main.main39, Main.main38)) -}
+cf05e6d7f58ce88908a8af6601e1c42a
+  main38 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 11) -}
+c2ce488212f993cd6b99651a7b2358cc
+  main39 :: Data.Colour.Internal.Colour GHC.Types.Double
+  {- Unfolding: (case Data.Colour.SRGB.$wsRGBBounded
+                        @ GHC.Word.Word8
+                        @ GHC.Types.Double
+                        GHC.Classes.$fOrdDouble
+                        GHC.Float.$fFloatingDouble
+                        GHC.Word.$fIntegralWord8
+                        GHC.Word.$fBoundedWord8
+                        Data.Colour.Names.aliceblue1
+                        Data.Colour.Names.aqua1
+                        Data.Colour.Names.aqua1 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Data.Colour.Internal.RGB @ GHC.Types.Double ww1 ww2 ww3 }) -}
+d08096bb7da006f9f42b9d84415ec3e9
+  main4 ::
     ([GHC.Types.Char],
      Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.SVG
        Linear.V2.V2
        GHC.Types.Double
        Data.Monoid.Any)
-  {- Strictness: m, Unfolding: ((Main.main101, Main.main90)) -}
-6b14c8eed7615486294479977f0eea64
+  {- Strictness: m, Unfolding: ((Main.main113, Main.main5)) -}
+e0911288f742d153110c5bdf3a490576
+  main40 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((Main.main42, Main.main41)) -}
+ce956fba226456c3831cb63ba7152ddd
+  main41 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 7) -}
+1facd075d25239ec7ca57147a359945a
+  main42 :: Data.Colour.Internal.Colour GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Data.Colour.Internal.RGB
+                   @ GHC.Types.Double
+                   Main.main_nt
+                     `cast`
+                   (Sym (Data.Colour.Chan.NTCo:Chan[0]
+                             <Data.Colour.Internal.Red>_P <GHC.Types.Double>_R))
+                   Main.main_nt
+                     `cast`
+                   (Sym (Data.Colour.Chan.NTCo:Chan[0]
+                             <Data.Colour.Internal.Green>_P <GHC.Types.Double>_R))
+                   Main.main_nt
+                     `cast`
+                   (Sym (Data.Colour.Chan.NTCo:Chan[0]
+                             <Data.Colour.Internal.Blue>_P <GHC.Types.Double>_R))) -}
+7ce5e9e01bd34a566c93d98db8ad82b4
+  main43 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((Main.main42, Main.main27)) -}
+77cf6839125c7ee22edaaef996802792
+  main44 ::
+    (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((Main.main42, Main.main45)) -}
+46d8d9d4f84c356e654e3c41f0698f51
+  main45 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
+79923eb3f8504b07a0abed21a5f9179b
+  main46 :: Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (case Linear.Vector.zero
+                        @ Linear.V2.V2
+                        Main.main19
+                        @ GHC.Types.Double
+                        GHC.Float.$fNumDouble of wild { Linear.V2.V2 a23 b ->
+                 Linear.V2.V2 @ GHC.Types.Double a23 Main.main18 }) -}
+04b14c53529d172b3fadc5af1b83d7a5
+  main47 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main17
+                   Main.main_nt
+                   Main.main48) -}
+814a4b4a3cf399096197ebd5728e94f6
+  main48 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main46
+                   Main.main_nt
+                   Main.main49
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+c356117a8a55869d9693ea75749c37ba
+  main49 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.polyOsc
+                   Lib.tone
+                   Lib.chord1
+                     `cast`
+                   (<GHC.Types.Double>_R
+                    ->_R <[(Data.Colour.Internal.Colour GHC.Types.Double,
+                            Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]>_R
+                    ->_R (Diagrams.Core.Types.QDiagram
+                            <Diagrams.Backend.SVG.B>_N
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                            <Data.Monoid.Any>_R)_R)
+                   Main.main_sp
+                   Main.main41
+                   Main.main_pcs
+                   Lib.eqt
+                   Main.main_f0) -}
+102655cb4be47407f86ce7346084df10
+  main5 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main112 Main.main6) -}
+41b0c92075053b3c797ef12ead5f347f
+  main50 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main68 Main.main69 Main.main51) -}
+7dc9f3a3824f9e99e18b1acbe6dd07f3
+  main51 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Juxtapose.juxtaposeDefault
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$s$fEnvelopedQDiagram
+                   Main.$shsep6
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.main72
+                     `cast`
+                   (Trans
+                        (Sub (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
+                                       <Diagrams.Backend.SVG.SVG>_N
+                                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                       <Data.Monoid.Any>_N)))
+                        (Diagrams.Core.V.V
+                           (Diagrams.Core.Types.QDiagram
+                              <Diagrams.Backend.SVG.B>_N
+                              (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                              (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                              <Data.Monoid.Any>_N)_N)_R (Diagrams.Core.V.N
+                                                           (Diagrams.Core.Types.QDiagram
+                                                              <Diagrams.Backend.SVG.B>_N
+                                                              (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                                              (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                                              <Data.Monoid.Any>_N)_N)_N)
+                   Main.main69
+                   Main.main52) -}
+daef66e128597d7701f4ffeb4928def0
+  main52 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main68 Main.main61 Main.main53) -}
+093dafa4f64bcdcf5d741daf6808428c
+  main53 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Juxtapose.juxtaposeDefault
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$s$fEnvelopedQDiagram
+                   Main.$shsep6
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.main67
+                   Main.main61
+                   Main.main54) -}
+523a6312d1463349753ae211af11497d
+  main54 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main60 Main.main55) -}
+a49d5b45d32102e350b4c378badcc23b
+  main55 :: Linear.V2.V2 GHC.Types.Double
+  {- Unfolding: (case GHC.Num.fromInteger
+                        @ GHC.Types.Double
+                        Main.main57
+                        Main.main56 of dt { GHC.Types.D# ipv ->
+                 Linear.V2.V2 @ GHC.Types.Double Main.main18 dt }) -}
+824fdf5ebe3c2afdc75f9534858df48d
+  main56 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 0) -}
+8ac82e5db1b9106f80c39d48b178398b
+  main57 :: GHC.Num.Num GHC.Types.Double
+  {- Unfolding: (GHC.Real.$p1Fractional
+                   @ GHC.Types.Double
+                   Main.main58) -}
+86754b1e55288305b1495fb016f828c9
+  main58 :: GHC.Real.Fractional GHC.Types.Double
+  {- Unfolding: (GHC.Float.$p1Floating
+                   @ GHC.Types.Double
+                   Main.main59) -}
+e677762a5c563611ff5a1465c40d374d
+  main59 :: GHC.Float.Floating GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.Envelope.$p1OrderedField
+                   @ GHC.Types.Double
+                   Main.$s$fAlignableQDiagram2) -}
+78ae985714c4650befca69ec17261196
+  main6 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main105
+                   Main.main_nt
+                   Main.main7) -}
+293b62da8bded5292a0ea1527d4a82db
+  main60 ::
+    Linear.V2.V2 GHC.Types.Double
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.B
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.Combinators.strut
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ Diagrams.Backend.SVG.B
+                   @ Data.Monoid.Any
+                   Linear.V2.$fMetricV2
+                   Main.$s$fAlignableQDiagram2) -}
+ee9ddbebe3c68c47eca431d4b3305c39
+  main61 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main46
+                   Main.main_nt
+                   Main.main62
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+a31493cb93372113dd3242e774c3a1ae
+  main62 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.labelOscs29
+                   Main.main66
+                   Main.main63
+                     `cast`
+                   ([(Diagrams.Core.Types.QDiagram
+                        <Diagrams.Backend.SVG.B>_N
+                        (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                        (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                        <Data.Monoid.Any>_R)_R])_R) -}
+c15d15d049133de128c13b802681cd17
+  main63 ::
+    [Diagrams.Core.Types.QDiagram
+       Diagrams.Backend.SVG.B
+       Linear.V2.V2
+       GHC.Types.Double
+       Data.Monoid.Any]
+  {- Unfolding: (GHC.Base.map
+                   @ (GHC.Types.Int,
+                      (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int))
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.labelOscs3
+                   Main.main64) -}
+5b92a62bbf07e20c6a65e9a062e23710
+  main64 ::
+    [(GHC.Types.Int,
+      (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int))]
+  {- Unfolding: (Data.OldList.sortBy
+                   @ (GHC.Types.Int,
+                      (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int))
+                   Lib.labelOscs2
+                   Main.main65) -}
+5bb9b53aa812db5b06369cdfeb6b9296
+  main65 ::
+    [(GHC.Types.Int,
+      (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int))]
+  {- Unfolding: (GHC.Base.map
+                   @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
+                   @ (GHC.Types.Int,
+                      (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int))
+                   Lib.labelOscs1
+                   Main.main_pcs) -}
+c3c64daf63aee32ff7c23cd686b9f68c
+  main66 :: Diagrams.Combinators.CatOpts GHC.Types.Double
+  {- HasNoCafRefs,
+     Unfolding: (Diagrams.Combinators.CatOpts
+                   @ GHC.Types.Double
+                   Diagrams.Combinators.Distrib
+                   Lib.chord_x
+                   (Data.Proxy.Proxy @ * @ GHC.Types.Double)) -}
+0bb4c6351f68a5fc38964c8e8777284e
+  main67 ::
+    Diagrams.Core.V.Vn
+      (Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any)
+  {- Unfolding: (case Diagrams.Core.V.$p1InSpace
+                        @ Linear.V2.V2
+                        @ GHC.Types.Double
+                        @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                        Main.$shsep_$dInSpace
+                          `cast`
+                        (Diagrams.Core.V.InSpace
+                           <Linear.V2.V2>_N
+                           <GHC.Types.Double>_N
+                           (Diagrams.Core.Types.QDiagram
+                              <Diagrams.Backend.SVG.B>_N
+                              (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                              (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                              <Data.Monoid.Any>_N)_N)_R of cobox { GHC.Types.Eq# cobox1 ->
+                 case Diagrams.Core.V.$p2InSpace
+                        @ Linear.V2.V2
+                        @ GHC.Types.Double
+                        @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                        Main.$shsep_$dInSpace
+                          `cast`
+                        (Diagrams.Core.V.InSpace
+                           <Linear.V2.V2>_N
+                           <GHC.Types.Double>_N
+                           (Diagrams.Core.Types.QDiagram
+                              <Diagrams.Backend.SVG.B>_N
+                              (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                              (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                              <Data.Monoid.Any>_N)_N)_R of cobox2 { GHC.Types.Eq# cobox3 ->
+                 case Linear.Vector.zero
+                        @ Linear.V2.V2
+                        Main.main19
+                        @ GHC.Types.Double
+                        Main.main_$dNum of wild { Linear.V2.V2 a23 b ->
+                 case GHC.Num.fromInteger
+                        @ GHC.Types.Double
+                        Main.main_$dNum
+                        Diagrams.TwoD.Vector.unitX1 of dt { GHC.Types.D# ipv ->
+                 (Linear.V2.V2 @ GHC.Types.Double dt b)
+                   `cast`
+                 (Trans
+                      (Sub (Sym cobox1))
+                      (Diagrams.Core.V.V
+                         (Diagrams.Core.Types.QDiagram
+                            <Diagrams.Backend.SVG.B>_N
+                            (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                            (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                            <Data.Monoid.Any>_N)_N)_R (Trans
+                                                           (Sym cobox3)
+                                                           (Diagrams.Core.V.N
+                                                              (Diagrams.Core.Types.QDiagram
+                                                                 <Diagrams.Backend.SVG.B>_N
+                                                                 (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                                                 (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                                                 <Data.Monoid.Any>_N)_N)_N)) } } } }) -}
+d041690114bcb6c4764d0adb19a61ccd
+  main68 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+    -> Diagrams.Core.Types.QDiagram
+         Diagrams.Backend.SVG.SVG
+         Linear.V2.V2
+         GHC.Types.Double
+         Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Types.$fMonoidQDiagram_$c<>
+                   @ Diagrams.Backend.SVG.SVG
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ Data.Monoid.Any
+                   Linear.V2.$fMetricV2
+                   Lib.$s$fAlignableQDiagram2
+                   Data.Semigroup.$fSemigroupAny) -}
+3f8bf290b291d87c1ee24b419cd366c5
+  main69 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main17
+                   Main.main_nt
+                   Main.main70) -}
+3d894422bddae721f4f8d68b9d5cc975
+  main7 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main111
+                   Main.main_nt
+                   Main.main8) -}
+a54a04ab52c9d7fde2fb32d04069d33f
+  main70 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main46
+                   Main.main_nt
+                   Main.main71
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+fb5faa3a22a617c2e2bf1c0ccfd4fe8e
+  main71 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.polyOsc
+                   Lib.tone
+                   Lib.chord1
+                     `cast`
+                   (<GHC.Types.Double>_R
+                    ->_R <[(Data.Colour.Internal.Colour GHC.Types.Double,
+                            Diagrams.Trail.Trail Linear.V2.V2 GHC.Types.Double)]>_R
+                    ->_R (Diagrams.Core.Types.QDiagram
+                            <Diagrams.Backend.SVG.B>_N
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                            (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                            <Data.Monoid.Any>_R)_R)
+                   Main.main_sp
+                   Main.main_w1
+                   Main.main_pcs
+                   Lib.eqt
+                   Main.main27) -}
+add4e293537c32b603e0c8e6c57743f9
+  main72 ::
+    Linear.V2.V2
+      (Diagrams.Core.V.N
+         (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B))
+  {- Unfolding: (Linear.V2.V2
+                   @ (Diagrams.Core.V.N
+                        (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B))
+                   Main.main74
+                     `cast`
+                   (Sub (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
+                                  <Diagrams.Backend.SVG.SVG>_N
+                                  (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                  (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                  <Data.Monoid.Any>_N)))
+                   Main.main73
+                     `cast`
+                   (Sub (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
+                                  <Diagrams.Backend.SVG.SVG>_N
+                                  (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                  (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                  <Data.Monoid.Any>_N)))) -}
+f2b51c1b1622eeb1cd419c9dde8dbf5b
+  main73 :: GHC.Types.Double
+  {- Unfolding: (GHC.Types.D# (GHC.Prim.negateDouble# 0.0)) -}
+7277b6b8fdd96e72bd21cfcdb6d1a72e
+  main74 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# -1.0) -}
+5db9fef39ba20c5f7ec1c7f6fb38e35a
+  main75 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Main.main84
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                      <Data.Monoid.Any>_R)_R
+                   Main.main76) -}
+e8837211e91c1a7ce1e2ce88b516cf80
+  main76 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Main.main81
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                      <Data.Monoid.Any>_R)_R
+                   Main.main77) -}
+d9647f96e4ce5a80bf473bdc826c43ac
+  main77 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+  {- Unfolding: (GHC.Types.:
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Main.main78
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                      (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                      <Data.Monoid.Any>_R)_R
+                   (GHC.Types.[]
+                      @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B))) -}
+19cd76a72e8b47aef43c3c8ed5a3e399
+  main78 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main17
+                   Main.main_nt
+                   Main.main79) -}
+dda2a5d3d3c34523bf06a81c0a3d250a
+  main79 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main46
+                   Main.main_nt
+                   Main.main80
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+551f749f1d31602615a660f39fc3d16e
+  main8 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main110 Main.main9) -}
+1cbea76084cb14c5afb334cfc0e3bf73
+  main80 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.polyOsc
+                   Lib.rhythm
+                   Lib.rhythms1
+                   Main.main_sp
+                   Main.main41
+                   Main.main_pcs
+                   Lib.eqt
+                   Main.main_f0) -}
+74b605942621dd2a20a9b823fecc2f9a
+  main81 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main17
+                   Main.main_nt
+                   Main.main82) -}
+2ad0f46443ba9a2c3f40bd69010620c0
+  main82 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main46
+                   Main.main_nt
+                   Main.main83
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+a4d00a165f4ed35c7099e05dfa9b7474
+  main83 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.polyOsc
+                   Lib.tone
+                   Lib.tones1
+                   Main.main_sp
+                   Main.main41
+                   Main.main_pcs
+                   Lib.eqt
+                   Main.main_f0) -}
+ce108217d7bb4c1a52c5b245fcf1f0b7
+  main84 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main68 Main.main90 Main.main85) -}
+92dcc40d62d63e3de6787530fa58f920
+  main85 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Juxtapose.juxtaposeDefault
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$s$fEnvelopedQDiagram
+                   Main.$shsep6
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.main72
+                     `cast`
+                   (Trans
+                        (Sub (Sym (Diagrams.Core.Types.TFCo:R:VQDiagram[0]
+                                       <Diagrams.Backend.SVG.SVG>_N
+                                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                       <Data.Monoid.Any>_N)))
+                        (Diagrams.Core.V.V
+                           (Diagrams.Core.Types.QDiagram
+                              <Diagrams.Backend.SVG.B>_N
+                              (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                              (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                              <Data.Monoid.Any>_N)_N)_R (Diagrams.Core.V.N
+                                                           (Diagrams.Core.Types.QDiagram
+                                                              <Diagrams.Backend.SVG.B>_N
+                                                              (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                                                              (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                                                              <Data.Monoid.Any>_N)_N)_N)
+                   Main.main90
+                   Main.main86) -}
+de9a35fa3d32281b91737c41ba308fc4
+  main86 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main68 Main.main88 Main.main87) -}
+37df2bd7165711d7e92d42596543077e
+  main87 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Diagrams.Core.Juxtapose.juxtaposeDefault
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.SVG
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Lib.$s$fEnvelopedQDiagram
+                   Main.$shsep6
+                     `cast`
+                   (Sym (Diagrams.Core.HasOrigin.NTCo:HasOrigin[0]
+                             <Diagrams.Core.Types.QDiagram
+                                Diagrams.Backend.SVG.SVG
+                                Linear.V2.V2
+                                GHC.Types.Double
+                                Data.Monoid.Any>_N))
+                   Main.main67
+                   Main.main88
+                   Main.main54) -}
+9a8249eb9c7255a645a44171b3a6fb05
+  main88 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.SVG
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main46
+                   Main.main_nt
+                   Main.main89
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+67bf11dad0db88254fe4eed640e4cccd
+  main89 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.labelOscs Main.main_sp Main.main_pcs) -}
+acaf4f57dbb0020bba467b694e703e8e
   main9 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
        Linear.V2.V2
        GHC.Types.Double
        Data.Monoid.Any]
-  {- Unfolding: (GHC.Types.:
+  {- Unfolding: (Data.OldList.zipWith4
                    @ (Diagrams.Core.Types.QDiagram
                         Diagrams.Backend.SVG.B
                         Linear.V2.V2
                         GHC.Types.Double
                         Data.Monoid.Any)
-                   Main.main65
-                   Main.main10) -}
-e560b65a6bf610263052ff4e15359f67
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.main107
+                   Main.main93
+                   Main.main75
+                     `cast`
+                   ([(Diagrams.Core.Types.QDiagram
+                        <Diagrams.Backend.SVG.SVG>_N
+                        (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                        (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                        <Data.Monoid.Any>_R)_R])_R
+                   Main.main28
+                     `cast`
+                   ([(Diagrams.Core.Types.QDiagram
+                        <Diagrams.Backend.SVG.SVG>_N
+                        (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                        (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                        <Data.Monoid.Any>_R)_R])_R
+                   Main.main10
+                     `cast`
+                   ([(Diagrams.Core.Types.QDiagram
+                        <Diagrams.Backend.SVG.SVG>_N
+                        (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                        (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                        <Data.Monoid.Any>_R)_R])_R) -}
+ab33bfe0a42284b4cd57447654b809a8
   main90 ::
     Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
+      Diagrams.Backend.SVG.SVG
       Linear.V2.V2
       GHC.Types.Double
       Data.Monoid.Any
-  {- Unfolding: (Main.main87 Main.main86 Main.main91) -}
-5d58fcf4b388751e714969e604d8f456
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main17
+                   Main.main_nt
+                   Main.main91) -}
+3106f46523dbcc143e880933d0366e47
   main91 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
       Linear.V2.V2
       GHC.Types.Double
       Data.Monoid.Any
-  {- Unfolding: (Main.main85
-                   Main.main82
-                   Main.main79
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main46
                    Main.main_nt
-                   Main.main92) -}
-2769cd544c9017921328e3eebf7aa3c7
-  main92 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.SVG
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main85
-                   Main.main82
-                   Main.main81
-                   Main.main_nt
-                   Main.main93) -}
-cb46084cff8ce61cd821a62d9276af32
+                   Main.main92
+                     `cast`
+                   (Diagrams.Core.Types.QDiagram
+                      <Diagrams.Backend.SVG.B>_N
+                      (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                      (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                      <Data.Monoid.Any>_R)_R) -}
+ce1f23a77560795ec8b920be21a849d6
+  main92 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
+  {- Unfolding: (Lib.polyOsc
+                   Lib.tone
+                   Lib.tones1
+                   Main.main_sp
+                   Main.main_w1
+                   Main.main_pcs
+                   Lib.eqt
+                   Main.main27) -}
+7ab780dd03f0b53325933780c26c6f35
   main93 ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-  {- Unfolding: (Main.main77 Main.main94) -}
-f257062baa2098ac1b77b4a04f41136c
-  main94 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
        Linear.V2.V2
        GHC.Types.Double
        Data.Monoid.Any]
-  {- Unfolding: (Main.main_go Main.main95) -}
-5a894398f6f34e0ebe6d2fa618221b33
-  main95 ::
-    [([GHC.Types.Char], Data.Vector.Storable.Vector GHC.Types.Double)]
+  {- Unfolding: (GHC.Base.map
+                   @ [GHC.Types.Char]
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.main100
+                   Main.main94) -}
+90ef7ec20e49155b463cec5851b10c6d
+  main94 :: [GHC.Base.String]
   {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], Data.Vector.Storable.Vector GHC.Types.Double)
+                   @ GHC.Base.String
                    Main.main99
-                   Main.main96) -}
-af3563581f1b102170e53cfae6017aad
-  main96 ::
-    [([GHC.Types.Char], Data.Vector.Storable.Vector GHC.Types.Double)]
+                   Main.main95) -}
+557fedc3b6c7a785432f9ccf2441dffd
+  main95 :: [GHC.Base.String]
   {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], Data.Vector.Storable.Vector GHC.Types.Double)
+                   @ GHC.Base.String
+                   Main.main98
+                   Main.main96) -}
+84bf63cc5c51d774cbe184e0328929d2
+  main96 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
                    Main.main97
-                   (GHC.Types.[]
-                      @ ([GHC.Types.Char],
-                         Data.Vector.Storable.Vector GHC.Types.Double))) -}
-f6c9d039895f035a520a9bc200f49d92
-  main97 ::
-    ([GHC.Types.Char], Data.Vector.Storable.Vector GHC.Types.Double)
-  {- Unfolding: ((Main.main98, Lib.farey)) -}
-9c1b688f539eaa448ea57be0dba85ab4
+                   (GHC.Types.[] @ GHC.Base.String)) -}
+a2f619f885fb09d56214724bf4e827d5
+  main97 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "waves transformed to ticks"#) -}
+d8191d329c6cda386475177c5d12dbea
   main98 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "Farey"#) -}
-f702b718b9be0230796352a37f056a77
-  main99 ::
-    ([GHC.Types.Char], Data.Vector.Storable.Vector GHC.Types.Double)
-  {- Unfolding: ((Main.main100, Lib.eqt)) -}
-f7ee3ee95e000e8005b6ff16a9c2a623
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "frequencies scaled down"#) -}
+e9864038b3fcf1818c9d23565b46a729
+  main99 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "original chord"#) -}
+0dbe942fbbdd91a97e3c6016abc8cad0
+  main_$dNum :: GHC.Num.Num GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.V.$p4InSpace
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
+                   Main.$shsep_$dInSpace
+                     `cast`
+                   (Diagrams.Core.V.InSpace
+                      <Linear.V2.V2>_N
+                      <GHC.Types.Double>_N
+                      (Diagrams.Core.Types.QDiagram
+                         <Diagrams.Backend.SVG.B>_N
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
+                         (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
+                         <Data.Monoid.Any>_N)_N)_R) -}
+d8434201d3f7adc76f8f5a67f32dca4a
+  main_$dNum1 :: GHC.Num.Num GHC.Types.Double
+  {- Unfolding: (Diagrams.Core.V.$p4InSpace
+                   @ Linear.V2.V2
+                   @ GHC.Types.Double
+                   @ (Diagrams.Core.Types.QDiagram
+                        Diagrams.Backend.SVG.B
+                        Linear.V2.V2
+                        GHC.Types.Double
+                        Data.Monoid.Any)
+                   Main.$shsep_$dInSpace) -}
+f1033a83945aa6d5e700f58c57b847c4
+  main_d1 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main105
+                   Main.main_nt
+                   Main.main142) -}
+e10eb4b87d0a981d39d26a527e63f323
+  main_d2 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main105
+                   Main.main_nt
+                   Main.main153) -}
+e41e1473926c6583abb2fdb6a0ae5f21
   main_f ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.B
@@ -2179,67 +2711,48 @@ f7ee3ee95e000e8005b6ff16a9c2a623
          Linear.V2.V2
          GHC.Types.Double
          Data.Monoid.Any
-  {- Unfolding: (Main.main50
-                   Main.main47
-                   Main.main51
-                   Main.main_nt
-                     `cast`
-                   (Sub (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                  <Diagrams.Backend.SVG.SVG>_N
-                                  <Linear.V2.V2>_N
-                                  <GHC.Types.Double>_N
-                                  <Data.Monoid.Any>_N)))) -}
+  {- Unfolding: (Main.main23
+                   Main.main20
+                   Main.main105
+                   Main.main_nt) -}
 f205f1e4ce789491aca5767ab052078c
   main_f0 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1) -}
-973268229a354dce3d981177396e8b47
-  main_f1 :: GHC.Types.Int
-  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 5) -}
-0ab329f77d2342bd7122812879b2a468
-  main_g ::
-    Diagrams.Core.Types.QDiagram
-      Diagrams.Backend.SVG.B
-      Linear.V2.V2
-      GHC.Types.Double
-      Data.Monoid.Any
-    -> Diagrams.Core.Types.QDiagram
-         Diagrams.Backend.SVG.B
-         Linear.V2.V2
-         GHC.Types.Double
-         Data.Monoid.Any
-  {- Unfolding: (Main.main50
-                   Main.main47
-                   Main.main42
-                   Main.main_nt
-                     `cast`
-                   (Sub (Sym (Diagrams.Core.Types.TFCo:R:NQDiagram[0]
-                                  <Diagrams.Backend.SVG.SVG>_N
-                                  <Linear.V2.V2>_N
-                                  <GHC.Types.Double>_N
-                                  <Data.Monoid.Any>_N)))) -}
-34ba6a5eed7147b32ddef8b508608a5c
+d0770e47d7a2d29af5e0c36fb77534d2
   main_go ::
-    [([GHC.Types.Char], Data.Vector.Storable.Vector GHC.Types.Double)]
-    -> [Diagrams.Core.Types.QDiagram
-          Diagrams.Backend.SVG.B
-          Linear.V2.V2
-          GHC.Types.Double
-          Data.Monoid.Any]
+    [[(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]]
+    -> [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
+  {- Arity: 1, Strictness: <S,1*U> -}
+c09e01c9387fddda18a7ce6c6a3e9349
+  main_go1 ::
+    [[(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]]
+    -> [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
   {- Arity: 1, Strictness: <S,1*U> -}
 69ce6e60dc212ac8568376ba3ee8d7dc
   main_nt :: GHC.Types.Double
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.D# 0.0) -}
-2418fccdc20070c5c7de98b5dba2afa1
+5d3d9199875097d228ba76cd5c5512ac
   main_pcs ::
     [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
-                   Main.main36
-                   Main.main25) -}
-7534b46ff8ddfd4bbb57aee2e22bd811
+                   Main.main44
+                   Main.main34) -}
+23d413e4691f76bd6a21a52a083b53be
+  main_pcs1 ::
+    [[(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [(Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)]
+                   Main.main135
+                   Main.main123) -}
+b70a5446b3ed6db521c9eaa59e3a9576
+  main_sp :: GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.D# 2.0) -}
+1db7771d3cba937c0fe5e8f5a9b0030a
   main_w1 :: GHC.Types.Int
-  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 35) -}
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 28) -}
 e917fb4860c9e7adb3eb7d5d4252b3b8
   main_wild :: Data.Typeable.Internal.TyCon
   {- Strictness: m,
@@ -2258,24 +2771,68 @@ d988cbaa4d46feaeb1a928ee2ad4abe2
 8ce2357a29ec6c24fd992681778fe3da
   main_ww4 :: GHC.Base.String
   {- Unfolding: (GHC.CString.unpackCString# "Double"#) -}
-a81494d3b7d7f52cf372b53f51361267
+cc2852d4428e0c6e3de2337730cc2816
+  main_y ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (case Main.main122
+                        `cast`
+                      ([(Diagrams.Core.Types.QDiagram
+                           <Diagrams.Backend.SVG.SVG>_N
+                           (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                           (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                           <Data.Monoid.Any>_R)_R])_R of wild {
+                   []
+                   -> GHC.List.badHead
+                        @ (Diagrams.Core.Types.QDiagram
+                             Diagrams.Backend.SVG.B
+                             Linear.V2.V2
+                             GHC.Types.Double
+                             Data.Monoid.Any)
+                   : x ds1 -> x }) -}
+2694d9a47cd3bdd3a20ebf789a7912b5
+  main_y1 ::
+    Diagrams.Core.Types.QDiagram
+      Diagrams.Backend.SVG.B
+      Linear.V2.V2
+      GHC.Types.Double
+      Data.Monoid.Any
+  {- Unfolding: (case Main.main148
+                        `cast`
+                      ([(Diagrams.Core.Types.QDiagram
+                           <Diagrams.Backend.SVG.SVG>_N
+                           (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
+                           (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
+                           <Data.Monoid.Any>_R)_R])_R of wild {
+                   []
+                   -> GHC.List.badHead
+                        @ (Diagrams.Core.Types.QDiagram
+                             Diagrams.Backend.SVG.B
+                             Linear.V2.V2
+                             GHC.Types.Double
+                             Data.Monoid.Any)
+                   : x ds1 -> x }) -}
+6a0a77af4c559b6c39d6d1d5176ea7d1
   polyRhythms :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: InlineRule (0, True, True)
-                Main.main90
+                Main.main115
                   `cast`
                 (Diagrams.Core.Types.QDiagram
                    <Diagrams.Backend.SVG.SVG>_N
                    (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
                    (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                    <Data.Monoid.Any>_R)_R -}
-a25c7b5013f1eb8026e27ce71d183905
+5873b435e14873d6d31be4759f344a49
   tonesToRhythms ::
     Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: InlineRule (0, True, True)
                 Main.main5
                   `cast`
                 (Diagrams.Core.Types.QDiagram
-                   <Diagrams.Backend.SVG.SVG>_N
+                   <Diagrams.Backend.SVG.B>_N
                    (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
                    (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                    <Data.Monoid.Any>_R)_R -}
