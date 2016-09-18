@@ -36,8 +36,7 @@ toneHalfCycle :: Trail V2 Double
 toneHalfCycle = trailFromSegments [bezier3 (0.5 D.*^ unitX) (r2 (0.5, -1)) (r2 (1, -1))]
 
 rhythmHalfCycle :: Trail V2 Double
-rhythmHalfCycle = trailFromSegments
-  [straight (-0.5 D.*^ unitY), straight unitX, straight (-0.5 D.*^ unitY)]
+rhythmHalfCycle = trailFromSegments [straight (-unitY), straight unitX]
 
 oscCycle :: Trail V2 Double -> Trail V2 Double
 oscCycle halfCycle = halfCycle <> reflectY halfCycle
@@ -48,17 +47,17 @@ toneCycle = oscCycle toneHalfCycle
 rhythmCycle :: Trail V2 Double
 rhythmCycle = oscCycle rhythmHalfCycle
 
-osc :: Trail V2 Double -> Double -> Trail V2 Double
-osc cyc w = foldl1 (<>) $ replicate n cyc P.++ app
+osc :: Trail V2 Double -> (Double, Double) -> Double -> Trail V2 Double
+osc cyc (p0, p1) w = foldl1 (<>) $ replicate n cyc P.++ app
   where n   = floor w
         w'  = w - fromIntegral n
-        app = [section cyc 0 w' | w' > 1e-2]
+        app = [section cyc 0 (p0 + w' * (p1 - p0))]
 
 tone :: Double -> Trail V2 Double
-tone = osc toneCycle
+tone = osc toneCycle (0, 1)
 
 rhythm :: Double -> Trail V2 Double
-rhythm = osc rhythmCycle
+rhythm = osc rhythmCycle (0.25, 0.75)
 
 polyOsc :: (Double -> Trail V2 Double) -> (Double -> [(Colour Double, Trail V2 Double)] -> Diagram B) -> (Double -> [Diagram B] -> Diagram B) -> Int -> [(Colour Double, Int)] -> Vector Double -> Int -> Diagram B
 polyOsc oscFn combFn lblFn w0 pcs tn f0 = hdist sepa
@@ -89,14 +88,14 @@ polyRhythm' strokeFn _ oscs = scaleY nOscs . mconcat . P.map strokeFn . snd $ un
 
 syncCurve :: V2 Double -> Trail V2 Double
 syncCurve vect = trailFromSegments [bezier3 (0.5 * y' D.*^ unitY) (r2 (x', 0.5 * y')) vect']
-  where vect'    = vect ^+^ 0.5 D.*^ unitY
+  where vect'    = vect ^+^ unitY
         x' :& y' = coords vect'
 
 rhythmSync' :: (Trail V2 Double -> Diagram B) -> Double -> [(Colour Double, Trail V2 Double)] -> Diagram B
-rhythmSync' _ sepa oscs = concat curves # P.map strokeLocTrail # mconcat # translateY (-0.5) # opacity 0.2
+rhythmSync' _ sepa oscs = concat curves # P.map strokeLocTrail # mconcat # translateY (-1) # opacity 0.2
   where yCoords = P.map (D.*^ unitY) [0, -sepa ..]
         grid    = P.map (init . trailPoints) $ P.zipWith at (snd $ unzip oscs) yCoords
-        grid'   = P.map (P.map head . chunksOf 6) grid
+        grid'   = P.map (P.map head . chunksOf 4) grid
         vects   = P.zipWith (\r1 r2 -> [[p2 .-. p1 | p2 <- r2] | p1 <- r1]) grid' (tail grid')
         nrst    = P.map (P.map (minimumBy (compare `on` norm))) vects
         curves  = P.zipWith (P.zipWith (\v p -> syncCurve v `at` p)) nrst grid'
@@ -107,7 +106,7 @@ strokeTone = stroke
 strokeRhythm :: Trail V2 Double -> Diagram B
 strokeRhythm cyc = hcat $ P.zipWith ($) strokeFns segments
   where segments  = explodeTrail $ cyc `at` origin
-        strokeFns = cycle (strokeLocTrail : replicate 5 (strokeLocTrail # lw none))
+        strokeFns = cycle (strokeLocTrail : replicate 3 (strokeLocTrail # lw none))
 
 lblOscs :: Double -> [Diagram B] -> Diagram B
 lblOscs = vdist

@@ -12,8 +12,8 @@ main = multiMain
   ]
 
 polyRhythms :: Diagram B
-polyRhythms = hsep 2
-  [vsep 2 $ text lbl : [centerXY $ rhythmsWithSync w0 pc tn f0 | pc <- pcs] | (lbl, tn) <- tns]
+polyRhythms = pad 1.1 . centerXY $ hsep 4
+  [vsep 4 $ text lbl : [centerXY $ rhythmsWithSync w0 pc tn f0 | pc <- pcs] | (lbl, tn) <- tns]
   where pbs = [[], [(red, 2)], [(red, 1)]]
         cxt = [(black, 0), (black, 4), (black, 7)]
         pcs = map (cxt ++) pbs
@@ -22,10 +22,10 @@ polyRhythms = hsep 2
         tns = [("12TET", eqt), ("Farey", farey)]
 
 tonesToRhythms :: Diagram B
-tonesToRhythms = hsep 4
-  [ vsp [text "original chord", tones w1 pcs tn f1, chord w1 pcs tn f1]
-  , vsp [text "frequencies scaled down", tones w2 pcs tn f2, chord w2 pcs tn f2]
-  , vsp [text "waves transformed to ticks", rhythms w2 pcs tn f2, polyRhythm w2 pcs tn f2]
+tonesToRhythms = pad 1.1 . centerXY $ hsep 4
+  [ vsp [text "original chord", tones w1 pcs tn f1, chord w1 pcs tn f1, text "~0.1 s"]
+  , vsp [text "frequencies scaled down", tones w2 pcs tn f2, chord w2 pcs tn f2, text "~10 s"]
+  , vsp [text "waves transformed to ticks", rhythms w2 pcs tn f2, polyRhythm w2 pcs tn f2, text "~10 s"]
   ]
   where w0  = 7
         pcs = [(black, 0), (black, 4), (black, 7), (red, 11)]
