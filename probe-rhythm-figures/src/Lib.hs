@@ -97,13 +97,15 @@ syncCurve vect = trailFromSegments [bezier3 (0.5 * y' D.*^ unitY) (r2 (x', 0.5 *
         x' :& y' = coords vect'
 
 rhythmSync' :: (Trail V2 Double -> Diagram B) -> Double -> [(Colour Double, Trail V2 Double)] -> Diagram B
-rhythmSync' _ sepa oscs = concat curves # P.map strokeLocTrail # mconcat # translateY (-1) # opacity 0.2
+rhythmSync' _ sepa oscs = concat curves # mconcat # translateY (-1)
   where yCoords = P.map (D.*^ unitY) [0, -sepa ..]
         grid    = P.map (init . trailPoints) $ P.zipWith at (snd $ unzip oscs) yCoords
         grid'   = P.map (P.map head . chunksOf 4) grid
         vects   = P.zipWith (\r1 r2 -> [[p2 .-. p1 | p2 <- r2] | p1 <- r1]) grid' (tail grid')
         nrst    = P.map (P.map (minimumBy (compare `on` norm))) vects
-        curves  = P.zipWith (P.zipWith (\v p -> syncCurve v `at` p)) nrst grid'
+        opcts   = P.map (P.map (\v -> cosA (angleBetween v (-unitY)) # (**64))) nrst
+        curves  = P.zipWith3 (P.zipWith3 (\v p o -> (syncCurve v `at` p) # strokeLocTrail # opacity o))
+                             nrst grid' opcts
 
 strokeTone :: Trail V2 Double -> Diagram B
 strokeTone = stroke

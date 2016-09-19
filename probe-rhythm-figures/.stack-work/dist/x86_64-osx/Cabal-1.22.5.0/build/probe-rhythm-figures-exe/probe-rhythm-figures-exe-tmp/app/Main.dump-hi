@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2016-09-19 00:15:18.352946 UTC
+2016-09-19 16:17:36.598088 UTC
 
 interface main@main:Main 7103
-  interface hash: 582f28f19bef3149fd1bbd16d69e661f
-  ABI hash: ab298c3b114c1cb76e0626e04076e8b4
+  interface hash: 0f4ffde8d8d872a4ebc34feab30226c9
+  ABI hash: bfb57d4a195f810e3e22443915b994ea
   export-list hash: d656924f15d9409221fbb7989f2a52e0
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: d19b3cdac2ae9e6433133ae33393cccb
@@ -238,7 +238,7 @@ import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Text
 import  -/  diagrams-lib-1.3.1.4@diagr_DWb95zeeC5n2NQHOdh1Xos:Diagrams.TwoD.Vector 1c596ab9358c7ea1c5e7f0a44ab251dc
 import  -/  diagrams-core-1.3.0.8@diagr_LetrQCUwbI31YTqCYd7I3U:Diagrams.Core.Types b26bfe70fb5690d8bf4d222cdc975e30
 import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
-import  -/  probe-rhythm-figures-0.1.0.0@probe_G2rIiywLUzz2z377ALaJVY:Lib 5ba0c14f3dc71b289a19dab93a63419b
+import  -/  probe-rhythm-figures-0.1.0.0@probe_G2rIiywLUzz2z377ALaJVY:Lib 36ab6011bbd6453231e3c564028f8247
 d33809b893eac248946888e0a5439d3d
   $s$fAlignableQDiagram1 ::
     Data.Monoid.WithSemigroup.Monoid' Data.Monoid.Any
@@ -449,12 +449,12 @@ df9bceb57a7ce19c6772d8ac5b89c141
                    Main.$shsep8
                    Linear.V2.$fAdditiveV2
                    GHC.Float.$fNumDouble) -}
-ca3421894c2ac630ffe008fa1e9923a3
+160e15c6bc682b9be711d81cffaaa328
   main :: GHC.Types.IO ()
   {- Arity: 1,
      Unfolding: InlineRule (0, True, True)
                 Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-a9479512bd1f6f4fe13cefa0f98ae297
+446b569067ed9e94a1e9ab9dd2d89880
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -463,7 +463,7 @@ a9479512bd1f6f4fe13cefa0f98ae297
                    @ GHC.Types.Double
                    Main.main160
                    Main.main2) -}
-11c6b3a09342b84b8e8c804ec6b4f7e0
+e867c449bd9ea8d91241e2e2d71e83db
   main10 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
@@ -646,7 +646,7 @@ ab7611727be2ce928f87459e812f1ca0
                    Diagrams.Combinators.Cat
                    Main.main56
                    (Data.Proxy.Proxy @ * @ GHC.Types.Double)) -}
-10929af2b5dd9b555c56b423eb68f8f8
+5d42e7c5d085945406aa9911c69a6a12
   main11 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
@@ -825,7 +825,7 @@ d55bfcbe97de14183581fcb2ae5863dc
                    Main.main113
                    Main.main_nt
                    Main.main120) -}
-ad20730b35d998944f3820d7a1fc40fb
+fde54aa340608693171ce47d875499e0
   main12 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
@@ -963,7 +963,7 @@ fa324df7a685073e1526232644fe9ffc
   main129 ::
     (Data.Colour.Internal.Colour GHC.Types.Double, GHC.Types.Int)
   {- Unfolding: ((Main.main39, Main.main_f0)) -}
-44b4d1bb096a593410db56be2b5d2172
+cd66abb1079d287ff90cf0a6850b2c04
   main13 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1080,7 +1080,7 @@ a70ead1b5a111ac071534a54a1070800
                                                               Data.Monoid.Any)>_N)
                    Main.main_y
                    Main.main140) -}
-93384c2735ac02e802e29f188ca37522
+bae3be8a3b12d0d15b5cea39eddc6818
   main14 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.oscScale Main.main_f0 Main.main15) -}
 67d42b3c9bb26f9d30b7768689033e30
@@ -1403,7 +1403,7 @@ f635cfe9fc3ee10cc4101190b7a6f110
   main160 :: Graphics.Rendering.SVG.SVGFloat GHC.Types.Double
   {- Strictness: m,
      Unfolding: ((GHC.Float.$fShowDouble, Main.main103)) -}
-f10d9d1f3089927fbb9ba93a59e0502f
+7eda34364d3c5b34394ec4e8a62b6812
   main161 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -1438,7 +1438,7 @@ f10d9d1f3089927fbb9ba93a59e0502f
                          (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
                          (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                          <Data.Monoid.Any>_N)_N)_R) -}
-7374112e7e93773a3625f4bb1812227e
+f9eec527b39fbd47a598ff64510fdf31
   main2 ::
     [(GHC.Base.String,
       Diagrams.Core.Types.QDiagram
@@ -1552,7 +1552,7 @@ f10d9d1f3089927fbb9ba93a59e0502f
                                 Linear.V2.V2
                                 GHC.Types.Double
                                 Data.Monoid.Any>_N))) -}
-6f14f4866405612eb5f0dbfb38a1e91a
+fd8a752747d318f2aaf8a556d32ce5a6
   main24 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1567,7 +1567,7 @@ f10d9d1f3089927fbb9ba93a59e0502f
                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                       <Data.Monoid.Any>_R)_R) -}
-b0cb5125c6cb59a8513aa7c0aa4888e7
+9f42e2404e757a17831f0eae63b6a43f
   main25 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.oscScale Main.main27 Main.main26) -}
 e3e8abbb80fbcda9790cd56084bdb724
@@ -1576,7 +1576,7 @@ e3e8abbb80fbcda9790cd56084bdb724
 ce2691e7592163379a8fcebcc52980f9
   main27 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 4) -}
-8c5ec1c510e363b09d97a42a6c8427a3
+158825fac9e3ba34b0d93a68161d79ae
   main28 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
   {- Unfolding: (GHC.Types.:
                    @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
@@ -1588,7 +1588,7 @@ ce2691e7592163379a8fcebcc52980f9
                       (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                       <Data.Monoid.Any>_R)_R
                    Main.main29) -}
-0abe0d02a0cd9512cc56f1b0cf9f8eca
+eefceb1b1b1df291b4b053306470d4cf
   main29 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
   {- Unfolding: (GHC.Types.:
                    @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
@@ -1600,7 +1600,7 @@ ce2691e7592163379a8fcebcc52980f9
                       (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                       <Data.Monoid.Any>_R)_R
                    Main.main30) -}
-2c2b7e8b5f4926310999d60367ff8cf8
+41ce2db363b66321e969fb2268406d59
   main3 ::
     [(GHC.Base.String,
       Diagrams.Core.Types.QDiagram
@@ -1624,7 +1624,7 @@ ce2691e7592163379a8fcebcc52980f9
                            Linear.V2.V2
                            GHC.Types.Double
                            Data.Monoid.Any))) -}
-9bcbaa1b4213ed9d879b703cff9d0c3a
+343a45146970c27d11ad9291a8831645
   main30 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
   {- Unfolding: (GHC.Types.:
                    @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
@@ -1637,7 +1637,7 @@ ce2691e7592163379a8fcebcc52980f9
                       <Data.Monoid.Any>_R)_R
                    (GHC.Types.[]
                       @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B))) -}
-a9e140f57b966313fab39550426910c5
+a1881a3dd551ef95df335ee6ab40a68e
   main31 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1649,7 +1649,7 @@ a9e140f57b966313fab39550426910c5
                    Main.main17
                    Main.main_nt
                    Main.main32) -}
-553e98c16d07482d379c8830f4a9ae0b
+67f34b83bdfdfe81bd15b483af93668f
   main32 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1667,7 +1667,7 @@ a9e140f57b966313fab39550426910c5
                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                       <Data.Monoid.Any>_R)_R) -}
-749ba0f589121bc236051aa86fbee95c
+79d91a9df8323434303b93f29ebea940
   main33 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.polyOsc
                    Lib.rhythm
@@ -1732,7 +1732,7 @@ c2ce488212f993cd6b99651a7b2358cc
                         Data.Colour.Names.aqua1
                         Data.Colour.Names.aqua1 of ww { (#,,#) ww1 ww2 ww3 ->
                  Data.Colour.Internal.RGB @ GHC.Types.Double ww1 ww2 ww3 }) -}
-9b2dad6576ca3e3d45525d0f23115b53
+18dce9946ca7204b9d4a4f81d93539bb
   main4 ::
     ([GHC.Types.Char],
      Diagrams.Core.Types.QDiagram
@@ -1787,7 +1787,7 @@ ce956fba226456c3831cb63ba7152ddd
                         @ GHC.Types.Double
                         GHC.Float.$fNumDouble of wild { Linear.V2.V2 a23 b ->
                  Linear.V2.V2 @ GHC.Types.Double a23 Main.main18 }) -}
-04b14c53529d172b3fadc5af1b83d7a5
+5a08add2b99073455c819647276835dc
   main47 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1799,7 +1799,7 @@ ce956fba226456c3831cb63ba7152ddd
                    Main.main17
                    Main.main_nt
                    Main.main48) -}
-814a4b4a3cf399096197ebd5728e94f6
+bfcf57fba968f27ef3b024e6490dab85
   main48 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1817,7 +1817,7 @@ ce956fba226456c3831cb63ba7152ddd
                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                       <Data.Monoid.Any>_R)_R) -}
-c356117a8a55869d9693ea75749c37ba
+a6e1f4cc1980c95e519a882210a9908f
   main49 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.polyOsc
                    Lib.tone
@@ -1836,7 +1836,7 @@ c356117a8a55869d9693ea75749c37ba
                    Main.main_pcs
                    Lib.eqt
                    Main.main_f0) -}
-c84ab9d4e661e1d39758b69f6e769105
+efaf12c62c6a08a2c12b6b4224a89548
   main5 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.B
@@ -1844,7 +1844,7 @@ c84ab9d4e661e1d39758b69f6e769105
       GHC.Types.Double
       Data.Monoid.Any
   {- Unfolding: (Main.main114 Main.main6) -}
-f875894875458feea0818762801bf80f
+48334a008b7b13afd0444fac84dd8421
   main50 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1852,7 +1852,7 @@ f875894875458feea0818762801bf80f
       GHC.Types.Double
       Data.Monoid.Any
   {- Unfolding: (Main.main69 Main.main70 Main.main51) -}
-5c86ddeaf06ffd5f2149cee22a8aa240
+d1841a09897d5b7e07efd1bd82af2c2f
   main51 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1895,7 +1895,7 @@ f875894875458feea0818762801bf80f
                                                               <Data.Monoid.Any>_N)_N)_N)
                    Main.main70
                    Main.main52) -}
-8d3268edf7fe1bcd6645d224efa2e6a3
+d450d111bcfc8aa579607610fdfd21f8
   main52 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1903,7 +1903,7 @@ f875894875458feea0818762801bf80f
       GHC.Types.Double
       Data.Monoid.Any
   {- Unfolding: (Main.main69 Main.main62 Main.main53) -}
-1446db97d5f08c47c0fcba3ac875d5f3
+87801b67ef72af0729d75f76cc20e9f3
   main53 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1959,7 +1959,7 @@ a1187ad0dc32bf4980db58f71072db62
   {- Unfolding: (GHC.Float.$p1Floating
                    @ GHC.Types.Double
                    Main.main60) -}
-3d450b4852121781bf07b7d16ab1ac9b
+d790d3d05a1281ef80927e10d98a9ec2
   main6 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -1991,7 +1991,7 @@ a27d3b89723b3056ccb6879ddb29d27b
                    @ Data.Monoid.Any
                    Linear.V2.$fMetricV2
                    Main.$s$fAlignableQDiagram2) -}
-a84c48d068461511c93fa0a2d75764c7
+ee8e9f062c5675f33109f2cc4ce0964d
   main62 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2009,7 +2009,7 @@ a84c48d068461511c93fa0a2d75764c7
                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                       <Data.Monoid.Any>_R)_R) -}
-508cab57e6dd5181023c9e9c2fbd930f
+1cef28a73da742a819cd8727ca252242
   main63 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.labelOscs29
                    Main.main67
@@ -2020,7 +2020,7 @@ a84c48d068461511c93fa0a2d75764c7
                         (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
                         (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                         <Data.Monoid.Any>_R)_R])_R) -}
-2d46e1de4b9e392c968a61b47314523b
+4a8609ca16cf32a504d482fa6c1184d3
   main64 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
@@ -2151,7 +2151,7 @@ e1cc09b4b7932606523851ed0fefc552
                    Linear.V2.$fMetricV2
                    Lib.$s$fAlignableQDiagram2
                    Data.Semigroup.$fSemigroupAny) -}
-29b73ab372c128d07829f5144ec06e3e
+2dd0717baf00478dc883e6f42c09150b
   main7 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2163,7 +2163,7 @@ e1cc09b4b7932606523851ed0fefc552
                    Main.main113
                    Main.main_nt
                    Main.main8) -}
-018a7294b6424db489d749efdbf27bd2
+51c2337dd0bc1e68696e714771e38b3a
   main70 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2175,7 +2175,7 @@ e1cc09b4b7932606523851ed0fefc552
                    Main.main17
                    Main.main_nt
                    Main.main71) -}
-90ae2c4e30df4bf12b274c959fde4bce
+39d239641238ba015099b562f7dcfd52
   main71 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2193,7 +2193,7 @@ e1cc09b4b7932606523851ed0fefc552
                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                       <Data.Monoid.Any>_R)_R) -}
-75c8ab3129fdf50c16bed0215c8826a1
+b1196045abd6fd5c585f1db0441de351
   main72 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.polyOsc
                    Lib.tone
@@ -2240,7 +2240,7 @@ d9148e2709b5511e935bb3fc7b48d794
 6767b987269a3ded112806b3090421ae
   main75 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# -1.0) -}
-73f860ff72599224e2f83fb91efa85e9
+b78c5649435b2e621d2dc318b790f962
   main76 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
   {- Unfolding: (GHC.Types.:
                    @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
@@ -2252,7 +2252,7 @@ d9148e2709b5511e935bb3fc7b48d794
                       (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                       <Data.Monoid.Any>_R)_R
                    Main.main77) -}
-fceea281151e1f2b46da77caa1d9d4ed
+9cc370ee33659a5497eec50d9126b2b5
   main77 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
   {- Unfolding: (GHC.Types.:
                    @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
@@ -2264,7 +2264,7 @@ fceea281151e1f2b46da77caa1d9d4ed
                       (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                       <Data.Monoid.Any>_R)_R
                    Main.main78) -}
-3d4c7f99c172c979ddc3464560d566bf
+bb29865c40c43f88d6cc074cb6cc0018
   main78 :: [Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B]
   {- Unfolding: (GHC.Types.:
                    @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B)
@@ -2277,7 +2277,7 @@ fceea281151e1f2b46da77caa1d9d4ed
                       <Data.Monoid.Any>_R)_R
                    (GHC.Types.[]
                       @ (Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B))) -}
-b4f2246ae9b227e4f06cf6afc628a687
+507d72aa01a3ca3374a6a8c2ab816c36
   main79 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2289,7 +2289,7 @@ b4f2246ae9b227e4f06cf6afc628a687
                    Main.main17
                    Main.main_nt
                    Main.main80) -}
-55fd830795001377dec88933cc7795fa
+c93f8aae8a903be8fb49cad3ab79bacc
   main8 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.B
@@ -2297,7 +2297,7 @@ b4f2246ae9b227e4f06cf6afc628a687
       GHC.Types.Double
       Data.Monoid.Any
   {- Unfolding: (Main.main111 Main.main9) -}
-63b647b3ce1e912bd2902ce08dca71bb
+46291920690b232684a543bdb433bbc3
   main80 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2315,7 +2315,7 @@ b4f2246ae9b227e4f06cf6afc628a687
                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                       <Data.Monoid.Any>_R)_R) -}
-2e6599072c8efa2e6f8ae9480dd001d7
+f804e7c1bda417a5054aee07e630a678
   main81 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.polyOsc
                    Lib.rhythm
@@ -2325,7 +2325,7 @@ b4f2246ae9b227e4f06cf6afc628a687
                    Main.main_pcs
                    Lib.eqt
                    Main.main_f0) -}
-77f63f707e57a09f7b8c4c122ca31e6a
+d2e42965c56698da99f8e6a8b9ade9db
   main82 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2337,7 +2337,7 @@ b4f2246ae9b227e4f06cf6afc628a687
                    Main.main17
                    Main.main_nt
                    Main.main83) -}
-425f22689426ad6bb5ff59a115d90f25
+1533a7dc0b9674df2e1ff36c59cf2e5f
   main83 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2355,7 +2355,7 @@ b4f2246ae9b227e4f06cf6afc628a687
                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                       <Data.Monoid.Any>_R)_R) -}
-21228ca77e4296d6c7f3374a5e537600
+8a486b7773df99914292ede45adef5bc
   main84 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.polyOsc
                    Lib.tone
@@ -2365,7 +2365,7 @@ b4f2246ae9b227e4f06cf6afc628a687
                    Main.main_pcs
                    Lib.eqt
                    Main.main_f0) -}
-95a32a46d9755253774a89b83df47369
+a1fac2fc05b598673c46874955ce3dff
   main85 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2373,7 +2373,7 @@ b4f2246ae9b227e4f06cf6afc628a687
       GHC.Types.Double
       Data.Monoid.Any
   {- Unfolding: (Main.main69 Main.main91 Main.main86) -}
-1c448a2c5466cc1901703ff0c94f5302
+2b6aca6f725c4850f609e91035c84504
   main86 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2416,7 +2416,7 @@ b4f2246ae9b227e4f06cf6afc628a687
                                                               <Data.Monoid.Any>_N)_N)_N)
                    Main.main91
                    Main.main87) -}
-4edf2a0497a1c6b500da8c9f59fb6817
+0f247326eee711de94850d7cac5a3389
   main87 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2424,7 +2424,7 @@ b4f2246ae9b227e4f06cf6afc628a687
       GHC.Types.Double
       Data.Monoid.Any
   {- Unfolding: (Main.main69 Main.main89 Main.main88) -}
-726e151f10fce9e51c08d737a9f4d174
+d13c3fe90c121a7d97ac3fd3ff574750
   main88 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2449,7 +2449,7 @@ b4f2246ae9b227e4f06cf6afc628a687
                    Main.main68
                    Main.main89
                    Main.main54) -}
-62e5ed633b8048c0b7baf71af2938d42
+b21de319b0c98b3ab511a20f8ef6430a
   main89 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2467,7 +2467,7 @@ b4f2246ae9b227e4f06cf6afc628a687
                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                       <Data.Monoid.Any>_R)_R) -}
-446cfcfef1595f9433d75e194c6c9311
+93ede0ce846e76eb38952f35ed70df91
   main9 ::
     [Diagrams.Core.Types.QDiagram
        Diagrams.Backend.SVG.B
@@ -2523,10 +2523,10 @@ b4f2246ae9b227e4f06cf6afc628a687
                         (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                         (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                         <Data.Monoid.Any>_R)_R])_R) -}
-f12b2ea2d5a833c7ce1d4b6997e43a6d
+9f72cdb31453c847416b30b7f21e18df
   main90 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.labelOscs Main.main_sp Main.main_pcs) -}
-890d703971e260b594238bd4363aef08
+8b9b847e629e565c1acd8cf59359e02f
   main91 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2538,7 +2538,7 @@ f12b2ea2d5a833c7ce1d4b6997e43a6d
                    Main.main17
                    Main.main_nt
                    Main.main92) -}
-328a79351871b460ce1d530e6f576030
+b8feb5b3aaa26b2834e0cbb7475ea54a
   main92 ::
     Diagrams.Core.Types.QDiagram
       Diagrams.Backend.SVG.SVG
@@ -2556,7 +2556,7 @@ f12b2ea2d5a833c7ce1d4b6997e43a6d
                       (Diagrams.Backend.SVG.TFCo:R:VSVG[0])
                       (Diagrams.Backend.SVG.TFCo:R:NSVG[0])
                       <Data.Monoid.Any>_R)_R) -}
-e21e57de7262a7556c9988eb74346b44
+87cfc0f33eb5a52fb035f0ac2639609c
   main93 :: Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: (Lib.polyOsc
                    Lib.tone
@@ -2785,7 +2785,7 @@ deaa3fe7d69a05464470f6237dac9d42
                    (Sym (Diagrams.Backend.SVG.TFCo:R:VSVG[0]))
                    (Sym (Diagrams.Backend.SVG.TFCo:R:NSVG[0]))
                    <Data.Monoid.Any>_R)_R -}
-172f60b0be0c0e530f22eb6cd667738c
+e7ab6718dc201915a4ba4c3e5d2c905b
   tonesToRhythms ::
     Diagrams.Core.Types.Diagram Diagrams.Backend.SVG.B
   {- Unfolding: InlineRule (0, True, True)
