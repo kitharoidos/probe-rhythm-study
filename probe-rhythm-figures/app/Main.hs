@@ -14,7 +14,7 @@ main = multiMain
   ]
 
 polyRhythms :: Diagram B
-polyRhythms = frame 1 . fontSizeO 24 . centerXY $ vsep 3 allOscs
+polyRhythms = frame 0.25 . fontSizeO 24 . centerXY $ vsep 3 allOscs
   where pbs = [[], [(red, 2)], [(red, 1)]]
         cxt = [(black, 0), (black, 4), (black, 7)]
         pcs = map (cxt ++) pbs
@@ -31,7 +31,7 @@ polyRhythms = frame 1 . fontSizeO 24 . centerXY $ vsep 3 allOscs
         allOscs  = zipWith (\e f -> hsep 3 [e, f]) eqtOscs' farOscs'
 
 tonesToRhythms :: Diagram B
-tonesToRhythms = frame 1 . fontSizeO 24 . centerXY $ hsep 3 oscs'
+tonesToRhythms = frame 0.25 . fontSizeO 24 . centerXY $ hsep 3 oscs'
   where w0   = 7
         pcs  = [(black, 0), (black, 4), (black, 7), (red, 11)]
         tn   = eqt
