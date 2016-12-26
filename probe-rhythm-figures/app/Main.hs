@@ -13,6 +13,7 @@ main = multiMain
   , ("tonesToRhythms", tonesToRhythms)
   ]
 
+-- | Polyrhythms used in our experiment with approximate points of synchronization highlighted.
 polyRhythms :: Diagram B
 polyRhythms = frame 0.25 . fontSizeO 24 . centerXY $ vsep 3 allOscs
   where pbs = [[], [(red, 2)], [(red, 1)]]
@@ -30,6 +31,7 @@ polyRhythms = frame 0.25 . fontSizeO 24 . centerXY $ vsep 3 allOscs
         farOscs' = beside' (-unitY) (fontSizeO 32 $ centerX (text "Farey") ||| strutY 3) (head farOscs) : tail farOscs
         allOscs  = zipWith (\e f -> hsep 3 [e, f]) eqtOscs' farOscs'
 
+-- | Transformation of tones to rhythms.
 tonesToRhythms :: Diagram B
 tonesToRhythms = frame 0.25 . fontSizeO 24 . centerXY $ hsep 3 oscs'
   where w0   = 7
