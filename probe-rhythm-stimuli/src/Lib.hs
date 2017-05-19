@@ -1,6 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Lib
-    ( stimulusChords
+    ( probeSteps
+    , fareyStimulusPeriods
+    , stimulusChords
     , stimulusFileNames
     , stimuli
     , calibrationStimulus
@@ -13,6 +15,8 @@ import System.Random (StdGen, getStdGen, randomRs)
 import Data.Array.Repa as Arr
 import Data.Array.Repa.Repr.Vector (V,)
 import Data.Array.Repa.Eval (fromList,)
+
+import qualified Data.Ratio as R
 
 import Temporal.Music as Mus
 import Temporal.Music.Scales as Sc
@@ -35,10 +39,16 @@ csdDrums = fmap csdDrum . scoreToSco
 scaleNames :: Array V DIM1 String
 scaleNames = fromList (Z :. 2) ["12TET", "12TFarey"]
 
+-- | Ratios of the Farey chromatic scale.
+fareyScaleRatios :: Array V DIM1 R.Rational
+fareyScaleRatios = fromList (Z :. 12) r
+    where r = [ 1 R.% 1, 16 R.% 15, 9 R.% 8, 6 R.% 5, 5 R.% 4, 4 R.% 3, 17 R.% 12
+              , 3 R.% 2, 8 R.% 5, 5 R.% 3, 16 R.% 9, 15 R.% 8]
+
 -- | Given an absolute frequency in Hz, these generators return a chromatic scale.
 scaleGenerators :: Array V DIM1 (Hz -> Scale)
 scaleGenerators = fromList (Z :. 2) [eqt, farey]
-    where farey = fromIntervals 2 [1, 16/15, 9/8, 6/5, 5/4, 4/3, 17/12, 3/2, 8/5, 5/3, 16/9, 15/8]
+    where farey = fromIntervals 2 . toList $ Arr.map fromRational fareyScaleRatios
 
 -- | Absolute frequencies of tonics for the two chromatic scales.
 scaleBases :: Array V DIM1 Hz
@@ -50,10 +60,18 @@ scales = traverse2 scaleGenerators scaleBases fs fe
     where fs (Z :. ng) (Z :. nb) = Z :. ng :. nb
           fe g b (Z :. ig :. ib) = g (Z :. ig) $ b (Z :. ib)
 
+-- | Scale steps corresponding to the major tonic triad.
+contextSteps :: [Int]
+contextSteps = [0, 4, 7]
+
+-- | Ratios of the Farey major triad
+fareyContextRatios :: [Rational]
+fareyContextRatios = linearIndex fareyScaleRatios <$> contextSteps
+
 -- | Major tonic triad for each of the chromatic scales.
 contextNotes :: Array Arr.D DIM2 [Score (Note a)]
 contextNotes = Arr.map f scales
-    where f s = P.map (setScale s . nx) [0, 4, 7]
+    where f s = P.map (setScale s . nx) contextSteps
 
 {-|
     Each context chord will be presented either alone or simultaneously
@@ -68,12 +86,29 @@ probeNotes = traverse2 scales probeSteps fs fe
     where fs (Z :. ng :. nb) (Z :. nst) = Z :. ng :. nb :. nst
           fe sc st (Z :. ig :. ib :. ist) = (setScale (sc (Z :. ig :. ib)) . nx) <$> st (Z :. ist)
 
+-- | Probe ratios corresponding to the chromatic steps above taken from the Farey scale.
+fareyProbeRatios :: Array Arr.D DIM1 (Maybe Rational)
+fareyProbeRatios = Arr.map (linearIndex fareyScaleRatios <$>) probeSteps
+
 -- | Tonic triads, possibly with a probe note added - they correspond to the stimuli used in our experiment.
 stimulusChords :: Array Arr.D DIM3 (Score (Note a))
 stimulusChords = Arr.zipWith f contextNotes' probeNotes
     where f cns (Just pn) = Mus.har (pn:cns)
           f cns Nothing   = Mus.har cns
           contextNotes' = extend (Z :. Arr.All :. Arr.All :. (10::Int)) contextNotes
+
+-- | Ratios of Farey stimuli.
+fareyStimulusRatios :: Array Arr.D DIM1 [Rational]
+fareyStimulusRatios = Arr.map f fareyProbeRatios
+    where f (Just r) = r : fareyContextRatios
+          f Nothing  = fareyContextRatios
+
+-- | Periods of Farey stimuli in cycles of the tonic.
+fareyStimulusPeriods :: Array Arr.D DIM1 (Step, Integer)
+fareyStimulusPeriods = Arr.zipWith f probeSteps periods
+    where f (Just st) p = (st, p)
+          f Nothing   p = (-1, p)
+          periods = Arr.map (foldl1 lcm . (R.denominator <$>)) fareyStimulusRatios
 
 -- | Names for the sound files to be used as stimuli.
 stimulusFileNames :: Array Arr.D DIM3 String

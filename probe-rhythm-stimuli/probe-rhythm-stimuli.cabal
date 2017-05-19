@@ -36,6 +36,8 @@ executable probe-rhythm-stimuli-exe
                      , repa
                      , temporal-music-notation
                      , csound-expression
+                     , cassava
+                     , bytestring
   default-language:    Haskell2010
 
 test-suite probe-rhythm-stimuli-test
